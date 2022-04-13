@@ -18,8 +18,8 @@
 //criando matriz hessiana a partir da função original
 void cria_hes(SistLinear_t *SL)
 {
-  char aux[4];
-  char Xn[4];
+  char aux[10];
+  char Xn[10];
 
   strtok(SL->eq_aux, "\n");
   for(int n = 0; n < SL->num_v; n++)
@@ -51,8 +51,8 @@ void cria_hes(SistLinear_t *SL)
 //criando vetor gradiente a partir da função original
 void cria_grad(SistLinear_t *SL)
 {
-  char aux[4];
-  char Xn[4];
+  char aux[10];
+  char Xn[10];
     
   for(int l = 0; l < SL->num_v; l++)
   {
@@ -86,7 +86,7 @@ double * calc_grad(SistLinear_t *SL, double * X, double *tempo)
   }
   for (int i = 0; i < SL->num_v; i++)
   {
-    Xs[i] = (char*) malloc(5*sizeof(char));
+    Xs[i] = (char*) malloc(10*sizeof(char));
     if (!(Xs[i])) {
       free(SL);
       printf("ERRO");
@@ -94,7 +94,7 @@ double * calc_grad(SistLinear_t *SL, double * X, double *tempo)
     }
   }
   
-  char aux[4];
+  char aux[10];
 
   for(int i = 0; i < SL->max_iter; i++)
   {
@@ -133,7 +133,7 @@ void calc_hes(SistLinear_t *SL, double * X, double *tempo, double ** m_aux)
   }
   for(int l = 0; l < SL->num_v; l++)
   {
-    Xs[l] = (char*) malloc(5*sizeof(char));
+    Xs[l] = (char*) malloc(10*sizeof(char));
     if (!(Xs[l])) {
       free(SL);
       printf("ERRO");
@@ -196,7 +196,7 @@ SistLinear_t *alocaSistLinear(unsigned int n) {
       }
     }
 
-    SL->eq_aux = (char*) calloc(1024, sizeof(char));
+    SL->eq_aux = (char*) calloc(4096, sizeof(char));
     if (!(SL->eq_aux)) {
       free(SL);
       printf("ERRO");

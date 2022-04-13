@@ -21,8 +21,8 @@
 
 int main (){
   SistLinear_t *SL;
-  char aux[4];
-  char Xn[4];
+  char aux[10];
+  char Xn[10];
 
   double TtotalEG = 0;
   double TtotalLU= 0;
@@ -89,7 +89,7 @@ int main (){
 
     for (int i = 0; i < SL->num_v; i++)
     {
-      char* Xi = (char*) malloc(5*sizeof(char));
+      char* Xi = (char*) malloc(10*sizeof(char));
       if (!(Xi)){
         free(SL);
         printf("ERRO");
