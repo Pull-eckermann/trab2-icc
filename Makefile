@@ -5,9 +5,9 @@
 #    GRR 20186075
 
 CFLAGS = -Wall -g 
-LFLAGS = -lmatheval -lm
+LFLAGS = -lm
 
-objs = main.o utils.o SistLinear.o Metodo_de_Newton_Inexato.o Metodo_de_Newton_Modificado.o Metodo_de_Newton_Padrao.o
+objs = main.o utils.o SistLinear.o Metodo_de_Newton_Inexato.o Metodo_de_Newton_Modificado.o Metodo_de_Newton_Padrao.o Rosenbrock.o
 
 all: newtonPC
 
@@ -26,6 +26,8 @@ Metodo_de_Newton_Modificado.o: Metodo_de_Newton_Modificado.c
 	cc -c Metodo_de_Newton_Modificado.c $(CFLAGS)
 Metodo_de_Newton_Padrao.o: Metodo_de_Newton_Padrao.c
 	cc -c Metodo_de_Newton_Padrao.c $(CFLAGS) 
+Rosenbrock.o: Rosenbrock.c
+	cc -c Rosenbrock.c $(CFLAGS) 
                         
 clean:
 	-rm -f *.o *~ 

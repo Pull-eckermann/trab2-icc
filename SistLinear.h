@@ -18,8 +18,6 @@ typedef struct {
   double *z;            // vetor z para Fatoração LU
 
   char *eq_aux;         //strings com equacao auxiliar pra montagem da matriz
-  void ***HESSIANA;     //matriz de derivadas
-  void **GRADIENTE;     //vetor de gradientes
   double epsilon;       //tolerancia no metodo de gauss seidel
   int max_iter;         //numero maximo de iterações
   double *Xeg;          //vetor de resultados finais eliminacao
@@ -27,12 +25,6 @@ typedef struct {
   double *Xgs;          //vetor de resultados finais Gauss
 
 } SistLinear_t;
-
-//criando matriz hessiana a partir da função original
-void cria_hes(SistLinear_t *SL);
-
-//criando vetor gradiente a partir da função original
-void cria_grad(SistLinear_t *SL);
 
 //calcula o vetor gradiente
 double * calc_grad(SistLinear_t *SL, double * X, double *tempo);
