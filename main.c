@@ -27,6 +27,7 @@ int main (){
   double TderivadasGS = 0;
   double TslEG = 0;
   double TslGS = 0;
+  int i = 1;
   
   while (SL = lerSistLinear())
   {
@@ -64,7 +65,8 @@ int main (){
     //inicio do processamento de impressão
     // cabeçalho
     printf("%d\n", SL->num_v);
-    printf("%s\n", SL->eq_aux);
+    //printf("%s\n", SL->eq_aux);
+    printf("Função %d\n", i);
     printf("#Iteração \t| Newton Padrão \t| Newton Inexato\n");
     double final[3];
     // para cada iteração
@@ -116,5 +118,6 @@ int main (){
       free(m_aux[i]);
     free(m_aux);
     liberaSistLinear(SL);
+    i++;
   }
 }
