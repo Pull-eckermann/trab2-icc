@@ -14,24 +14,18 @@
 #include <inttypes.h>
 #include <assert.h>
 #include "Metodo_de_Newton_Inexato.h"
-//#include "Metodo_de_Newton_Modificado.h"
 #include "Metodo_de_Newton_Padrao.h"
 #include "Rosenbrock.h"
 
 
 int main (){
   SistLinear_t *SL;
-  char aux[10];
-  char Xn[10];
 
   double TtotalEG = 0;
-  //double TtotalLU= 0;
   double TtotalGS = 0;
   double TderivadasEG = 0; 
-  //double TderivadasLU = 0;
   double TderivadasGS = 0;
   double TslEG = 0;
-  //double TslLU = 0;
   double TslGS = 0;
   
   while (SL = lerSistLinear())
@@ -52,9 +46,7 @@ int main (){
       }
     }
 
-    //void * f_aux;
     double ** m_reseg;
-    //double ** m_reslu;
     double ** m_resgs;
     
     //Newton Padrão
@@ -63,12 +55,6 @@ int main (){
     m_reseg = Newton_Padrao(SL, &TderivadasEG, &TslEG, m_aux);
     TtotalEG = timestamp() - tTotal;    //calculando o tempo total do newton padrao
 
-    //Metodo de Newton Modificado
-
-    //tTotal = timestamp();
-    //m_reslu = Newton_Modificado(SL, &TderivadasLU, &TslLU, m_aux);
-    //TtotalLU = timestamp() - tTotal;    //calculando o tempo total do newton modificado
-
     //Metodo de Newton Inexato
 
     tTotal = timestamp();
@@ -76,27 +62,6 @@ int main (){
     TtotalGS = timestamp() - tTotal;    ////calculando o tempo total do newton inexato
 
     //inicio do processamento de impressão
-
-    memset(Xn, 0, sizeof(Xn));
-    memset(aux, 0, sizeof(aux));
-    //f_aux = evaluator_create(SL->eq_aux);
-    //assert(f_aux);
-
-    char *X[SL->num_v];
-
-    for (int i = 0; i < SL->num_v; i++)
-    {
-      char* Xi = (char*) malloc(10*sizeof(char));
-      if (!(Xi)){
-        free(SL);
-        printf("ERRO");
-        return 0;
-      }
-      sprintf(aux, "%d", i+1);
-      strcat(strcpy(Xi, "x"), aux);
-      X[i] = Xi;
-    }
-
     // cabeçalho
     printf("%d\n", SL->num_v);
     printf("%s\n", SL->eq_aux);
@@ -107,7 +72,6 @@ int main (){
       final[0] = final[2] = NAN;
 
       final[0] = rosenbrock(m_reseg[i], SL->num_v);
-      //final[1] = evaluator_evaluate (f_aux, SL->num_v, X, m_reslu[i]);
       final[2] = rosenbrock (m_resgs[i], SL->num_v);
       if (isnan(final[0]) && isnan(final[2]))
         break;
@@ -141,22 +105,16 @@ int main (){
     printf("#\n");
     printf("\n");
     
-    for (int i = 0; i < SL->num_v; i++)
-      free(X[i]);
-    
     for(int i = 0; i < SL->max_iter+1; i++)
     { 
       free(m_reseg[i]);
-      //free(m_reslu[i]);
       free(m_resgs[i]);
     }
     free(m_reseg);
-    //free(m_reslu);
     free(m_resgs);
     for (int i = 0; i < SL->num_v; i++)
       free(m_aux[i]);
     free(m_aux);
     liberaSistLinear(SL);
-    //evaluator_destroy(f_aux);
   }
 }
