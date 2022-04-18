@@ -9,6 +9,7 @@ GRR20186075
 #include <math.h>
 #include <stdio.h>
 #include <stdlib.h>
+#include <likwid.h>
 
 #include "Metodo_de_Newton_Inexato.h"
 #include "SistLinear.h"

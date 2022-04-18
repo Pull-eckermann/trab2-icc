@@ -9,6 +9,7 @@
 #include <stdlib.h>
 #include <string.h>
 #include <math.h>
+#include <likwid.h>
 #include "SistLinear.h"
 #include "utils.h"
 #include <inttypes.h>
@@ -27,7 +28,6 @@ int main (){
   double TderivadasGS = 0;
   double TslEG = 0;
   double TslGS = 0;
-  int i = 1;
   
   while (SL = lerSistLinear())
   {
@@ -65,16 +65,15 @@ int main (){
     //inicio do processamento de impressão
     // cabeçalho
     printf("%d\n", SL->num_v);
-    //printf("%s\n", SL->eq_aux);
-    printf("Função %d\n", i);
+    printf("%s\n", SL->eq_aux);
     printf("#Iteração \t| Newton Padrão \t| Newton Inexato\n");
-    double final[3];
+    double final[2];
     // para cada iteração
     for (int i = 0; i <= SL->max_iter; i++) {
-      final[0] = final[2] = NAN;
+      final[0] = final[1] = NAN;
 
       final[0] = rosenbrock(m_reseg[i], SL->num_v);
-      final[2] = rosenbrock (m_resgs[i], SL->num_v);
+      final[1] = rosenbrock (m_resgs[i], SL->num_v);
       if (isnan(final[0]) && isnan(final[2]))
         break;
       
@@ -89,11 +88,11 @@ int main (){
       else
         printf("\t\t\t| ");
 
-      if (final[2] != NAN) {  // se nesta iteração o valor da primeira coluna existe, imprime
-        if (isnan(final[2]) || isinf(final[2]))
+      if (final[1] != NAN) {  // se nesta iteração o valor da primeira coluna existe, imprime
+        if (isnan(final[1]) || isinf(final[1]))
           printf("\t\t\t ");
         else
-          printf("%1.14e\t ", final[2]);
+          printf("%1.14e\t ", final[1]);
       }
       else
         printf("\t\t\t ");
@@ -118,6 +117,5 @@ int main (){
       free(m_aux[i]);
     free(m_aux);
     liberaSistLinear(SL);
-    i++;
   }
 }

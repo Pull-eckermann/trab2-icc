@@ -10,6 +10,7 @@
 #include <math.h>
 #include <string.h>
 #include <assert.h>
+#include <likwid.h>
 
 #include "utils.h"
 #include "SistLinear.h"
@@ -57,7 +58,7 @@ SistLinear_t *alocaSistLinear(unsigned int n) {
   if (SL) {
     SL->num_v = n;
 
-    SL->eq_aux = (char*) calloc(8192*2*4, sizeof(char));
+    SL->eq_aux = (char*) calloc(136000, sizeof(char));
     if (!(SL->eq_aux)) {
       free(SL);
       printf("ERRO");

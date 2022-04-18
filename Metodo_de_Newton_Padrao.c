@@ -8,6 +8,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <math.h>
+#include <likwid.h>
 
 #include "Metodo_de_Newton_Padrao.h"
 #include "SistLinear.h"
