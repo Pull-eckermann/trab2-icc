@@ -20,6 +20,7 @@
 
 
 int main (){
+  LIKWID_MARKER_INIT;
   SistLinear_t *SL;
 
   double TtotalEG = 0;
@@ -118,4 +119,5 @@ int main (){
     free(m_aux);
     liberaSistLinear(SL);
   }
+  LIKWID_MARKER_CLOSE;
 }
