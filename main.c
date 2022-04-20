@@ -55,17 +55,19 @@ int main (){
     //Newton Padrão
 
     double tTotal = timestamp();
-    LIKWID_MARKER_START("T_Newton_Padrao");
+    char* name = markerName("T_Newton_Padrao", SL->num_v);
+    LIKWID_MARKER_START(name);
     m_reseg = Newton_Padrao(SL, &TderivadasEG, &TslEG, m_aux);
-    LIKWID_MARKER_STOP("T_Newton_Padrao");
+    LIKWID_MARKER_STOP(name);
     TtotalEG = timestamp() - tTotal;    //calculando o tempo total do newton padrao
 
     //Metodo de Newton Inexato
 
     tTotal = timestamp();
-    LIKWID_MARKER_START("T_Newton_Inexato");
+    name = markerName("T_Newton_Inexato", SL->num_v);
+    LIKWID_MARKER_START(name);
     m_resgs = Newton_Inexato(SL, &TderivadasGS, &TslGS, m_aux);
-    LIKWID_MARKER_STOP("T_Newton_Inexato");
+    LIKWID_MARKER_STOP(name);
     TtotalGS = timestamp() - tTotal;    ////calculando o tempo total do newton inexato
 
     //inicio do processamento de impressão

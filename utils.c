@@ -1,4 +1,6 @@
 #include <stdio.h>
+#include <string.h>
+#include <math.h>
 #include "utils.h"
 
 /*  Retorna tempo em milisegundos
@@ -10,6 +12,18 @@
     <trecho de programa do qual se deseja medir tempo>
     tempo = timestamp() - tempo;
 */
+
+char* markerName(char* baseName, int n)
+{
+  char* mark = (char*) malloc( (strlen(baseName)+1) + (log10(n)+1) + 1 );
+
+  sprintf(mark, "%s_%u", baseName,n);
+
+  // printf("*** %s\n", mark);
+
+  return mark;
+
+}
 
 double timestamp(void)
 {

@@ -12,6 +12,7 @@
 
 #include "Metodo_de_Newton_Padrao.h"
 #include "SistLinear.h"
+#include "utils.h"
 
 //função para aplicar o pivoteamento na matriz hessiana
 void pivot(SistLinear_t *SL, double**hes, double * grad, int i) {
@@ -104,12 +105,14 @@ double ** Newton_Padrao(SistLinear_t *SL, double *TderivadasEG, double *TslEG, d
   {
     double aux = 0.0;
     //atualiza o gradiente e a hessiana
-    LIKWID_MARKER_START("Tderi_grad_Padrao");
+    char* name = markerName("Tderi_grad_Padrao", SL->num_v);
+    LIKWID_MARKER_START(name);
     double * grad = calc_grad(SL, SL->Xeg, TderivadasEG);
-    LIKWID_MARKER_STOP("Tderi_grad_Padrao");
-    LIKWID_MARKER_START("Tderi_hes_padrao");
+    LIKWID_MARKER_STOP(name);
+    name = markerName("Tderi_hes_padrao", SL->num_v);
+    LIKWID_MARKER_START(name);
     calc_hes(SL, SL->Xeg, TderivadasEG, m_aux);
-    LIKWID_MARKER_STOP("Tderi_hes_padrao");
+    LIKWID_MARKER_STOP(name);
     for (int i = 0; i < SL->num_v; i++)
       aux += grad[i]*grad[i];
     aux = sqrt(aux);
@@ -133,9 +136,10 @@ double ** Newton_Padrao(SistLinear_t *SL, double *TderivadasEG, double *TslEG, d
 
     //calcula o vetor delta e o tempo de execução do calculo
     double tTotal = timestamp();
-    LIKWID_MARKER_START("T_Sist_Lin_Padrao");
+    name = markerName("T_Sist_Lin_Padrao", SL->num_v);
+    LIKWID_MARKER_START(name);
     delta = eliminacaoGauss(SL, delta, m_aux, grad);
-    LIKWID_MARKER_STOP("T_Sist_Lin_Padrao");
+    LIKWID_MARKER_STOP(name);
     *TslEG += timestamp() - tTotal;
 
     for (int l = 0; l < SL->num_v; l++)

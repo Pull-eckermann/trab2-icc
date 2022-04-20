@@ -13,6 +13,7 @@ GRR20186075
 
 #include "Metodo_de_Newton_Inexato.h"
 #include "SistLinear.h"
+#include "utils.h"
 
 //Recebe os independentes da iteração e retorna os valores convergindo para a raiz
 double * calcula_independentes(SistLinear_t *SL, double **m_aux, double *grad, double * res)
@@ -105,12 +106,14 @@ double ** Newton_Inexato(SistLinear_t *SL, double *TderivadasGS, double * TlsGS,
     double aux = 0.0;
 
     //atualiza o vetor gradiente e a matriz hessiana
-    LIKWID_MARKER_START("Tderi_grad_Inexato");
+    char* name = markerName("Tderi_grad_Inexato", SL->num_v);
+    LIKWID_MARKER_START(name);
     double * grad = calc_grad(SL, SL->Xgs, TderivadasGS);
-    LIKWID_MARKER_STOP("Tderi_grad_Inexato");
-    LIKWID_MARKER_START("Tderi_hes_Inexato");
+    LIKWID_MARKER_STOP(name);
+    name = markerName("Tderi_hes_Inexato", SL->num_v);
+    LIKWID_MARKER_START(name);
     calc_hes(SL, SL->Xgs, TderivadasGS, m_aux);
-    LIKWID_MARKER_STOP("Tderi_hes_Inexato");
+    LIKWID_MARKER_STOP(name);
     for (int i = 0; i < SL->num_v; i++)
       aux += grad[i]*grad[i];
     aux = sqrt(aux);
@@ -129,9 +132,10 @@ double ** Newton_Inexato(SistLinear_t *SL, double *TderivadasGS, double * TlsGS,
     
     //calcula o vetor delta e o tempo de execução do calculo
     double tTotal = timestamp();
-    LIKWID_MARKER_START("T_Sist_Lin_Inexato");
+    name = markerName("T_Sist_Lin_Inexato", SL->num_v);
+    LIKWID_MARKER_START(name);
     delta = gaussSeidel(SL, m_aux, grad);
-    LIKWID_MARKER_STOP("T_Sist_Lin_Inexato");
+    LIKWID_MARKER_STOP(name);
     *TlsGS += timestamp() - tTotal;
 
     for (int l = 0; l < SL->num_v; l++)
