@@ -1,0 +1,7 @@
+{
+    "files.associations": {
+        "*.s": "platformio-debug.asm",
+        "metodo_de_newton_inexato.h": "c",
+        "sistlinear.h": "c"
+    }
+}
