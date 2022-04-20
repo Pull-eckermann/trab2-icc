@@ -125,9 +125,11 @@ double ** Newton_Inexato(SistLinear_t *SL, double *TderivadasGS, double * TlsGS,
     double * delta;
     
     //calcula o vetor delta e o tempo de execução do calculo
-    double tTotal = timestamp();
+    //double tTotal = timestamp();
+    LIKWID_MARKER_START("TslGS");
     delta = gaussSeidel(SL, m_aux, grad);
-    *TlsGS += timestamp() - tTotal;
+    LIKWID_MARKER_STOP("TslGS");
+    //*TlsGS += timestamp() - tTotal;
 
     for (int l = 0; l < SL->num_v; l++)
       SL->Xgs[l] += delta[l];

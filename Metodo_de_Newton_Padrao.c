@@ -129,9 +129,11 @@ double ** Newton_Padrao(SistLinear_t *SL, double *TderivadasEG, double *TslEG, d
     }
 
     //calcula o vetor delta e o tempo de execução do calculo
-    double tTotal = timestamp();
+    //double tTotal = timestamp();
+    LIKWID_MARKER_START("TslEG");
     delta = eliminacaoGauss(SL, delta, m_aux, grad);
-    *TslEG += timestamp() - tTotal;
+    LIKWID_MARKER_STOP("TslEG");
+    //*TslEG += timestamp() - tTotal;
 
     for (int l = 0; l < SL->num_v; l++)
       SL->Xeg[l] += delta[l];

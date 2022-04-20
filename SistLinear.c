@@ -26,12 +26,14 @@ double * calc_grad(SistLinear_t *SL, double * X, double *tempo)
     return 0;
   }
 
+  LIKWID_MARKER_START("Tderivadas");
   for(int l = 0; l < SL->num_v; l++)
   {
-    double tTotal = timestamp();
+    //double tTotal = timestamp();
     res[l] = -rosenbrock_dx(l, X, SL->num_v);
-    *tempo += timestamp() - tTotal;   //calculando o tempo da derivação
+    //*tempo += timestamp() - tTotal;   //calculando o tempo da derivação
   }
+  LIKWID_MARKER_STOP("Tderivadas");
   
   return res;
 }
