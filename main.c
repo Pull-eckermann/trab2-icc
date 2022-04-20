@@ -23,8 +23,8 @@ int main (){
   LIKWID_MARKER_INIT;
   SistLinear_t *SL;
 
-  double TtotalEG = 0;
-  double TtotalGS = 0;
+  //double TtotalEG = 0;
+  //double TtotalGS = 0;
   double TderivadasEG = 0; 
   double TderivadasGS = 0;
   double TslEG = 0;
@@ -53,18 +53,23 @@ int main (){
     
     //Newton Padrão
 
-    double tTotal = timestamp();
+    //double tTotal = timestamp();
+    LIKWID_MARKER_START("TtotalEG");
     m_reseg = Newton_Padrao(SL, &TderivadasEG, &TslEG, m_aux);
-    TtotalEG = timestamp() - tTotal;    //calculando o tempo total do newton padrao
+    LIKWID_MARKER_STOP("TtotalEG");
+    //TtotalEG = timestamp() - tTotal;    //calculando o tempo total do newton padrao
 
     //Metodo de Newton Inexato
 
-    tTotal = timestamp();
+    //tTotal = timestamp();
+    LIKWID_MARKER_START("TtotalGS");
     m_resgs = Newton_Inexato(SL, &TderivadasGS, &TslGS, m_aux);
-    TtotalGS = timestamp() - tTotal;    ////calculando o tempo total do newton inexato
+    LIKWID_MARKER_STOP("TtotalGS");
+    //TtotalGS = timestamp() - tTotal;    ////calculando o tempo total do newton inexato
 
     //inicio do processamento de impressão
     // cabeçalho
+    /*
     printf("%d\n", SL->num_v);
     printf("%s\n", SL->eq_aux);
     printf("#Iteração \t| Newton Padrão \t| Newton Inexato\n");
@@ -75,7 +80,7 @@ int main (){
 
       final[0] = rosenbrock(m_reseg[i], SL->num_v);
       final[1] = rosenbrock (m_resgs[i], SL->num_v);
-      if (isnan(final[0]) && isnan(final[2]))
+      if (isnan(final[0]) && isnan(final[1]))
         break;
       
       printf("%d \t\t| ", i); // imprime iteração
@@ -106,6 +111,7 @@ int main (){
     printf("Tempo SL \t| %1.14e\t| %1.14e\n", TslEG, TslGS);
     printf("#\n");
     printf("\n");
+    */
     
     for(int i = 0; i < SL->max_iter+1; i++)
     { 
