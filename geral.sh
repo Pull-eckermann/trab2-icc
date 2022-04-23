@@ -1,9 +1,11 @@
 #!/bin/bash
 cd trab-original/
-make 
+make purge
+make
 sh gera_rosenbrock.sh > funcoes.dat
 sh exec_nop.sh
 cd ../trab2-icc-opt/
+make purge
 make
 sh gera_rosenbrock.sh > funcoes.dat
 sh exec_nop.sh
