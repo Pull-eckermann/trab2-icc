@@ -67,32 +67,32 @@ def plotter(input_file, out_plot, nameMetodo, metrica, log, save_plot):
     
 if __name__ == "__main__":
     # metrica eh tempo
-    TnoOptP = '../trab2-original/noOPT_CLOCKPadrao.csv'
-    TnoOptI = '../trab2-original/noOPT_CLOCKInexato.csv'
+    TnoOptP = '../trab-original/noOPT_CLOCKPadrao.csv'
+    TnoOptI = '../trab-original/noOPT_CLOCKInexato.csv'
     TOptP   = '../trab2-icc-opt/OPT_CLOCKPadrao.csv'
     TOptI   = '../trab2-icc-opt/OPT_CLOCKInexato.csv'
     
     # metrica eh L3
-    L3noOptP = '../trab2-original/noOPT_L3Padrao.csv'
-    L3noOptI = '../trab2-original/noOPT_L3Inexato.csv'
+    L3noOptP = '../trab-original/noOPT_L3Padrao.csv'
+    L3noOptI = '../trab-original/noOPT_L3Inexato.csv'
     L3OptP   = '../trab2-icc-opt/OPT_L3Inexato.csv'
     L3OptI   = '../trab2-icc-opt/OPT_L3Inexato.csv'
     
     # metrica eh L2
-    L2P  = '../trab2-original/noOPT_L2Padrao.csv'
-    L2I  = '../trab2-original/noOPT_L2Inexato.csv'
+    L2P  = '../trab-original/noOPT_L2Padrao.csv'
+    L2I  = '../trab-original/noOPT_L2Inexato.csv'
     L2oP = '../trab2-icc-opt/OPT_L2Inexato.csv'
     L2oI = '../trab2-icc-opt/OPT_L2Inexato.csv'
 
     # metrica eh DP
-    DPP  = '../trab2-original/noOPT_FLOPS_DPPadrao.csv'
-    DPI  = '../trab2-original/noOPT_FLOPS_DPInexato.csv'
+    DPP  = '../trab-original/noOPT_FLOPS_DPPadrao.csv'
+    DPI  = '../trab-original/noOPT_FLOPS_DPInexato.csv'
     DPoP = '../trab2-icc-opt/OPT_FLOPS_DPInexato.csv'
     DPoI = '../trab2-icc-opt/OPT_FLOPS_DPInexato.csv'
 
     # metrica eh AVX
-    AVXP  = '../trab2-original/noOPTPadrao_FLOPS_AVX.csv'
-    AVXI  = '../trab2-original/noOPTInexat_FLOPS_AVX.csv'
+    AVXP  = '../trab-original/noOPTPadrao_FLOPS_AVX.csv'
+    AVXI  = '../trab-original/noOPTInexat_FLOPS_AVX.csv'
     AVXoP = '../trab2-icc-opt/OPTPadrao_FLOPS_AVX.csv'
     AVXoI = '../trab2-icc-opt/OPTInexat_FLOPS_AVX.csv'
 
