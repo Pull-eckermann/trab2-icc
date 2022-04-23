@@ -4,8 +4,8 @@
 #    Erick Eckermann Cardoso 
 #    GRR 20186075
 
-CFLAGS = -Wall -g -DLIKWID_PERFMON -I /home/soft/likwid/include -O3 -mavx -march=native
-LFLAGS = -lm -L /home/soft/likwid/lib -llikwid 
+CFLAGS = -Wall -g -DLIKWID_PERFMON -I /usr/local/include -O3 -mavx -march=native
+LFLAGS = -lm -L /usr/local/lib -llikwid 
 
 objs = main.o utils.o SistLinear.o Metodo_de_Newton_Inexato.o Metodo_de_Newton_Modificado.o Metodo_de_Newton_Padrao.o Rosenbrock.o
 
