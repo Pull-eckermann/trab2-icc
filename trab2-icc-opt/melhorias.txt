@@ -1,0 +1,8 @@
+divisao da estrutura de dados SistLinear para torna-la mais coesa.
+diminuição de parametros passado de forma desnecessaria 
+otimização na alocação de matrizes
+malhoria de laço de repetição
+    função triang (newton padrao)
+    função newton padrao
+    função calcula independente (newton inexato)
+minimização de cache thrashing
