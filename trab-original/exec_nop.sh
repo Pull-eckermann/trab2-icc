@@ -1,5 +1,5 @@
 #!/bin/sh
-likwid-perfctr -C 3 -g L3 -m -O ./newtonPC < funcoes.dat > L3.log
-likwid-perfctr -C 3 -g L2CACHE -m -O ./newtonPC < funcoes.dat > L2CACHE.log
-likwid-perfctr -C 3 -g FLOPS_DP -m -O ./newtonPC < funcoes.dat > FLOPS_DP.log
-likwid-perfctr -C 3 -g CLOCK -m -O ./newtonPC < funcoes.dat > CLOCK.log
+likwid-perfctr -C 3 -g L3 -m -o L3.csv ./newtonPC < funcoes.dat 
+likwid-perfctr -C 3 -g L2CACHE -m -o L2CACHE.csv ./newtonPC < funcoes.dat
+likwid-perfctr -C 3 -g FLOPS_DP -m -o FLOPS_DP.csv ./newtonPC < funcoes.dat
+likwid-perfctr -C 3 -g CLOCK -m -o CLOCK.log ./newtonPC < funcoes.dat

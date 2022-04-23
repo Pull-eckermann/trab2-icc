@@ -90,11 +90,11 @@ def parse_AVX(csv_in, padraoAVX_out, inexatAVX_out):
 
 if __name__ == "__main__":
     # data de nao otimizado
-    raw_L3 = open("../trab-original/L3.log", "r")
-    raw_L2 = open("../trab2-original/L2CACHE.log", "r")
-    raw_DP = open("../trab2-original/FLOPS_DP.log", "r")
-    raw_AVX = open("../trab2-original/FLOPS_DP.log", "r")
-    raw_TIME = open("../trab2-original/CLOCK.log", "r")
+    raw_L3 = open("../trab-original/L3.csv", "r")
+    raw_L2 = open("../trab2-original/L2CACHE.csv", "r")
+    raw_DP = open("../trab2-original/FLOPS_DP.csv", "r")
+    raw_AVX = open("../trab2-original/FLOPS_DP.csv", "r")
+    raw_TIME = open("../trab2-original/CLOCK.csv", "r")
 
     L3padrao_csv = open("../trab2-original/noOPT_L3Padrao.csv", "w")
     L3inexato_csv= open("../trab2-original/noOPT_L3Inexato.csv", "w")
@@ -108,11 +108,11 @@ if __name__ == "__main__":
     CLOCKinexato_csv= open("../trab2-original/noOPT_CLOCKInexato.csv", "w")
 
     # data de otimizado
-    raw_L3O = open('../trab2-icc-opt/L3-opt.log', "r")
-    raw_L2O = open('../trab2-icc-opt/L2CACHE-opt.log', "r")
-    raw_DPO = open('../trab2-icc-opt/FLOPS_DP-opt.log', "r")
-    raw_AVXO = open('../trab2-icc-opt/FLOPS_DP-opt.log', "r")
-    raw_TIMEO = open('../trab2-icc-opt/CLOCK-opt.log', "r")
+    raw_L3O = open('../trab2-icc-opt/L3-opt.csv', "r")
+    raw_L2O = open('../trab2-icc-opt/L2CACHE-opt.csv', "r")
+    raw_DPO = open('../trab2-icc-opt/FLOPS_DP-opt.csv', "r")
+    raw_AVXO = open('../trab2-icc-opt/FLOPS_DP-opt.csv', "r")
+    raw_TIMEO = open('../trab2-icc-opt/CLOCK-opt.csv', "r")
 
     L3P = open("../trab2-icc-opt/OPT_L3Padrao.csv", "w")
     L3I = open("../trab2-icc-opt/OPT_L3Inexato.csv", "w")
