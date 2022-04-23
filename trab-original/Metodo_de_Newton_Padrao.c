@@ -80,6 +80,7 @@ double* eliminacaoGauss(SistLinear_t *SL, double *delta, double**hes, double * g
 //função principal para o metodo newton padrão 
 double ** Newton_Padrao(SistLinear_t *SL, double *TderivadasEG, double *TslEG, double ** m_aux)
 {
+  printf("%d\n", SL->max_iter);
   double ** m_res = (double**) calloc(SL->max_iter+1, sizeof(double*));
   if (!(m_res)){
     free(SL);

@@ -12,5 +12,5 @@ do
 	do
 		echo -n "1.01 "
 	done
- 	echo -e "\n0 50\n"
+ 	echo "\n0 50\n"
 done

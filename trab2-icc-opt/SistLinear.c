@@ -90,7 +90,7 @@ S_FatLU *alocaFatLU(unsigned int n){
 
 Res_SL *alocaRes(int n){
 
-  Res_SL *Res = (Res_SL*) calloc(1, sizeof(Res_SL));
+  Res_SL *Res = (Res_SL*) malloc(sizeof(Res_SL));
 
   if (n / 2 == 0)
     n += 1;

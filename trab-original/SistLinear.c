@@ -136,18 +136,18 @@ SistLinear_t *lerSistLinear() {
   if (scanf("%d",&n) != EOF) {  
     
     SL = alocaSistLinear(n);
-    if(scanf("%s", SL->eq_aux)){};
+    scanf("%s", SL->eq_aux);
     double aux = 0.0;
     for (int l = 0; l < SL->num_v; l++)
     {
-      if(scanf("%le", &aux)){};
+      scanf("%le", &aux);
       SL->Xeg[l] = aux;
       SL->Xlu[l] = aux;
       SL->Xgs[l] = aux;
     }
     
-    if(scanf("%le", &SL->epsilon)){};
-    if(scanf("%i", &SL->max_iter)){};
+    scanf("%le", &SL->epsilon);
+    scanf("%i", &SL->max_iter);
   }
 
   return SL;
