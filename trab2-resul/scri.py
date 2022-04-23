@@ -75,19 +75,19 @@ if __name__ == "__main__":
     # metrica eh L3
     L3noOptP = '../trab-original/noOPT_L3Padrao.csv'
     L3noOptI = '../trab-original/noOPT_L3Inexato.csv'
-    L3OptP   = '../trab2-icc-opt/OPT_L3Inexato.csv'
+    L3OptP   = '../trab2-icc-opt/OPT_L3Padrao.csv'
     L3OptI   = '../trab2-icc-opt/OPT_L3Inexato.csv'
     
     # metrica eh L2
     L2P  = '../trab-original/noOPT_L2Padrao.csv'
     L2I  = '../trab-original/noOPT_L2Inexato.csv'
-    L2oP = '../trab2-icc-opt/OPT_L2Inexato.csv'
+    L2oP = '../trab2-icc-opt/OPT_L2Padrao.csv'
     L2oI = '../trab2-icc-opt/OPT_L2Inexato.csv'
 
     # metrica eh DP
     DPP  = '../trab-original/noOPT_FLOPS_DPPadrao.csv'
     DPI  = '../trab-original/noOPT_FLOPS_DPInexato.csv'
-    DPoP = '../trab2-icc-opt/OPT_FLOPS_DPInexato.csv'
+    DPoP = '../trab2-icc-opt/OPT_FLOPS_DPPadrao.csv'
     DPoI = '../trab2-icc-opt/OPT_FLOPS_DPInexato.csv'
 
     # metrica eh AVX
