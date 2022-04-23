@@ -1,0 +1,3952 @@
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.399054157 GHz,
+TABLE,Region T_Newton_Padrao_10,Group 1 Raw,CLOCK,6
+Region Info,HWThread 3,
+RDTSC Runtime [s],0.056474,
+call count,1,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,2877671
+CPU_CLK_UNHALTED_CORE,FIXC1,3213901
+CPU_CLK_UNHALTED_REF,FIXC2,3221000
+PWR_PKG_ENERGY,PWR0,0.2624
+PWR_DRAM_ENERGY,PWR3,0.0273
+UNCORE_CLOCK,UBOXFIX,282621
+TABLE,Region T_Newton_Padrao_10,Group 1 Metric,CLOCK,9
+Metric,HWThread 3,
+Runtime (RDTSC) [s],0.0565,
+Runtime unhalted [s],0.0013,
+Clock [MHz],2393.7667,
+Uncore Clock [MHz],5.0045,
+CPI,1.1168,
+Energy [J],0.2624,
+Power [W],4.6462,
+Energy DRAM [J],0.0273,
+Power DRAM [W],0.4842,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.399054157 GHz,
+TABLE,Region Tderi_grad_Padrao_10,Group 1 Raw,CLOCK,6
+Region Info,HWThread 3,
+RDTSC Runtime [s],0.000046,
+call count,50,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,320272
+CPU_CLK_UNHALTED_CORE,FIXC1,444957
+CPU_CLK_UNHALTED_REF,FIXC2,445600
+PWR_PKG_ENERGY,PWR0,0.0455
+PWR_DRAM_ENERGY,PWR3,0.0049
+UNCORE_CLOCK,UBOXFIX,52726
+TABLE,Region Tderi_grad_Padrao_10,Group 1 Metric,CLOCK,9
+Metric,HWThread 3,
+Runtime (RDTSC) [s],4.554538e-05,
+Runtime unhalted [s],0.0002,
+Clock [MHz],2395.5923,
+Uncore Clock [MHz],1157.6586,
+CPI,1.3893,
+Energy [J],0.0455,
+Power [W],999.7113,
+Energy DRAM [J],0.0049,
+Power DRAM [W],107.2076,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.399054157 GHz,
+TABLE,Region Tderi_hes_padrao_10,Group 1 Raw,CLOCK,6
+Region Info,HWThread 3,
+RDTSC Runtime [s],0.000405,
+call count,50,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,1356700
+CPU_CLK_UNHALTED_CORE,FIXC1,1310526
+CPU_CLK_UNHALTED_REF,FIXC2,1312900
+PWR_PKG_ENERGY,PWR0,0.0508
+PWR_DRAM_ENERGY,PWR3,0.0052
+UNCORE_CLOCK,UBOXFIX,54409
+TABLE,Region Tderi_hes_padrao_10,Group 1 Metric,CLOCK,9
+Metric,HWThread 3,
+Runtime (RDTSC) [s],0.0004,
+Runtime unhalted [s],0.0005,
+Clock [MHz],2394.7162,
+Uncore Clock [MHz],134.2715,
+CPI,0.9660,
+Energy [J],0.0508,
+Power [W],125.3188,
+Energy DRAM [J],0.0052,
+Power DRAM [W],12.8030,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.399054157 GHz,
+TABLE,Region T_Sist_Lin_Padrao_10,Group 1 Raw,CLOCK,6
+Region Info,HWThread 3,
+RDTSC Runtime [s],0.000035,
+call count,50,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,384135
+CPU_CLK_UNHALTED_CORE,FIXC1,421545
+CPU_CLK_UNHALTED_REF,FIXC2,423700
+PWR_PKG_ENERGY,PWR0,0.0370
+PWR_DRAM_ENERGY,PWR3,0.0043
+UNCORE_CLOCK,UBOXFIX,50150
+TABLE,Region T_Sist_Lin_Padrao_10,Group 1 Metric,CLOCK,9
+Metric,HWThread 3,
+Runtime (RDTSC) [s],3.534955e-05,
+Runtime unhalted [s],0.0002,
+Clock [MHz],2386.8522,
+Uncore Clock [MHz],1418.6885,
+CPI,1.0974,
+Energy [J],0.0370,
+Power [W],1046.3302,
+Energy DRAM [J],0.0043,
+Power DRAM [W],120.8632,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.399054157 GHz,
+TABLE,Region T_Newton_Inexato_10,Group 1 Raw,CLOCK,6
+Region Info,HWThread 3,
+RDTSC Runtime [s],0.056385,
+call count,1,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,2798747
+CPU_CLK_UNHALTED_CORE,FIXC1,3225663
+CPU_CLK_UNHALTED_REF,FIXC2,3236700
+PWR_PKG_ENERGY,PWR0,0.2609
+PWR_DRAM_ENERGY,PWR3,0.0266
+UNCORE_CLOCK,UBOXFIX,276048
+TABLE,Region T_Newton_Inexato_10,Group 1 Metric,CLOCK,9
+Metric,HWThread 3,
+Runtime (RDTSC) [s],0.0564,
+Runtime unhalted [s],0.0013,
+Clock [MHz],2390.8735,
+Uncore Clock [MHz],4.8957,
+CPI,1.1525,
+Energy [J],0.2609,
+Power [W],4.6275,
+Energy DRAM [J],0.0266,
+Power DRAM [W],0.4709,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.399054157 GHz,
+TABLE,Region Tderi_grad_Inexato_10,Group 1 Raw,CLOCK,6
+Region Info,HWThread 3,
+RDTSC Runtime [s],0.000045,
+call count,50,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,317438
+CPU_CLK_UNHALTED_CORE,FIXC1,439782
+CPU_CLK_UNHALTED_REF,FIXC2,441600
+PWR_PKG_ENERGY,PWR0,0.0279
+PWR_DRAM_ENERGY,PWR3,0.0035
+UNCORE_CLOCK,UBOXFIX,52548
+TABLE,Region Tderi_grad_Inexato_10,Group 1 Metric,CLOCK,9
+Metric,HWThread 3,
+Runtime (RDTSC) [s],4.543037e-05,
+Runtime unhalted [s],0.0002,
+Clock [MHz],2389.1776,
+Uncore Clock [MHz],1156.6712,
+CPI,1.3854,
+Energy [J],0.0279,
+Power [W],613.9741,
+Energy DRAM [J],0.0035,
+Power DRAM [W],76.5788,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.399054157 GHz,
+TABLE,Region Tderi_hes_Inexato_10,Group 1 Raw,CLOCK,6
+Region Info,HWThread 3,
+RDTSC Runtime [s],0.000405,
+call count,50,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,1357320
+CPU_CLK_UNHALTED_CORE,FIXC1,1307669
+CPU_CLK_UNHALTED_REF,FIXC2,1313700
+PWR_PKG_ENERGY,PWR0,0.0555
+PWR_DRAM_ENERGY,PWR3,0.0057
+UNCORE_CLOCK,UBOXFIX,51235
+TABLE,Region Tderi_hes_Inexato_10,Group 1 Metric,CLOCK,9
+Metric,HWThread 3,
+Runtime (RDTSC) [s],0.0004,
+Runtime unhalted [s],0.0005,
+Clock [MHz],2388.0405,
+Uncore Clock [MHz],126.4730,
+CPI,0.9634,
+Energy [J],0.0555,
+Power [W],137.1047,
+Energy DRAM [J],0.0057,
+Power DRAM [W],14.0118,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.399054157 GHz,
+TABLE,Region T_Sist_Lin_Inexato_10,Group 1 Raw,CLOCK,6
+Region Info,HWThread 3,
+RDTSC Runtime [s],0.000044,
+call count,50,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,313691
+CPU_CLK_UNHALTED_CORE,FIXC1,450626
+CPU_CLK_UNHALTED_REF,FIXC2,451100
+PWR_PKG_ENERGY,PWR0,0.0509
+PWR_DRAM_ENERGY,PWR3,0.0052
+UNCORE_CLOCK,UBOXFIX,50603
+TABLE,Region T_Sist_Lin_Inexato_10,Group 1 Metric,CLOCK,9
+Metric,HWThread 3,
+Runtime (RDTSC) [s],4.436445e-05,
+Runtime unhalted [s],0.0002,
+Clock [MHz],2396.5333,
+Uncore Clock [MHz],1140.6205,
+CPI,1.4365,
+Energy [J],0.0509,
+Power [W],1147.3899,
+Energy DRAM [J],0.0052,
+Power DRAM [W],118.3160,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.399054157 GHz,
+TABLE,Region T_Newton_Padrao_32,Group 1 Raw,CLOCK,6
+Region Info,HWThread 3,
+RDTSC Runtime [s],0.063542,
+call count,1,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,16019690
+CPU_CLK_UNHALTED_CORE,FIXC1,13864690
+CPU_CLK_UNHALTED_REF,FIXC2,13897600
+PWR_PKG_ENERGY,PWR0,0.3464
+PWR_DRAM_ENERGY,PWR3,0.0409
+UNCORE_CLOCK,UBOXFIX,406543
+TABLE,Region T_Newton_Padrao_32,Group 1 Metric,CLOCK,9
+Metric,HWThread 3,
+Runtime (RDTSC) [s],0.0635,
+Runtime unhalted [s],0.0058,
+Clock [MHz],2393.3731,
+Uncore Clock [MHz],6.3980,
+CPI,0.8655,
+Energy [J],0.3464,
+Power [W],5.4521,
+Energy DRAM [J],0.0409,
+Power DRAM [W],0.6436,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.399054157 GHz,
+TABLE,Region Tderi_grad_Padrao_32,Group 1 Raw,CLOCK,6
+Region Info,HWThread 3,
+RDTSC Runtime [s],0.000151,
+call count,50,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,576280
+CPU_CLK_UNHALTED_CORE,FIXC1,793582
+CPU_CLK_UNHALTED_REF,FIXC2,794800
+PWR_PKG_ENERGY,PWR0,0.0662
+PWR_DRAM_ENERGY,PWR3,0.0089
+UNCORE_CLOCK,UBOXFIX,83613
+TABLE,Region Tderi_grad_Padrao_32,Group 1 Metric,CLOCK,9
+Metric,HWThread 3,
+Runtime (RDTSC) [s],0.0002,
+Runtime unhalted [s],0.0003,
+Clock [MHz],2395.3777,
+Uncore Clock [MHz],552.6769,
+CPI,1.3771,
+Energy [J],0.0662,
+Power [W],437.7310,
+Energy DRAM [J],0.0089,
+Power DRAM [W],58.4986,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.399054157 GHz,
+TABLE,Region Tderi_hes_padrao_32,Group 1 Raw,CLOCK,6
+Region Info,HWThread 3,
+RDTSC Runtime [s],0.004390,
+call count,50,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,12075050
+CPU_CLK_UNHALTED_CORE,FIXC1,10355570
+CPU_CLK_UNHALTED_REF,FIXC2,10380100
+PWR_PKG_ENERGY,PWR0,0.0795
+PWR_DRAM_ENERGY,PWR3,0.0082
+UNCORE_CLOCK,UBOXFIX,89718
+TABLE,Region Tderi_hes_padrao_32,Group 1 Metric,CLOCK,9
+Metric,HWThread 3,
+Runtime (RDTSC) [s],0.0044,
+Runtime unhalted [s],0.0043,
+Clock [MHz],2393.3848,
+Uncore Clock [MHz],20.4363,
+CPI,0.8576,
+Energy [J],0.0795,
+Power [W],18.1154,
+Energy DRAM [J],0.0082,
+Power DRAM [W],1.8630,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.399054157 GHz,
+TABLE,Region T_Sist_Lin_Padrao_32,Group 1 Raw,CLOCK,6
+Region Info,HWThread 3,
+RDTSC Runtime [s],0.000389,
+call count,50,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,2530055
+CPU_CLK_UNHALTED_CORE,FIXC1,1352795
+CPU_CLK_UNHALTED_REF,FIXC2,1356000
+PWR_PKG_ENERGY,PWR0,0.0620
+PWR_DRAM_ENERGY,PWR3,0.0072
+UNCORE_CLOCK,UBOXFIX,59597
+TABLE,Region T_Sist_Lin_Padrao_32,Group 1 Metric,CLOCK,9
+Metric,HWThread 3,
+Runtime (RDTSC) [s],0.0004,
+Runtime unhalted [s],0.0006,
+Clock [MHz],2393.3838,
+Uncore Clock [MHz],153.3055,
+CPI,0.5347,
+Energy [J],0.0620,
+Power [W],159.3600,
+Energy DRAM [J],0.0072,
+Power DRAM [W],18.5266,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.399054157 GHz,
+TABLE,Region T_Newton_Inexato_32,Group 1 Raw,CLOCK,6
+Region Info,HWThread 3,
+RDTSC Runtime [s],0.060678,
+call count,1,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,14155580
+CPU_CLK_UNHALTED_CORE,FIXC1,12721410
+CPU_CLK_UNHALTED_REF,FIXC2,12751600
+PWR_PKG_ENERGY,PWR0,0.2832
+PWR_DRAM_ENERGY,PWR3,0.0292
+UNCORE_CLOCK,UBOXFIX,281626
+TABLE,Region T_Newton_Inexato_32,Group 1 Metric,CLOCK,9
+Metric,HWThread 3,
+Runtime (RDTSC) [s],0.0607,
+Runtime unhalted [s],0.0053,
+Clock [MHz],2393.3743,
+Uncore Clock [MHz],4.6413,
+CPI,0.8987,
+Energy [J],0.2832,
+Power [W],4.6673,
+Energy DRAM [J],0.0292,
+Power DRAM [W],0.4818,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.399054157 GHz,
+TABLE,Region Tderi_grad_Inexato_32,Group 1 Raw,CLOCK,6
+Region Info,HWThread 3,
+RDTSC Runtime [s],0.000136,
+call count,50,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,579521
+CPU_CLK_UNHALTED_CORE,FIXC1,662548
+CPU_CLK_UNHALTED_REF,FIXC2,663500
+PWR_PKG_ENERGY,PWR0,0.0417
+PWR_DRAM_ENERGY,PWR3,0.0048
+UNCORE_CLOCK,UBOXFIX,50999
+TABLE,Region Tderi_grad_Inexato_32,Group 1 Metric,CLOCK,9
+Metric,HWThread 3,
+Runtime (RDTSC) [s],0.0001,
+Runtime unhalted [s],0.0003,
+Clock [MHz],2395.6120,
+Uncore Clock [MHz],376.1490,
+CPI,1.1433,
+Energy [J],0.0417,
+Power [W],307.9176,
+Energy DRAM [J],0.0048,
+Power DRAM [W],35.5636,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.399054157 GHz,
+TABLE,Region Tderi_hes_Inexato_32,Group 1 Raw,CLOCK,6
+Region Info,HWThread 3,
+RDTSC Runtime [s],0.004243,
+call count,50,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,12082300
+CPU_CLK_UNHALTED_CORE,FIXC1,10205500
+CPU_CLK_UNHALTED_REF,FIXC2,10231100
+PWR_PKG_ENERGY,PWR0,0.0703
+PWR_DRAM_ENERGY,PWR3,0.0073
+UNCORE_CLOCK,UBOXFIX,57760
+TABLE,Region Tderi_hes_Inexato_32,Group 1 Metric,CLOCK,9
+Metric,HWThread 3,
+Runtime (RDTSC) [s],0.0042,
+Runtime unhalted [s],0.0043,
+Clock [MHz],2393.0513,
+Uncore Clock [MHz],13.6118,
+CPI,0.8447,
+Energy [J],0.0703,
+Power [W],16.5556,
+Energy DRAM [J],0.0073,
+Power DRAM [W],1.7260,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.399054157 GHz,
+TABLE,Region T_Sist_Lin_Inexato_32,Group 1 Raw,CLOCK,6
+Region Info,HWThread 3,
+RDTSC Runtime [s],0.000189,
+call count,50,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,670200
+CPU_CLK_UNHALTED_CORE,FIXC1,792322
+CPU_CLK_UNHALTED_REF,FIXC2,793800
+PWR_PKG_ENERGY,PWR0,0.0463
+PWR_DRAM_ENERGY,PWR3,0.0047
+UNCORE_CLOCK,UBOXFIX,50603
+TABLE,Region T_Sist_Lin_Inexato_32,Group 1 Metric,CLOCK,9
+Metric,HWThread 3,
+Runtime (RDTSC) [s],0.0002,
+Runtime unhalted [s],0.0003,
+Clock [MHz],2394.5873,
+Uncore Clock [MHz],267.8146,
+CPI,1.1822,
+Energy [J],0.0463,
+Power [W],244.8540,
+Energy DRAM [J],0.0047,
+Power DRAM [W],24.8730,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.399054157 GHz,
+TABLE,Region T_Newton_Padrao_50,Group 1 Raw,CLOCK,6
+Region Info,HWThread 3,
+RDTSC Runtime [s],0.069802,
+call count,1,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,37739640
+CPU_CLK_UNHALTED_CORE,FIXC1,29748610
+CPU_CLK_UNHALTED_REF,FIXC2,29819900
+PWR_PKG_ENERGY,PWR0,0.3458
+PWR_DRAM_ENERGY,PWR3,0.0417
+UNCORE_CLOCK,UBOXFIX,369177
+TABLE,Region T_Newton_Padrao_50,Group 1 Metric,CLOCK,9
+Metric,HWThread 3,
+Runtime (RDTSC) [s],0.0698,
+Runtime unhalted [s],0.0124,
+Clock [MHz],2393.3188,
+Uncore Clock [MHz],5.2889,
+CPI,0.7883,
+Energy [J],0.3458,
+Power [W],4.9544,
+Energy DRAM [J],0.0417,
+Power DRAM [W],0.5981,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.399054157 GHz,
+TABLE,Region Tderi_grad_Padrao_50,Group 1 Raw,CLOCK,6
+Region Info,HWThread 3,
+RDTSC Runtime [s],0.000215,
+call count,50,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,791136
+CPU_CLK_UNHALTED_CORE,FIXC1,909190
+CPU_CLK_UNHALTED_REF,FIXC2,911300
+PWR_PKG_ENERGY,PWR0,0.0524
+PWR_DRAM_ENERGY,PWR3,0.0058
+UNCORE_CLOCK,UBOXFIX,52573
+TABLE,Region Tderi_grad_Padrao_50,Group 1 Metric,CLOCK,9
+Metric,HWThread 3,
+Runtime (RDTSC) [s],0.0002,
+Runtime unhalted [s],0.0004,
+Clock [MHz],2393.4995,
+Uncore Clock [MHz],244.5882,
+CPI,1.1492,
+Energy [J],0.0524,
+Power [W],243.9191,
+Energy DRAM [J],0.0058,
+Power DRAM [W],26.9759,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.399054157 GHz,
+TABLE,Region Tderi_hes_padrao_50,Group 1 Raw,CLOCK,6
+Region Info,HWThread 3,
+RDTSC Runtime [s],0.010218,
+call count,50,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,29195430
+CPU_CLK_UNHALTED_CORE,FIXC1,24632560
+CPU_CLK_UNHALTED_REF,FIXC2,24691600
+PWR_PKG_ENERGY,PWR0,0.0840
+PWR_DRAM_ENERGY,PWR3,0.0101
+UNCORE_CLOCK,UBOXFIX,104357
+TABLE,Region Tderi_hes_padrao_50,Group 1 Metric,CLOCK,9
+Metric,HWThread 3,
+Runtime (RDTSC) [s],0.0102,
+Runtime unhalted [s],0.0103,
+Clock [MHz],2393.3178,
+Uncore Clock [MHz],10.2133,
+CPI,0.8437,
+Energy [J],0.0840,
+Power [W],8.2254,
+Energy DRAM [J],0.0101,
+Power DRAM [W],0.9856,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.399054157 GHz,
+TABLE,Region T_Sist_Lin_Padrao_50,Group 1 Raw,CLOCK,6
+Region Info,HWThread 3,
+RDTSC Runtime [s],0.001155,
+call count,50,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,6900147
+CPU_CLK_UNHALTED_CORE,FIXC1,2916111
+CPU_CLK_UNHALTED_REF,FIXC2,2923200
+PWR_PKG_ENERGY,PWR0,0.0521
+PWR_DRAM_ENERGY,PWR3,0.0054
+UNCORE_CLOCK,UBOXFIX,60319
+TABLE,Region T_Sist_Lin_Padrao_50,Group 1 Metric,CLOCK,9
+Metric,HWThread 3,
+Runtime (RDTSC) [s],0.0012,
+Runtime unhalted [s],0.0012,
+Clock [MHz],2393.2363,
+Uncore Clock [MHz],52.2194,
+CPI,0.4226,
+Energy [J],0.0521,
+Power [W],45.0720,
+Energy DRAM [J],0.0054,
+Power DRAM [W],4.7027,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.399054157 GHz,
+TABLE,Region T_Newton_Inexato_50,Group 1 Raw,CLOCK,6
+Region Info,HWThread 3,
+RDTSC Runtime [s],0.061636,
+call count,1,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,32053630
+CPU_CLK_UNHALTED_CORE,FIXC1,27414250
+CPU_CLK_UNHALTED_REF,FIXC2,27480800
+PWR_PKG_ENERGY,PWR0,0.2803
+PWR_DRAM_ENERGY,PWR3,0.0289
+UNCORE_CLOCK,UBOXFIX,277323
+TABLE,Region T_Newton_Inexato_50,Group 1 Metric,CLOCK,9
+Metric,HWThread 3,
+Runtime (RDTSC) [s],0.0616,
+Runtime unhalted [s],0.0114,
+Clock [MHz],2393.2444,
+Uncore Clock [MHz],4.4994,
+CPI,0.8553,
+Energy [J],0.2803,
+Power [W],4.5482,
+Energy DRAM [J],0.0289,
+Power DRAM [W],0.4684,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.399054157 GHz,
+TABLE,Region Tderi_grad_Inexato_50,Group 1 Raw,CLOCK,6
+Region Info,HWThread 3,
+RDTSC Runtime [s],0.000208,
+call count,50,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,788494
+CPU_CLK_UNHALTED_CORE,FIXC1,819693
+CPU_CLK_UNHALTED_REF,FIXC2,822300
+PWR_PKG_ENERGY,PWR0,0.0325
+PWR_DRAM_ENERGY,PWR3,0.0038
+UNCORE_CLOCK,UBOXFIX,55666
+TABLE,Region Tderi_grad_Inexato_50,Group 1 Metric,CLOCK,9
+Metric,HWThread 3,
+Runtime (RDTSC) [s],0.0002,
+Runtime unhalted [s],0.0003,
+Clock [MHz],2391.4483,
+Uncore Clock [MHz],268.0005,
+CPI,1.0396,
+Energy [J],0.0325,
+Power [W],156.6220,
+Energy DRAM [J],0.0038,
+Power DRAM [W],18.2187,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.399054157 GHz,
+TABLE,Region Tderi_hes_Inexato_50,Group 1 Raw,CLOCK,6
+Region Info,HWThread 3,
+RDTSC Runtime [s],0.010031,
+call count,50,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,29199570
+CPU_CLK_UNHALTED_CORE,FIXC1,24351490
+CPU_CLK_UNHALTED_REF,FIXC2,24408900
+PWR_PKG_ENERGY,PWR0,0.0887
+PWR_DRAM_ENERGY,PWR3,0.0086
+UNCORE_CLOCK,UBOXFIX,57753
+TABLE,Region Tderi_hes_Inexato_50,Group 1 Metric,CLOCK,9
+Metric,HWThread 3,
+Runtime (RDTSC) [s],0.0100,
+Runtime unhalted [s],0.0102,
+Clock [MHz],2393.4116,
+Uncore Clock [MHz],5.7572,
+CPI,0.8340,
+Energy [J],0.0887,
+Power [W],8.8467,
+Energy DRAM [J],0.0086,
+Power DRAM [W],0.8579,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.399054157 GHz,
+TABLE,Region T_Sist_Lin_Inexato_50,Group 1 Raw,CLOCK,6
+Region Info,HWThread 3,
+RDTSC Runtime [s],0.000377,
+call count,50,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,1212013
+CPU_CLK_UNHALTED_CORE,FIXC1,1233605
+CPU_CLK_UNHALTED_REF,FIXC2,1235600
+PWR_PKG_ENERGY,PWR0,0.0405
+PWR_DRAM_ENERGY,PWR3,0.0043
+UNCORE_CLOCK,UBOXFIX,53551
+TABLE,Region T_Sist_Lin_Inexato_50,Group 1 Metric,CLOCK,9
+Metric,HWThread 3,
+Runtime (RDTSC) [s],0.0004,
+Runtime unhalted [s],0.0005,
+Clock [MHz],2395.1806,
+Uncore Clock [MHz],142.0128,
+CPI,1.0178,
+Energy [J],0.0405,
+Power [W],107.3133,
+Energy DRAM [J],0.0043,
+Power DRAM [W],11.3302,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.399054157 GHz,
+TABLE,Region T_Newton_Padrao_64,Group 1 Raw,CLOCK,6
+Region Info,HWThread 3,
+RDTSC Runtime [s],0.076304,
+call count,1,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,62143340
+CPU_CLK_UNHALTED_CORE,FIXC1,47396910
+CPU_CLK_UNHALTED_REF,FIXC2,47505900
+PWR_PKG_ENERGY,PWR0,0.3745
+PWR_DRAM_ENERGY,PWR3,0.0450
+UNCORE_CLOCK,UBOXFIX,449478
+TABLE,Region T_Newton_Padrao_64,Group 1 Metric,CLOCK,9
+Metric,HWThread 3,
+Runtime (RDTSC) [s],0.0763,
+Runtime unhalted [s],0.0198,
+Clock [MHz],2393.5501,
+Uncore Clock [MHz],5.8906,
+CPI,0.7627,
+Energy [J],0.3745,
+Power [W],4.9081,
+Energy DRAM [J],0.0450,
+Power DRAM [W],0.5903,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.399054157 GHz,
+TABLE,Region Tderi_grad_Padrao_64,Group 1 Raw,CLOCK,6
+Region Info,HWThread 3,
+RDTSC Runtime [s],0.000270,
+call count,50,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,953971
+CPU_CLK_UNHALTED_CORE,FIXC1,1003571
+CPU_CLK_UNHALTED_REF,FIXC2,1005100
+PWR_PKG_ENERGY,PWR0,0.0234
+PWR_DRAM_ENERGY,PWR3,0.0032
+UNCORE_CLOCK,UBOXFIX,50792
+TABLE,Region Tderi_grad_Padrao_64,Group 1 Metric,CLOCK,9
+Metric,HWThread 3,
+Runtime (RDTSC) [s],0.0003,
+Runtime unhalted [s],0.0004,
+Clock [MHz],2395.4046,
+Uncore Clock [MHz],188.4336,
+CPI,1.0520,
+Energy [J],0.0234,
+Power [W],86.9509,
+Energy DRAM [J],0.0032,
+Power DRAM [W],12.0010,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.399054157 GHz,
+TABLE,Region Tderi_hes_padrao_64,Group 1 Raw,CLOCK,6
+Region Info,HWThread 3,
+RDTSC Runtime [s],0.016579,
+call count,50,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,47714490
+CPU_CLK_UNHALTED_CORE,FIXC1,40089640
+CPU_CLK_UNHALTED_REF,FIXC2,40182400
+PWR_PKG_ENERGY,PWR0,0.1172
+PWR_DRAM_ENERGY,PWR3,0.0140
+UNCORE_CLOCK,UBOXFIX,179452
+TABLE,Region Tderi_hes_padrao_64,Group 1 Metric,CLOCK,9
+Metric,HWThread 3,
+Runtime (RDTSC) [s],0.0166,
+Runtime unhalted [s],0.0167,
+Clock [MHz],2393.5160,
+Uncore Clock [MHz],10.8240,
+CPI,0.8402,
+Energy [J],0.1172,
+Power [W],7.0684,
+Energy DRAM [J],0.0140,
+Power DRAM [W],0.8431,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.399054157 GHz,
+TABLE,Region T_Sist_Lin_Padrao_64,Group 1 Raw,CLOCK,6
+Region Info,HWThread 3,
+RDTSC Runtime [s],0.002095,
+call count,50,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,12612920
+CPU_CLK_UNHALTED_CORE,FIXC1,5035222
+CPU_CLK_UNHALTED_REF,FIXC2,5047200
+PWR_PKG_ENERGY,PWR0,0.0755
+PWR_DRAM_ENERGY,PWR3,0.0096
+UNCORE_CLOCK,UBOXFIX,89651
+TABLE,Region T_Sist_Lin_Padrao_64,Group 1 Metric,CLOCK,9
+Metric,HWThread 3,
+Runtime (RDTSC) [s],0.0021,
+Runtime unhalted [s],0.0021,
+Clock [MHz],2393.3607,
+Uncore Clock [MHz],42.8012,
+CPI,0.3992,
+Energy [J],0.0755,
+Power [W],36.0455,
+Energy DRAM [J],0.0096,
+Power DRAM [W],4.6040,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.399054157 GHz,
+TABLE,Region T_Newton_Inexato_64,Group 1 Raw,CLOCK,6
+Region Info,HWThread 3,
+RDTSC Runtime [s],0.073594,
+call count,1,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,51221560
+CPU_CLK_UNHALTED_CORE,FIXC1,43455510
+CPU_CLK_UNHALTED_REF,FIXC2,43561200
+PWR_PKG_ENERGY,PWR0,0.3381
+PWR_DRAM_ENERGY,PWR3,0.0355
+UNCORE_CLOCK,UBOXFIX,281402
+TABLE,Region T_Newton_Inexato_64,Group 1 Metric,CLOCK,9
+Metric,HWThread 3,
+Runtime (RDTSC) [s],0.0736,
+Runtime unhalted [s],0.0181,
+Clock [MHz],2393.2335,
+Uncore Clock [MHz],3.8237,
+CPI,0.8484,
+Energy [J],0.3381,
+Power [W],4.5946,
+Energy DRAM [J],0.0355,
+Power DRAM [W],0.4819,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.399054157 GHz,
+TABLE,Region Tderi_grad_Inexato_64,Group 1 Raw,CLOCK,6
+Region Info,HWThread 3,
+RDTSC Runtime [s],0.000264,
+call count,50,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,956652
+CPU_CLK_UNHALTED_CORE,FIXC1,971841
+CPU_CLK_UNHALTED_REF,FIXC2,974200
+PWR_PKG_ENERGY,PWR0,0.0353
+PWR_DRAM_ENERGY,PWR3,0.0042
+UNCORE_CLOCK,UBOXFIX,50150
+TABLE,Region Tderi_grad_Inexato_64,Group 1 Metric,CLOCK,9
+Metric,HWThread 3,
+Runtime (RDTSC) [s],0.0003,
+Runtime unhalted [s],0.0004,
+Clock [MHz],2393.2449,
+Uncore Clock [MHz],190.1885,
+CPI,1.0159,
+Energy [J],0.0353,
+Power [W],134.0208,
+Energy DRAM [J],0.0042,
+Power DRAM [W],15.7399,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.399054157 GHz,
+TABLE,Region Tderi_hes_Inexato_64,Group 1 Raw,CLOCK,6
+Region Info,HWThread 3,
+RDTSC Runtime [s],0.016580,
+call count,50,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,47709900
+CPU_CLK_UNHALTED_CORE,FIXC1,39684250
+CPU_CLK_UNHALTED_REF,FIXC2,39777400
+PWR_PKG_ENERGY,PWR0,0.1185
+PWR_DRAM_ENERGY,PWR3,0.0122
+UNCORE_CLOCK,UBOXFIX,57429
+TABLE,Region Tderi_hes_Inexato_64,Group 1 Metric,CLOCK,9
+Metric,HWThread 3,
+Runtime (RDTSC) [s],0.0166,
+Runtime unhalted [s],0.0165,
+Clock [MHz],2393.4361,
+Uncore Clock [MHz],3.4638,
+CPI,0.8318,
+Energy [J],0.1185,
+Power [W],7.1491,
+Energy DRAM [J],0.0122,
+Power DRAM [W],0.7363,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.399054157 GHz,
+TABLE,Region T_Sist_Lin_Inexato_64,Group 1 Raw,CLOCK,6
+Region Info,HWThread 3,
+RDTSC Runtime [s],0.000586,
+call count,50,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,1701644
+CPU_CLK_UNHALTED_CORE,FIXC1,1741670
+CPU_CLK_UNHALTED_REF,FIXC2,1747300
+PWR_PKG_ENERGY,PWR0,0.0449
+PWR_DRAM_ENERGY,PWR3,0.0059
+UNCORE_CLOCK,UBOXFIX,50150
+TABLE,Region T_Sist_Lin_Inexato_64,Group 1 Metric,CLOCK,9
+Metric,HWThread 3,
+Runtime (RDTSC) [s],0.0006,
+Runtime unhalted [s],0.0007,
+Clock [MHz],2391.3241,
+Uncore Clock [MHz],85.6212,
+CPI,1.0235,
+Energy [J],0.0449,
+Power [W],76.5910,
+Energy DRAM [J],0.0059,
+Power DRAM [W],10.0037,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.399054157 GHz,
+TABLE,Region T_Newton_Padrao_100,Group 1 Raw,CLOCK,6
+Region Info,HWThread 3,
+RDTSC Runtime [s],0.106350,
+call count,1,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,157798100
+CPU_CLK_UNHALTED_CORE,FIXC1,116581800
+CPU_CLK_UNHALTED_REF,FIXC2,116850700
+PWR_PKG_ENERGY,PWR0,0.5026
+PWR_DRAM_ENERGY,PWR3,0.0592
+UNCORE_CLOCK,UBOXFIX,404630
+TABLE,Region T_Newton_Padrao_100,Group 1 Metric,CLOCK,9
+Metric,HWThread 3,
+Runtime (RDTSC) [s],0.1064,
+Runtime unhalted [s],0.0486,
+Clock [MHz],2393.5334,
+Uncore Clock [MHz],3.8047,
+CPI,0.7388,
+Energy [J],0.5026,
+Power [W],4.7261,
+Energy DRAM [J],0.0592,
+Power DRAM [W],0.5567,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.399054157 GHz,
+TABLE,Region Tderi_grad_Padrao_100,Group 1 Raw,CLOCK,6
+Region Info,HWThread 3,
+RDTSC Runtime [s],0.000419,
+call count,50,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,1376434
+CPU_CLK_UNHALTED_CORE,FIXC1,1384793
+CPU_CLK_UNHALTED_REF,FIXC2,1386000
+PWR_PKG_ENERGY,PWR0,0.0323
+PWR_DRAM_ENERGY,PWR3,0.0031
+UNCORE_CLOCK,UBOXFIX,81931
+TABLE,Region Tderi_grad_Padrao_100,Group 1 Metric,CLOCK,9
+Metric,HWThread 3,
+Runtime (RDTSC) [s],0.0004,
+Runtime unhalted [s],0.0006,
+Clock [MHz],2396.9649,
+Uncore Clock [MHz],195.5063,
+CPI,1.0061,
+Energy [J],0.0323,
+Power [W],77.1913,
+Energy DRAM [J],0.0031,
+Power DRAM [W],7.2822,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.399054157 GHz,
+TABLE,Region Tderi_hes_padrao_100,Group 1 Raw,CLOCK,6
+Region Info,HWThread 3,
+RDTSC Runtime [s],0.040667,
+call count,50,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,116193600
+CPU_CLK_UNHALTED_CORE,FIXC1,96895880
+CPU_CLK_UNHALTED_REF,FIXC2,97121600
+PWR_PKG_ENERGY,PWR0,0.2404
+PWR_DRAM_ENERGY,PWR3,0.0266
+UNCORE_CLOCK,UBOXFIX,102396
+TABLE,Region Tderi_hes_padrao_100,Group 1 Metric,CLOCK,9
+Metric,HWThread 3,
+Runtime (RDTSC) [s],0.0407,
+Runtime unhalted [s],0.0404,
+Clock [MHz],2393.4785,
+Uncore Clock [MHz],2.5179,
+CPI,0.8339,
+Energy [J],0.2404,
+Power [W],5.9104,
+Energy DRAM [J],0.0266,
+Power DRAM [W],0.6529,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.399054157 GHz,
+TABLE,Region T_Sist_Lin_Padrao_100,Group 1 Raw,CLOCK,6
+Region Info,HWThread 3,
+RDTSC Runtime [s],0.007018,
+call count,50,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,39350930
+CPU_CLK_UNHALTED_CORE,FIXC1,16975180
+CPU_CLK_UNHALTED_REF,FIXC2,17014000
+PWR_PKG_ENERGY,PWR0,0.0998
+PWR_DRAM_ENERGY,PWR3,0.0113
+UNCORE_CLOCK,UBOXFIX,76075
+TABLE,Region T_Sist_Lin_Padrao_100,Group 1 Metric,CLOCK,9
+Metric,HWThread 3,
+Runtime (RDTSC) [s],0.0070,
+Runtime unhalted [s],0.0071,
+Clock [MHz],2393.5804,
+Uncore Clock [MHz],10.8401,
+CPI,0.4314,
+Energy [J],0.0998,
+Power [W],14.2197,
+Energy DRAM [J],0.0113,
+Power DRAM [W],1.6090,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.399054157 GHz,
+TABLE,Region T_Newton_Inexato_100,Group 1 Raw,CLOCK,6
+Region Info,HWThread 3,
+RDTSC Runtime [s],0.098137,
+call count,1,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,122119000
+CPU_CLK_UNHALTED_CORE,FIXC1,102433300
+CPU_CLK_UNHALTED_REF,FIXC2,102668500
+PWR_PKG_ENERGY,PWR0,0.4365
+PWR_DRAM_ENERGY,PWR3,0.0462
+UNCORE_CLOCK,UBOXFIX,273744
+TABLE,Region T_Newton_Inexato_100,Group 1 Metric,CLOCK,9
+Metric,HWThread 3,
+Runtime (RDTSC) [s],0.0981,
+Runtime unhalted [s],0.0427,
+Clock [MHz],2393.5582,
+Uncore Clock [MHz],2.7894,
+CPI,0.8388,
+Energy [J],0.4365,
+Power [W],4.4481,
+Energy DRAM [J],0.0462,
+Power DRAM [W],0.4708,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.399054157 GHz,
+TABLE,Region Tderi_grad_Inexato_100,Group 1 Raw,CLOCK,6
+Region Info,HWThread 3,
+RDTSC Runtime [s],0.000414,
+call count,50,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,1379242
+CPU_CLK_UNHALTED_CORE,FIXC1,1341694
+CPU_CLK_UNHALTED_REF,FIXC2,1344000
+PWR_PKG_ENERGY,PWR0,0.0398
+PWR_DRAM_ENERGY,PWR3,0.0042
+UNCORE_CLOCK,UBOXFIX,51688
+TABLE,Region Tderi_grad_Inexato_100,Group 1 Metric,CLOCK,9
+Metric,HWThread 3,
+Runtime (RDTSC) [s],0.0004,
+Runtime unhalted [s],0.0006,
+Clock [MHz],2394.9379,
+Uncore Clock [MHz],124.8197,
+CPI,0.9728,
+Energy [J],0.0398,
+Power [W],96.0995,
+Energy DRAM [J],0.0042,
+Power DRAM [W],10.0226,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.399054157 GHz,
+TABLE,Region Tderi_hes_Inexato_100,Group 1 Raw,CLOCK,6
+Region Info,HWThread 3,
+RDTSC Runtime [s],0.040411,
+call count,50,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,116283200
+CPU_CLK_UNHALTED_CORE,FIXC1,96436220
+CPU_CLK_UNHALTED_REF,FIXC2,96660900
+PWR_PKG_ENERGY,PWR0,0.2219
+PWR_DRAM_ENERGY,PWR3,0.0231
+UNCORE_CLOCK,UBOXFIX,53995
+TABLE,Region Tderi_hes_Inexato_100,Group 1 Metric,CLOCK,9
+Metric,HWThread 3,
+Runtime (RDTSC) [s],0.0404,
+Runtime unhalted [s],0.0402,
+Clock [MHz],2393.4778,
+Uncore Clock [MHz],1.3361,
+CPI,0.8293,
+Energy [J],0.2219,
+Power [W],5.4901,
+Energy DRAM [J],0.0231,
+Power DRAM [W],0.5724,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.399054157 GHz,
+TABLE,Region T_Sist_Lin_Inexato_100,Group 1 Raw,CLOCK,6
+Region Info,HWThread 3,
+RDTSC Runtime [s],0.001331,
+call count,50,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,3584859
+CPU_CLK_UNHALTED_CORE,FIXC1,3534095
+CPU_CLK_UNHALTED_REF,FIXC2,3542700
+PWR_PKG_ENERGY,PWR0,0.0548
+PWR_DRAM_ENERGY,PWR3,0.0060
+UNCORE_CLOCK,UBOXFIX,50882
+TABLE,Region T_Sist_Lin_Inexato_100,Group 1 Metric,CLOCK,9
+Metric,HWThread 3,
+Runtime (RDTSC) [s],0.0013,
+Runtime unhalted [s],0.0015,
+Clock [MHz],2393.2270,
+Uncore Clock [MHz],38.2181,
+CPI,0.9858,
+Energy [J],0.0548,
+Power [W],41.1681,
+Energy DRAM [J],0.0060,
+Power DRAM [W],4.5386,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.399054157 GHz,
+TABLE,Region T_Newton_Padrao_128,Group 1 Raw,CLOCK,6
+Region Info,HWThread 3,
+RDTSC Runtime [s],0.137835,
+call count,1,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,268575300
+CPU_CLK_UNHALTED_CORE,FIXC1,194683900
+CPU_CLK_UNHALTED_REF,FIXC2,195137900
+PWR_PKG_ENERGY,PWR0,0.6470
+PWR_DRAM_ENERGY,PWR3,0.0740
+UNCORE_CLOCK,UBOXFIX,488888
+TABLE,Region T_Newton_Padrao_128,Group 1 Metric,CLOCK,9
+Metric,HWThread 3,
+Runtime (RDTSC) [s],0.1378,
+Runtime unhalted [s],0.0812,
+Clock [MHz],2393.4726,
+Uncore Clock [MHz],3.5469,
+CPI,0.7249,
+Energy [J],0.6470,
+Power [W],4.6938,
+Energy DRAM [J],0.0740,
+Power DRAM [W],0.5367,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.399054157 GHz,
+TABLE,Region Tderi_grad_Padrao_128,Group 1 Raw,CLOCK,6
+Region Info,HWThread 3,
+RDTSC Runtime [s],0.000529,
+call count,50,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,1704838
+CPU_CLK_UNHALTED_CORE,FIXC1,1626470
+CPU_CLK_UNHALTED_REF,FIXC2,1628700
+PWR_PKG_ENERGY,PWR0,0.0643
+PWR_DRAM_ENERGY,PWR3,0.0067
+UNCORE_CLOCK,UBOXFIX,54892
+TABLE,Region Tderi_grad_Padrao_128,Group 1 Metric,CLOCK,9
+Metric,HWThread 3,
+Runtime (RDTSC) [s],0.0005,
+Runtime unhalted [s],0.0007,
+Clock [MHz],2395.7694,
+Uncore Clock [MHz],103.7907,
+CPI,0.9540,
+Energy [J],0.0643,
+Power [W],121.5228,
+Energy DRAM [J],0.0067,
+Power DRAM [W],12.6947,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.399054157 GHz,
+TABLE,Region Tderi_hes_padrao_128,Group 1 Raw,CLOCK,6
+Region Info,HWThread 3,
+RDTSC Runtime [s],0.066191,
+call count,50,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,190251000
+CPU_CLK_UNHALTED_CORE,FIXC1,158060600
+CPU_CLK_UNHALTED_REF,FIXC2,158429900
+PWR_PKG_ENERGY,PWR0,0.3336
+PWR_DRAM_ENERGY,PWR3,0.0374
+UNCORE_CLOCK,UBOXFIX,217457
+TABLE,Region Tderi_hes_padrao_128,Group 1 Metric,CLOCK,9
+Metric,HWThread 3,
+Runtime (RDTSC) [s],0.0662,
+Runtime unhalted [s],0.0659,
+Clock [MHz],2393.4620,
+Uncore Clock [MHz],3.2853,
+CPI,0.8308,
+Energy [J],0.3336,
+Power [W],5.0393,
+Energy DRAM [J],0.0374,
+Power DRAM [W],0.5652,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.399054157 GHz,
+TABLE,Region T_Sist_Lin_Padrao_128,Group 1 Raw,CLOCK,6
+Region Info,HWThread 3,
+RDTSC Runtime [s],0.013995,
+call count,50,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,75721800
+CPU_CLK_UNHALTED_CORE,FIXC1,33715450
+CPU_CLK_UNHALTED_REF,FIXC2,33795500
+PWR_PKG_ENERGY,PWR0,0.1100
+PWR_DRAM_ENERGY,PWR3,0.0135
+UNCORE_CLOCK,UBOXFIX,96547
+TABLE,Region T_Sist_Lin_Padrao_128,Group 1 Metric,CLOCK,9
+Metric,HWThread 3,
+Runtime (RDTSC) [s],0.0140,
+Runtime unhalted [s],0.0141,
+Clock [MHz],2393.3716,
+Uncore Clock [MHz],6.8988,
+CPI,0.4453,
+Energy [J],0.1100,
+Power [W],7.8591,
+Energy DRAM [J],0.0135,
+Power DRAM [W],0.9638,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.399054157 GHz,
+TABLE,Region T_Newton_Inexato_128,Group 1 Raw,CLOCK,6
+Region Info,HWThread 3,
+RDTSC Runtime [s],0.124893,
+call count,1,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,198412100
+CPU_CLK_UNHALTED_CORE,FIXC1,166003400
+CPU_CLK_UNHALTED_REF,FIXC2,166391100
+PWR_PKG_ENERGY,PWR0,0.5480
+PWR_DRAM_ENERGY,PWR3,0.0590
+UNCORE_CLOCK,UBOXFIX,271653
+TABLE,Region T_Newton_Inexato_128,Group 1 Metric,CLOCK,9
+Metric,HWThread 3,
+Runtime (RDTSC) [s],0.1249,
+Runtime unhalted [s],0.0692,
+Clock [MHz],2393.4642,
+Uncore Clock [MHz],2.1751,
+CPI,0.8367,
+Energy [J],0.5480,
+Power [W],4.3880,
+Energy DRAM [J],0.0590,
+Power DRAM [W],0.4726,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.399054157 GHz,
+TABLE,Region Tderi_grad_Inexato_128,Group 1 Raw,CLOCK,6
+Region Info,HWThread 3,
+RDTSC Runtime [s],0.000526,
+call count,50,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,1706199
+CPU_CLK_UNHALTED_CORE,FIXC1,1608264
+CPU_CLK_UNHALTED_REF,FIXC2,1612300
+PWR_PKG_ENERGY,PWR0,0.0361
+PWR_DRAM_ENERGY,PWR3,0.0037
+UNCORE_CLOCK,UBOXFIX,50150
+TABLE,Region Tderi_grad_Inexato_128,Group 1 Metric,CLOCK,9
+Metric,HWThread 3,
+Runtime (RDTSC) [s],0.0005,
+Runtime unhalted [s],0.0007,
+Clock [MHz],2393.0487,
+Uncore Clock [MHz],95.3471,
+CPI,0.9426,
+Energy [J],0.0361,
+Power [W],68.5811,
+Energy DRAM [J],0.0037,
+Power DRAM [W],7.0786,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.399054157 GHz,
+TABLE,Region Tderi_hes_Inexato_128,Group 1 Raw,CLOCK,6
+Region Info,HWThread 3,
+RDTSC Runtime [s],0.066216,
+call count,50,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,190249900
+CPU_CLK_UNHALTED_CORE,FIXC1,157747600
+CPU_CLK_UNHALTED_REF,FIXC2,158116500
+PWR_PKG_ENERGY,PWR0,0.3247
+PWR_DRAM_ENERGY,PWR3,0.0352
+UNCORE_CLOCK,UBOXFIX,60547
+TABLE,Region Tderi_hes_Inexato_128,Group 1 Metric,CLOCK,9
+Metric,HWThread 3,
+Runtime (RDTSC) [s],0.0662,
+Runtime unhalted [s],0.0658,
+Clock [MHz],2393.4569,
+Uncore Clock [MHz],0.9144,
+CPI,0.8292,
+Energy [J],0.3247,
+Power [W],4.9038,
+Energy DRAM [J],0.0352,
+Power DRAM [W],0.5319,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.399054157 GHz,
+TABLE,Region T_Sist_Lin_Inexato_128,Group 1 Raw,CLOCK,6
+Region Info,HWThread 3,
+RDTSC Runtime [s],0.002150,
+call count,50,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,5581388
+CPU_CLK_UNHALTED_CORE,FIXC1,5505822
+CPU_CLK_UNHALTED_REF,FIXC2,5518600
+PWR_PKG_ENERGY,PWR0,0.0388
+PWR_DRAM_ENERGY,PWR3,0.0043
+UNCORE_CLOCK,UBOXFIX,50603
+TABLE,Region T_Sist_Lin_Inexato_128,Group 1 Metric,CLOCK,9
+Metric,HWThread 3,
+Runtime (RDTSC) [s],0.0022,
+Runtime unhalted [s],0.0023,
+Clock [MHz],2393.4993,
+Uncore Clock [MHz],23.5346,
+CPI,0.9865,
+Energy [J],0.0388,
+Power [W],18.0254,
+Energy DRAM [J],0.0043,
+Power DRAM [W],1.9870,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.399054157 GHz,
+TABLE,Region T_Newton_Padrao_200,Group 1 Raw,CLOCK,6
+Region Info,HWThread 3,
+RDTSC Runtime [s],0.268751,
+call count,1,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,723959100
+CPU_CLK_UNHALTED_CORE,FIXC1,508209000
+CPU_CLK_UNHALTED_REF,FIXC2,509395000
+PWR_PKG_ENERGY,PWR0,1.2379
+PWR_DRAM_ENERGY,PWR3,0.1362
+UNCORE_CLOCK,UBOXFIX,553955
+TABLE,Region T_Newton_Padrao_200,Group 1 Metric,CLOCK,9
+Metric,HWThread 3,
+Runtime (RDTSC) [s],0.2688,
+Runtime unhalted [s],0.2118,
+Clock [MHz],2393.4686,
+Uncore Clock [MHz],2.0612,
+CPI,0.7020,
+Energy [J],1.2379,
+Power [W],4.6062,
+Energy DRAM [J],0.1362,
+Power DRAM [W],0.5069,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.399054157 GHz,
+TABLE,Region Tderi_grad_Padrao_200,Group 1 Raw,CLOCK,6
+Region Info,HWThread 3,
+RDTSC Runtime [s],0.000825,
+call count,50,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,2561991
+CPU_CLK_UNHALTED_CORE,FIXC1,2342875
+CPU_CLK_UNHALTED_REF,FIXC2,2349400
+PWR_PKG_ENERGY,PWR0,0.0601
+PWR_DRAM_ENERGY,PWR3,0.0052
+UNCORE_CLOCK,UBOXFIX,51051
+TABLE,Region Tderi_grad_Padrao_200,Group 1 Metric,CLOCK,9
+Metric,HWThread 3,
+Runtime (RDTSC) [s],0.0008,
+Runtime unhalted [s],0.0010,
+Clock [MHz],2392.3913,
+Uncore Clock [MHz],61.8503,
+CPI,0.9145,
+Energy [J],0.0601,
+Power [W],72.7634,
+Energy DRAM [J],0.0052,
+Power DRAM [W],6.3594,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.399054157 GHz,
+TABLE,Region Tderi_hes_padrao_200,Group 1 Raw,CLOCK,6
+Region Info,HWThread 3,
+RDTSC Runtime [s],0.161479,
+call count,50,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,464192100
+CPU_CLK_UNHALTED_CORE,FIXC1,384881900
+CPU_CLK_UNHALTED_REF,FIXC2,385778400
+PWR_PKG_ENERGY,PWR0,0.7318
+PWR_DRAM_ENERGY,PWR3,0.0858
+UNCORE_CLOCK,UBOXFIX,249935
+TABLE,Region Tderi_hes_padrao_200,Group 1 Metric,CLOCK,9
+Metric,HWThread 3,
+Runtime (RDTSC) [s],0.1615,
+Runtime unhalted [s],0.1604,
+Clock [MHz],2393.4791,
+Uncore Clock [MHz],1.5478,
+CPI,0.8291,
+Energy [J],0.7318,
+Power [W],4.5315,
+Energy DRAM [J],0.0858,
+Power DRAM [W],0.5314,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.399054157 GHz,
+TABLE,Region T_Sist_Lin_Padrao_200,Group 1 Raw,CLOCK,6
+Region Info,HWThread 3,
+RDTSC Runtime [s],0.049854,
+call count,50,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,256254400
+CPU_CLK_UNHALTED_CORE,FIXC1,119652800
+CPU_CLK_UNHALTED_REF,FIXC2,119930700
+PWR_PKG_ENERGY,PWR0,0.3073
+PWR_DRAM_ENERGY,PWR3,0.0306
+UNCORE_CLOCK,UBOXFIX,133646
+TABLE,Region T_Sist_Lin_Padrao_200,Group 1 Metric,CLOCK,9
+Metric,HWThread 3,
+Runtime (RDTSC) [s],0.0499,
+Runtime unhalted [s],0.0499,
+Clock [MHz],2393.4951,
+Uncore Clock [MHz],2.6807,
+CPI,0.4669,
+Energy [J],0.3073,
+Power [W],6.1630,
+Energy DRAM [J],0.0306,
+Power DRAM [W],0.6146,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.399054157 GHz,
+TABLE,Region T_Newton_Inexato_200,Group 1 Raw,CLOCK,6
+Region Info,HWThread 3,
+RDTSC Runtime [s],0.223297,
+call count,1,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,480634500
+CPU_CLK_UNHALTED_CORE,FIXC1,401904000
+CPU_CLK_UNHALTED_REF,FIXC2,402838400
+PWR_PKG_ENERGY,PWR0,0.9547
+PWR_DRAM_ENERGY,PWR3,0.1062
+UNCORE_CLOCK,UBOXFIX,344300
+TABLE,Region T_Newton_Inexato_200,Group 1 Metric,CLOCK,9
+Metric,HWThread 3,
+Runtime (RDTSC) [s],0.2233,
+Runtime unhalted [s],0.1675,
+Clock [MHz],2393.4895,
+Uncore Clock [MHz],1.5419,
+CPI,0.8362,
+Energy [J],0.9547,
+Power [W],4.2753,
+Energy DRAM [J],0.1062,
+Power DRAM [W],0.4756,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.399054157 GHz,
+TABLE,Region Tderi_grad_Inexato_200,Group 1 Raw,CLOCK,6
+Region Info,HWThread 3,
+RDTSC Runtime [s],0.000852,
+call count,50,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,2566549
+CPU_CLK_UNHALTED_CORE,FIXC1,2325251
+CPU_CLK_UNHALTED_REF,FIXC2,2331400
+PWR_PKG_ENERGY,PWR0,0.0494
+PWR_DRAM_ENERGY,PWR3,0.0057
+UNCORE_CLOCK,UBOXFIX,53186
+TABLE,Region Tderi_grad_Inexato_200,Group 1 Metric,CLOCK,9
+Metric,HWThread 3,
+Runtime (RDTSC) [s],0.0009,
+Runtime unhalted [s],0.0010,
+Clock [MHz],2392.7267,
+Uncore Clock [MHz],62.4039,
+CPI,0.9060,
+Energy [J],0.0494,
+Power [W],58.0069,
+Energy DRAM [J],0.0057,
+Power DRAM [W],6.7317,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.399054157 GHz,
+TABLE,Region Tderi_hes_Inexato_200,Group 1 Raw,CLOCK,6
+Region Info,HWThread 3,
+RDTSC Runtime [s],0.161085,
+call count,50,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,464193200
+CPU_CLK_UNHALTED_CORE,FIXC1,384572800
+CPU_CLK_UNHALTED_REF,FIXC2,385470700
+PWR_PKG_ENERGY,PWR0,0.7233
+PWR_DRAM_ENERGY,PWR3,0.0806
+UNCORE_CLOCK,UBOXFIX,110000
+TABLE,Region Tderi_hes_Inexato_200,Group 1 Metric,CLOCK,9
+Metric,HWThread 3,
+Runtime (RDTSC) [s],0.1611,
+Runtime unhalted [s],0.1603,
+Clock [MHz],2393.4659,
+Uncore Clock [MHz],0.6829,
+CPI,0.8285,
+Energy [J],0.7233,
+Power [W],4.4900,
+Energy DRAM [J],0.0806,
+Power DRAM [W],0.5005,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.399054157 GHz,
+TABLE,Region T_Sist_Lin_Inexato_200,Group 1 Raw,CLOCK,6
+Region Info,HWThread 3,
+RDTSC Runtime [s],0.005606,
+call count,50,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,12941410
+CPU_CLK_UNHALTED_CORE,FIXC1,13778130
+CPU_CLK_UNHALTED_REF,FIXC2,13808900
+PWR_PKG_ENERGY,PWR0,0.0723
+PWR_DRAM_ENERGY,PWR3,0.0080
+UNCORE_CLOCK,UBOXFIX,59922
+TABLE,Region T_Sist_Lin_Inexato_200,Group 1 Metric,CLOCK,9
+Metric,HWThread 3,
+Runtime (RDTSC) [s],0.0056,
+Runtime unhalted [s],0.0057,
+Clock [MHz],2393.7084,
+Uncore Clock [MHz],10.6892,
+CPI,1.0647,
+Energy [J],0.0723,
+Power [W],12.8911,
+Energy DRAM [J],0.0080,
+Power DRAM [W],1.4263,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.399054157 GHz,
+TABLE,Region T_Newton_Padrao_250,Group 1 Raw,CLOCK,6
+Region Info,HWThread 3,
+RDTSC Runtime [s],0.408430,
+call count,1,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,1207643000
+CPU_CLK_UNHALTED_CORE,FIXC1,842925100
+CPU_CLK_UNHALTED_REF,FIXC2,844888800
+PWR_PKG_ENERGY,PWR0,1.8735
+PWR_DRAM_ENERGY,PWR3,0.2012
+UNCORE_CLOCK,UBOXFIX,633419
+TABLE,Region T_Newton_Padrao_250,Group 1 Metric,CLOCK,9
+Metric,HWThread 3,
+Runtime (RDTSC) [s],0.4084,
+Runtime unhalted [s],0.3514,
+Clock [MHz],2393.4782,
+Uncore Clock [MHz],1.5509,
+CPI,0.6980,
+Energy [J],1.8735,
+Power [W],4.5872,
+Energy DRAM [J],0.2012,
+Power DRAM [W],0.4927,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.399054157 GHz,
+TABLE,Region Tderi_grad_Padrao_250,Group 1 Raw,CLOCK,6
+Region Info,HWThread 3,
+RDTSC Runtime [s],0.001026,
+call count,50,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,3157080
+CPU_CLK_UNHALTED_CORE,FIXC1,2812063
+CPU_CLK_UNHALTED_REF,FIXC2,2818300
+PWR_PKG_ENERGY,PWR0,0.0425
+PWR_DRAM_ENERGY,PWR3,0.0041
+UNCORE_CLOCK,UBOXFIX,54911
+TABLE,Region Tderi_grad_Padrao_250,Group 1 Metric,CLOCK,9
+Metric,HWThread 3,
+Runtime (RDTSC) [s],0.0010,
+Runtime unhalted [s],0.0012,
+Clock [MHz],2393.7450,
+Uncore Clock [MHz],53.5437,
+CPI,0.8907,
+Energy [J],0.0425,
+Power [W],41.4227,
+Energy DRAM [J],0.0041,
+Power DRAM [W],3.9875,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.399054157 GHz,
+TABLE,Region Tderi_hes_padrao_250,Group 1 Raw,CLOCK,6
+Region Info,HWThread 3,
+RDTSC Runtime [s],0.251785,
+call count,50,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,725381400
+CPU_CLK_UNHALTED_CORE,FIXC1,601000900
+CPU_CLK_UNHALTED_REF,FIXC2,602401600
+PWR_PKG_ENERGY,PWR0,1.1190
+PWR_DRAM_ENERGY,PWR3,0.1293
+UNCORE_CLOCK,UBOXFIX,319810
+TABLE,Region Tderi_hes_padrao_250,Group 1 Metric,CLOCK,9
+Metric,HWThread 3,
+Runtime (RDTSC) [s],0.2518,
+Runtime unhalted [s],0.2505,
+Clock [MHz],2393.4759,
+Uncore Clock [MHz],1.2702,
+CPI,0.8285,
+Energy [J],1.1190,
+Power [W],4.4444,
+Energy DRAM [J],0.1293,
+Power DRAM [W],0.5137,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.399054157 GHz,
+TABLE,Region T_Sist_Lin_Padrao_250,Group 1 Raw,CLOCK,6
+Region Info,HWThread 3,
+RDTSC Runtime [s],0.099439,
+call count,50,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,478103300
+CPU_CLK_UNHALTED_CORE,FIXC1,237794900
+CPU_CLK_UNHALTED_REF,FIXC2,238349000
+PWR_PKG_ENERGY,PWR0,0.5782
+PWR_DRAM_ENERGY,PWR3,0.0552
+UNCORE_CLOCK,UBOXFIX,136458
+TABLE,Region T_Sist_Lin_Padrao_250,Group 1 Metric,CLOCK,9
+Metric,HWThread 3,
+Runtime (RDTSC) [s],0.0994,
+Runtime unhalted [s],0.0991,
+Clock [MHz],2393.4770,
+Uncore Clock [MHz],1.3723,
+CPI,0.4974,
+Energy [J],0.5782,
+Power [W],5.8145,
+Energy DRAM [J],0.0552,
+Power DRAM [W],0.5555,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.399054157 GHz,
+TABLE,Region T_Newton_Inexato_250,Group 1 Raw,CLOCK,6
+Region Info,HWThread 3,
+RDTSC Runtime [s],0.317134,
+call count,1,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,749263400
+CPU_CLK_UNHALTED_CORE,FIXC1,626608400
+CPU_CLK_UNHALTED_REF,FIXC2,628065300
+PWR_PKG_ENERGY,PWR0,1.3246
+PWR_DRAM_ENERGY,PWR3,0.1502
+UNCORE_CLOCK,UBOXFIX,443713
+TABLE,Region T_Newton_Inexato_250,Group 1 Metric,CLOCK,9
+Metric,HWThread 3,
+Runtime (RDTSC) [s],0.3171,
+Runtime unhalted [s],0.2612,
+Clock [MHz],2393.4892,
+Uncore Clock [MHz],1.3991,
+CPI,0.8363,
+Energy [J],1.3246,
+Power [W],4.1767,
+Energy DRAM [J],0.1502,
+Power DRAM [W],0.4736,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.399054157 GHz,
+TABLE,Region Tderi_grad_Inexato_250,Group 1 Raw,CLOCK,6
+Region Info,HWThread 3,
+RDTSC Runtime [s],0.001029,
+call count,50,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,3155748
+CPU_CLK_UNHALTED_CORE,FIXC1,2808512
+CPU_CLK_UNHALTED_REF,FIXC2,2814100
+PWR_PKG_ENERGY,PWR0,0.0522
+PWR_DRAM_ENERGY,PWR3,0.0054
+UNCORE_CLOCK,UBOXFIX,56757
+TABLE,Region Tderi_grad_Inexato_250,Group 1 Metric,CLOCK,9
+Metric,HWThread 3,
+Runtime (RDTSC) [s],0.0010,
+Runtime unhalted [s],0.0012,
+Clock [MHz],2394.2903,
+Uncore Clock [MHz],55.1750,
+CPI,0.8900,
+Energy [J],0.0522,
+Power [W],50.7898,
+Energy DRAM [J],0.0054,
+Power DRAM [W],5.2214,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.399054157 GHz,
+TABLE,Region Tderi_hes_Inexato_250,Group 1 Raw,CLOCK,6
+Region Info,HWThread 3,
+RDTSC Runtime [s],0.251512,
+call count,50,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,725186700
+CPU_CLK_UNHALTED_CORE,FIXC1,600610900
+CPU_CLK_UNHALTED_REF,FIXC2,602009400
+PWR_PKG_ENERGY,PWR0,1.0646
+PWR_DRAM_ENERGY,PWR3,0.1215
+UNCORE_CLOCK,UBOXFIX,206654
+TABLE,Region Tderi_hes_Inexato_250,Group 1 Metric,CLOCK,9
+Metric,HWThread 3,
+Runtime (RDTSC) [s],0.2515,
+Runtime unhalted [s],0.2504,
+Clock [MHz],2393.4810,
+Uncore Clock [MHz],0.8216,
+CPI,0.8282,
+Energy [J],1.0646,
+Power [W],4.2329,
+Energy DRAM [J],0.1215,
+Power DRAM [W],0.4832,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.399054157 GHz,
+TABLE,Region T_Sist_Lin_Inexato_250,Group 1 Raw,CLOCK,6
+Region Info,HWThread 3,
+RDTSC Runtime [s],0.009031,
+call count,50,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,19973630
+CPU_CLK_UNHALTED_CORE,FIXC1,21946390
+CPU_CLK_UNHALTED_REF,FIXC2,21997200
+PWR_PKG_ENERGY,PWR0,0.0685
+PWR_DRAM_ENERGY,PWR3,0.0077
+UNCORE_CLOCK,UBOXFIX,54739
+TABLE,Region T_Sist_Lin_Inexato_250,Group 1 Metric,CLOCK,9
+Metric,HWThread 3,
+Runtime (RDTSC) [s],0.0090,
+Runtime unhalted [s],0.0091,
+Clock [MHz],2393.5127,
+Uncore Clock [MHz],6.0613,
+CPI,1.0988,
+Energy [J],0.0685,
+Power [W],7.5830,
+Energy DRAM [J],0.0077,
+Power DRAM [W],0.8516,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.399054157 GHz,
+TABLE,Region T_Newton_Padrao_256,Group 1 Raw,CLOCK,6
+Region Info,HWThread 3,
+RDTSC Runtime [s],0.432504,
+call count,1,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,1275877000
+CPU_CLK_UNHALTED_CORE,FIXC1,900077500
+CPU_CLK_UNHALTED_REF,FIXC2,902173100
+PWR_PKG_ENERGY,PWR0,1.9617
+PWR_DRAM_ENERGY,PWR3,0.2128
+UNCORE_CLOCK,UBOXFIX,643663
+TABLE,Region T_Newton_Padrao_256,Group 1 Metric,CLOCK,9
+Metric,HWThread 3,
+Runtime (RDTSC) [s],0.4325,
+Runtime unhalted [s],0.3752,
+Clock [MHz],2393.4815,
+Uncore Clock [MHz],1.4882,
+CPI,0.7055,
+Energy [J],1.9617,
+Power [W],4.5357,
+Energy DRAM [J],0.2128,
+Power DRAM [W],0.4921,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.399054157 GHz,
+TABLE,Region Tderi_grad_Padrao_256,Group 1 Raw,CLOCK,6
+Region Info,HWThread 3,
+RDTSC Runtime [s],0.001048,
+call count,50,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,3229314
+CPU_CLK_UNHALTED_CORE,FIXC1,2881026
+CPU_CLK_UNHALTED_REF,FIXC2,2886900
+PWR_PKG_ENERGY,PWR0,0.0576
+PWR_DRAM_ENERGY,PWR3,0.0038
+UNCORE_CLOCK,UBOXFIX,51082
+TABLE,Region Tderi_grad_Padrao_256,Group 1 Metric,CLOCK,9
+Metric,HWThread 3,
+Runtime (RDTSC) [s],0.0010,
+Runtime unhalted [s],0.0012,
+Clock [MHz],2394.1728,
+Uncore Clock [MHz],48.7378,
+CPI,0.8921,
+Energy [J],0.0576,
+Power [W],54.9148,
+Energy DRAM [J],0.0038,
+Power DRAM [W],3.6688,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.399054157 GHz,
+TABLE,Region Tderi_hes_padrao_256,Group 1 Raw,CLOCK,6
+Region Info,HWThread 3,
+RDTSC Runtime [s],0.263884,
+call count,50,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,760404500
+CPU_CLK_UNHALTED_CORE,FIXC1,630080300
+CPU_CLK_UNHALTED_REF,FIXC2,631548300
+PWR_PKG_ENERGY,PWR0,1.1257
+PWR_DRAM_ENERGY,PWR3,0.1326
+UNCORE_CLOCK,UBOXFIX,348089
+TABLE,Region Tderi_hes_padrao_256,Group 1 Metric,CLOCK,9
+Metric,HWThread 3,
+Runtime (RDTSC) [s],0.2639,
+Runtime unhalted [s],0.2626,
+Clock [MHz],2393.4777,
+Uncore Clock [MHz],1.3191,
+CPI,0.8286,
+Energy [J],1.1257,
+Power [W],4.2660,
+Energy DRAM [J],0.1326,
+Power DRAM [W],0.5026,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.399054157 GHz,
+TABLE,Region T_Sist_Lin_Padrao_256,Group 1 Raw,CLOCK,6
+Region Info,HWThread 3,
+RDTSC Runtime [s],0.111115,
+call count,50,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,511273600
+CPU_CLK_UNHALTED_CORE,FIXC1,265788800
+CPU_CLK_UNHALTED_REF,FIXC2,266409400
+PWR_PKG_ENERGY,PWR0,0.6146
+PWR_DRAM_ENERGY,PWR3,0.0581
+UNCORE_CLOCK,UBOXFIX,121887
+TABLE,Region T_Sist_Lin_Padrao_256,Group 1 Metric,CLOCK,9
+Metric,HWThread 3,
+Runtime (RDTSC) [s],0.1111,
+Runtime unhalted [s],0.1108,
+Clock [MHz],2393.4656,
+Uncore Clock [MHz],1.0969,
+CPI,0.5199,
+Energy [J],0.6146,
+Power [W],5.5309,
+Energy DRAM [J],0.0581,
+Power DRAM [W],0.5229,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.399054157 GHz,
+TABLE,Region T_Newton_Inexato_256,Group 1 Raw,CLOCK,6
+Region Info,HWThread 3,
+RDTSC Runtime [s],0.329821,
+call count,1,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,785510300
+CPU_CLK_UNHALTED_CORE,FIXC1,657050600
+CPU_CLK_UNHALTED_REF,FIXC2,658580300
+PWR_PKG_ENERGY,PWR0,1.3874
+PWR_DRAM_ENERGY,PWR3,0.1558
+UNCORE_CLOCK,UBOXFIX,400621
+TABLE,Region T_Newton_Inexato_256,Group 1 Metric,CLOCK,9
+Metric,HWThread 3,
+Runtime (RDTSC) [s],0.3298,
+Runtime unhalted [s],0.2739,
+Clock [MHz],2393.4818,
+Uncore Clock [MHz],1.2147,
+CPI,0.8365,
+Energy [J],1.3874,
+Power [W],4.2065,
+Energy DRAM [J],0.1558,
+Power DRAM [W],0.4723,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.399054157 GHz,
+TABLE,Region Tderi_grad_Inexato_256,Group 1 Raw,CLOCK,6
+Region Info,HWThread 3,
+RDTSC Runtime [s],0.001052,
+call count,50,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,3221735
+CPU_CLK_UNHALTED_CORE,FIXC1,2863388
+CPU_CLK_UNHALTED_REF,FIXC2,2869000
+PWR_PKG_ENERGY,PWR0,0.1009
+PWR_DRAM_ENERGY,PWR3,0.0104
+UNCORE_CLOCK,UBOXFIX,61263
+TABLE,Region Tderi_grad_Inexato_256,Group 1 Metric,CLOCK,9
+Metric,HWThread 3,
+Runtime (RDTSC) [s],0.0011,
+Runtime unhalted [s],0.0012,
+Clock [MHz],2394.3614,
+Uncore Clock [MHz],58.2455,
+CPI,0.8888,
+Energy [J],0.1009,
+Power [W],95.9217,
+Energy DRAM [J],0.0104,
+Power DRAM [W],9.9229,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.399054157 GHz,
+TABLE,Region Tderi_hes_Inexato_256,Group 1 Raw,CLOCK,6
+Region Info,HWThread 3,
+RDTSC Runtime [s],0.263691,
+call count,50,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,760620600
+CPU_CLK_UNHALTED_CORE,FIXC1,629810100
+CPU_CLK_UNHALTED_REF,FIXC2,631277800
+PWR_PKG_ENERGY,PWR0,1.1448
+PWR_DRAM_ENERGY,PWR3,0.1300
+UNCORE_CLOCK,UBOXFIX,169756
+TABLE,Region Tderi_hes_Inexato_256,Group 1 Metric,CLOCK,9
+Metric,HWThread 3,
+Runtime (RDTSC) [s],0.2637,
+Runtime unhalted [s],0.2625,
+Clock [MHz],2393.4764,
+Uncore Clock [MHz],0.6438,
+CPI,0.8280,
+Energy [J],1.1448,
+Power [W],4.3413,
+Energy DRAM [J],0.1300,
+Power DRAM [W],0.4930,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.399054157 GHz,
+TABLE,Region T_Sist_Lin_Inexato_256,Group 1 Raw,CLOCK,6
+Region Info,HWThread 3,
+RDTSC Runtime [s],0.009544,
+call count,50,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,20728160
+CPU_CLK_UNHALTED_CORE,FIXC1,23182380
+CPU_CLK_UNHALTED_REF,FIXC2,23235100
+PWR_PKG_ENERGY,PWR0,0.1238
+PWR_DRAM_ENERGY,PWR3,0.0135
+UNCORE_CLOCK,UBOXFIX,59221
+TABLE,Region T_Sist_Lin_Inexato_256,Group 1 Metric,CLOCK,9
+Metric,HWThread 3,
+Runtime (RDTSC) [s],0.0095,
+Runtime unhalted [s],0.0097,
+Clock [MHz],2393.6107,
+Uncore Clock [MHz],6.2053,
+CPI,1.1184,
+Energy [J],0.1238,
+Power [W],12.9698,
+Energy DRAM [J],0.0135,
+Power DRAM [W],1.4134,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.399054157 GHz,
+TABLE,Region T_Newton_Padrao_300,Group 1 Raw,CLOCK,6
+Region Info,HWThread 3,
+RDTSC Runtime [s],0.594054,
+call count,1,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,1849826000
+CPU_CLK_UNHALTED_CORE,FIXC1,1287295000
+CPU_CLK_UNHALTED_REF,FIXC2,1290297000
+PWR_PKG_ENERGY,PWR0,2.7729
+PWR_DRAM_ENERGY,PWR3,0.2897
+UNCORE_CLOCK,UBOXFIX,703682
+TABLE,Region T_Newton_Padrao_300,Group 1 Metric,CLOCK,9
+Metric,HWThread 3,
+Runtime (RDTSC) [s],0.5941,
+Runtime unhalted [s],0.5366,
+Clock [MHz],2393.4725,
+Uncore Clock [MHz],1.1845,
+CPI,0.6959,
+Energy [J],2.7729,
+Power [W],4.6677,
+Energy DRAM [J],0.2897,
+Power DRAM [W],0.4876,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.399054157 GHz,
+TABLE,Region Tderi_grad_Padrao_300,Group 1 Raw,CLOCK,6
+Region Info,HWThread 3,
+RDTSC Runtime [s],0.001230,
+call count,50,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,3739165
+CPU_CLK_UNHALTED_CORE,FIXC1,3291988
+CPU_CLK_UNHALTED_REF,FIXC2,3301100
+PWR_PKG_ENERGY,PWR0,0.0657
+PWR_DRAM_ENERGY,PWR3,0.0047
+UNCORE_CLOCK,UBOXFIX,53875
+TABLE,Region Tderi_grad_Padrao_300,Group 1 Metric,CLOCK,9
+Metric,HWThread 3,
+Runtime (RDTSC) [s],0.0012,
+Runtime unhalted [s],0.0014,
+Clock [MHz],2392.4321,
+Uncore Clock [MHz],43.8152,
+CPI,0.8804,
+Energy [J],0.0657,
+Power [W],53.4605,
+Energy DRAM [J],0.0047,
+Power DRAM [W],3.8222,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.399054157 GHz,
+TABLE,Region Tderi_hes_padrao_300,Group 1 Raw,CLOCK,6
+Region Info,HWThread 3,
+RDTSC Runtime [s],0.362364,
+call count,50,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,1044187000
+CPU_CLK_UNHALTED_CORE,FIXC1,865101900
+CPU_CLK_UNHALTED_REF,FIXC2,867117000
+PWR_PKG_ENERGY,PWR0,1.5575
+PWR_DRAM_ENERGY,PWR3,0.1833
+UNCORE_CLOCK,UBOXFIX,369994
+TABLE,Region Tderi_hes_padrao_300,Group 1 Metric,CLOCK,9
+Metric,HWThread 3,
+Runtime (RDTSC) [s],0.3624,
+Runtime unhalted [s],0.3606,
+Clock [MHz],2393.4790,
+Uncore Clock [MHz],1.0211,
+CPI,0.8285,
+Energy [J],1.5575,
+Power [W],4.2981,
+Energy DRAM [J],0.1833,
+Power DRAM [W],0.5058,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.399054157 GHz,
+TABLE,Region T_Sist_Lin_Padrao_300,Group 1 Raw,CLOCK,6
+Region Info,HWThread 3,
+RDTSC Runtime [s],0.174514,
+call count,50,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,800906700
+CPU_CLK_UNHALTED_CORE,FIXC1,417608300
+CPU_CLK_UNHALTED_REF,FIXC2,418582100
+PWR_PKG_ENERGY,PWR0,1.0015
+PWR_DRAM_ENERGY,PWR3,0.0864
+UNCORE_CLOCK,UBOXFIX,162365
+TABLE,Region T_Sist_Lin_Padrao_300,Group 1 Metric,CLOCK,9
+Metric,HWThread 3,
+Runtime (RDTSC) [s],0.1745,
+Runtime unhalted [s],0.1741,
+Clock [MHz],2393.4729,
+Uncore Clock [MHz],0.9304,
+CPI,0.5214,
+Energy [J],1.0015,
+Power [W],5.7386,
+Energy DRAM [J],0.0864,
+Power DRAM [W],0.4952,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.399054157 GHz,
+TABLE,Region T_Newton_Inexato_300,Group 1 Raw,CLOCK,6
+Region Info,HWThread 3,
+RDTSC Runtime [s],0.432055,
+call count,1,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,1077170000
+CPU_CLK_UNHALTED_CORE,FIXC1,901669600
+CPU_CLK_UNHALTED_REF,FIXC2,903767800
+PWR_PKG_ENERGY,PWR0,1.8004
+PWR_DRAM_ENERGY,PWR3,0.2053
+UNCORE_CLOCK,UBOXFIX,457625
+TABLE,Region T_Newton_Inexato_300,Group 1 Metric,CLOCK,9
+Metric,HWThread 3,
+Runtime (RDTSC) [s],0.4321,
+Runtime unhalted [s],0.3758,
+Clock [MHz],2393.4845,
+Uncore Clock [MHz],1.0592,
+CPI,0.8371,
+Energy [J],1.8004,
+Power [W],4.1671,
+Energy DRAM [J],0.2053,
+Power DRAM [W],0.4752,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.399054157 GHz,
+TABLE,Region Tderi_grad_Inexato_300,Group 1 Raw,CLOCK,6
+Region Info,HWThread 3,
+RDTSC Runtime [s],0.001232,
+call count,50,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,3744361
+CPU_CLK_UNHALTED_CORE,FIXC1,3298069
+CPU_CLK_UNHALTED_REF,FIXC2,3305500
+PWR_PKG_ENERGY,PWR0,0.0449
+PWR_DRAM_ENERGY,PWR3,0.0046
+UNCORE_CLOCK,UBOXFIX,50150
+TABLE,Region Tderi_grad_Inexato_300,Group 1 Metric,CLOCK,9
+Metric,HWThread 3,
+Runtime (RDTSC) [s],0.0012,
+Runtime unhalted [s],0.0014,
+Clock [MHz],2393.6609,
+Uncore Clock [MHz],40.7127,
+CPI,0.8808,
+Energy [J],0.0449,
+Power [W],36.4685,
+Energy DRAM [J],0.0046,
+Power DRAM [W],3.7658,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.399054157 GHz,
+TABLE,Region Tderi_hes_Inexato_300,Group 1 Raw,CLOCK,6
+Region Info,HWThread 3,
+RDTSC Runtime [s],0.361861,
+call count,50,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,1044247000
+CPU_CLK_UNHALTED_CORE,FIXC1,864677100
+CPU_CLK_UNHALTED_REF,FIXC2,866691500
+PWR_PKG_ENERGY,PWR0,1.5217
+PWR_DRAM_ENERGY,PWR3,0.1758
+UNCORE_CLOCK,UBOXFIX,233871
+TABLE,Region Tderi_hes_Inexato_300,Group 1 Metric,CLOCK,9
+Metric,HWThread 3,
+Runtime (RDTSC) [s],0.3619,
+Runtime unhalted [s],0.3604,
+Clock [MHz],2393.4782,
+Uncore Clock [MHz],0.6463,
+CPI,0.8280,
+Energy [J],1.5217,
+Power [W],4.2051,
+Energy DRAM [J],0.1758,
+Power DRAM [W],0.4859,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.399054157 GHz,
+TABLE,Region T_Sist_Lin_Inexato_300,Group 1 Raw,CLOCK,6
+Region Info,HWThread 3,
+RDTSC Runtime [s],0.013410,
+call count,50,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,28207220
+CPU_CLK_UNHALTED_CORE,FIXC1,32419350
+CPU_CLK_UNHALTED_REF,FIXC2,32495600
+PWR_PKG_ENERGY,PWR0,0.0856
+PWR_DRAM_ENERGY,PWR3,0.0083
+UNCORE_CLOCK,UBOXFIX,56018
+TABLE,Region T_Sist_Lin_Inexato_300,Group 1 Metric,CLOCK,9
+Metric,HWThread 3,
+Runtime (RDTSC) [s],0.0134,
+Runtime unhalted [s],0.0135,
+Clock [MHz],2393.4248,
+Uncore Clock [MHz],4.1772,
+CPI,1.1493,
+Energy [J],0.0856,
+Power [W],6.3810,
+Energy DRAM [J],0.0083,
+Power DRAM [W],0.6190,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.399054157 GHz,
+TABLE,Region T_Newton_Padrao_400,Group 1 Raw,CLOCK,6
+Region Info,HWThread 3,
+RDTSC Runtime [s],1.124557,
+call count,1,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,3685552000
+CPU_CLK_UNHALTED_CORE,FIXC1,2555024000
+CPU_CLK_UNHALTED_REF,FIXC2,2560981000
+PWR_PKG_ENERGY,PWR0,5.3475
+PWR_DRAM_ENERGY,PWR3,0.5466
+UNCORE_CLOCK,UBOXFIX,1109701
+TABLE,Region T_Newton_Padrao_400,Group 1 Metric,CLOCK,9
+Metric,HWThread 3,
+Runtime (RDTSC) [s],1.1246,
+Runtime unhalted [s],1.0650,
+Clock [MHz],2393.4738,
+Uncore Clock [MHz],0.9868,
+CPI,0.6933,
+Energy [J],5.3475,
+Power [W],4.7552,
+Energy DRAM [J],0.5466,
+Power DRAM [W],0.4860,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.399054157 GHz,
+TABLE,Region Tderi_grad_Padrao_400,Group 1 Raw,CLOCK,6
+Region Info,HWThread 3,
+RDTSC Runtime [s],0.001634,
+call count,50,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,4916458
+CPU_CLK_UNHALTED_CORE,FIXC1,4287833
+CPU_CLK_UNHALTED_REF,FIXC2,4297600
+PWR_PKG_ENERGY,PWR0,0.0569
+PWR_DRAM_ENERGY,PWR3,0.0059
+UNCORE_CLOCK,UBOXFIX,52938
+TABLE,Region Tderi_grad_Padrao_400,Group 1 Metric,CLOCK,9
+Metric,HWThread 3,
+Runtime (RDTSC) [s],0.0016,
+Runtime unhalted [s],0.0018,
+Clock [MHz],2393.6019,
+Uncore Clock [MHz],32.4050,
+CPI,0.8721,
+Energy [J],0.0569,
+Power [W],34.8583,
+Energy DRAM [J],0.0059,
+Power DRAM [W],3.6241,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.399054157 GHz,
+TABLE,Region Tderi_hes_padrao_400,Group 1 Raw,CLOCK,6
+Region Info,HWThread 3,
+RDTSC Runtime [s],0.643197,
+call count,50,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,1856275000
+CPU_CLK_UNHALTED_CORE,FIXC1,1537210000
+CPU_CLK_UNHALTED_REF,FIXC2,1540793000
+PWR_PKG_ENERGY,PWR0,2.7040
+PWR_DRAM_ENERGY,PWR3,0.3102
+UNCORE_CLOCK,UBOXFIX,457300
+TABLE,Region Tderi_hes_padrao_400,Group 1 Metric,CLOCK,9
+Metric,HWThread 3,
+Runtime (RDTSC) [s],0.6432,
+Runtime unhalted [s],0.6408,
+Clock [MHz],2393.4753,
+Uncore Clock [MHz],0.7110,
+CPI,0.8281,
+Energy [J],2.7040,
+Power [W],4.2040,
+Energy DRAM [J],0.3102,
+Power DRAM [W],0.4823,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.399054157 GHz,
+TABLE,Region T_Sist_Lin_Padrao_400,Group 1 Raw,CLOCK,6
+Region Info,HWThread 3,
+RDTSC Runtime [s],0.423333,
+call count,50,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,1823316000
+CPU_CLK_UNHALTED_CORE,FIXC1,1012050000
+CPU_CLK_UNHALTED_REF,FIXC2,1014409000
+PWR_PKG_ENERGY,PWR0,2.4509
+PWR_DRAM_ENERGY,PWR3,0.2173
+UNCORE_CLOCK,UBOXFIX,483688
+TABLE,Region T_Sist_Lin_Padrao_400,Group 1 Metric,CLOCK,9
+Metric,HWThread 3,
+Runtime (RDTSC) [s],0.4233,
+Runtime unhalted [s],0.4219,
+Clock [MHz],2393.4752,
+Uncore Clock [MHz],1.1426,
+CPI,0.5551,
+Energy [J],2.4509,
+Power [W],5.7895,
+Energy DRAM [J],0.2173,
+Power DRAM [W],0.5133,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.399054157 GHz,
+TABLE,Region T_Newton_Inexato_400,Group 1 Raw,CLOCK,6
+Region Info,HWThread 3,
+RDTSC Runtime [s],0.725577,
+call count,1,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,1911847000
+CPU_CLK_UNHALTED_CORE,FIXC1,1602040000
+CPU_CLK_UNHALTED_REF,FIXC2,1605770000
+PWR_PKG_ENERGY,PWR0,2.9942
+PWR_DRAM_ENERGY,PWR3,0.3466
+UNCORE_CLOCK,UBOXFIX,479042
+TABLE,Region T_Newton_Inexato_400,Group 1 Metric,CLOCK,9
+Metric,HWThread 3,
+Runtime (RDTSC) [s],0.7256,
+Runtime unhalted [s],0.6678,
+Clock [MHz],2393.4815,
+Uncore Clock [MHz],0.6602,
+CPI,0.8380,
+Energy [J],2.9942,
+Power [W],4.1267,
+Energy DRAM [J],0.3466,
+Power DRAM [W],0.4776,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.399054157 GHz,
+TABLE,Region Tderi_grad_Inexato_400,Group 1 Raw,CLOCK,6
+Region Info,HWThread 3,
+RDTSC Runtime [s],0.001639,
+call count,50,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,4913719
+CPU_CLK_UNHALTED_CORE,FIXC1,4278606
+CPU_CLK_UNHALTED_REF,FIXC2,4287000
+PWR_PKG_ENERGY,PWR0,0.0548
+PWR_DRAM_ENERGY,PWR3,0.0054
+UNCORE_CLOCK,UBOXFIX,55762
+TABLE,Region Tderi_grad_Inexato_400,Group 1 Metric,CLOCK,9
+Metric,HWThread 3,
+Runtime (RDTSC) [s],0.0016,
+Runtime unhalted [s],0.0018,
+Clock [MHz],2394.3568,
+Uncore Clock [MHz],34.0298,
+CPI,0.8707,
+Energy [J],0.0548,
+Power [W],33.4485,
+Energy DRAM [J],0.0054,
+Power DRAM [W],3.3151,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.399054157 GHz,
+TABLE,Region Tderi_hes_Inexato_400,Group 1 Raw,CLOCK,6
+Region Info,HWThread 3,
+RDTSC Runtime [s],0.643053,
+call count,50,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,1856395000
+CPU_CLK_UNHALTED_CORE,FIXC1,1537104000
+CPU_CLK_UNHALTED_REF,FIXC2,1540684000
+PWR_PKG_ENERGY,PWR0,2.6797
+PWR_DRAM_ENERGY,PWR3,0.3103
+UNCORE_CLOCK,UBOXFIX,246750
+TABLE,Region Tderi_hes_Inexato_400,Group 1 Metric,CLOCK,9
+Metric,HWThread 3,
+Runtime (RDTSC) [s],0.6431,
+Runtime unhalted [s],0.6407,
+Clock [MHz],2393.4796,
+Uncore Clock [MHz],0.3837,
+CPI,0.8280,
+Energy [J],2.6797,
+Power [W],4.1671,
+Energy DRAM [J],0.3103,
+Power DRAM [W],0.4825,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.399054157 GHz,
+TABLE,Region T_Sist_Lin_Inexato_400,Group 1 Raw,CLOCK,6
+Region Info,HWThread 3,
+RDTSC Runtime [s],0.024630,
+call count,50,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,49523590
+CPU_CLK_UNHALTED_CORE,FIXC1,59242920
+CPU_CLK_UNHALTED_REF,FIXC2,59382300
+PWR_PKG_ENERGY,PWR0,0.1418
+PWR_DRAM_ENERGY,PWR3,0.0162
+UNCORE_CLOCK,UBOXFIX,56641
+TABLE,Region T_Sist_Lin_Inexato_400,Group 1 Metric,CLOCK,9
+Metric,HWThread 3,
+Runtime (RDTSC) [s],0.0246,
+Runtime unhalted [s],0.0247,
+Clock [MHz],2393.4232,
+Uncore Clock [MHz],2.2996,
+CPI,1.1963,
+Energy [J],0.1418,
+Power [W],5.7565,
+Energy DRAM [J],0.0162,
+Power DRAM [W],0.6592,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.399054157 GHz,
+TABLE,Region T_Newton_Padrao_512,Group 1 Raw,CLOCK,6
+Region Info,HWThread 3,
+RDTSC Runtime [s],2.016275,
+call count,1,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,6769551000
+CPU_CLK_UNHALTED_CORE,FIXC1,4685958000
+CPU_CLK_UNHALTED_REF,FIXC2,4696875000
+PWR_PKG_ENERGY,PWR0,9.7058
+PWR_DRAM_ENERGY,PWR3,1.0355
+UNCORE_CLOCK,UBOXFIX,1206537
+TABLE,Region T_Newton_Padrao_512,Group 1 Metric,CLOCK,9
+Metric,HWThread 3,
+Runtime (RDTSC) [s],2.0163,
+Runtime unhalted [s],1.9533,
+Clock [MHz],2393.4780,
+Uncore Clock [MHz],0.5984,
+CPI,0.6922,
+Energy [J],9.7058,
+Power [W],4.8137,
+Energy DRAM [J],1.0355,
+Power DRAM [W],0.5136,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.399054157 GHz,
+TABLE,Region Tderi_grad_Padrao_512,Group 1 Raw,CLOCK,6
+Region Info,HWThread 3,
+RDTSC Runtime [s],0.002105,
+call count,50,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,6228730
+CPU_CLK_UNHALTED_CORE,FIXC1,5413232
+CPU_CLK_UNHALTED_REF,FIXC2,5425000
+PWR_PKG_ENERGY,PWR0,0.0660
+PWR_DRAM_ENERGY,PWR3,0.0074
+UNCORE_CLOCK,UBOXFIX,52308
+TABLE,Region Tderi_grad_Padrao_512,Group 1 Metric,CLOCK,9
+Metric,HWThread 3,
+Runtime (RDTSC) [s],0.0021,
+Runtime unhalted [s],0.0023,
+Clock [MHz],2393.8501,
+Uncore Clock [MHz],24.8507,
+CPI,0.8691,
+Energy [J],0.0660,
+Power [W],31.3455,
+Energy DRAM [J],0.0074,
+Power DRAM [W],3.5376,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.399054157 GHz,
+TABLE,Region Tderi_hes_padrao_512,Group 1 Raw,CLOCK,6
+Region Info,HWThread 3,
+RDTSC Runtime [s],1.054322,
+call count,50,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,3041434000
+CPU_CLK_UNHALTED_CORE,FIXC1,2519303000
+CPU_CLK_UNHALTED_REF,FIXC2,2525170000
+PWR_PKG_ENERGY,PWR0,4.3907
+PWR_DRAM_ENERGY,PWR3,0.5162
+UNCORE_CLOCK,UBOXFIX,615333
+TABLE,Region Tderi_hes_padrao_512,Group 1 Metric,CLOCK,9
+Metric,HWThread 3,
+Runtime (RDTSC) [s],1.0543,
+Runtime unhalted [s],1.0501,
+Clock [MHz],2393.4802,
+Uncore Clock [MHz],0.5836,
+CPI,0.8283,
+Energy [J],4.3907,
+Power [W],4.1645,
+Energy DRAM [J],0.5162,
+Power DRAM [W],0.4896,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.399054157 GHz,
+TABLE,Region T_Sist_Lin_Padrao_512,Group 1 Raw,CLOCK,6
+Region Info,HWThread 3,
+RDTSC Runtime [s],0.903052,
+call count,50,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,3720797000
+CPU_CLK_UNHALTED_CORE,FIXC1,2159563000
+CPU_CLK_UNHALTED_REF,FIXC2,2164596000
+PWR_PKG_ENERGY,PWR0,5.1168
+PWR_DRAM_ENERGY,PWR3,0.4994
+UNCORE_CLOCK,UBOXFIX,423308
+TABLE,Region T_Sist_Lin_Padrao_512,Group 1 Metric,CLOCK,9
+Metric,HWThread 3,
+Runtime (RDTSC) [s],0.9031,
+Runtime unhalted [s],0.9002,
+Clock [MHz],2393.4760,
+Uncore Clock [MHz],0.4688,
+CPI,0.5804,
+Energy [J],5.1168,
+Power [W],5.6661,
+Energy DRAM [J],0.4994,
+Power DRAM [W],0.5530,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.399054157 GHz,
+TABLE,Region T_Newton_Inexato_512,Group 1 Raw,CLOCK,6
+Region Info,HWThread 3,
+RDTSC Runtime [s],1.155753,
+call count,1,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,3129040000
+CPU_CLK_UNHALTED_CORE,FIXC1,2625544000
+CPU_CLK_UNHALTED_REF,FIXC2,2631661000
+PWR_PKG_ENERGY,PWR0,4.7484
+PWR_DRAM_ENERGY,PWR3,0.5574
+UNCORE_CLOCK,UBOXFIX,515988
+TABLE,Region T_Newton_Inexato_512,Group 1 Metric,CLOCK,9
+Metric,HWThread 3,
+Runtime (RDTSC) [s],1.1558,
+Runtime unhalted [s],1.0944,
+Clock [MHz],2393.4778,
+Uncore Clock [MHz],0.4465,
+CPI,0.8391,
+Energy [J],4.7484,
+Power [W],4.1084,
+Energy DRAM [J],0.5574,
+Power DRAM [W],0.4823,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.399054157 GHz,
+TABLE,Region Tderi_grad_Inexato_512,Group 1 Raw,CLOCK,6
+Region Info,HWThread 3,
+RDTSC Runtime [s],0.002098,
+call count,50,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,6232763
+CPU_CLK_UNHALTED_CORE,FIXC1,5382844
+CPU_CLK_UNHALTED_REF,FIXC2,5395000
+PWR_PKG_ENERGY,PWR0,0.0537
+PWR_DRAM_ENERGY,PWR3,0.0056
+UNCORE_CLOCK,UBOXFIX,50150
+TABLE,Region Tderi_grad_Inexato_512,Group 1 Metric,CLOCK,9
+Metric,HWThread 3,
+Runtime (RDTSC) [s],0.0021,
+Runtime unhalted [s],0.0022,
+Clock [MHz],2393.6486,
+Uncore Clock [MHz],23.9077,
+CPI,0.8636,
+Energy [J],0.0537,
+Power [W],25.6053,
+Energy DRAM [J],0.0056,
+Power DRAM [W],2.6478,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.399054157 GHz,
+TABLE,Region Tderi_hes_Inexato_512,Group 1 Raw,CLOCK,6
+Region Info,HWThread 3,
+RDTSC Runtime [s],1.055497,
+call count,50,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,3041265000
+CPU_CLK_UNHALTED_CORE,FIXC1,2518120000
+CPU_CLK_UNHALTED_REF,FIXC2,2523986000
+PWR_PKG_ENERGY,PWR0,4.3555
+PWR_DRAM_ENERGY,PWR3,0.5100
+UNCORE_CLOCK,UBOXFIX,285768
+TABLE,Region Tderi_hes_Inexato_512,Group 1 Metric,CLOCK,9
+Metric,HWThread 3,
+Runtime (RDTSC) [s],1.0555,
+Runtime unhalted [s],1.0496,
+Clock [MHz],2393.4785,
+Uncore Clock [MHz],0.2707,
+CPI,0.8280,
+Energy [J],4.3555,
+Power [W],4.1265,
+Energy DRAM [J],0.5100,
+Power DRAM [W],0.4832,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.399054157 GHz,
+TABLE,Region T_Sist_Lin_Inexato_512,Group 1 Raw,CLOCK,6
+Region Info,HWThread 3,
+RDTSC Runtime [s],0.041890,
+call count,50,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,80488160
+CPU_CLK_UNHALTED_CORE,FIXC1,100504500
+CPU_CLK_UNHALTED_REF,FIXC2,100738700
+PWR_PKG_ENERGY,PWR0,0.2136
+PWR_DRAM_ENERGY,PWR3,0.0256
+UNCORE_CLOCK,UBOXFIX,64068
+TABLE,Region T_Sist_Lin_Inexato_512,Group 1 Metric,CLOCK,9
+Metric,HWThread 3,
+Runtime (RDTSC) [s],0.0419,
+Runtime unhalted [s],0.0419,
+Clock [MHz],2393.4768,
+Uncore Clock [MHz],1.5294,
+CPI,1.2487,
+Energy [J],0.2136,
+Power [W],5.0982,
+Energy DRAM [J],0.0256,
+Power DRAM [W],0.6105,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.399054157 GHz,
+TABLE,Region T_Newton_Padrao_600,Group 1 Raw,CLOCK,6
+Region Info,HWThread 3,
+RDTSC Runtime [s],3.015025,
+call count,1,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,10086170000
+CPU_CLK_UNHALTED_CORE,FIXC1,7070058000
+CPU_CLK_UNHALTED_REF,FIXC2,7086528000
+PWR_PKG_ENERGY,PWR0,15.0126
+PWR_DRAM_ENERGY,PWR3,2.0662
+UNCORE_CLOCK,UBOXFIX,2547114
+TABLE,Region T_Newton_Padrao_600,Group 1 Metric,CLOCK,9
+Metric,HWThread 3,
+Runtime (RDTSC) [s],3.0150,
+Runtime unhalted [s],2.9470,
+Clock [MHz],2393.4784,
+Uncore Clock [MHz],0.8448,
+CPI,0.7010,
+Energy [J],15.0126,
+Power [W],4.9793,
+Energy DRAM [J],2.0662,
+Power DRAM [W],0.6853,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.399054157 GHz,
+TABLE,Region Tderi_grad_Padrao_600,Group 1 Raw,CLOCK,6
+Region Info,HWThread 3,
+RDTSC Runtime [s],0.002463,
+call count,50,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,7265575
+CPU_CLK_UNHALTED_CORE,FIXC1,6268486
+CPU_CLK_UNHALTED_REF,FIXC2,6283900
+PWR_PKG_ENERGY,PWR0,0.0488
+PWR_DRAM_ENERGY,PWR3,0.0060
+UNCORE_CLOCK,UBOXFIX,56903
+TABLE,Region Tderi_grad_Padrao_600,Group 1 Metric,CLOCK,9
+Metric,HWThread 3,
+Runtime (RDTSC) [s],0.0025,
+Runtime unhalted [s],0.0026,
+Clock [MHz],2393.1694,
+Uncore Clock [MHz],23.1070,
+CPI,0.8628,
+Energy [J],0.0488,
+Power [W],19.8280,
+Energy DRAM [J],0.0060,
+Power DRAM [W],2.4289,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.399054157 GHz,
+TABLE,Region Tderi_hes_padrao_600,Group 1 Raw,CLOCK,6
+Region Info,HWThread 3,
+RDTSC Runtime [s],1.447665,
+call count,50,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,4176398000
+CPU_CLK_UNHALTED_CORE,FIXC1,3459225000
+CPU_CLK_UNHALTED_REF,FIXC2,3467284000
+PWR_PKG_ENERGY,PWR0,6.0453
+PWR_DRAM_ENERGY,PWR3,0.7216
+UNCORE_CLOCK,UBOXFIX,702938
+TABLE,Region Tderi_hes_padrao_600,Group 1 Metric,CLOCK,9
+Metric,HWThread 3,
+Runtime (RDTSC) [s],1.4477,
+Runtime unhalted [s],1.4419,
+Clock [MHz],2393.4780,
+Uncore Clock [MHz],0.4856,
+CPI,0.8283,
+Energy [J],6.0453,
+Power [W],4.1759,
+Energy DRAM [J],0.7216,
+Power DRAM [W],0.4985,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.399054157 GHz,
+TABLE,Region T_Sist_Lin_Padrao_600,Group 1 Raw,CLOCK,6
+Region Info,HWThread 3,
+RDTSC Runtime [s],1.506793,
+call count,50,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,5901369000
+CPU_CLK_UNHALTED_CORE,FIXC1,3602490000
+CPU_CLK_UNHALTED_REF,FIXC2,3610885000
+PWR_PKG_ENERGY,PWR0,8.7864
+PWR_DRAM_ENERGY,PWR3,1.3219
+UNCORE_CLOCK,UBOXFIX,1667563
+TABLE,Region T_Sist_Lin_Padrao_600,Group 1 Metric,CLOCK,9
+Metric,HWThread 3,
+Runtime (RDTSC) [s],1.5068,
+Runtime unhalted [s],1.5016,
+Clock [MHz],2393.4766,
+Uncore Clock [MHz],1.1067,
+CPI,0.6104,
+Energy [J],8.7864,
+Power [W],5.8312,
+Energy DRAM [J],1.3219,
+Power DRAM [W],0.8773,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.399054157 GHz,
+TABLE,Region T_Newton_Inexato_600,Group 1 Raw,CLOCK,6
+Region Info,HWThread 3,
+RDTSC Runtime [s],1.570002,
+call count,1,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,4294848000
+CPU_CLK_UNHALTED_CORE,FIXC1,3617082000
+CPU_CLK_UNHALTED_REF,FIXC2,3625509000
+PWR_PKG_ENERGY,PWR0,7.0699
+PWR_DRAM_ENERGY,PWR3,0.8818
+UNCORE_CLOCK,UBOXFIX,5221921
+TABLE,Region T_Newton_Inexato_600,Group 1 Metric,CLOCK,9
+Metric,HWThread 3,
+Runtime (RDTSC) [s],1.5700,
+Runtime unhalted [s],1.5077,
+Clock [MHz],2393.4779,
+Uncore Clock [MHz],3.3261,
+CPI,0.8422,
+Energy [J],7.0699,
+Power [W],4.5031,
+Energy DRAM [J],0.8818,
+Power DRAM [W],0.5616,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.399054157 GHz,
+TABLE,Region Tderi_grad_Inexato_600,Group 1 Raw,CLOCK,6
+Region Info,HWThread 3,
+RDTSC Runtime [s],0.002467,
+call count,50,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,7266278
+CPU_CLK_UNHALTED_CORE,FIXC1,6307292
+CPU_CLK_UNHALTED_REF,FIXC2,6322000
+PWR_PKG_ENERGY,PWR0,0.0624
+PWR_DRAM_ENERGY,PWR3,0.0105
+UNCORE_CLOCK,UBOXFIX,59280
+TABLE,Region Tderi_grad_Inexato_600,Group 1 Metric,CLOCK,9
+Metric,HWThread 3,
+Runtime (RDTSC) [s],0.0025,
+Runtime unhalted [s],0.0026,
+Clock [MHz],2393.4728,
+Uncore Clock [MHz],24.0336,
+CPI,0.8680,
+Energy [J],0.0624,
+Power [W],25.3143,
+Energy DRAM [J],0.0105,
+Power DRAM [W],4.2562,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.399054157 GHz,
+TABLE,Region Tderi_hes_Inexato_600,Group 1 Raw,CLOCK,6
+Region Info,HWThread 3,
+RDTSC Runtime [s],1.451078,
+call count,50,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,4176389000
+CPU_CLK_UNHALTED_CORE,FIXC1,3469023000
+CPU_CLK_UNHALTED_REF,FIXC2,3477106000
+PWR_PKG_ENERGY,PWR0,6.5647
+PWR_DRAM_ENERGY,PWR3,0.8082
+UNCORE_CLOCK,UBOXFIX,4829375
+TABLE,Region Tderi_hes_Inexato_600,Group 1 Metric,CLOCK,9
+Metric,HWThread 3,
+Runtime (RDTSC) [s],1.4511,
+Runtime unhalted [s],1.4460,
+Clock [MHz],2393.4772,
+Uncore Clock [MHz],3.3281,
+CPI,0.8306,
+Energy [J],6.5647,
+Power [W],4.5240,
+Energy DRAM [J],0.8082,
+Power DRAM [W],0.5569,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.399054157 GHz,
+TABLE,Region T_Sist_Lin_Inexato_600,Group 1 Raw,CLOCK,6
+Region Info,HWThread 3,
+RDTSC Runtime [s],0.058327,
+call count,50,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,110080500
+CPU_CLK_UNHALTED_CORE,FIXC1,139870600
+CPU_CLK_UNHALTED_REF,FIXC2,140196000
+PWR_PKG_ENERGY,PWR0,0.3126
+PWR_DRAM_ENERGY,PWR3,0.0463
+UNCORE_CLOCK,UBOXFIX,202689
+TABLE,Region T_Sist_Lin_Inexato_600,Group 1 Metric,CLOCK,9
+Metric,HWThread 3,
+Runtime (RDTSC) [s],0.0583,
+Runtime unhalted [s],0.0583,
+Clock [MHz],2393.4859,
+Uncore Clock [MHz],3.4750,
+CPI,1.2706,
+Energy [J],0.3126,
+Power [W],5.3588,
+Energy DRAM [J],0.0463,
+Power DRAM [W],0.7932,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.399054157 GHz,
+TABLE,Region T_Newton_Padrao_1000,Group 1 Raw,CLOCK,6
+Region Info,HWThread 3,
+RDTSC Runtime [s],15.908440,
+call count,1,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,38005750000
+CPU_CLK_UNHALTED_CORE,FIXC1,37832800000
+CPU_CLK_UNHALTED_REF,FIXC2,37920960000
+PWR_PKG_ENERGY,PWR0,95.8901
+PWR_DRAM_ENERGY,PWR3,27.3395
+UNCORE_CLOCK,UBOXFIX,319632600
+TABLE,Region T_Newton_Padrao_1000,Group 1 Metric,CLOCK,9
+Metric,HWThread 3,
+Runtime (RDTSC) [s],15.9084,
+Runtime unhalted [s],15.7699,
+Clock [MHz],2393.4768,
+Uncore Clock [MHz],20.0920,
+CPI,0.9954,
+Energy [J],95.8901,
+Power [W],6.0276,
+Energy DRAM [J],27.3395,
+Power DRAM [W],1.7186,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.399054157 GHz,
+TABLE,Region Tderi_grad_Padrao_1000,Group 1 Raw,CLOCK,6
+Region Info,HWThread 3,
+RDTSC Runtime [s],0.004124,
+call count,50,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,11966660
+CPU_CLK_UNHALTED_CORE,FIXC1,10257560
+CPU_CLK_UNHALTED_REF,FIXC2,10279600
+PWR_PKG_ENERGY,PWR0,0.0756
+PWR_DRAM_ENERGY,PWR3,0.0122
+UNCORE_CLOCK,UBOXFIX,73635
+TABLE,Region Tderi_grad_Padrao_1000,Group 1 Metric,CLOCK,9
+Metric,HWThread 3,
+Runtime (RDTSC) [s],0.0041,
+Runtime unhalted [s],0.0043,
+Clock [MHz],2393.9105,
+Uncore Clock [MHz],17.8535,
+CPI,0.8572,
+Energy [J],0.0756,
+Power [W],18.3354,
+Energy DRAM [J],0.0122,
+Power DRAM [W],2.9597,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.399054157 GHz,
+TABLE,Region Tderi_hes_padrao_1000,Group 1 Raw,CLOCK,6
+Region Info,HWThread 3,
+RDTSC Runtime [s],4.032784,
+call count,50,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,11601990000
+CPU_CLK_UNHALTED_CORE,FIXC1,9636289000
+CPU_CLK_UNHALTED_REF,FIXC2,9658736000
+PWR_PKG_ENERGY,PWR0,18.4227
+PWR_DRAM_ENERGY,PWR3,2.3047
+UNCORE_CLOCK,UBOXFIX,17136850
+TABLE,Region Tderi_hes_padrao_1000,Group 1 Metric,CLOCK,9
+Metric,HWThread 3,
+Runtime (RDTSC) [s],4.0328,
+Runtime unhalted [s],4.0167,
+Clock [MHz],2393.4787,
+Uncore Clock [MHz],4.2494,
+CPI,0.8306,
+Energy [J],18.4227,
+Power [W],4.5682,
+Energy DRAM [J],2.3047,
+Power DRAM [W],0.5715,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.399054157 GHz,
+TABLE,Region T_Sist_Lin_Padrao_1000,Group 1 Raw,CLOCK,6
+Region Info,HWThread 3,
+RDTSC Runtime [s],11.809150,
+call count,50,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,26390490000
+CPU_CLK_UNHALTED_CORE,FIXC1,28183330000
+CPU_CLK_UNHALTED_REF,FIXC2,28249020000
+PWR_PKG_ENERGY,PWR0,77.2484
+PWR_DRAM_ENERGY,PWR3,24.9966
+UNCORE_CLOCK,UBOXFIX,302261600
+TABLE,Region T_Sist_Lin_Padrao_1000,Group 1 Metric,CLOCK,9
+Metric,HWThread 3,
+Runtime (RDTSC) [s],11.8092,
+Runtime unhalted [s],11.7477,
+Clock [MHz],2393.4754,
+Uncore Clock [MHz],25.5955,
+CPI,1.0679,
+Energy [J],77.2484,
+Power [W],6.5414,
+Energy DRAM [J],24.9966,
+Power DRAM [W],2.1167,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.399054157 GHz,
+TABLE,Region T_Newton_Inexato_1000,Group 1 Raw,CLOCK,6
+Region Info,HWThread 3,
+RDTSC Runtime [s],4.265680,
+call count,1,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,11919890000
+CPU_CLK_UNHALTED_CORE,FIXC1,10061740000
+CPU_CLK_UNHALTED_REF,FIXC2,10085180000
+PWR_PKG_ENERGY,PWR0,19.1449
+PWR_DRAM_ENERGY,PWR3,2.5186
+UNCORE_CLOCK,UBOXFIX,13662080
+TABLE,Region T_Newton_Inexato_1000,Group 1 Metric,CLOCK,9
+Metric,HWThread 3,
+Runtime (RDTSC) [s],4.2657,
+Runtime unhalted [s],4.1940,
+Clock [MHz],2393.4783,
+Uncore Clock [MHz],3.2028,
+CPI,0.8441,
+Energy [J],19.1449,
+Power [W],4.4881,
+Energy DRAM [J],2.5186,
+Power DRAM [W],0.5904,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.399054157 GHz,
+TABLE,Region Tderi_grad_Inexato_1000,Group 1 Raw,CLOCK,6
+Region Info,HWThread 3,
+RDTSC Runtime [s],0.004101,
+call count,50,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,11963020
+CPU_CLK_UNHALTED_CORE,FIXC1,10228000
+CPU_CLK_UNHALTED_REF,FIXC2,10252800
+PWR_PKG_ENERGY,PWR0,0.0562
+PWR_DRAM_ENERGY,PWR3,0.0107
+UNCORE_CLOCK,UBOXFIX,59163
+TABLE,Region Tderi_grad_Inexato_1000,Group 1 Metric,CLOCK,9
+Metric,HWThread 3,
+Runtime (RDTSC) [s],0.0041,
+Runtime unhalted [s],0.0043,
+Clock [MHz],2393.2512,
+Uncore Clock [MHz],14.4254,
+CPI,0.8550,
+Energy [J],0.0562,
+Power [W],13.6913,
+Energy DRAM [J],0.0107,
+Power DRAM [W],2.6192,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.399054157 GHz,
+TABLE,Region Tderi_hes_Inexato_1000,Group 1 Raw,CLOCK,6
+Region Info,HWThread 3,
+RDTSC Runtime [s],4.030366,
+call count,50,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,11603370000
+CPU_CLK_UNHALTED_CORE,FIXC1,9637925000
+CPU_CLK_UNHALTED_REF,FIXC2,9660374000
+PWR_PKG_ENERGY,PWR0,17.9478
+PWR_DRAM_ENERGY,PWR3,2.2849
+UNCORE_CLOCK,UBOXFIX,11779320
+TABLE,Region Tderi_hes_Inexato_1000,Group 1 Metric,CLOCK,9
+Metric,HWThread 3,
+Runtime (RDTSC) [s],4.0304,
+Runtime unhalted [s],4.0174,
+Clock [MHz],2393.4792,
+Uncore Clock [MHz],2.9226,
+CPI,0.8306,
+Energy [J],17.9478,
+Power [W],4.4531,
+Energy DRAM [J],2.2849,
+Power DRAM [W],0.5669,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.399054157 GHz,
+TABLE,Region T_Sist_Lin_Inexato_1000,Group 1 Raw,CLOCK,6
+Region Info,HWThread 3,
+RDTSC Runtime [s],0.171941,
+call count,50,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,303276500
+CPU_CLK_UNHALTED_CORE,FIXC1,411383100
+CPU_CLK_UNHALTED_REF,FIXC2,412340700
+PWR_PKG_ENERGY,PWR0,0.9952
+PWR_DRAM_ENERGY,PWR3,0.1967
+UNCORE_CLOCK,UBOXFIX,1672081
+TABLE,Region T_Sist_Lin_Inexato_1000,Group 1 Metric,CLOCK,9
+Metric,HWThread 3,
+Runtime (RDTSC) [s],0.1719,
+Runtime unhalted [s],0.1715,
+Clock [MHz],2393.4827,
+Uncore Clock [MHz],9.7247,
+CPI,1.3565,
+Energy [J],0.9952,
+Power [W],5.7879,
+Energy DRAM [J],0.1967,
+Power DRAM [W],1.1441,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.399054157 GHz,
+TABLE,Region T_Newton_Padrao_1024,Group 1 Raw,CLOCK,6
+Region Info,HWThread 3,
+RDTSC Runtime [s],16.800170,
+call count,1,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,40479510000
+CPU_CLK_UNHALTED_CORE,FIXC1,39961860000
+CPU_CLK_UNHALTED_REF,FIXC2,40054980000
+PWR_PKG_ENERGY,PWR0,101.9227
+PWR_DRAM_ENERGY,PWR3,28.4162
+UNCORE_CLOCK,UBOXFIX,349806200
+TABLE,Region T_Newton_Padrao_1024,Group 1 Metric,CLOCK,9
+Metric,HWThread 3,
+Runtime (RDTSC) [s],16.8002,
+Runtime unhalted [s],16.6573,
+Clock [MHz],2393.4768,
+Uncore Clock [MHz],20.8216,
+CPI,0.9872,
+Energy [J],101.9227,
+Power [W],6.0668,
+Energy DRAM [J],28.4162,
+Power DRAM [W],1.6914,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.399054157 GHz,
+TABLE,Region Tderi_grad_Padrao_1024,Group 1 Raw,CLOCK,6
+Region Info,HWThread 3,
+RDTSC Runtime [s],0.004217,
+call count,50,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,12244500
+CPU_CLK_UNHALTED_CORE,FIXC1,10518750
+CPU_CLK_UNHALTED_REF,FIXC2,10543300
+PWR_PKG_ENERGY,PWR0,0.0675
+PWR_DRAM_ENERGY,PWR3,0.0089
+UNCORE_CLOCK,UBOXFIX,70775
+TABLE,Region Tderi_grad_Padrao_1024,Group 1 Metric,CLOCK,9
+Metric,HWThread 3,
+Runtime (RDTSC) [s],0.0042,
+Runtime unhalted [s],0.0044,
+Clock [MHz],2393.4680,
+Uncore Clock [MHz],16.7825,
+CPI,0.8591,
+Energy [J],0.0675,
+Power [W],16.0070,
+Energy DRAM [J],0.0089,
+Power DRAM [W],2.1130,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.399054157 GHz,
+TABLE,Region Tderi_hes_padrao_1024,Group 1 Raw,CLOCK,6
+Region Info,HWThread 3,
+RDTSC Runtime [s],4.234195,
+call count,50,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,12164450000
+CPU_CLK_UNHALTED_CORE,FIXC1,10111230000
+CPU_CLK_UNHALTED_REF,FIXC2,10134780000
+PWR_PKG_ENERGY,PWR0,19.9169
+PWR_DRAM_ENERGY,PWR3,2.4804
+UNCORE_CLOCK,UBOXFIX,20008100
+TABLE,Region Tderi_hes_padrao_1024,Group 1 Metric,CLOCK,9
+Metric,HWThread 3,
+Runtime (RDTSC) [s],4.2342,
+Runtime unhalted [s],4.2147,
+Clock [MHz],2393.4795,
+Uncore Clock [MHz],4.7254,
+CPI,0.8312,
+Energy [J],19.9169,
+Power [W],4.7038,
+Energy DRAM [J],2.4804,
+Power DRAM [W],0.5858,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.399054157 GHz,
+TABLE,Region T_Sist_Lin_Padrao_1024,Group 1 Raw,CLOCK,6
+Region Info,HWThread 3,
+RDTSC Runtime [s],12.500050,
+call count,50,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,28301500000
+CPU_CLK_UNHALTED_CORE,FIXC1,29837270000
+CPU_CLK_UNHALTED_REF,FIXC2,29906810000
+PWR_PKG_ENERGY,PWR0,81.7606
+PWR_DRAM_ENERGY,PWR3,25.8940
+UNCORE_CLOCK,UBOXFIX,329584300
+TABLE,Region T_Sist_Lin_Padrao_1024,Group 1 Metric,CLOCK,9
+Metric,HWThread 3,
+Runtime (RDTSC) [s],12.5000,
+Runtime unhalted [s],12.4371,
+Clock [MHz],2393.4758,
+Uncore Clock [MHz],26.3666,
+CPI,1.0543,
+Energy [J],81.7606,
+Power [W],6.5408,
+Energy DRAM [J],25.8940,
+Power DRAM [W],2.0715,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.399054157 GHz,
+TABLE,Region T_Newton_Inexato_1024,Group 1 Raw,CLOCK,6
+Region Info,HWThread 3,
+RDTSC Runtime [s],4.465056,
+call count,1,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,12496240000
+CPU_CLK_UNHALTED_CORE,FIXC1,10540250000
+CPU_CLK_UNHALTED_REF,FIXC2,10564800000
+PWR_PKG_ENERGY,PWR0,19.5806
+PWR_DRAM_ENERGY,PWR3,2.5734
+UNCORE_CLOCK,UBOXFIX,13298090
+TABLE,Region T_Newton_Inexato_1024,Group 1 Metric,CLOCK,9
+Metric,HWThread 3,
+Runtime (RDTSC) [s],4.4651,
+Runtime unhalted [s],4.3935,
+Clock [MHz],2393.4793,
+Uncore Clock [MHz],2.9783,
+CPI,0.8435,
+Energy [J],19.5806,
+Power [W],4.3853,
+Energy DRAM [J],2.5734,
+Power DRAM [W],0.5763,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.399054157 GHz,
+TABLE,Region Tderi_grad_Inexato_1024,Group 1 Raw,CLOCK,6
+Region Info,HWThread 3,
+RDTSC Runtime [s],0.004198,
+call count,50,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,12250980
+CPU_CLK_UNHALTED_CORE,FIXC1,10462090
+CPU_CLK_UNHALTED_REF,FIXC2,10485000
+PWR_PKG_ENERGY,PWR0,0.0695
+PWR_DRAM_ENERGY,PWR3,0.0125
+UNCORE_CLOCK,UBOXFIX,58423
+TABLE,Region Tderi_grad_Inexato_1024,Group 1 Metric,CLOCK,9
+Metric,HWThread 3,
+Runtime (RDTSC) [s],0.0042,
+Runtime unhalted [s],0.0044,
+Clock [MHz],2393.8122,
+Uncore Clock [MHz],13.9173,
+CPI,0.8540,
+Energy [J],0.0695,
+Power [W],16.5460,
+Energy DRAM [J],0.0125,
+Power DRAM [W],2.9661,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.399054157 GHz,
+TABLE,Region Tderi_hes_Inexato_1024,Group 1 Raw,CLOCK,6
+Region Info,HWThread 3,
+RDTSC Runtime [s],4.219702,
+call count,50,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,12164730000
+CPU_CLK_UNHALTED_CORE,FIXC1,10091520000
+CPU_CLK_UNHALTED_REF,FIXC2,10115020000
+PWR_PKG_ENERGY,PWR0,18.4478
+PWR_DRAM_ENERGY,PWR3,2.3444
+UNCORE_CLOCK,UBOXFIX,12043170
+TABLE,Region Tderi_hes_Inexato_1024,Group 1 Metric,CLOCK,9
+Metric,HWThread 3,
+Runtime (RDTSC) [s],4.2197,
+Runtime unhalted [s],4.2065,
+Clock [MHz],2393.4805,
+Uncore Clock [MHz],2.8540,
+CPI,0.8296,
+Energy [J],18.4478,
+Power [W],4.3718,
+Energy DRAM [J],2.3444,
+Power DRAM [W],0.5556,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.399054157 GHz,
+TABLE,Region T_Sist_Lin_Inexato_1024,Group 1 Raw,CLOCK,6
+Region Info,HWThread 3,
+RDTSC Runtime [s],0.182236,
+call count,50,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,317941100
+CPU_CLK_UNHALTED_CORE,FIXC1,436063200
+CPU_CLK_UNHALTED_REF,FIXC2,437079100
+PWR_PKG_ENERGY,PWR0,0.9220
+PWR_DRAM_ENERGY,PWR3,0.1947
+UNCORE_CLOCK,UBOXFIX,1034147
+TABLE,Region T_Sist_Lin_Inexato_1024,Group 1 Metric,CLOCK,9
+Metric,HWThread 3,
+Runtime (RDTSC) [s],0.1822,
+Runtime unhalted [s],0.1818,
+Clock [MHz],2393.4781,
+Uncore Clock [MHz],5.6748,
+CPI,1.3715,
+Energy [J],0.9220,
+Power [W],5.0593,
+Energy DRAM [J],0.1947,
+Power DRAM [W],1.0684,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.399054157 GHz,
+TABLE,Region T_Newton_Padrao_2000,Group 1 Raw,CLOCK,6
+Region Info,HWThread 3,
+RDTSC Runtime [s],132.420200,
+call count,1,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,251990900000
+CPU_CLK_UNHALTED_CORE,FIXC1,316033300000
+CPU_CLK_UNHALTED_REF,FIXC2,316769800000
+PWR_PKG_ENERGY,PWR0,763.0310
+PWR_DRAM_ENERGY,PWR3,269.3255
+UNCORE_CLOCK,UBOXFIX,5433000000
+TABLE,Region T_Newton_Padrao_2000,Group 1 Metric,CLOCK,9
+Metric,HWThread 3,
+Runtime (RDTSC) [s],132.4202,
+Runtime unhalted [s],131.7325,
+Clock [MHz],2393.4763,
+Uncore Clock [MHz],41.0285,
+CPI,1.2541,
+Energy [J],763.0310,
+Power [W],5.7622,
+Energy DRAM [J],269.3255,
+Power DRAM [W],2.0339,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.399054157 GHz,
+TABLE,Region Tderi_grad_Padrao_2000,Group 1 Raw,CLOCK,6
+Region Info,HWThread 3,
+RDTSC Runtime [s],0.008185,
+call count,50,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,23713630
+CPU_CLK_UNHALTED_CORE,FIXC1,19991070
+CPU_CLK_UNHALTED_REF,FIXC2,20037400
+PWR_PKG_ENERGY,PWR0,0.0787
+PWR_DRAM_ENERGY,PWR3,0.0136
+UNCORE_CLOCK,UBOXFIX,54231
+TABLE,Region Tderi_grad_Padrao_2000,Group 1 Metric,CLOCK,9
+Metric,HWThread 3,
+Runtime (RDTSC) [s],0.0082,
+Runtime unhalted [s],0.0083,
+Clock [MHz],2393.5071,
+Uncore Clock [MHz],6.6259,
+CPI,0.8430,
+Energy [J],0.0787,
+Power [W],9.6198,
+Energy DRAM [J],0.0136,
+Power DRAM [W],1.6630,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.399054157 GHz,
+TABLE,Region Tderi_hes_padrao_2000,Group 1 Raw,CLOCK,6
+Region Info,HWThread 3,
+RDTSC Runtime [s],16.091810,
+call count,50,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,46409660000
+CPU_CLK_UNHALTED_CORE,FIXC1,38456840000
+CPU_CLK_UNHALTED_REF,FIXC2,38546390000
+PWR_PKG_ENERGY,PWR0,67.8215
+PWR_DRAM_ENERGY,PWR3,8.4469
+UNCORE_CLOCK,UBOXFIX,15123630
+TABLE,Region Tderi_hes_padrao_2000,Group 1 Metric,CLOCK,9
+Metric,HWThread 3,
+Runtime (RDTSC) [s],16.0918,
+Runtime unhalted [s],16.0300,
+Clock [MHz],2393.4807,
+Uncore Clock [MHz],0.9398,
+CPI,0.8286,
+Energy [J],67.8215,
+Power [W],4.2147,
+Energy DRAM [J],8.4469,
+Power DRAM [W],0.5249,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.399054157 GHz,
+TABLE,Region T_Sist_Lin_Padrao_2000,Group 1 Raw,CLOCK,6
+Region Info,HWThread 3,
+RDTSC Runtime [s],116.258900,
+call count,50,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,205555800000
+CPU_CLK_UNHALTED_CORE,FIXC1,277553100000
+CPU_CLK_UNHALTED_REF,FIXC2,278199900000
+PWR_PKG_ENERGY,PWR0,694.9811
+PWR_DRAM_ENERGY,PWR3,260.8415
+UNCORE_CLOCK,UBOXFIX,5417706000
+TABLE,Region T_Sist_Lin_Padrao_2000,Group 1 Metric,CLOCK,9
+Metric,HWThread 3,
+Runtime (RDTSC) [s],116.2589,
+Runtime unhalted [s],115.6927,
+Clock [MHz],2393.4765,
+Uncore Clock [MHz],46.6004,
+CPI,1.3503,
+Energy [J],694.9811,
+Power [W],5.9779,
+Energy DRAM [J],260.8415,
+Power DRAM [W],2.2436,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.399054157 GHz,
+TABLE,Region T_Newton_Inexato_2000,Group 1 Raw,CLOCK,6
+Region Info,HWThread 3,
+RDTSC Runtime [s],16.815930,
+call count,1,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,47644510000
+CPU_CLK_UNHALTED_CORE,FIXC1,40088330000
+CPU_CLK_UNHALTED_REF,FIXC2,40181680000
+PWR_PKG_ENERGY,PWR0,69.9354
+PWR_DRAM_ENERGY,PWR3,8.9933
+UNCORE_CLOCK,UBOXFIX,3301956
+TABLE,Region T_Newton_Inexato_2000,Group 1 Metric,CLOCK,9
+Metric,HWThread 3,
+Runtime (RDTSC) [s],16.8159,
+Runtime unhalted [s],16.7101,
+Clock [MHz],2393.4807,
+Uncore Clock [MHz],0.1964,
+CPI,0.8414,
+Energy [J],69.9354,
+Power [W],4.1589,
+Energy DRAM [J],8.9933,
+Power DRAM [W],0.5348,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.399054157 GHz,
+TABLE,Region Tderi_grad_Inexato_2000,Group 1 Raw,CLOCK,6
+Region Info,HWThread 3,
+RDTSC Runtime [s],0.008178,
+call count,50,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,23737120
+CPU_CLK_UNHALTED_CORE,FIXC1,19946930
+CPU_CLK_UNHALTED_REF,FIXC2,19993100
+PWR_PKG_ENERGY,PWR0,0.0776
+PWR_DRAM_ENERGY,PWR3,0.0135
+UNCORE_CLOCK,UBOXFIX,54641
+TABLE,Region Tderi_grad_Inexato_2000,Group 1 Metric,CLOCK,9
+Metric,HWThread 3,
+Runtime (RDTSC) [s],0.0082,
+Runtime unhalted [s],0.0083,
+Clock [MHz],2393.5140,
+Uncore Clock [MHz],6.6817,
+CPI,0.8403,
+Energy [J],0.0776,
+Power [W],9.4863,
+Energy DRAM [J],0.0135,
+Power DRAM [W],1.6569,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.399054157 GHz,
+TABLE,Region Tderi_hes_Inexato_2000,Group 1 Raw,CLOCK,6
+Region Info,HWThread 3,
+RDTSC Runtime [s],16.063320,
+call count,50,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,46412800000
+CPU_CLK_UNHALTED_CORE,FIXC1,38425680000
+CPU_CLK_UNHALTED_REF,FIXC2,38515150000
+PWR_PKG_ENERGY,PWR0,66.5584
+PWR_DRAM_ENERGY,PWR3,8.2797
+UNCORE_CLOCK,UBOXFIX,2819840
+TABLE,Region Tderi_hes_Inexato_2000,Group 1 Metric,CLOCK,9
+Metric,HWThread 3,
+Runtime (RDTSC) [s],16.0633,
+Runtime unhalted [s],16.0170,
+Clock [MHz],2393.4812,
+Uncore Clock [MHz],0.1755,
+CPI,0.8279,
+Energy [J],66.5584,
+Power [W],4.1435,
+Energy DRAM [J],8.2797,
+Power DRAM [W],0.5154,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.399054157 GHz,
+TABLE,Region T_Sist_Lin_Inexato_2000,Group 1 Raw,CLOCK,6
+Region Info,HWThread 3,
+RDTSC Runtime [s],0.685587,
+call count,50,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,1206266000
+CPU_CLK_UNHALTED_CORE,FIXC1,1639923000
+CPU_CLK_UNHALTED_REF,FIXC2,1643749000
+PWR_PKG_ENERGY,PWR0,3.1506
+PWR_DRAM_ENERGY,PWR3,0.6783
+UNCORE_CLOCK,UBOXFIX,308008
+TABLE,Region T_Sist_Lin_Inexato_2000,Group 1 Metric,CLOCK,9
+Metric,HWThread 3,
+Runtime (RDTSC) [s],0.6856,
+Runtime unhalted [s],0.6836,
+Clock [MHz],2393.4701,
+Uncore Clock [MHz],0.4493,
+CPI,1.3595,
+Energy [J],3.1506,
+Power [W],4.5955,
+Energy DRAM [J],0.6783,
+Power DRAM [W],0.9893,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.399054157 GHz,
+TABLE,Region T_Newton_Padrao_2048,Group 1 Raw,CLOCK,6
+Region Info,HWThread 3,
+RDTSC Runtime [s],137.598000,
+call count,1,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,269339700000
+CPU_CLK_UNHALTED_CORE,FIXC1,328042400000
+CPU_CLK_UNHALTED_REF,FIXC2,328806800000
+PWR_PKG_ENERGY,PWR0,802.2761
+PWR_DRAM_ENERGY,PWR3,275.5627
+UNCORE_CLOCK,UBOXFIX,5524035000
+TABLE,Region T_Newton_Padrao_2048,Group 1 Metric,CLOCK,9
+Metric,HWThread 3,
+Runtime (RDTSC) [s],137.5980,
+Runtime unhalted [s],136.7382,
+Clock [MHz],2393.4769,
+Uncore Clock [MHz],40.1462,
+CPI,1.2180,
+Energy [J],802.2761,
+Power [W],5.8306,
+Energy DRAM [J],275.5627,
+Power DRAM [W],2.0027,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.399054157 GHz,
+TABLE,Region Tderi_grad_Padrao_2048,Group 1 Raw,CLOCK,6
+Region Info,HWThread 3,
+RDTSC Runtime [s],0.008397,
+call count,50,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,24279630
+CPU_CLK_UNHALTED_CORE,FIXC1,20508570
+CPU_CLK_UNHALTED_REF,FIXC2,20554500
+PWR_PKG_ENERGY,PWR0,0.1010
+PWR_DRAM_ENERGY,PWR3,0.0164
+UNCORE_CLOCK,UBOXFIX,65830
+TABLE,Region Tderi_grad_Padrao_2048,Group 1 Metric,CLOCK,9
+Metric,HWThread 3,
+Runtime (RDTSC) [s],0.0084,
+Runtime unhalted [s],0.0085,
+Clock [MHz],2393.6934,
+Uncore Clock [MHz],7.8400,
+CPI,0.8447,
+Energy [J],0.1010,
+Power [W],12.0229,
+Energy DRAM [J],0.0164,
+Power DRAM [W],1.9554,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.399054157 GHz,
+TABLE,Region Tderi_hes_padrao_2048,Group 1 Raw,CLOCK,6
+Region Info,HWThread 3,
+RDTSC Runtime [s],16.909790,
+call count,50,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,48665050000
+CPU_CLK_UNHALTED_CORE,FIXC1,40399870000
+CPU_CLK_UNHALTED_REF,FIXC2,40493940000
+PWR_PKG_ENERGY,PWR0,73.3605
+PWR_DRAM_ENERGY,PWR3,9.2085
+UNCORE_CLOCK,UBOXFIX,14860520
+TABLE,Region Tderi_hes_padrao_2048,Group 1 Metric,CLOCK,9
+Metric,HWThread 3,
+Runtime (RDTSC) [s],16.9098,
+Runtime unhalted [s],16.8399,
+Clock [MHz],2393.4810,
+Uncore Clock [MHz],0.8788,
+CPI,0.8302,
+Energy [J],73.3605,
+Power [W],4.3383,
+Energy DRAM [J],9.2085,
+Power DRAM [W],0.5446,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.399054157 GHz,
+TABLE,Region T_Sist_Lin_Padrao_2048,Group 1 Raw,CLOCK,6
+Region Info,HWThread 3,
+RDTSC Runtime [s],120.617900,
+call count,50,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,220648600000
+CPU_CLK_UNHALTED_CORE,FIXC1,287618500000
+CPU_CLK_UNHALTED_REF,FIXC2,288288800000
+PWR_PKG_ENERGY,PWR0,728.6943
+PWR_DRAM_ENERGY,PWR3,266.3207
+UNCORE_CLOCK,UBOXFIX,5508984000
+TABLE,Region T_Sist_Lin_Padrao_2048,Group 1 Metric,CLOCK,9
+Metric,HWThread 3,
+Runtime (RDTSC) [s],120.6179,
+Runtime unhalted [s],119.8883,
+Clock [MHz],2393.4761,
+Uncore Clock [MHz],45.6730,
+CPI,1.3035,
+Energy [J],728.6943,
+Power [W],6.0413,
+Energy DRAM [J],266.3207,
+Power DRAM [W],2.2080,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.399054157 GHz,
+TABLE,Region T_Newton_Inexato_2048,Group 1 Raw,CLOCK,6
+Region Info,HWThread 3,
+RDTSC Runtime [s],17.758430,
+call count,1,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,49958410000
+CPU_CLK_UNHALTED_CORE,FIXC1,42260270000
+CPU_CLK_UNHALTED_REF,FIXC2,42358700000
+PWR_PKG_ENERGY,PWR0,81.8409
+PWR_DRAM_ENERGY,PWR3,11.3875
+UNCORE_CLOCK,UBOXFIX,54295490
+TABLE,Region T_Newton_Inexato_2048,Group 1 Metric,CLOCK,9
+Metric,HWThread 3,
+Runtime (RDTSC) [s],17.7584,
+Runtime unhalted [s],17.6154,
+Clock [MHz],2393.4794,
+Uncore Clock [MHz],3.0574,
+CPI,0.8459,
+Energy [J],81.8409,
+Power [W],4.6086,
+Energy DRAM [J],11.3875,
+Power DRAM [W],0.6412,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.399054157 GHz,
+TABLE,Region Tderi_grad_Inexato_2048,Group 1 Raw,CLOCK,6
+Region Info,HWThread 3,
+RDTSC Runtime [s],0.008403,
+call count,50,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,24279410
+CPU_CLK_UNHALTED_CORE,FIXC1,20581480
+CPU_CLK_UNHALTED_REF,FIXC2,20629300
+PWR_PKG_ENERGY,PWR0,0.1053
+PWR_DRAM_ENERGY,PWR3,0.0177
+UNCORE_CLOCK,UBOXFIX,70668
+TABLE,Region Tderi_grad_Inexato_2048,Group 1 Metric,CLOCK,9
+Metric,HWThread 3,
+Runtime (RDTSC) [s],0.0084,
+Runtime unhalted [s],0.0086,
+Clock [MHz],2393.4930,
+Uncore Clock [MHz],8.4101,
+CPI,0.8477,
+Energy [J],0.1053,
+Power [W],12.5372,
+Energy DRAM [J],0.0177,
+Power DRAM [W],2.1065,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.399054157 GHz,
+TABLE,Region Tderi_hes_Inexato_2048,Group 1 Raw,CLOCK,6
+Region Info,HWThread 3,
+RDTSC Runtime [s],16.953070,
+call count,50,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,48667660000
+CPU_CLK_UNHALTED_CORE,FIXC1,40484070000
+CPU_CLK_UNHALTED_REF,FIXC2,40578350000
+PWR_PKG_ENERGY,PWR0,77.9398
+PWR_DRAM_ENERGY,PWR3,10.5543
+UNCORE_CLOCK,UBOXFIX,52079670
+TABLE,Region Tderi_hes_Inexato_2048,Group 1 Metric,CLOCK,9
+Metric,HWThread 3,
+Runtime (RDTSC) [s],16.9531,
+Runtime unhalted [s],16.8750,
+Clock [MHz],2393.4802,
+Uncore Clock [MHz],3.0720,
+CPI,0.8318,
+Energy [J],77.9398,
+Power [W],4.5974,
+Energy DRAM [J],10.5543,
+Power DRAM [W],0.6226,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.399054157 GHz,
+TABLE,Region T_Sist_Lin_Inexato_2048,Group 1 Raw,CLOCK,6
+Region Info,HWThread 3,
+RDTSC Runtime [s],0.733268,
+call count,50,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,1264724000
+CPU_CLK_UNHALTED_CORE,FIXC1,1752237000
+CPU_CLK_UNHALTED_REF,FIXC2,1756322000
+PWR_PKG_ENERGY,PWR0,3.6051
+PWR_DRAM_ENERGY,PWR3,0.7803
+UNCORE_CLOCK,UBOXFIX,1994331
+TABLE,Region T_Sist_Lin_Inexato_2048,Group 1 Metric,CLOCK,9
+Metric,HWThread 3,
+Runtime (RDTSC) [s],0.7333,
+Runtime unhalted [s],0.7304,
+Clock [MHz],2393.4742,
+Uncore Clock [MHz],2.7198,
+CPI,1.3855,
+Energy [J],3.6051,
+Power [W],4.9165,
+Energy DRAM [J],0.7803,
+Power DRAM [W],1.0642,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.399054157 GHz,
+TABLE,Region T_Newton_Padrao_3000,Group 1 Raw,CLOCK,6
+Region Info,HWThread 3,
+RDTSC Runtime [s],457.084700,
+call count,1,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,792017800000
+CPU_CLK_UNHALTED_CORE,FIXC1,1090282000000
+CPU_CLK_UNHALTED_REF,FIXC2,1092822000000
+PWR_PKG_ENERGY,PWR0,2749.4500
+PWR_DRAM_ENERGY,PWR3,970.3593
+UNCORE_CLOCK,UBOXFIX,22891560000
+TABLE,Region T_Newton_Padrao_3000,Group 1 Metric,CLOCK,9
+Metric,HWThread 3,
+Runtime (RDTSC) [s],457.0847,
+Runtime unhalted [s],454.4633,
+Clock [MHz],2393.4781,
+Uncore Clock [MHz],50.0817,
+CPI,1.3766,
+Energy [J],2749.4500,
+Power [W],6.0152,
+Energy DRAM [J],970.3593,
+Power DRAM [W],2.1229,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.399054157 GHz,
+TABLE,Region Tderi_grad_Padrao_3000,Group 1 Raw,CLOCK,6
+Region Info,HWThread 3,
+RDTSC Runtime [s],0.012385,
+call count,50,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,35466820
+CPU_CLK_UNHALTED_CORE,FIXC1,30009640
+CPU_CLK_UNHALTED_REF,FIXC2,30081100
+PWR_PKG_ENERGY,PWR0,0.1093
+PWR_DRAM_ENERGY,PWR3,0.0185
+UNCORE_CLOCK,UBOXFIX,99462
+TABLE,Region Tderi_grad_Padrao_3000,Group 1 Metric,CLOCK,9
+Metric,HWThread 3,
+Runtime (RDTSC) [s],0.0124,
+Runtime unhalted [s],0.0125,
+Clock [MHz],2393.3550,
+Uncore Clock [MHz],8.0311,
+CPI,0.8461,
+Energy [J],0.1093,
+Power [W],8.8266,
+Energy DRAM [J],0.0185,
+Power DRAM [W],1.4933,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.399054157 GHz,
+TABLE,Region Tderi_hes_padrao_3000,Group 1 Raw,CLOCK,6
+Region Info,HWThread 3,
+RDTSC Runtime [s],36.321530,
+call count,50,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,104422500000
+CPU_CLK_UNHALTED_CORE,FIXC1,86711860000
+CPU_CLK_UNHALTED_REF,FIXC2,86913800000
+PWR_PKG_ENERGY,PWR0,162.6735
+PWR_DRAM_ENERGY,PWR3,21.1848
+UNCORE_CLOCK,UBOXFIX,56209750
+TABLE,Region Tderi_hes_padrao_3000,Group 1 Metric,CLOCK,9
+Metric,HWThread 3,
+Runtime (RDTSC) [s],36.3215,
+Runtime unhalted [s],36.1442,
+Clock [MHz],2393.4801,
+Uncore Clock [MHz],1.5476,
+CPI,0.8304,
+Energy [J],162.6735,
+Power [W],4.4787,
+Energy DRAM [J],21.1848,
+Power DRAM [W],0.5833,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.399054157 GHz,
+TABLE,Region T_Sist_Lin_Padrao_3000,Group 1 Raw,CLOCK,6
+Region Info,HWThread 3,
+RDTSC Runtime [s],420.686600,
+call count,50,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,687557600000
+CPU_CLK_UNHALTED_CORE,FIXC1,1003535000000
+CPU_CLK_UNHALTED_REF,FIXC2,1005874000000
+PWR_PKG_ENERGY,PWR0,2586.5130
+PWR_DRAM_ENERGY,PWR3,949.1317
+UNCORE_CLOCK,UBOXFIX,22835110000
+TABLE,Region T_Sist_Lin_Padrao_3000,Group 1 Metric,CLOCK,9
+Metric,HWThread 3,
+Runtime (RDTSC) [s],420.6866,
+Runtime unhalted [s],418.3044,
+Clock [MHz],2393.4755,
+Uncore Clock [MHz],54.2806,
+CPI,1.4596,
+Energy [J],2586.5130,
+Power [W],6.1483,
+Energy DRAM [J],949.1317,
+Power DRAM [W],2.2561,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.399054157 GHz,
+TABLE,Region T_Newton_Inexato_3000,Group 1 Raw,CLOCK,6
+Region Info,HWThread 3,
+RDTSC Runtime [s],37.770220,
+call count,1,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,107175500000
+CPU_CLK_UNHALTED_CORE,FIXC1,90213710000
+CPU_CLK_UNHALTED_REF,FIXC2,90423790000
+PWR_PKG_ENERGY,PWR0,160.7219
+PWR_DRAM_ENERGY,PWR3,20.9424
+UNCORE_CLOCK,UBOXFIX,5757558
+TABLE,Region T_Newton_Inexato_3000,Group 1 Metric,CLOCK,9
+Metric,HWThread 3,
+Runtime (RDTSC) [s],37.7702,
+Runtime unhalted [s],37.6039,
+Clock [MHz],2393.4805,
+Uncore Clock [MHz],0.1524,
+CPI,0.8417,
+Energy [J],160.7219,
+Power [W],4.2553,
+Energy DRAM [J],20.9424,
+Power DRAM [W],0.5545,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.399054157 GHz,
+TABLE,Region Tderi_grad_Inexato_3000,Group 1 Raw,CLOCK,6
+Region Info,HWThread 3,
+RDTSC Runtime [s],0.012238,
+call count,50,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,35501160
+CPU_CLK_UNHALTED_CORE,FIXC1,29669230
+CPU_CLK_UNHALTED_REF,FIXC2,29736000
+PWR_PKG_ENERGY,PWR0,0.0897
+PWR_DRAM_ENERGY,PWR3,0.0154
+UNCORE_CLOCK,UBOXFIX,63048
+TABLE,Region Tderi_grad_Inexato_3000,Group 1 Metric,CLOCK,9
+Metric,HWThread 3,
+Runtime (RDTSC) [s],0.0122,
+Runtime unhalted [s],0.0124,
+Clock [MHz],2393.6673,
+Uncore Clock [MHz],5.1518,
+CPI,0.8357,
+Energy [J],0.0897,
+Power [W],7.3314,
+Energy DRAM [J],0.0154,
+Power DRAM [W],1.2618,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.399054157 GHz,
+TABLE,Region Tderi_hes_Inexato_3000,Group 1 Raw,CLOCK,6
+Region Info,HWThread 3,
+RDTSC Runtime [s],36.144180,
+call count,50,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,104428500000
+CPU_CLK_UNHALTED_CORE,FIXC1,86465430000
+CPU_CLK_UNHALTED_REF,FIXC2,86666770000
+PWR_PKG_ENERGY,PWR0,153.1893
+PWR_DRAM_ENERGY,PWR3,19.3276
+UNCORE_CLOCK,UBOXFIX,4990905
+TABLE,Region Tderi_hes_Inexato_3000,Group 1 Metric,CLOCK,9
+Metric,HWThread 3,
+Runtime (RDTSC) [s],36.1442,
+Runtime unhalted [s],36.0415,
+Clock [MHz],2393.4808,
+Uncore Clock [MHz],0.1381,
+CPI,0.8280,
+Energy [J],153.1893,
+Power [W],4.2383,
+Energy DRAM [J],19.3276,
+Power DRAM [W],0.5347,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.399054157 GHz,
+TABLE,Region T_Sist_Lin_Inexato_3000,Group 1 Raw,CLOCK,6
+Region Info,HWThread 3,
+RDTSC Runtime [s],1.553455,
+call count,50,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,2709291000
+CPU_CLK_UNHALTED_CORE,FIXC1,3715059000
+CPU_CLK_UNHALTED_REF,FIXC2,3723723000
+PWR_PKG_ENERGY,PWR0,7.3158
+PWR_DRAM_ENERGY,PWR3,1.5808
+UNCORE_CLOCK,UBOXFIX,574872
+TABLE,Region T_Sist_Lin_Inexato_3000,Group 1 Metric,CLOCK,9
+Metric,HWThread 3,
+Runtime (RDTSC) [s],1.5535,
+Runtime unhalted [s],1.5486,
+Clock [MHz],2393.4723,
+Uncore Clock [MHz],0.3701,
+CPI,1.3712,
+Energy [J],7.3158,
+Power [W],4.7094,
+Energy DRAM [J],1.5808,
+Power DRAM [W],1.0176,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.399054157 GHz,
+TABLE,Region T_Newton_Padrao_4096,Group 1 Raw,CLOCK,6
+Region Info,HWThread 3,
+RDTSC Runtime [s],1091.639000,
+call count,1,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,1935984000000
+CPU_CLK_UNHALTED_CORE,FIXC1,2608938000000
+CPU_CLK_UNHALTED_REF,FIXC2,2615018000000
+PWR_PKG_ENERGY,PWR0,6438.1030
+PWR_DRAM_ENERGY,PWR3,2314.0260
+UNCORE_CLOCK,UBOXFIX,62102270000
+TABLE,Region T_Newton_Padrao_4096,Group 1 Metric,CLOCK,9
+Metric,HWThread 3,
+Runtime (RDTSC) [s],1091.6390,
+Runtime unhalted [s],1087.4861,
+Clock [MHz],2393.4763,
+Uncore Clock [MHz],56.8890,
+CPI,1.3476,
+Energy [J],6438.1030,
+Power [W],5.8976,
+Energy DRAM [J],2314.0260,
+Power DRAM [W],2.1198,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.399054157 GHz,
+TABLE,Region Tderi_grad_Padrao_4096,Group 1 Raw,CLOCK,6
+Region Info,HWThread 3,
+RDTSC Runtime [s],0.016738,
+call count,50,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,48378010
+CPU_CLK_UNHALTED_CORE,FIXC1,40472940
+CPU_CLK_UNHALTED_REF,FIXC2,40568600
+PWR_PKG_ENERGY,PWR0,0.1285
+PWR_DRAM_ENERGY,PWR3,0.0204
+UNCORE_CLOCK,UBOXFIX,78749
+TABLE,Region Tderi_grad_Padrao_4096,Group 1 Metric,CLOCK,9
+Metric,HWThread 3,
+Runtime (RDTSC) [s],0.0167,
+Runtime unhalted [s],0.0169,
+Clock [MHz],2393.3972,
+Uncore Clock [MHz],4.7049,
+CPI,0.8366,
+Energy [J],0.1285,
+Power [W],7.6797,
+Energy DRAM [J],0.0204,
+Power DRAM [W],1.2180,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.399054157 GHz,
+TABLE,Region Tderi_hes_padrao_4096,Group 1 Raw,CLOCK,6
+Region Info,HWThread 3,
+RDTSC Runtime [s],67.482960,
+call count,50,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,194655900000
+CPU_CLK_UNHALTED_CORE,FIXC1,161294200000
+CPU_CLK_UNHALTED_REF,FIXC2,161669700000
+PWR_PKG_ENERGY,PWR0,286.9818
+PWR_DRAM_ENERGY,PWR3,36.4511
+UNCORE_CLOCK,UBOXFIX,29288620
+TABLE,Region Tderi_hes_padrao_4096,Group 1 Metric,CLOCK,9
+Metric,HWThread 3,
+Runtime (RDTSC) [s],67.4830,
+Runtime unhalted [s],67.2324,
+Clock [MHz],2393.4820,
+Uncore Clock [MHz],0.4340,
+CPI,0.8286,
+Energy [J],286.9818,
+Power [W],4.2527,
+Energy DRAM [J],36.4511,
+Power DRAM [W],0.5402,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.399054157 GHz,
+TABLE,Region T_Sist_Lin_Padrao_4096,Group 1 Raw,CLOCK,6
+Region Info,HWThread 3,
+RDTSC Runtime [s],1024.077000,
+call count,50,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,1741277000000
+CPU_CLK_UNHALTED_CORE,FIXC1,2447599000000
+CPU_CLK_UNHALTED_REF,FIXC2,2453303000000
+PWR_PKG_ENERGY,PWR0,6150.8690
+PWR_DRAM_ENERGY,PWR3,2277.5330
+UNCORE_CLOCK,UBOXFIX,62072780000
+TABLE,Region T_Sist_Lin_Padrao_4096,Group 1 Metric,CLOCK,9
+Metric,HWThread 3,
+Runtime (RDTSC) [s],1024.0770,
+Runtime unhalted [s],1020.2350,
+Clock [MHz],2393.4763,
+Uncore Clock [MHz],60.6134,
+CPI,1.4056,
+Energy [J],6150.8690,
+Power [W],6.0063,
+Energy DRAM [J],2277.5330,
+Power DRAM [W],2.2240,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.399054157 GHz,
+TABLE,Region T_Newton_Inexato_4096,Group 1 Raw,CLOCK,6
+Region Info,HWThread 3,
+RDTSC Runtime [s],70.359470,
+call count,1,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,199752400000
+CPU_CLK_UNHALTED_CORE,FIXC1,168174600000
+CPU_CLK_UNHALTED_REF,FIXC2,168566200000
+PWR_PKG_ENERGY,PWR0,299.4861
+PWR_DRAM_ENERGY,PWR3,39.0512
+UNCORE_CLOCK,UBOXFIX,10171480
+TABLE,Region T_Newton_Inexato_4096,Group 1 Metric,CLOCK,9
+Metric,HWThread 3,
+Runtime (RDTSC) [s],70.3595,
+Runtime unhalted [s],70.1004,
+Clock [MHz],2393.4809,
+Uncore Clock [MHz],0.1446,
+CPI,0.8419,
+Energy [J],299.4861,
+Power [W],4.2565,
+Energy DRAM [J],39.0512,
+Power DRAM [W],0.5550,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.399054157 GHz,
+TABLE,Region Tderi_grad_Inexato_4096,Group 1 Raw,CLOCK,6
+Region Info,HWThread 3,
+RDTSC Runtime [s],0.016677,
+call count,50,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,48343870
+CPU_CLK_UNHALTED_CORE,FIXC1,40312330
+CPU_CLK_UNHALTED_REF,FIXC2,40405700
+PWR_PKG_ENERGY,PWR0,0.0927
+PWR_DRAM_ENERGY,PWR3,0.0138
+UNCORE_CLOCK,UBOXFIX,52709
+TABLE,Region Tderi_grad_Inexato_4096,Group 1 Metric,CLOCK,9
+Metric,HWThread 3,
+Runtime (RDTSC) [s],0.0167,
+Runtime unhalted [s],0.0168,
+Clock [MHz],2393.5104,
+Uncore Clock [MHz],3.1605,
+CPI,0.8339,
+Energy [J],0.0927,
+Power [W],5.5555,
+Energy DRAM [J],0.0138,
+Power DRAM [W],0.8271,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.399054157 GHz,
+TABLE,Region Tderi_hes_Inexato_4096,Group 1 Raw,CLOCK,6
+Region Info,HWThread 3,
+RDTSC Runtime [s],67.385030,
+call count,50,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,194655700000
+CPU_CLK_UNHALTED_CORE,FIXC1,161203300000
+CPU_CLK_UNHALTED_REF,FIXC2,161578700000
+PWR_PKG_ENERGY,PWR0,285.5910
+PWR_DRAM_ENERGY,PWR3,36.0594
+UNCORE_CLOCK,UBOXFIX,9320522
+TABLE,Region Tderi_hes_Inexato_4096,Group 1 Metric,CLOCK,9
+Metric,HWThread 3,
+Runtime (RDTSC) [s],67.3850,
+Runtime unhalted [s],67.1945,
+Clock [MHz],2393.4804,
+Uncore Clock [MHz],0.1383,
+CPI,0.8281,
+Energy [J],285.5910,
+Power [W],4.2382,
+Energy DRAM [J],36.0594,
+Power DRAM [W],0.5351,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.399054157 GHz,
+TABLE,Region T_Sist_Lin_Inexato_4096,Group 1 Raw,CLOCK,6
+Region Info,HWThread 3,
+RDTSC Runtime [s],2.896622,
+call count,50,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,5045741000
+CPU_CLK_UNHALTED_CORE,FIXC1,6926753000
+CPU_CLK_UNHALTED_REF,FIXC2,6942900000
+PWR_PKG_ENERGY,PWR0,13.6342
+PWR_DRAM_ENERGY,PWR3,2.9521
+UNCORE_CLOCK,UBOXFIX,680573
+TABLE,Region T_Sist_Lin_Inexato_4096,Group 1 Metric,CLOCK,9
+Metric,HWThread 3,
+Runtime (RDTSC) [s],2.8966,
+Runtime unhalted [s],2.8873,
+Clock [MHz],2393.4747,
+Uncore Clock [MHz],0.2350,
+CPI,1.3728,
+Energy [J],13.6342,
+Power [W],4.7069,
+Energy DRAM [J],2.9521,
+Power DRAM [W],1.0191,

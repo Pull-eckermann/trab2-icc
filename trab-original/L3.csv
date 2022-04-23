@@ -1,0 +1,3952 @@
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.3998269 GHz,
+TABLE,Region T_Newton_Padrao_10,Group 1 Raw,L3,5
+Region Info,HWThread 3,
+RDTSC Runtime [s],0.054360,
+call count,1,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,2861024
+CPU_CLK_UNHALTED_CORE,FIXC1,3161820
+CPU_CLK_UNHALTED_REF,FIXC2,4577000
+L2_LINES_IN_ALL,PMC0,78180
+L2_TRANS_L2_WB,PMC1,7468
+TABLE,Region T_Newton_Padrao_10,Group 1 Metric,L3,10
+Metric,HWThread 3,
+Runtime (RDTSC) [s],0.0544,
+Runtime unhalted [s],0.0013,
+Clock [MHz],1657.8153,
+CPI,1.1051,
+L3 load bandwidth [MBytes/s],92.0438,
+L3 load data volume [GBytes],0.0050,
+L3 evict bandwidth [MBytes/s],8.7923,
+L3 evict data volume [GBytes],0.0005,
+L3 bandwidth [MBytes/s],100.8361,
+L3 data volume [GBytes],0.0055,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.3998269 GHz,
+TABLE,Region Tderi_grad_Padrao_10,Group 1 Raw,L3,5
+Region Info,HWThread 3,
+RDTSC Runtime [s],0.000067,
+call count,50,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,309023
+CPU_CLK_UNHALTED_CORE,FIXC1,438230
+CPU_CLK_UNHALTED_REF,FIXC2,623000
+L2_LINES_IN_ALL,PMC0,11381
+L2_TRANS_L2_WB,PMC1,920
+TABLE,Region Tderi_grad_Padrao_10,Group 1 Metric,L3,10
+Metric,HWThread 3,
+Runtime (RDTSC) [s],0.0001,
+Runtime unhalted [s],0.0002,
+Clock [MHz],1688.0837,
+CPI,1.4181,
+L3 load bandwidth [MBytes/s],10808.1864,
+L3 load data volume [GBytes],0.0007,
+L3 evict bandwidth [MBytes/s],873.6958,
+L3 evict data volume [GBytes],0.0001,
+L3 bandwidth [MBytes/s],11681.8821,
+L3 data volume [GBytes],0.0008,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.3998269 GHz,
+TABLE,Region Tderi_hes_padrao_10,Group 1 Raw,L3,5
+Region Info,HWThread 3,
+RDTSC Runtime [s],0.000626,
+call count,50,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,1364377
+CPU_CLK_UNHALTED_CORE,FIXC1,1310430
+CPU_CLK_UNHALTED_REF,FIXC2,1869000
+L2_LINES_IN_ALL,PMC0,11665
+L2_TRANS_L2_WB,PMC1,1079
+TABLE,Region Tderi_hes_padrao_10,Group 1 Metric,L3,10
+Metric,HWThread 3,
+Runtime (RDTSC) [s],0.0006,
+Runtime unhalted [s],0.0005,
+Clock [MHz],1682.6138,
+CPI,0.9605,
+L3 load bandwidth [MBytes/s],1191.8366,
+L3 load data volume [GBytes],0.0007,
+L3 evict bandwidth [MBytes/s],110.2436,
+L3 evict data volume [GBytes],0.0001,
+L3 bandwidth [MBytes/s],1302.0802,
+L3 data volume [GBytes],0.0008,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.3998269 GHz,
+TABLE,Region T_Sist_Lin_Padrao_10,Group 1 Raw,L3,5
+Region Info,HWThread 3,
+RDTSC Runtime [s],0.000058,
+call count,50,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,399750
+CPU_CLK_UNHALTED_CORE,FIXC1,416493
+CPU_CLK_UNHALTED_REF,FIXC2,601300
+L2_LINES_IN_ALL,PMC0,12541
+L2_TRANS_L2_WB,PMC1,1320
+TABLE,Region T_Sist_Lin_Padrao_10,Group 1 Metric,L3,10
+Metric,HWThread 3,
+Runtime (RDTSC) [s],0.0001,
+Runtime unhalted [s],0.0002,
+Clock [MHz],1662.2503,
+CPI,1.0419,
+L3 load bandwidth [MBytes/s],13955.8070,
+L3 load data volume [GBytes],0.0008,
+L3 evict bandwidth [MBytes/s],1468.9152,
+L3 evict data volume [GBytes],0.0001,
+L3 bandwidth [MBytes/s],15424.7222,
+L3 data volume [GBytes],0.0009,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.3998269 GHz,
+TABLE,Region T_Newton_Inexato_10,Group 1 Raw,L3,5
+Region Info,HWThread 3,
+RDTSC Runtime [s],0.037888,
+call count,1,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,2773690
+CPU_CLK_UNHALTED_CORE,FIXC1,3113823
+CPU_CLK_UNHALTED_REF,FIXC2,3122400
+L2_LINES_IN_ALL,PMC0,73998
+L2_TRANS_L2_WB,PMC1,6797
+TABLE,Region T_Newton_Inexato_10,Group 1 Metric,L3,10
+Metric,HWThread 3,
+Runtime (RDTSC) [s],0.0379,
+Runtime unhalted [s],0.0013,
+Clock [MHz],2393.2348,
+CPI,1.1226,
+L3 load bandwidth [MBytes/s],124.9974,
+L3 load data volume [GBytes],0.0047,
+L3 evict bandwidth [MBytes/s],11.4815,
+L3 evict data volume [GBytes],0.0004,
+L3 bandwidth [MBytes/s],136.4789,
+L3 data volume [GBytes],0.0052,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.3998269 GHz,
+TABLE,Region Tderi_grad_Inexato_10,Group 1 Raw,L3,5
+Region Info,HWThread 3,
+RDTSC Runtime [s],0.000047,
+call count,50,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,309258
+CPU_CLK_UNHALTED_CORE,FIXC1,433195
+CPU_CLK_UNHALTED_REF,FIXC2,434300
+L2_LINES_IN_ALL,PMC0,11128
+L2_TRANS_L2_WB,PMC1,984
+TABLE,Region Tderi_grad_Inexato_10,Group 1 Metric,L3,10
+Metric,HWThread 3,
+Runtime (RDTSC) [s],4.663752e-05,
+Runtime unhalted [s],0.0002,
+Clock [MHz],2393.7210,
+CPI,1.4008,
+L3 load bandwidth [MBytes/s],15270.7948,
+L3 load data volume [GBytes],0.0007,
+L3 evict bandwidth [MBytes/s],1350.3291,
+L3 evict data volume [GBytes],0.0001,
+L3 bandwidth [MBytes/s],16621.1239,
+L3 data volume [GBytes],0.0008,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.3998269 GHz,
+TABLE,Region Tderi_hes_Inexato_10,Group 1 Raw,L3,5
+Region Info,HWThread 3,
+RDTSC Runtime [s],0.000410,
+call count,50,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,1364628
+CPU_CLK_UNHALTED_CORE,FIXC1,1307523
+CPU_CLK_UNHALTED_REF,FIXC2,1310800
+L2_LINES_IN_ALL,PMC0,11411
+L2_TRANS_L2_WB,PMC1,1017
+TABLE,Region Tderi_hes_Inexato_10,Group 1 Metric,L3,10
+Metric,HWThread 3,
+Runtime (RDTSC) [s],0.0004,
+Runtime unhalted [s],0.0005,
+Clock [MHz],2393.8273,
+CPI,0.9582,
+L3 load bandwidth [MBytes/s],1779.4598,
+L3 load data volume [GBytes],0.0007,
+L3 evict bandwidth [MBytes/s],158.5935,
+L3 evict data volume [GBytes],0.0001,
+L3 bandwidth [MBytes/s],1938.0533,
+L3 data volume [GBytes],0.0008,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.3998269 GHz,
+TABLE,Region T_Sist_Lin_Inexato_10,Group 1 Raw,L3,5
+Region Info,HWThread 3,
+RDTSC Runtime [s],0.000043,
+call count,50,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,312749
+CPU_CLK_UNHALTED_CORE,FIXC1,432863
+CPU_CLK_UNHALTED_REF,FIXC2,436500
+L2_LINES_IN_ALL,PMC0,11774
+L2_TRANS_L2_WB,PMC1,1020
+TABLE,Region T_Sist_Lin_Inexato_10,Group 1 Metric,L3,10
+Metric,HWThread 3,
+Runtime (RDTSC) [s],4.347140e-05,
+Runtime unhalted [s],0.0002,
+Clock [MHz],2379.8311,
+CPI,1.3841,
+L3 load bandwidth [MBytes/s],17334.0633,
+L3 load data volume [GBytes],0.0008,
+L3 evict bandwidth [MBytes/s],1501.6770,
+L3 evict data volume [GBytes],0.0001,
+L3 bandwidth [MBytes/s],18835.7403,
+L3 data volume [GBytes],0.0008,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.3998269 GHz,
+TABLE,Region T_Newton_Padrao_32,Group 1 Raw,L3,5
+Region Info,HWThread 3,
+RDTSC Runtime [s],0.054075,
+call count,1,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,16588480
+CPU_CLK_UNHALTED_CORE,FIXC1,15829650
+CPU_CLK_UNHALTED_REF,FIXC2,15865600
+L2_LINES_IN_ALL,PMC0,134934
+L2_TRANS_L2_WB,PMC1,21266
+TABLE,Region T_Newton_Padrao_32,Group 1 Metric,L3,10
+Metric,HWThread 3,
+Runtime (RDTSC) [s],0.0541,
+Runtime unhalted [s],0.0066,
+Clock [MHz],2394.3891,
+CPI,0.9543,
+L3 load bandwidth [MBytes/s],159.7001,
+L3 load data volume [GBytes],0.0086,
+L3 evict bandwidth [MBytes/s],25.1692,
+L3 evict data volume [GBytes],0.0014,
+L3 bandwidth [MBytes/s],184.8693,
+L3 data volume [GBytes],0.0100,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.3998269 GHz,
+TABLE,Region Tderi_grad_Padrao_32,Group 1 Raw,L3,5
+Region Info,HWThread 3,
+RDTSC Runtime [s],0.000157,
+call count,50,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,568222
+CPU_CLK_UNHALTED_CORE,FIXC1,902556
+CPU_CLK_UNHALTED_REF,FIXC2,904500
+L2_LINES_IN_ALL,PMC0,17740
+L2_TRANS_L2_WB,PMC1,2689
+TABLE,Region Tderi_grad_Padrao_32,Group 1 Metric,L3,10
+Metric,HWThread 3,
+Runtime (RDTSC) [s],0.0002,
+Runtime unhalted [s],0.0004,
+Clock [MHz],2394.6691,
+CPI,1.5884,
+L3 load bandwidth [MBytes/s],7244.5541,
+L3 load data volume [GBytes],0.0011,
+L3 evict bandwidth [MBytes/s],1098.1176,
+L3 evict data volume [GBytes],0.0002,
+L3 bandwidth [MBytes/s],8342.6717,
+L3 data volume [GBytes],0.0013,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.3998269 GHz,
+TABLE,Region Tderi_hes_padrao_32,Group 1 Raw,L3,5
+Region Info,HWThread 3,
+RDTSC Runtime [s],0.004298,
+call count,50,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,12222810
+CPU_CLK_UNHALTED_CORE,FIXC1,11046960
+CPU_CLK_UNHALTED_REF,FIXC2,11073300
+L2_LINES_IN_ALL,PMC0,27855
+L2_TRANS_L2_WB,PMC1,3948
+TABLE,Region Tderi_hes_padrao_32,Group 1 Metric,L3,10
+Metric,HWThread 3,
+Runtime (RDTSC) [s],0.0043,
+Runtime unhalted [s],0.0046,
+Clock [MHz],2394.1184,
+CPI,0.9038,
+L3 load bandwidth [MBytes/s],414.8163,
+L3 load data volume [GBytes],0.0018,
+L3 evict bandwidth [MBytes/s],58.7936,
+L3 evict data volume [GBytes],0.0003,
+L3 bandwidth [MBytes/s],473.6099,
+L3 data volume [GBytes],0.0020,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.3998269 GHz,
+TABLE,Region T_Sist_Lin_Padrao_32,Group 1 Raw,L3,5
+Region Info,HWThread 3,
+RDTSC Runtime [s],0.000484,
+call count,50,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,2980970
+CPU_CLK_UNHALTED_CORE,FIXC1,1778407
+CPU_CLK_UNHALTED_REF,FIXC2,1782400
+L2_LINES_IN_ALL,PMC0,23953
+L2_TRANS_L2_WB,PMC1,3606
+TABLE,Region T_Sist_Lin_Padrao_32,Group 1 Metric,L3,10
+Metric,HWThread 3,
+Runtime (RDTSC) [s],0.0005,
+Runtime unhalted [s],0.0007,
+Clock [MHz],2394.4507,
+CPI,0.5966,
+L3 load bandwidth [MBytes/s],3166.4059,
+L3 load data volume [GBytes],0.0015,
+L3 evict bandwidth [MBytes/s],476.6860,
+L3 evict data volume [GBytes],0.0002,
+L3 bandwidth [MBytes/s],3643.0919,
+L3 data volume [GBytes],0.0018,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.3998269 GHz,
+TABLE,Region T_Newton_Inexato_32,Group 1 Raw,L3,5
+Region Info,HWThread 3,
+RDTSC Runtime [s],0.042272,
+call count,1,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,14279790
+CPU_CLK_UNHALTED_CORE,FIXC1,12759580
+CPU_CLK_UNHALTED_REF,FIXC2,12789200
+L2_LINES_IN_ALL,PMC0,93111
+L2_TRANS_L2_WB,PMC1,10282
+TABLE,Region T_Newton_Inexato_32,Group 1 Metric,L3,10
+Metric,HWThread 3,
+Runtime (RDTSC) [s],0.0423,
+Runtime unhalted [s],0.0053,
+Clock [MHz],2394.2689,
+CPI,0.8935,
+L3 load bandwidth [MBytes/s],140.9690,
+L3 load data volume [GBytes],0.0060,
+L3 evict bandwidth [MBytes/s],15.5668,
+L3 evict data volume [GBytes],0.0007,
+L3 bandwidth [MBytes/s],156.5359,
+L3 data volume [GBytes],0.0066,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.3998269 GHz,
+TABLE,Region Tderi_grad_Inexato_32,Group 1 Raw,L3,5
+Region Info,HWThread 3,
+RDTSC Runtime [s],0.000135,
+call count,50,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,569883
+CPU_CLK_UNHALTED_CORE,FIXC1,665958
+CPU_CLK_UNHALTED_REF,FIXC2,670200
+L2_LINES_IN_ALL,PMC0,13034
+L2_TRANS_L2_WB,PMC1,1742
+TABLE,Region Tderi_grad_Inexato_32,Group 1 Metric,L3,10
+Metric,HWThread 3,
+Runtime (RDTSC) [s],0.0001,
+Runtime unhalted [s],0.0003,
+Clock [MHz],2384.6373,
+CPI,1.1686,
+L3 load bandwidth [MBytes/s],6184.4047,
+L3 load data volume [GBytes],0.0008,
+L3 evict bandwidth [MBytes/s],826.5485,
+L3 evict data volume [GBytes],0.0001,
+L3 bandwidth [MBytes/s],7010.9531,
+L3 data volume [GBytes],0.0009,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.3998269 GHz,
+TABLE,Region Tderi_hes_Inexato_32,Group 1 Raw,L3,5
+Region Info,HWThread 3,
+RDTSC Runtime [s],0.004365,
+call count,50,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,12228120
+CPU_CLK_UNHALTED_CORE,FIXC1,10334430
+CPU_CLK_UNHALTED_REF,FIXC2,10358300
+L2_LINES_IN_ALL,PMC0,19078
+L2_TRANS_L2_WB,PMC1,2424
+TABLE,Region Tderi_hes_Inexato_32,Group 1 Metric,L3,10
+Metric,HWThread 3,
+Runtime (RDTSC) [s],0.0044,
+Runtime unhalted [s],0.0043,
+Clock [MHz],2394.2967,
+CPI,0.8451,
+L3 load bandwidth [MBytes/s],279.7340,
+L3 load data volume [GBytes],0.0012,
+L3 evict bandwidth [MBytes/s],35.5423,
+L3 evict data volume [GBytes],0.0002,
+L3 bandwidth [MBytes/s],315.2762,
+L3 data volume [GBytes],0.0014,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.3998269 GHz,
+TABLE,Region T_Sist_Lin_Inexato_32,Group 1 Raw,L3,5
+Region Info,HWThread 3,
+RDTSC Runtime [s],0.000186,
+call count,50,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,680924
+CPU_CLK_UNHALTED_CORE,FIXC1,766072
+CPU_CLK_UNHALTED_REF,FIXC2,768300
+L2_LINES_IN_ALL,PMC0,18062
+L2_TRANS_L2_WB,PMC1,1738
+TABLE,Region T_Sist_Lin_Inexato_32,Group 1 Metric,L3,10
+Metric,HWThread 3,
+Runtime (RDTSC) [s],0.0002,
+Runtime unhalted [s],0.0003,
+Clock [MHz],2392.8676,
+CPI,1.1250,
+L3 load bandwidth [MBytes/s],6215.5200,
+L3 load data volume [GBytes],0.0012,
+L3 evict bandwidth [MBytes/s],598.0829,
+L3 evict data volume [GBytes],0.0001,
+L3 bandwidth [MBytes/s],6813.6029,
+L3 data volume [GBytes],0.0013,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.3998269 GHz,
+TABLE,Region T_Newton_Padrao_50,Group 1 Raw,L3,5
+Region Info,HWThread 3,
+RDTSC Runtime [s],0.051717,
+call count,1,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,39273410
+CPU_CLK_UNHALTED_CORE,FIXC1,31189950
+CPU_CLK_UNHALTED_REF,FIXC2,31261600
+L2_LINES_IN_ALL,PMC0,151147
+L2_TRANS_L2_WB,PMC1,26659
+TABLE,Region T_Newton_Padrao_50,Group 1 Metric,L3,10
+Metric,HWThread 3,
+Runtime (RDTSC) [s],0.0517,
+Runtime unhalted [s],0.0130,
+Clock [MHz],2394.3266,
+CPI,0.7942,
+L3 load bandwidth [MBytes/s],187.0460,
+L3 load data volume [GBytes],0.0097,
+L3 evict bandwidth [MBytes/s],32.9908,
+L3 evict data volume [GBytes],0.0017,
+L3 bandwidth [MBytes/s],220.0368,
+L3 data volume [GBytes],0.0114,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.3998269 GHz,
+TABLE,Region Tderi_grad_Padrao_50,Group 1 Raw,L3,5
+Region Info,HWThread 3,
+RDTSC Runtime [s],0.000215,
+call count,50,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,779580
+CPU_CLK_UNHALTED_CORE,FIXC1,958538
+CPU_CLK_UNHALTED_REF,FIXC2,961200
+L2_LINES_IN_ALL,PMC0,16185
+L2_TRANS_L2_WB,PMC1,2493
+TABLE,Region Tderi_grad_Padrao_50,Group 1 Metric,L3,10
+Metric,HWThread 3,
+Runtime (RDTSC) [s],0.0002,
+Runtime unhalted [s],0.0004,
+Clock [MHz],2393.1807,
+CPI,1.2296,
+L3 load bandwidth [MBytes/s],4809.8225,
+L3 load data volume [GBytes],0.0010,
+L3 evict bandwidth [MBytes/s],740.8642,
+L3 evict data volume [GBytes],0.0002,
+L3 bandwidth [MBytes/s],5550.6867,
+L3 data volume [GBytes],0.0012,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.3998269 GHz,
+TABLE,Region Tderi_hes_padrao_50,Group 1 Raw,L3,5
+Region Info,HWThread 3,
+RDTSC Runtime [s],0.010363,
+call count,50,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,29564550
+CPU_CLK_UNHALTED_CORE,FIXC1,25277260
+CPU_CLK_UNHALTED_REF,FIXC2,25339100
+L2_LINES_IN_ALL,PMC0,36046
+L2_TRANS_L2_WB,PMC1,6104
+TABLE,Region Tderi_hes_padrao_50,Group 1 Metric,L3,10
+Metric,HWThread 3,
+Runtime (RDTSC) [s],0.0104,
+Runtime unhalted [s],0.0105,
+Clock [MHz],2393.9701,
+CPI,0.8550,
+L3 load bandwidth [MBytes/s],222.6223,
+L3 load data volume [GBytes],0.0023,
+L3 evict bandwidth [MBytes/s],37.6987,
+L3 evict data volume [GBytes],0.0004,
+L3 bandwidth [MBytes/s],260.3210,
+L3 data volume [GBytes],0.0027,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.3998269 GHz,
+TABLE,Region T_Sist_Lin_Padrao_50,Group 1 Raw,L3,5
+Region Info,HWThread 3,
+RDTSC Runtime [s],0.001248,
+call count,50,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,8092171
+CPU_CLK_UNHALTED_CORE,FIXC1,3437572
+CPU_CLK_UNHALTED_REF,FIXC2,3446400
+L2_LINES_IN_ALL,PMC0,33593
+L2_TRANS_L2_WB,PMC1,6015
+TABLE,Region T_Sist_Lin_Padrao_50,Group 1 Metric,L3,10
+Metric,HWThread 3,
+Runtime (RDTSC) [s],0.0012,
+Runtime unhalted [s],0.0014,
+Clock [MHz],2393.6797,
+CPI,0.4248,
+L3 load bandwidth [MBytes/s],1723.2592,
+L3 load data volume [GBytes],0.0021,
+L3 evict bandwidth [MBytes/s],308.5585,
+L3 evict data volume [GBytes],0.0004,
+L3 bandwidth [MBytes/s],2031.8177,
+L3 data volume [GBytes],0.0025,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.3998269 GHz,
+TABLE,Region T_Newton_Inexato_50,Group 1 Raw,L3,5
+Region Info,HWThread 3,
+RDTSC Runtime [s],0.048937,
+call count,1,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,32397120
+CPU_CLK_UNHALTED_CORE,FIXC1,27792500
+CPU_CLK_UNHALTED_REF,FIXC2,27854200
+L2_LINES_IN_ALL,PMC0,110617
+L2_TRANS_L2_WB,PMC1,14216
+TABLE,Region T_Newton_Inexato_50,Group 1 Metric,L3,10
+Metric,HWThread 3,
+Runtime (RDTSC) [s],0.0489,
+Runtime unhalted [s],0.0116,
+Clock [MHz],2394.5110,
+CPI,0.8579,
+L3 load bandwidth [MBytes/s],144.6650,
+L3 load data volume [GBytes],0.0071,
+L3 evict bandwidth [MBytes/s],18.5917,
+L3 evict data volume [GBytes],0.0009,
+L3 bandwidth [MBytes/s],163.2567,
+L3 data volume [GBytes],0.0080,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.3998269 GHz,
+TABLE,Region Tderi_grad_Inexato_50,Group 1 Raw,L3,5
+Region Info,HWThread 3,
+RDTSC Runtime [s],0.000208,
+call count,50,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,778458
+CPU_CLK_UNHALTED_CORE,FIXC1,828039
+CPU_CLK_UNHALTED_REF,FIXC2,828700
+L2_LINES_IN_ALL,PMC0,10365
+L2_TRANS_L2_WB,PMC1,860
+TABLE,Region Tderi_grad_Inexato_50,Group 1 Metric,L3,10
+Metric,HWThread 3,
+Runtime (RDTSC) [s],0.0002,
+Runtime unhalted [s],0.0003,
+Clock [MHz],2397.9127,
+CPI,1.0637,
+L3 load bandwidth [MBytes/s],3185.2691,
+L3 load data volume [GBytes],0.0007,
+L3 evict bandwidth [MBytes/s],264.2867,
+L3 evict data volume [GBytes],0.0001,
+L3 bandwidth [MBytes/s],3449.5558,
+L3 data volume [GBytes],0.0007,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.3998269 GHz,
+TABLE,Region Tderi_hes_Inexato_50,Group 1 Raw,L3,5
+Region Info,HWThread 3,
+RDTSC Runtime [s],0.010280,
+call count,50,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,29564040
+CPU_CLK_UNHALTED_CORE,FIXC1,24664840
+CPU_CLK_UNHALTED_REF,FIXC2,24722000
+L2_LINES_IN_ALL,PMC0,26772
+L2_TRANS_L2_WB,PMC1,3876
+TABLE,Region Tderi_hes_Inexato_50,Group 1 Metric,L3,10
+Metric,HWThread 3,
+Runtime (RDTSC) [s],0.0103,
+Runtime unhalted [s],0.0103,
+Clock [MHz],2394.2782,
+CPI,0.8343,
+L3 load bandwidth [MBytes/s],166.6684,
+L3 load data volume [GBytes],0.0017,
+L3 evict bandwidth [MBytes/s],24.1299,
+L3 evict data volume [GBytes],0.0002,
+L3 bandwidth [MBytes/s],190.7984,
+L3 data volume [GBytes],0.0020,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.3998269 GHz,
+TABLE,Region T_Sist_Lin_Inexato_50,Group 1 Raw,L3,5
+Region Info,HWThread 3,
+RDTSC Runtime [s],0.000384,
+call count,50,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,1226814
+CPU_CLK_UNHALTED_CORE,FIXC1,1246916
+CPU_CLK_UNHALTED_REF,FIXC2,1249600
+L2_LINES_IN_ALL,PMC0,26632
+L2_TRANS_L2_WB,PMC1,3419
+TABLE,Region T_Sist_Lin_Inexato_50,Group 1 Metric,L3,10
+Metric,HWThread 3,
+Runtime (RDTSC) [s],0.0004,
+Runtime unhalted [s],0.0005,
+Clock [MHz],2394.6723,
+CPI,1.0164,
+L3 load bandwidth [MBytes/s],4443.1573,
+L3 load data volume [GBytes],0.0017,
+L3 evict bandwidth [MBytes/s],570.4098,
+L3 evict data volume [GBytes],0.0002,
+L3 bandwidth [MBytes/s],5013.5671,
+L3 data volume [GBytes],0.0019,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.3998269 GHz,
+TABLE,Region T_Newton_Padrao_64,Group 1 Raw,L3,5
+Region Info,HWThread 3,
+RDTSC Runtime [s],0.077891,
+call count,1,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,64851650
+CPU_CLK_UNHALTED_CORE,FIXC1,56747990
+CPU_CLK_UNHALTED_REF,FIXC2,56880300
+L2_LINES_IN_ALL,PMC0,312594
+L2_TRANS_L2_WB,PMC1,87521
+TABLE,Region T_Newton_Padrao_64,Group 1 Metric,L3,10
+Metric,HWThread 3,
+Runtime (RDTSC) [s],0.0779,
+Runtime unhalted [s],0.0236,
+Clock [MHz],2394.2446,
+CPI,0.8750,
+L3 load bandwidth [MBytes/s],256.8453,
+L3 load data volume [GBytes],0.0200,
+L3 evict bandwidth [MBytes/s],71.9123,
+L3 evict data volume [GBytes],0.0056,
+L3 bandwidth [MBytes/s],328.7576,
+L3 data volume [GBytes],0.0256,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.3998269 GHz,
+TABLE,Region Tderi_grad_Padrao_64,Group 1 Raw,L3,5
+Region Info,HWThread 3,
+RDTSC Runtime [s],0.000305,
+call count,50,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,944936
+CPU_CLK_UNHALTED_CORE,FIXC1,1384422
+CPU_CLK_UNHALTED_REF,FIXC2,1386800
+L2_LINES_IN_ALL,PMC0,31330
+L2_TRANS_L2_WB,PMC1,7491
+TABLE,Region Tderi_grad_Padrao_64,Group 1 Metric,L3,10
+Metric,HWThread 3,
+Runtime (RDTSC) [s],0.0003,
+Runtime unhalted [s],0.0006,
+Clock [MHz],2395.7118,
+CPI,1.4651,
+L3 load bandwidth [MBytes/s],6577.0427,
+L3 load data volume [GBytes],0.0020,
+L3 evict bandwidth [MBytes/s],1572.5703,
+L3 evict data volume [GBytes],0.0005,
+L3 bandwidth [MBytes/s],8149.6130,
+L3 data volume [GBytes],0.0025,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.3998269 GHz,
+TABLE,Region Tderi_hes_padrao_64,Group 1 Raw,L3,5
+Region Info,HWThread 3,
+RDTSC Runtime [s],0.018195,
+call count,50,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,48332960
+CPU_CLK_UNHALTED_CORE,FIXC1,43604170
+CPU_CLK_UNHALTED_REF,FIXC2,43704800
+L2_LINES_IN_ALL,PMC0,77626
+L2_TRANS_L2_WB,PMC1,25144
+TABLE,Region Tderi_hes_padrao_64,Group 1 Metric,L3,10
+Metric,HWThread 3,
+Runtime (RDTSC) [s],0.0182,
+Runtime unhalted [s],0.0182,
+Clock [MHz],2394.3013,
+CPI,0.9022,
+L3 load bandwidth [MBytes/s],273.0396,
+L3 load data volume [GBytes],0.0050,
+L3 evict bandwidth [MBytes/s],88.4408,
+L3 evict data volume [GBytes],0.0016,
+L3 bandwidth [MBytes/s],361.4804,
+L3 data volume [GBytes],0.0066,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.3998269 GHz,
+TABLE,Region T_Sist_Lin_Padrao_64,Group 1 Raw,L3,5
+Region Info,HWThread 3,
+RDTSC Runtime [s],0.003328,
+call count,50,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,14618200
+CPU_CLK_UNHALTED_CORE,FIXC1,8697435
+CPU_CLK_UNHALTED_REF,FIXC2,8718000
+L2_LINES_IN_ALL,PMC0,77572
+L2_TRANS_L2_WB,PMC1,22201
+TABLE,Region T_Sist_Lin_Padrao_64,Group 1 Metric,L3,10
+Metric,HWThread 3,
+Runtime (RDTSC) [s],0.0033,
+Runtime unhalted [s],0.0036,
+Clock [MHz],2394.1659,
+CPI,0.5950,
+L3 load bandwidth [MBytes/s],1491.6334,
+L3 load data volume [GBytes],0.0050,
+L3 evict bandwidth [MBytes/s],426.9034,
+L3 evict data volume [GBytes],0.0014,
+L3 bandwidth [MBytes/s],1918.5369,
+L3 data volume [GBytes],0.0064,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.3998269 GHz,
+TABLE,Region T_Newton_Inexato_64,Group 1 Raw,L3,5
+Region Info,HWThread 3,
+RDTSC Runtime [s],0.072250,
+call count,1,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,52630840
+CPU_CLK_UNHALTED_CORE,FIXC1,49901060
+CPU_CLK_UNHALTED_REF,FIXC2,50011800
+L2_LINES_IN_ALL,PMC0,311349
+L2_TRANS_L2_WB,PMC1,65957
+TABLE,Region T_Newton_Inexato_64,Group 1 Metric,L3,10
+Metric,HWThread 3,
+Runtime (RDTSC) [s],0.0723,
+Runtime unhalted [s],0.0208,
+Clock [MHz],2394.5130,
+CPI,0.9481,
+L3 load bandwidth [MBytes/s],275.7964,
+L3 load data volume [GBytes],0.0199,
+L3 evict bandwidth [MBytes/s],58.4254,
+L3 evict data volume [GBytes],0.0042,
+L3 bandwidth [MBytes/s],334.2219,
+L3 data volume [GBytes],0.0241,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.3998269 GHz,
+TABLE,Region Tderi_grad_Inexato_64,Group 1 Raw,L3,5
+Region Info,HWThread 3,
+RDTSC Runtime [s],0.000296,
+call count,50,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,944688
+CPU_CLK_UNHALTED_CORE,FIXC1,1264553
+CPU_CLK_UNHALTED_REF,FIXC2,1265700
+L2_LINES_IN_ALL,PMC0,31879
+L2_TRANS_L2_WB,PMC1,5349
+TABLE,Region Tderi_grad_Inexato_64,Group 1 Metric,L3,10
+Metric,HWThread 3,
+Runtime (RDTSC) [s],0.0003,
+Runtime unhalted [s],0.0005,
+Clock [MHz],2397.6521,
+CPI,1.3386,
+L3 load bandwidth [MBytes/s],6894.0005,
+L3 load data volume [GBytes],0.0020,
+L3 evict bandwidth [MBytes/s],1156.7492,
+L3 evict data volume [GBytes],0.0003,
+L3 bandwidth [MBytes/s],8050.7497,
+L3 data volume [GBytes],0.0024,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.3998269 GHz,
+TABLE,Region Tderi_hes_Inexato_64,Group 1 Raw,L3,5
+Region Info,HWThread 3,
+RDTSC Runtime [s],0.017606,
+call count,50,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,48364230
+CPU_CLK_UNHALTED_CORE,FIXC1,42820380
+CPU_CLK_UNHALTED_REF,FIXC2,42918200
+L2_LINES_IN_ALL,PMC0,73038
+L2_TRANS_L2_WB,PMC1,17317
+TABLE,Region Tderi_hes_Inexato_64,Group 1 Metric,L3,10
+Metric,HWThread 3,
+Runtime (RDTSC) [s],0.0176,
+Runtime unhalted [s],0.0178,
+Clock [MHz],2394.3572,
+CPI,0.8854,
+L3 load bandwidth [MBytes/s],265.5051,
+L3 load data volume [GBytes],0.0047,
+L3 evict bandwidth [MBytes/s],62.9501,
+L3 evict data volume [GBytes],0.0011,
+L3 bandwidth [MBytes/s],328.4552,
+L3 data volume [GBytes],0.0058,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.3998269 GHz,
+TABLE,Region T_Sist_Lin_Inexato_64,Group 1 Raw,L3,5
+Region Info,HWThread 3,
+RDTSC Runtime [s],0.000763,
+call count,50,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,1724624
+CPU_CLK_UNHALTED_CORE,FIXC1,2373267
+CPU_CLK_UNHALTED_REF,FIXC2,2377500
+L2_LINES_IN_ALL,PMC0,66418
+L2_TRANS_L2_WB,PMC1,13914
+TABLE,Region T_Sist_Lin_Inexato_64,Group 1 Metric,L3,10
+Metric,HWThread 3,
+Runtime (RDTSC) [s],0.0008,
+Runtime unhalted [s],0.0010,
+Clock [MHz],2395.5541,
+CPI,1.3761,
+L3 load bandwidth [MBytes/s],5570.5786,
+L3 load data volume [GBytes],0.0043,
+L3 evict bandwidth [MBytes/s],1166.9883,
+L3 evict data volume [GBytes],0.0009,
+L3 bandwidth [MBytes/s],6737.5669,
+L3 data volume [GBytes],0.0051,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.3998269 GHz,
+TABLE,Region T_Newton_Padrao_100,Group 1 Raw,L3,5
+Region Info,HWThread 3,
+RDTSC Runtime [s],0.108804,
+call count,1,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,164308600
+CPU_CLK_UNHALTED_CORE,FIXC1,135219100
+CPU_CLK_UNHALTED_REF,FIXC2,135526800
+L2_LINES_IN_ALL,PMC0,310324
+L2_TRANS_L2_WB,PMC1,80741
+TABLE,Region T_Newton_Padrao_100,Group 1 Metric,L3,10
+Metric,HWThread 3,
+Runtime (RDTSC) [s],0.1088,
+Runtime unhalted [s],0.0563,
+Clock [MHz],2394.3783,
+CPI,0.8230,
+L3 load bandwidth [MBytes/s],182.5360,
+L3 load data volume [GBytes],0.0199,
+L3 evict bandwidth [MBytes/s],47.4927,
+L3 evict data volume [GBytes],0.0052,
+L3 bandwidth [MBytes/s],230.0287,
+L3 data volume [GBytes],0.0250,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.3998269 GHz,
+TABLE,Region Tderi_grad_Padrao_100,Group 1 Raw,L3,5
+Region Info,HWThread 3,
+RDTSC Runtime [s],0.000451,
+call count,50,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,1366439
+CPU_CLK_UNHALTED_CORE,FIXC1,1588802
+CPU_CLK_UNHALTED_REF,FIXC2,1592300
+L2_LINES_IN_ALL,PMC0,16943
+L2_TRANS_L2_WB,PMC1,3521
+TABLE,Region Tderi_grad_Padrao_100,Group 1 Metric,L3,10
+Metric,HWThread 3,
+Runtime (RDTSC) [s],0.0005,
+Runtime unhalted [s],0.0007,
+Clock [MHz],2394.5549,
+CPI,1.1627,
+L3 load bandwidth [MBytes/s],2403.8549,
+L3 load data volume [GBytes],0.0011,
+L3 evict bandwidth [MBytes/s],499.5557,
+L3 evict data volume [GBytes],0.0002,
+L3 bandwidth [MBytes/s],2903.4106,
+L3 data volume [GBytes],0.0013,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.3998269 GHz,
+TABLE,Region Tderi_hes_padrao_100,Group 1 Raw,L3,5
+Region Info,HWThread 3,
+RDTSC Runtime [s],0.043831,
+call count,50,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,117686600
+CPU_CLK_UNHALTED_CORE,FIXC1,104024400
+CPU_CLK_UNHALTED_REF,FIXC2,104265100
+L2_LINES_IN_ALL,PMC0,96185
+L2_TRANS_L2_WB,PMC1,22535
+TABLE,Region Tderi_hes_padrao_100,Group 1 Metric,L3,10
+Metric,HWThread 3,
+Runtime (RDTSC) [s],0.0438,
+Runtime unhalted [s],0.0433,
+Clock [MHz],2394.2868,
+CPI,0.8839,
+L3 load bandwidth [MBytes/s],140.4435,
+L3 load data volume [GBytes],0.0062,
+L3 evict bandwidth [MBytes/s],32.9042,
+L3 evict data volume [GBytes],0.0014,
+L3 bandwidth [MBytes/s],173.3477,
+L3 data volume [GBytes],0.0076,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.3998269 GHz,
+TABLE,Region T_Sist_Lin_Padrao_100,Group 1 Raw,L3,5
+Region Info,HWThread 3,
+RDTSC Runtime [s],0.011213,
+call count,50,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,44399980
+CPU_CLK_UNHALTED_CORE,FIXC1,27399080
+CPU_CLK_UNHALTED_REF,FIXC2,27461800
+L2_LINES_IN_ALL,PMC0,121132
+L2_TRANS_L2_WB,PMC1,33373
+TABLE,Region T_Sist_Lin_Padrao_100,Group 1 Metric,L3,10
+Metric,HWThread 3,
+Runtime (RDTSC) [s],0.0112,
+Runtime unhalted [s],0.0114,
+Clock [MHz],2394.3459,
+CPI,0.6171,
+L3 load bandwidth [MBytes/s],691.3989,
+L3 load data volume [GBytes],0.0078,
+L3 evict bandwidth [MBytes/s],190.4869,
+L3 evict data volume [GBytes],0.0021,
+L3 bandwidth [MBytes/s],881.8857,
+L3 data volume [GBytes],0.0099,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.3998269 GHz,
+TABLE,Region T_Newton_Inexato_100,Group 1 Raw,L3,5
+Region Info,HWThread 3,
+RDTSC Runtime [s],0.085031,
+call count,1,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,123531500
+CPU_CLK_UNHALTED_CORE,FIXC1,105692800
+CPU_CLK_UNHALTED_REF,FIXC2,105937500
+L2_LINES_IN_ALL,PMC0,248143
+L2_TRANS_L2_WB,PMC1,50809
+TABLE,Region T_Newton_Inexato_100,Group 1 Metric,L3,10
+Metric,HWThread 3,
+Runtime (RDTSC) [s],0.0850,
+Runtime unhalted [s],0.0440,
+Clock [MHz],2394.2837,
+CPI,0.8556,
+L3 load bandwidth [MBytes/s],186.7697,
+L3 load data volume [GBytes],0.0159,
+L3 evict bandwidth [MBytes/s],38.2424,
+L3 evict data volume [GBytes],0.0033,
+L3 bandwidth [MBytes/s],225.0121,
+L3 data volume [GBytes],0.0191,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.3998269 GHz,
+TABLE,Region Tderi_grad_Inexato_100,Group 1 Raw,L3,5
+Region Info,HWThread 3,
+RDTSC Runtime [s],0.000420,
+call count,50,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,1367554
+CPU_CLK_UNHALTED_CORE,FIXC1,1408171
+CPU_CLK_UNHALTED_REF,FIXC2,1408400
+L2_LINES_IN_ALL,PMC0,16317
+L2_TRANS_L2_WB,PMC1,2582
+TABLE,Region Tderi_grad_Inexato_100,Group 1 Metric,L3,10
+Metric,HWThread 3,
+Runtime (RDTSC) [s],0.0004,
+Runtime unhalted [s],0.0006,
+Clock [MHz],2399.4367,
+CPI,1.0297,
+L3 load bandwidth [MBytes/s],2487.8548,
+L3 load data volume [GBytes],0.0010,
+L3 evict bandwidth [MBytes/s],393.6778,
+L3 evict data volume [GBytes],0.0002,
+L3 bandwidth [MBytes/s],2881.5326,
+L3 data volume [GBytes],0.0012,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.3998269 GHz,
+TABLE,Region Tderi_hes_Inexato_100,Group 1 Raw,L3,5
+Region Info,HWThread 3,
+RDTSC Runtime [s],0.041680,
+call count,50,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,117685800
+CPU_CLK_UNHALTED_CORE,FIXC1,98994300
+CPU_CLK_UNHALTED_REF,FIXC2,99226000
+L2_LINES_IN_ALL,PMC0,88841
+L2_TRANS_L2_WB,PMC1,19771
+TABLE,Region Tderi_hes_Inexato_100,Group 1 Metric,L3,10
+Metric,HWThread 3,
+Runtime (RDTSC) [s],0.0417,
+Runtime unhalted [s],0.0413,
+Clock [MHz],2394.2231,
+CPI,0.8412,
+L3 load bandwidth [MBytes/s],136.4168,
+L3 load data volume [GBytes],0.0057,
+L3 evict bandwidth [MBytes/s],30.3587,
+L3 evict data volume [GBytes],0.0013,
+L3 bandwidth [MBytes/s],166.7755,
+L3 data volume [GBytes],0.0070,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.3998269 GHz,
+TABLE,Region T_Sist_Lin_Inexato_100,Group 1 Raw,L3,5
+Region Info,HWThread 3,
+RDTSC Runtime [s],0.001460,
+call count,50,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,3634666
+CPU_CLK_UNHALTED_CORE,FIXC1,3884352
+CPU_CLK_UNHALTED_REF,FIXC2,3892900
+L2_LINES_IN_ALL,PMC0,78569
+L2_TRANS_L2_WB,PMC1,16056
+TABLE,Region T_Sist_Lin_Inexato_100,Group 1 Metric,L3,10
+Metric,HWThread 3,
+Runtime (RDTSC) [s],0.0015,
+Runtime unhalted [s],0.0016,
+Clock [MHz],2394.5574,
+CPI,1.0687,
+L3 load bandwidth [MBytes/s],3444.4320,
+L3 load data volume [GBytes],0.0050,
+L3 evict bandwidth [MBytes/s],703.8883,
+L3 evict data volume [GBytes],0.0010,
+L3 bandwidth [MBytes/s],4148.3203,
+L3 data volume [GBytes],0.0061,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.3998269 GHz,
+TABLE,Region T_Newton_Padrao_128,Group 1 Raw,L3,5
+Region Info,HWThread 3,
+RDTSC Runtime [s],0.143370,
+call count,1,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,279359100
+CPU_CLK_UNHALTED_CORE,FIXC1,221879000
+CPU_CLK_UNHALTED_REF,FIXC2,222397100
+L2_LINES_IN_ALL,PMC0,773733
+L2_TRANS_L2_WB,PMC1,374016
+TABLE,Region T_Newton_Padrao_128,Group 1 Metric,L3,10
+Metric,HWThread 3,
+Runtime (RDTSC) [s],0.1434,
+Runtime unhalted [s],0.0925,
+Clock [MHz],2394.2362,
+CPI,0.7942,
+L3 load bandwidth [MBytes/s],345.3919,
+L3 load data volume [GBytes],0.0495,
+L3 evict bandwidth [MBytes/s],166.9595,
+L3 evict data volume [GBytes],0.0239,
+L3 bandwidth [MBytes/s],512.3515,
+L3 data volume [GBytes],0.0735,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.3998269 GHz,
+TABLE,Region Tderi_grad_Padrao_128,Group 1 Raw,L3,5
+Region Info,HWThread 3,
+RDTSC Runtime [s],0.000563,
+call count,50,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,1691988
+CPU_CLK_UNHALTED_CORE,FIXC1,1880784
+CPU_CLK_UNHALTED_REF,FIXC2,1885600
+L2_LINES_IN_ALL,PMC0,25370
+L2_TRANS_L2_WB,PMC1,7990
+TABLE,Region Tderi_grad_Padrao_128,Group 1 Metric,L3,10
+Metric,HWThread 3,
+Runtime (RDTSC) [s],0.0006,
+Runtime unhalted [s],0.0008,
+Clock [MHz],2393.6975,
+CPI,1.1116,
+L3 load bandwidth [MBytes/s],2884.2917,
+L3 load data volume [GBytes],0.0016,
+L3 evict bandwidth [MBytes/s],908.3757,
+L3 evict data volume [GBytes],0.0005,
+L3 bandwidth [MBytes/s],3792.6674,
+L3 data volume [GBytes],0.0021,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.3998269 GHz,
+TABLE,Region Tderi_hes_padrao_128,Group 1 Raw,L3,5
+Region Info,HWThread 3,
+RDTSC Runtime [s],0.070583,
+call count,50,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,192701000
+CPU_CLK_UNHALTED_CORE,FIXC1,168525400
+CPU_CLK_UNHALTED_REF,FIXC2,168921000
+L2_LINES_IN_ALL,PMC0,155078
+L2_TRANS_L2_WB,PMC1,74190
+TABLE,Region Tderi_hes_padrao_128,Group 1 Metric,L3,10
+Metric,HWThread 3,
+Runtime (RDTSC) [s],0.0706,
+Runtime unhalted [s],0.0702,
+Clock [MHz],2394.2067,
+CPI,0.8745,
+L3 load bandwidth [MBytes/s],140.6140,
+L3 load data volume [GBytes],0.0099,
+L3 evict bandwidth [MBytes/s],67.2704,
+L3 evict data volume [GBytes],0.0047,
+L3 bandwidth [MBytes/s],207.8843,
+L3 data volume [GBytes],0.0147,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.3998269 GHz,
+TABLE,Region T_Sist_Lin_Padrao_128,Group 1 Raw,L3,5
+Region Info,HWThread 3,
+RDTSC Runtime [s],0.020659,
+call count,50,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,84090320
+CPU_CLK_UNHALTED_CORE,FIXC1,49391680
+CPU_CLK_UNHALTED_REF,FIXC2,49506000
+L2_LINES_IN_ALL,PMC0,492987
+L2_TRANS_L2_WB,PMC1,258413
+TABLE,Region T_Sist_Lin_Padrao_128,Group 1 Metric,L3,10
+Metric,HWThread 3,
+Runtime (RDTSC) [s],0.0207,
+Runtime unhalted [s],0.0206,
+Clock [MHz],2394.2852,
+CPI,0.5874,
+L3 load bandwidth [MBytes/s],1527.2463,
+L3 load data volume [GBytes],0.0316,
+L3 evict bandwidth [MBytes/s],800.5491,
+L3 evict data volume [GBytes],0.0165,
+L3 bandwidth [MBytes/s],2327.7954,
+L3 data volume [GBytes],0.0481,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.3998269 GHz,
+TABLE,Region T_Newton_Inexato_128,Group 1 Raw,L3,5
+Region Info,HWThread 3,
+RDTSC Runtime [s],0.109390,
+call count,1,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,200905100
+CPU_CLK_UNHALTED_CORE,FIXC1,168927200
+CPU_CLK_UNHALTED_REF,FIXC2,169321700
+L2_LINES_IN_ALL,PMC0,331059
+L2_TRANS_L2_WB,PMC1,91654
+TABLE,Region T_Newton_Inexato_128,Group 1 Metric,L3,10
+Metric,HWThread 3,
+Runtime (RDTSC) [s],0.1094,
+Runtime unhalted [s],0.0704,
+Clock [MHz],2394.2356,
+CPI,0.8408,
+L3 load bandwidth [MBytes/s],193.6908,
+L3 load data volume [GBytes],0.0212,
+L3 evict bandwidth [MBytes/s],53.6235,
+L3 evict data volume [GBytes],0.0059,
+L3 bandwidth [MBytes/s],247.3143,
+L3 data volume [GBytes],0.0271,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.3998269 GHz,
+TABLE,Region Tderi_grad_Inexato_128,Group 1 Raw,L3,5
+Region Info,HWThread 3,
+RDTSC Runtime [s],0.000530,
+call count,50,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,1691354
+CPU_CLK_UNHALTED_CORE,FIXC1,1657462
+CPU_CLK_UNHALTED_REF,FIXC2,1660300
+L2_LINES_IN_ALL,PMC0,13486
+L2_TRANS_L2_WB,PMC1,3089
+TABLE,Region Tderi_grad_Inexato_128,Group 1 Metric,L3,10
+Metric,HWThread 3,
+Runtime (RDTSC) [s],0.0005,
+Runtime unhalted [s],0.0007,
+Clock [MHz],2395.7248,
+CPI,0.9800,
+L3 load bandwidth [MBytes/s],1627.8144,
+L3 load data volume [GBytes],0.0009,
+L3 evict bandwidth [MBytes/s],372.8547,
+L3 evict data volume [GBytes],0.0002,
+L3 bandwidth [MBytes/s],2000.6692,
+L3 data volume [GBytes],0.0011,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.3998269 GHz,
+TABLE,Region Tderi_hes_Inexato_128,Group 1 Raw,L3,5
+Region Info,HWThread 3,
+RDTSC Runtime [s],0.067201,
+call count,50,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,192697100
+CPU_CLK_UNHALTED_CORE,FIXC1,160004900
+CPU_CLK_UNHALTED_REF,FIXC2,160379000
+L2_LINES_IN_ALL,PMC0,129134
+L2_TRANS_L2_WB,PMC1,33240
+TABLE,Region Tderi_hes_Inexato_128,Group 1 Metric,L3,10
+Metric,HWThread 3,
+Runtime (RDTSC) [s],0.0672,
+Runtime unhalted [s],0.0667,
+Clock [MHz],2394.2291,
+CPI,0.8303,
+L3 load bandwidth [MBytes/s],122.9838,
+L3 load data volume [GBytes],0.0083,
+L3 evict bandwidth [MBytes/s],31.6569,
+L3 evict data volume [GBytes],0.0021,
+L3 bandwidth [MBytes/s],154.6407,
+L3 data volume [GBytes],0.0104,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.3998269 GHz,
+TABLE,Region T_Sist_Lin_Inexato_128,Group 1 Raw,L3,5
+Region Info,HWThread 3,
+RDTSC Runtime [s],0.002328,
+call count,50,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,5663657
+CPU_CLK_UNHALTED_CORE,FIXC1,5982160
+CPU_CLK_UNHALTED_REF,FIXC2,5996700
+L2_LINES_IN_ALL,PMC0,129830
+L2_TRANS_L2_WB,PMC1,38900
+TABLE,Region T_Sist_Lin_Inexato_128,Group 1 Metric,L3,10
+Metric,HWThread 3,
+Runtime (RDTSC) [s],0.0023,
+Runtime unhalted [s],0.0025,
+Clock [MHz],2394.0081,
+CPI,1.0562,
+L3 load bandwidth [MBytes/s],3569.1069,
+L3 load data volume [GBytes],0.0083,
+L3 evict bandwidth [MBytes/s],1069.3850,
+L3 evict data volume [GBytes],0.0025,
+L3 bandwidth [MBytes/s],4638.4919,
+L3 data volume [GBytes],0.0108,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.3998269 GHz,
+TABLE,Region T_Newton_Padrao_200,Group 1 Raw,L3,5
+Region Info,HWThread 3,
+RDTSC Runtime [s],0.258926,
+call count,1,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,750648300
+CPU_CLK_UNHALTED_CORE,FIXC1,524793600
+CPU_CLK_UNHALTED_REF,FIXC2,526013200
+L2_LINES_IN_ALL,PMC0,10624100
+L2_TRANS_L2_WB,PMC1,8031470
+TABLE,Region T_Newton_Padrao_200,Group 1 Metric,L3,10
+Metric,HWThread 3,
+Runtime (RDTSC) [s],0.2589,
+Runtime unhalted [s],0.2187,
+Clock [MHz],2394.2627,
+CPI,0.6991,
+L3 load bandwidth [MBytes/s],2626.0136,
+L3 load data volume [GBytes],0.6799,
+L3 evict bandwidth [MBytes/s],1985.1798,
+L3 evict data volume [GBytes],0.5140,
+L3 bandwidth [MBytes/s],4611.1934,
+L3 data volume [GBytes],1.1940,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.3998269 GHz,
+TABLE,Region Tderi_grad_Padrao_200,Group 1 Raw,L3,5
+Region Info,HWThread 3,
+RDTSC Runtime [s],0.000828,
+call count,50,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,2543468
+CPU_CLK_UNHALTED_CORE,FIXC1,2338233
+CPU_CLK_UNHALTED_REF,FIXC2,2344200
+L2_LINES_IN_ALL,PMC0,16413
+L2_TRANS_L2_WB,PMC1,2331
+TABLE,Region Tderi_grad_Padrao_200,Group 1 Metric,L3,10
+Metric,HWThread 3,
+Runtime (RDTSC) [s],0.0008,
+Runtime unhalted [s],0.0010,
+Clock [MHz],2393.7183,
+CPI,0.9193,
+L3 load bandwidth [MBytes/s],1268.7817,
+L3 load data volume [GBytes],0.0011,
+L3 evict bandwidth [MBytes/s],180.1944,
+L3 evict data volume [GBytes],0.0001,
+L3 bandwidth [MBytes/s],1448.9761,
+L3 data volume [GBytes],0.0012,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.3998269 GHz,
+TABLE,Region Tderi_hes_padrao_200,Group 1 Raw,L3,5
+Region Info,HWThread 3,
+RDTSC Runtime [s],0.163773,
+call count,50,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,470184600
+CPU_CLK_UNHALTED_CORE,FIXC1,390847700
+CPU_CLK_UNHALTED_REF,FIXC2,391757200
+L2_LINES_IN_ALL,PMC0,282662
+L2_TRANS_L2_WB,PMC1,114822
+TABLE,Region Tderi_hes_padrao_200,Group 1 Metric,L3,10
+Metric,HWThread 3,
+Runtime (RDTSC) [s],0.1638,
+Runtime unhalted [s],0.1629,
+Clock [MHz],2394.2555,
+CPI,0.8313,
+L3 load bandwidth [MBytes/s],110.4599,
+L3 load data volume [GBytes],0.0181,
+L3 evict bandwidth [MBytes/s],44.8706,
+L3 evict data volume [GBytes],0.0073,
+L3 bandwidth [MBytes/s],155.3305,
+L3 data volume [GBytes],0.0254,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.3998269 GHz,
+TABLE,Region T_Sist_Lin_Padrao_200,Group 1 Raw,L3,5
+Region Info,HWThread 3,
+RDTSC Runtime [s],0.054429,
+call count,50,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,276991700
+CPU_CLK_UNHALTED_CORE,FIXC1,130155300
+CPU_CLK_UNHALTED_REF,FIXC2,130457000
+L2_LINES_IN_ALL,PMC0,10248800
+L2_TRANS_L2_WB,PMC1,7894548
+TABLE,Region T_Sist_Lin_Padrao_200,Group 1 Metric,L3,10
+Metric,HWThread 3,
+Runtime (RDTSC) [s],0.0544,
+Runtime unhalted [s],0.0542,
+Clock [MHz],2394.2770,
+CPI,0.4699,
+L3 load bandwidth [MBytes/s],12051.0894,
+L3 load data volume [GBytes],0.6559,
+L3 evict bandwidth [MBytes/s],9282.8335,
+L3 evict data volume [GBytes],0.5053,
+L3 bandwidth [MBytes/s],21333.9228,
+L3 data volume [GBytes],1.1612,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.3998269 GHz,
+TABLE,Region T_Newton_Inexato_200,Group 1 Raw,L3,5
+Region Info,HWThread 3,
+RDTSC Runtime [s],0.208660,
+call count,1,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,486660200
+CPU_CLK_UNHALTED_CORE,FIXC1,408096300
+CPU_CLK_UNHALTED_REF,FIXC2,409047500
+L2_LINES_IN_ALL,PMC0,843265
+L2_TRANS_L2_WB,PMC1,180832
+TABLE,Region T_Newton_Inexato_200,Group 1 Metric,L3,10
+Metric,HWThread 3,
+Runtime (RDTSC) [s],0.2087,
+Runtime unhalted [s],0.1701,
+Clock [MHz],2394.2463,
+CPI,0.8386,
+L3 load bandwidth [MBytes/s],258.6458,
+L3 load data volume [GBytes],0.0540,
+L3 evict bandwidth [MBytes/s],55.4647,
+L3 evict data volume [GBytes],0.0116,
+L3 bandwidth [MBytes/s],314.1105,
+L3 data volume [GBytes],0.0655,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.3998269 GHz,
+TABLE,Region Tderi_grad_Inexato_200,Group 1 Raw,L3,5
+Region Info,HWThread 3,
+RDTSC Runtime [s],0.000821,
+call count,50,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,2545338
+CPU_CLK_UNHALTED_CORE,FIXC1,2297809
+CPU_CLK_UNHALTED_REF,FIXC2,2304000
+L2_LINES_IN_ALL,PMC0,16421
+L2_TRANS_L2_WB,PMC1,1340
+TABLE,Region Tderi_grad_Inexato_200,Group 1 Metric,L3,10
+Metric,HWThread 3,
+Runtime (RDTSC) [s],0.0008,
+Runtime unhalted [s],0.0010,
+Clock [MHz],2393.3784,
+CPI,0.9028,
+L3 load bandwidth [MBytes/s],1279.4618,
+L3 load data volume [GBytes],0.0011,
+L3 evict bandwidth [MBytes/s],104.4077,
+L3 evict data volume [GBytes],0.0001,
+L3 bandwidth [MBytes/s],1383.8694,
+L3 data volume [GBytes],0.0011,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.3998269 GHz,
+TABLE,Region Tderi_hes_Inexato_200,Group 1 Raw,L3,5
+Region Info,HWThread 3,
+RDTSC Runtime [s],0.163623,
+call count,50,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,470181100
+CPU_CLK_UNHALTED_CORE,FIXC1,390661500
+CPU_CLK_UNHALTED_REF,FIXC2,391573300
+L2_LINES_IN_ALL,PMC0,287448
+L2_TRANS_L2_WB,PMC1,112831
+TABLE,Region Tderi_hes_Inexato_200,Group 1 Metric,L3,10
+Metric,HWThread 3,
+Runtime (RDTSC) [s],0.1636,
+Runtime unhalted [s],0.1628,
+Clock [MHz],2394.2388,
+CPI,0.8309,
+L3 load bandwidth [MBytes/s],112.4336,
+L3 load data volume [GBytes],0.0184,
+L3 evict bandwidth [MBytes/s],44.1332,
+L3 evict data volume [GBytes],0.0072,
+L3 bandwidth [MBytes/s],156.5668,
+L3 data volume [GBytes],0.0256,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.3998269 GHz,
+TABLE,Region T_Sist_Lin_Inexato_200,Group 1 Raw,L3,5
+Region Info,HWThread 3,
+RDTSC Runtime [s],0.005663,
+call count,50,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,13031990
+CPU_CLK_UNHALTED_CORE,FIXC1,13894680
+CPU_CLK_UNHALTED_REF,FIXC2,13925500
+L2_LINES_IN_ALL,PMC0,469410
+L2_TRANS_L2_WB,PMC1,54511
+TABLE,Region T_Sist_Lin_Inexato_200,Group 1 Metric,L3,10
+Metric,HWThread 3,
+Runtime (RDTSC) [s],0.0057,
+Runtime unhalted [s],0.0058,
+Clock [MHz],2394.5156,
+CPI,1.0662,
+L3 load bandwidth [MBytes/s],5304.6738,
+L3 load data volume [GBytes],0.0300,
+L3 evict bandwidth [MBytes/s],616.0139,
+L3 evict data volume [GBytes],0.0035,
+L3 bandwidth [MBytes/s],5920.6876,
+L3 data volume [GBytes],0.0335,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.3998269 GHz,
+TABLE,Region T_Newton_Padrao_250,Group 1 Raw,L3,5
+Region Info,HWThread 3,
+RDTSC Runtime [s],0.399169,
+call count,1,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,1249547000
+CPU_CLK_UNHALTED_CORE,FIXC1,863107100
+CPU_CLK_UNHALTED_REF,FIXC2,865126600
+L2_LINES_IN_ALL,PMC0,27373610
+L2_TRANS_L2_WB,PMC1,21115290
+TABLE,Region T_Newton_Padrao_250,Group 1 Metric,L3,10
+Metric,HWThread 3,
+Runtime (RDTSC) [s],0.3992,
+Runtime unhalted [s],0.3597,
+Clock [MHz],2394.2249,
+CPI,0.6907,
+L3 load bandwidth [MBytes/s],4388.8933,
+L3 load data volume [GBytes],1.7519,
+L3 evict bandwidth [MBytes/s],3385.4780,
+L3 evict data volume [GBytes],1.3514,
+L3 bandwidth [MBytes/s],7774.3714,
+L3 data volume [GBytes],3.1033,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.3998269 GHz,
+TABLE,Region Tderi_grad_Padrao_250,Group 1 Raw,L3,5
+Region Info,HWThread 3,
+RDTSC Runtime [s],0.001028,
+call count,50,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,3137527
+CPU_CLK_UNHALTED_CORE,FIXC1,2813682
+CPU_CLK_UNHALTED_REF,FIXC2,2820500
+L2_LINES_IN_ALL,PMC0,16156
+L2_TRANS_L2_WB,PMC1,1714
+TABLE,Region Tderi_grad_Padrao_250,Group 1 Metric,L3,10
+Metric,HWThread 3,
+Runtime (RDTSC) [s],0.0010,
+Runtime unhalted [s],0.0012,
+Clock [MHz],2394.0258,
+CPI,0.8968,
+L3 load bandwidth [MBytes/s],1005.9414,
+L3 load data volume [GBytes],0.0010,
+L3 evict bandwidth [MBytes/s],106.7209,
+L3 evict data volume [GBytes],0.0001,
+L3 bandwidth [MBytes/s],1112.6623,
+L3 data volume [GBytes],0.0011,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.3998269 GHz,
+TABLE,Region Tderi_hes_padrao_250,Group 1 Raw,L3,5
+Region Info,HWThread 3,
+RDTSC Runtime [s],0.255157,
+call count,50,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,734774200
+CPU_CLK_UNHALTED_CORE,FIXC1,610203500
+CPU_CLK_UNHALTED_REF,FIXC2,611626100
+L2_LINES_IN_ALL,PMC0,425834
+L2_TRANS_L2_WB,PMC1,216104
+TABLE,Region Tderi_hes_padrao_250,Group 1 Metric,L3,10
+Metric,HWThread 3,
+Runtime (RDTSC) [s],0.2552,
+Runtime unhalted [s],0.2543,
+Clock [MHz],2394.2451,
+CPI,0.8305,
+L3 load bandwidth [MBytes/s],106.8101,
+L3 load data volume [GBytes],0.0273,
+L3 evict bandwidth [MBytes/s],54.2044,
+L3 evict data volume [GBytes],0.0138,
+L3 bandwidth [MBytes/s],161.0145,
+L3 data volume [GBytes],0.0411,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.3998269 GHz,
+TABLE,Region T_Sist_Lin_Padrao_250,Group 1 Raw,L3,5
+Region Info,HWThread 3,
+RDTSC Runtime [s],0.104031,
+call count,50,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,510660100
+CPU_CLK_UNHALTED_CORE,FIXC1,248624300
+CPU_CLK_UNHALTED_REF,FIXC2,249206200
+L2_LINES_IN_ALL,PMC0,26852460
+L2_TRANS_L2_WB,PMC1,20880330
+TABLE,Region T_Sist_Lin_Padrao_250,Group 1 Metric,L3,10
+Metric,HWThread 3,
+Runtime (RDTSC) [s],0.1040,
+Runtime unhalted [s],0.1036,
+Clock [MHz],2394.2233,
+CPI,0.4869,
+L3 load bandwidth [MBytes/s],16519.5872,
+L3 load data volume [GBytes],1.7186,
+L3 evict bandwidth [MBytes/s],12845.5431,
+L3 evict data volume [GBytes],1.3363,
+L3 bandwidth [MBytes/s],29365.1304,
+L3 data volume [GBytes],3.0549,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.3998269 GHz,
+TABLE,Region T_Newton_Inexato_250,Group 1 Raw,L3,5
+Region Info,HWThread 3,
+RDTSC Runtime [s],0.303729,
+call count,1,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,758720800
+CPU_CLK_UNHALTED_CORE,FIXC1,636012900
+CPU_CLK_UNHALTED_REF,FIXC2,637496900
+L2_LINES_IN_ALL,PMC0,1364285
+L2_TRANS_L2_WB,PMC1,364514
+TABLE,Region T_Newton_Inexato_250,Group 1 Metric,L3,10
+Metric,HWThread 3,
+Runtime (RDTSC) [s],0.3037,
+Runtime unhalted [s],0.2650,
+Clock [MHz],2394.2405,
+CPI,0.8383,
+L3 load bandwidth [MBytes/s],287.4742,
+L3 load data volume [GBytes],0.0873,
+L3 evict bandwidth [MBytes/s],76.8083,
+L3 evict data volume [GBytes],0.0233,
+L3 bandwidth [MBytes/s],364.2824,
+L3 data volume [GBytes],0.1106,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.3998269 GHz,
+TABLE,Region Tderi_grad_Inexato_250,Group 1 Raw,L3,5
+Region Info,HWThread 3,
+RDTSC Runtime [s],0.001037,
+call count,50,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,3129836
+CPU_CLK_UNHALTED_CORE,FIXC1,2795086
+CPU_CLK_UNHALTED_REF,FIXC2,2803200
+L2_LINES_IN_ALL,PMC0,16580
+L2_TRANS_L2_WB,PMC1,1417
+TABLE,Region Tderi_grad_Inexato_250,Group 1 Metric,L3,10
+Metric,HWThread 3,
+Runtime (RDTSC) [s],0.0010,
+Runtime unhalted [s],0.0012,
+Clock [MHz],2392.8805,
+CPI,0.8930,
+L3 load bandwidth [MBytes/s],1023.3788,
+L3 load data volume [GBytes],0.0011,
+L3 evict bandwidth [MBytes/s],87.4625,
+L3 evict data volume [GBytes],0.0001,
+L3 bandwidth [MBytes/s],1110.8413,
+L3 data volume [GBytes],0.0012,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.3998269 GHz,
+TABLE,Region Tderi_hes_Inexato_250,Group 1 Raw,L3,5
+Region Info,HWThread 3,
+RDTSC Runtime [s],0.254363,
+call count,50,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,734555100
+CPU_CLK_UNHALTED_CORE,FIXC1,607744100
+CPU_CLK_UNHALTED_REF,FIXC2,609160600
+L2_LINES_IN_ALL,PMC0,444720
+L2_TRANS_L2_WB,PMC1,218034
+TABLE,Region Tderi_hes_Inexato_250,Group 1 Metric,L3,10
+Metric,HWThread 3,
+Runtime (RDTSC) [s],0.2544,
+Runtime unhalted [s],0.2532,
+Clock [MHz],2394.2465,
+CPI,0.8274,
+L3 load bandwidth [MBytes/s],111.8956,
+L3 load data volume [GBytes],0.0285,
+L3 evict bandwidth [MBytes/s],54.8593,
+L3 evict data volume [GBytes],0.0140,
+L3 bandwidth [MBytes/s],166.7549,
+L3 data volume [GBytes],0.0424,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.3998269 GHz,
+TABLE,Region T_Sist_Lin_Inexato_250,Group 1 Raw,L3,5
+Region Info,HWThread 3,
+RDTSC Runtime [s],0.009972,
+call count,50,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,20118100
+CPU_CLK_UNHALTED_CORE,FIXC1,24183500
+CPU_CLK_UNHALTED_REF,FIXC2,24239200
+L2_LINES_IN_ALL,PMC0,829897
+L2_TRANS_L2_WB,PMC1,133956
+TABLE,Region T_Sist_Lin_Inexato_250,Group 1 Metric,L3,10
+Metric,HWThread 3,
+Runtime (RDTSC) [s],0.0100,
+Runtime unhalted [s],0.0101,
+Clock [MHz],2394.3123,
+CPI,1.2021,
+L3 load bandwidth [MBytes/s],5326.0989,
+L3 load data volume [GBytes],0.0531,
+L3 evict bandwidth [MBytes/s],859.7005,
+L3 evict data volume [GBytes],0.0086,
+L3 bandwidth [MBytes/s],6185.7994,
+L3 data volume [GBytes],0.0617,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.3998269 GHz,
+TABLE,Region T_Newton_Padrao_256,Group 1 Raw,L3,5
+Region Info,HWThread 3,
+RDTSC Runtime [s],0.420025,
+call count,1,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,1319983000
+CPU_CLK_UNHALTED_CORE,FIXC1,910991200
+CPU_CLK_UNHALTED_REF,FIXC2,913118100
+L2_LINES_IN_ALL,PMC0,31648050
+L2_TRANS_L2_WB,PMC1,24570570
+TABLE,Region T_Newton_Padrao_256,Group 1 Metric,L3,10
+Metric,HWThread 3,
+Runtime (RDTSC) [s],0.4200,
+Runtime unhalted [s],0.3796,
+Clock [MHz],2394.2371,
+CPI,0.6902,
+L3 load bandwidth [MBytes/s],4822.2787,
+L3 load data volume [GBytes],2.0255,
+L3 evict bandwidth [MBytes/s],3743.8685,
+L3 evict data volume [GBytes],1.5725,
+L3 bandwidth [MBytes/s],8566.1472,
+L3 data volume [GBytes],3.5980,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.3998269 GHz,
+TABLE,Region Tderi_grad_Padrao_256,Group 1 Raw,L3,5
+Region Info,HWThread 3,
+RDTSC Runtime [s],0.001054,
+call count,50,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,3214059
+CPU_CLK_UNHALTED_CORE,FIXC1,2894242
+CPU_CLK_UNHALTED_REF,FIXC2,2902400
+L2_LINES_IN_ALL,PMC0,18989
+L2_TRANS_L2_WB,PMC1,2401
+TABLE,Region Tderi_grad_Padrao_256,Group 1 Metric,L3,10
+Metric,HWThread 3,
+Runtime (RDTSC) [s],0.0011,
+Runtime unhalted [s],0.0012,
+Clock [MHz],2393.0815,
+CPI,0.9005,
+L3 load bandwidth [MBytes/s],1152.6429,
+L3 load data volume [GBytes],0.0012,
+L3 evict bandwidth [MBytes/s],145.7420,
+L3 evict data volume [GBytes],0.0002,
+L3 bandwidth [MBytes/s],1298.3850,
+L3 data volume [GBytes],0.0014,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.3998269 GHz,
+TABLE,Region Tderi_hes_padrao_256,Group 1 Raw,L3,5
+Region Info,HWThread 3,
+RDTSC Runtime [s],0.267548,
+call count,50,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,770364500
+CPU_CLK_UNHALTED_CORE,FIXC1,639264400
+CPU_CLK_UNHALTED_REF,FIXC2,640753200
+L2_LINES_IN_ALL,PMC0,456067
+L2_TRANS_L2_WB,PMC1,219926
+TABLE,Region Tderi_hes_padrao_256,Group 1 Metric,L3,10
+Metric,HWThread 3,
+Runtime (RDTSC) [s],0.2675,
+Runtime unhalted [s],0.2664,
+Clock [MHz],2394.2509,
+CPI,0.8298,
+L3 load bandwidth [MBytes/s],109.0956,
+L3 load data volume [GBytes],0.0292,
+L3 evict bandwidth [MBytes/s],52.6084,
+L3 evict data volume [GBytes],0.0141,
+L3 bandwidth [MBytes/s],161.7041,
+L3 data volume [GBytes],0.0433,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.3998269 GHz,
+TABLE,Region T_Sist_Lin_Padrao_256,Group 1 Raw,L3,5
+Region Info,HWThread 3,
+RDTSC Runtime [s],0.111716,
+call count,50,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,545431000
+CPU_CLK_UNHALTED_CORE,FIXC1,267253800
+CPU_CLK_UNHALTED_REF,FIXC2,267875300
+L2_LINES_IN_ALL,PMC0,31088050
+L2_TRANS_L2_WB,PMC1,24331380
+TABLE,Region T_Sist_Lin_Padrao_256,Group 1 Metric,L3,10
+Metric,HWThread 3,
+Runtime (RDTSC) [s],0.1117,
+Runtime unhalted [s],0.1114,
+Clock [MHz],2394.2590,
+CPI,0.4900,
+L3 load bandwidth [MBytes/s],17809.7286,
+L3 load data volume [GBytes],1.9896,
+L3 evict bandwidth [MBytes/s],13938.9661,
+L3 evict data volume [GBytes],1.5572,
+L3 bandwidth [MBytes/s],31748.6946,
+L3 data volume [GBytes],3.5468,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.3998269 GHz,
+TABLE,Region T_Newton_Inexato_256,Group 1 Raw,L3,5
+Region Info,HWThread 3,
+RDTSC Runtime [s],0.316134,
+call count,1,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,795224600
+CPU_CLK_UNHALTED_CORE,FIXC1,664857100
+CPU_CLK_UNHALTED_REF,FIXC2,666406300
+L2_LINES_IN_ALL,PMC0,1427159
+L2_TRANS_L2_WB,PMC1,308844
+TABLE,Region T_Newton_Inexato_256,Group 1 Metric,L3,10
+Metric,HWThread 3,
+Runtime (RDTSC) [s],0.3161,
+Runtime unhalted [s],0.2770,
+Clock [MHz],2394.2480,
+CPI,0.8361,
+L3 load bandwidth [MBytes/s],288.9219,
+L3 load data volume [GBytes],0.0913,
+L3 evict bandwidth [MBytes/s],62.5241,
+L3 evict data volume [GBytes],0.0198,
+L3 bandwidth [MBytes/s],351.4460,
+L3 data volume [GBytes],0.1111,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.3998269 GHz,
+TABLE,Region Tderi_grad_Inexato_256,Group 1 Raw,L3,5
+Region Info,HWThread 3,
+RDTSC Runtime [s],0.001048,
+call count,50,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,3201230
+CPU_CLK_UNHALTED_CORE,FIXC1,2847439
+CPU_CLK_UNHALTED_REF,FIXC2,2853100
+L2_LINES_IN_ALL,PMC0,17671
+L2_TRANS_L2_WB,PMC1,1303
+TABLE,Region Tderi_grad_Inexato_256,Group 1 Metric,L3,10
+Metric,HWThread 3,
+Runtime (RDTSC) [s],0.0010,
+Runtime unhalted [s],0.0012,
+Clock [MHz],2395.0653,
+CPI,0.8895,
+L3 load bandwidth [MBytes/s],1079.6375,
+L3 load data volume [GBytes],0.0011,
+L3 evict bandwidth [MBytes/s],79.6088,
+L3 evict data volume [GBytes],0.0001,
+L3 bandwidth [MBytes/s],1159.2463,
+L3 data volume [GBytes],0.0012,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.3998269 GHz,
+TABLE,Region Tderi_hes_Inexato_256,Group 1 Raw,L3,5
+Region Info,HWThread 3,
+RDTSC Runtime [s],0.266745,
+call count,50,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,770228400
+CPU_CLK_UNHALTED_CORE,FIXC1,637392600
+CPU_CLK_UNHALTED_REF,FIXC2,638878000
+L2_LINES_IN_ALL,PMC0,467247
+L2_TRANS_L2_WB,PMC1,224931
+TABLE,Region Tderi_hes_Inexato_256,Group 1 Metric,L3,10
+Metric,HWThread 3,
+Runtime (RDTSC) [s],0.2667,
+Runtime unhalted [s],0.2656,
+Clock [MHz],2394.2473,
+CPI,0.8275,
+L3 load bandwidth [MBytes/s],112.1064,
+L3 load data volume [GBytes],0.0299,
+L3 evict bandwidth [MBytes/s],53.9676,
+L3 evict data volume [GBytes],0.0144,
+L3 bandwidth [MBytes/s],166.0740,
+L3 data volume [GBytes],0.0443,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.3998269 GHz,
+TABLE,Region T_Sist_Lin_Inexato_256,Group 1 Raw,L3,5
+Region Info,HWThread 3,
+RDTSC Runtime [s],0.009600,
+call count,50,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,20884460
+CPU_CLK_UNHALTED_CORE,FIXC1,23327740
+CPU_CLK_UNHALTED_REF,FIXC2,23382600
+L2_LINES_IN_ALL,PMC0,869522
+L2_TRANS_L2_WB,PMC1,70717
+TABLE,Region T_Sist_Lin_Inexato_256,Group 1 Metric,L3,10
+Metric,HWThread 3,
+Runtime (RDTSC) [s],0.0096,
+Runtime unhalted [s],0.0097,
+Clock [MHz],2394.1965,
+CPI,1.1170,
+L3 load bandwidth [MBytes/s],5797.0349,
+L3 load data volume [GBytes],0.0556,
+L3 evict bandwidth [MBytes/s],471.4647,
+L3 evict data volume [GBytes],0.0045,
+L3 bandwidth [MBytes/s],6268.4996,
+L3 data volume [GBytes],0.0602,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.3998269 GHz,
+TABLE,Region T_Newton_Padrao_300,Group 1 Raw,L3,5
+Region Info,HWThread 3,
+RDTSC Runtime [s],0.587909,
+call count,1,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,1910319000
+CPU_CLK_UNHALTED_CORE,FIXC1,1313881000
+CPU_CLK_UNHALTED_REF,FIXC2,1316943000
+L2_LINES_IN_ALL,PMC0,62326650
+L2_TRANS_L2_WB,PMC1,48126050
+TABLE,Region T_Newton_Padrao_300,Group 1 Metric,L3,10
+Metric,HWThread 3,
+Runtime (RDTSC) [s],0.5879,
+Runtime unhalted [s],0.5475,
+Clock [MHz],2394.2471,
+CPI,0.6878,
+L3 load bandwidth [MBytes/s],6784.9043,
+L3 load data volume [GBytes],3.9889,
+L3 evict bandwidth [MBytes/s],5239.0212,
+L3 evict data volume [GBytes],3.0801,
+L3 bandwidth [MBytes/s],12023.9255,
+L3 data volume [GBytes],7.0690,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.3998269 GHz,
+TABLE,Region Tderi_grad_Padrao_300,Group 1 Raw,L3,5
+Region Info,HWThread 3,
+RDTSC Runtime [s],0.001230,
+call count,50,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,3716559
+CPU_CLK_UNHALTED_CORE,FIXC1,3293001
+CPU_CLK_UNHALTED_REF,FIXC2,3302000
+L2_LINES_IN_ALL,PMC0,17986
+L2_TRANS_L2_WB,PMC1,2280
+TABLE,Region Tderi_grad_Padrao_300,Group 1 Metric,L3,10
+Metric,HWThread 3,
+Runtime (RDTSC) [s],0.0012,
+Runtime unhalted [s],0.0014,
+Clock [MHz],2393.2866,
+CPI,0.8860,
+L3 load bandwidth [MBytes/s],935.6249,
+L3 load data volume [GBytes],0.0012,
+L3 evict bandwidth [MBytes/s],118.6047,
+L3 evict data volume [GBytes],0.0001,
+L3 bandwidth [MBytes/s],1054.2296,
+L3 data volume [GBytes],0.0013,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.3998269 GHz,
+TABLE,Region Tderi_hes_padrao_300,Group 1 Raw,L3,5
+Region Info,HWThread 3,
+RDTSC Runtime [s],0.366441,
+call count,50,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,1057681000
+CPU_CLK_UNHALTED_CORE,FIXC1,875923600
+CPU_CLK_UNHALTED_REF,FIXC2,877963400
+L2_LINES_IN_ALL,PMC0,603632
+L2_TRANS_L2_WB,PMC1,350814
+TABLE,Region Tderi_hes_padrao_300,Group 1 Metric,L3,10
+Metric,HWThread 3,
+Runtime (RDTSC) [s],0.3664,
+Runtime unhalted [s],0.3650,
+Clock [MHz],2394.2513,
+CPI,0.8282,
+L3 load bandwidth [MBytes/s],105.4260,
+L3 load data volume [GBytes],0.0386,
+L3 evict bandwidth [MBytes/s],61.2707,
+L3 evict data volume [GBytes],0.0225,
+L3 bandwidth [MBytes/s],166.6967,
+L3 data volume [GBytes],0.0611,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.3998269 GHz,
+TABLE,Region T_Sist_Lin_Padrao_300,Group 1 Raw,L3,5
+Region Info,HWThread 3,
+RDTSC Runtime [s],0.181092,
+call count,50,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,847953200
+CPU_CLK_UNHALTED_CORE,FIXC1,433191400
+CPU_CLK_UNHALTED_REF,FIXC2,434200400
+L2_LINES_IN_ALL,PMC0,61625260
+L2_TRANS_L2_WB,PMC1,47756920
+TABLE,Region T_Sist_Lin_Padrao_300,Group 1 Metric,L3,10
+Metric,HWThread 3,
+Runtime (RDTSC) [s],0.1811,
+Runtime unhalted [s],0.1805,
+Clock [MHz],2394.2502,
+CPI,0.5109,
+L3 load bandwidth [MBytes/s],21779.0411,
+L3 load data volume [GBytes],3.9440,
+L3 evict bandwidth [MBytes/s],16877.8180,
+L3 evict data volume [GBytes],3.0564,
+L3 bandwidth [MBytes/s],38656.8591,
+L3 data volume [GBytes],7.0005,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.3998269 GHz,
+TABLE,Region T_Newton_Inexato_300,Group 1 Raw,L3,5
+Region Info,HWThread 3,
+RDTSC Runtime [s],0.419319,
+call count,1,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,1090936000
+CPU_CLK_UNHALTED_CORE,FIXC1,912514300
+CPU_CLK_UNHALTED_REF,FIXC2,914639700
+L2_LINES_IN_ALL,PMC0,1910240
+L2_TRANS_L2_WB,PMC1,476367
+TABLE,Region T_Newton_Inexato_300,Group 1 Metric,L3,10
+Metric,HWThread 3,
+Runtime (RDTSC) [s],0.4193,
+Runtime unhalted [s],0.3802,
+Clock [MHz],2394.2503,
+CPI,0.8365,
+L3 load bandwidth [MBytes/s],291.5567,
+L3 load data volume [GBytes],0.1223,
+L3 evict bandwidth [MBytes/s],72.7071,
+L3 evict data volume [GBytes],0.0305,
+L3 bandwidth [MBytes/s],364.2637,
+L3 data volume [GBytes],0.1527,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.3998269 GHz,
+TABLE,Region Tderi_grad_Inexato_300,Group 1 Raw,L3,5
+Region Info,HWThread 3,
+RDTSC Runtime [s],0.001225,
+call count,50,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,3716365
+CPU_CLK_UNHALTED_CORE,FIXC1,3281775
+CPU_CLK_UNHALTED_REF,FIXC2,3288400
+L2_LINES_IN_ALL,PMC0,17415
+L2_TRANS_L2_WB,PMC1,1547
+TABLE,Region Tderi_grad_Inexato_300,Group 1 Metric,L3,10
+Metric,HWThread 3,
+Runtime (RDTSC) [s],0.0012,
+Runtime unhalted [s],0.0014,
+Clock [MHz],2394.9921,
+CPI,0.8831,
+L3 load bandwidth [MBytes/s],910.0923,
+L3 load data volume [GBytes],0.0011,
+L3 evict bandwidth [MBytes/s],80.8448,
+L3 evict data volume [GBytes],0.0001,
+L3 bandwidth [MBytes/s],990.9371,
+L3 data volume [GBytes],0.0012,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.3998269 GHz,
+TABLE,Region Tderi_hes_Inexato_300,Group 1 Raw,L3,5
+Region Info,HWThread 3,
+RDTSC Runtime [s],0.366052,
+call count,50,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,1057891000
+CPU_CLK_UNHALTED_CORE,FIXC1,874898200
+CPU_CLK_UNHALTED_REF,FIXC2,876936000
+L2_LINES_IN_ALL,PMC0,617598
+L2_TRANS_L2_WB,PMC1,365358
+TABLE,Region Tderi_hes_Inexato_300,Group 1 Metric,L3,10
+Metric,HWThread 3,
+Runtime (RDTSC) [s],0.3661,
+Runtime unhalted [s],0.3646,
+Clock [MHz],2394.2502,
+CPI,0.8270,
+L3 load bandwidth [MBytes/s],107.9799,
+L3 load data volume [GBytes],0.0395,
+L3 evict bandwidth [MBytes/s],63.8786,
+L3 evict data volume [GBytes],0.0234,
+L3 bandwidth [MBytes/s],171.8586,
+L3 data volume [GBytes],0.0629,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.3998269 GHz,
+TABLE,Region T_Sist_Lin_Inexato_300,Group 1 Raw,L3,5
+Region Info,HWThread 3,
+RDTSC Runtime [s],0.013641,
+call count,50,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,28388950
+CPU_CLK_UNHALTED_CORE,FIXC1,32999260
+CPU_CLK_UNHALTED_REF,FIXC2,33076800
+L2_LINES_IN_ALL,PMC0,1202740
+L2_TRANS_L2_WB,PMC1,97436
+TABLE,Region T_Sist_Lin_Inexato_300,Group 1 Metric,L3,10
+Metric,HWThread 3,
+Runtime (RDTSC) [s],0.0136,
+Runtime unhalted [s],0.0138,
+Clock [MHz],2394.2011,
+CPI,1.1624,
+L3 load bandwidth [MBytes/s],5642.9660,
+L3 load data volume [GBytes],0.0770,
+L3 evict bandwidth [MBytes/s],457.1462,
+L3 evict data volume [GBytes],0.0062,
+L3 bandwidth [MBytes/s],6100.1122,
+L3 data volume [GBytes],0.0832,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.3998269 GHz,
+TABLE,Region T_Newton_Padrao_400,Group 1 Raw,L3,5
+Region Info,HWThread 3,
+RDTSC Runtime [s],1.126998,
+call count,1,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,3793593000
+CPU_CLK_UNHALTED_CORE,FIXC1,2603099000
+CPU_CLK_UNHALTED_REF,FIXC2,2609163000
+L2_LINES_IN_ALL,PMC0,161540300
+L2_TRANS_L2_WB,PMC1,127123300
+TABLE,Region T_Newton_Padrao_400,Group 1 Metric,L3,10
+Metric,HWThread 3,
+Runtime (RDTSC) [s],1.1270,
+Runtime unhalted [s],1.0847,
+Clock [MHz],2394.2494,
+CPI,0.6862,
+L3 load bandwidth [MBytes/s],9173.5559,
+L3 load data volume [GBytes],10.3386,
+L3 evict bandwidth [MBytes/s],7219.0822,
+L3 evict data volume [GBytes],8.1359,
+L3 bandwidth [MBytes/s],16392.6381,
+L3 data volume [GBytes],18.4745,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.3998269 GHz,
+TABLE,Region Tderi_grad_Padrao_400,Group 1 Raw,L3,5
+Region Info,HWThread 3,
+RDTSC Runtime [s],0.001639,
+call count,50,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,4888960
+CPU_CLK_UNHALTED_CORE,FIXC1,4291115
+CPU_CLK_UNHALTED_REF,FIXC2,4302700
+L2_LINES_IN_ALL,PMC0,19908
+L2_TRANS_L2_WB,PMC1,1970
+TABLE,Region Tderi_grad_Padrao_400,Group 1 Metric,L3,10
+Metric,HWThread 3,
+Runtime (RDTSC) [s],0.0016,
+Runtime unhalted [s],0.0018,
+Clock [MHz],2393.3654,
+CPI,0.8777,
+L3 load bandwidth [MBytes/s],777.3474,
+L3 load data volume [GBytes],0.0013,
+L3 evict bandwidth [MBytes/s],76.9226,
+L3 evict data volume [GBytes],0.0001,
+L3 bandwidth [MBytes/s],854.2699,
+L3 data volume [GBytes],0.0014,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.3998269 GHz,
+TABLE,Region Tderi_hes_padrao_400,Group 1 Raw,L3,5
+Region Info,HWThread 3,
+RDTSC Runtime [s],0.650285,
+call count,50,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,1880391000
+CPU_CLK_UNHALTED_CORE,FIXC1,1555166000
+CPU_CLK_UNHALTED_REF,FIXC2,1558786000
+L2_LINES_IN_ALL,PMC0,1044259
+L2_TRANS_L2_WB,PMC1,729143
+TABLE,Region Tderi_hes_padrao_400,Group 1 Metric,L3,10
+Metric,HWThread 3,
+Runtime (RDTSC) [s],0.6503,
+Runtime unhalted [s],0.6480,
+Clock [MHz],2394.2537,
+CPI,0.8270,
+L3 load bandwidth [MBytes/s],102.7743,
+L3 load data volume [GBytes],0.0668,
+L3 evict bandwidth [MBytes/s],71.7611,
+L3 evict data volume [GBytes],0.0467,
+L3 bandwidth [MBytes/s],174.5354,
+L3 data volume [GBytes],0.1135,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.3998269 GHz,
+TABLE,Region T_Sist_Lin_Padrao_400,Group 1 Raw,L3,5
+Region Info,HWThread 3,
+RDTSC Runtime [s],0.435743,
+call count,50,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,1907297000
+CPU_CLK_UNHALTED_CORE,FIXC1,1041924000
+CPU_CLK_UNHALTED_REF,FIXC2,1044351000
+L2_LINES_IN_ALL,PMC0,160386300
+L2_TRANS_L2_WB,PMC1,126375400
+TABLE,Region T_Sist_Lin_Padrao_400,Group 1 Metric,L3,10
+Metric,HWThread 3,
+Runtime (RDTSC) [s],0.4357,
+Runtime unhalted [s],0.4342,
+Clock [MHz],2394.2499,
+CPI,0.5463,
+L3 load bandwidth [MBytes/s],23556.8071,
+L3 load data volume [GBytes],10.2647,
+L3 evict bandwidth [MBytes/s],18561.4414,
+L3 evict data volume [GBytes],8.0880,
+L3 bandwidth [MBytes/s],42118.2485,
+L3 data volume [GBytes],18.3527,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.3998269 GHz,
+TABLE,Region T_Newton_Inexato_400,Group 1 Raw,L3,5
+Region Info,HWThread 3,
+RDTSC Runtime [s],0.714714,
+call count,1,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,1936023000
+CPU_CLK_UNHALTED_CORE,FIXC1,1619573000
+CPU_CLK_UNHALTED_REF,FIXC2,1623344000
+L2_LINES_IN_ALL,PMC0,3238421
+L2_TRANS_L2_WB,PMC1,983691
+TABLE,Region T_Newton_Inexato_400,Group 1 Metric,L3,10
+Metric,HWThread 3,
+Runtime (RDTSC) [s],0.7147,
+Runtime unhalted [s],0.6749,
+Clock [MHz],2394.2521,
+CPI,0.8365,
+L3 load bandwidth [MBytes/s],289.9888,
+L3 load data volume [GBytes],0.2073,
+L3 evict bandwidth [MBytes/s],88.0860,
+L3 evict data volume [GBytes],0.0630,
+L3 bandwidth [MBytes/s],378.0748,
+L3 data volume [GBytes],0.2702,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.3998269 GHz,
+TABLE,Region Tderi_grad_Inexato_400,Group 1 Raw,L3,5
+Region Info,HWThread 3,
+RDTSC Runtime [s],0.001631,
+call count,50,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,4887253
+CPU_CLK_UNHALTED_CORE,FIXC1,4279903
+CPU_CLK_UNHALTED_REF,FIXC2,4289500
+L2_LINES_IN_ALL,PMC0,19698
+L2_TRANS_L2_WB,PMC1,2381
+TABLE,Region Tderi_grad_Inexato_400,Group 1 Metric,L3,10
+Metric,HWThread 3,
+Runtime (RDTSC) [s],0.0016,
+Runtime unhalted [s],0.0018,
+Clock [MHz],2394.4577,
+CPI,0.8757,
+L3 load bandwidth [MBytes/s],772.8016,
+L3 load data volume [GBytes],0.0013,
+L3 evict bandwidth [MBytes/s],93.4126,
+L3 evict data volume [GBytes],0.0002,
+L3 bandwidth [MBytes/s],866.2141,
+L3 data volume [GBytes],0.0014,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.3998269 GHz,
+TABLE,Region Tderi_hes_Inexato_400,Group 1 Raw,L3,5
+Region Info,HWThread 3,
+RDTSC Runtime [s],0.649884,
+call count,50,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,1880387000
+CPU_CLK_UNHALTED_CORE,FIXC1,1553917000
+CPU_CLK_UNHALTED_REF,FIXC2,1557537000
+L2_LINES_IN_ALL,PMC0,1059191
+L2_TRANS_L2_WB,PMC1,750741
+TABLE,Region Tderi_hes_Inexato_400,Group 1 Metric,L3,10
+Metric,HWThread 3,
+Runtime (RDTSC) [s],0.6499,
+Runtime unhalted [s],0.6475,
+Clock [MHz],2394.2493,
+CPI,0.8264,
+L3 load bandwidth [MBytes/s],104.3082,
+L3 load data volume [GBytes],0.0678,
+L3 evict bandwidth [MBytes/s],73.9323,
+L3 evict data volume [GBytes],0.0480,
+L3 bandwidth [MBytes/s],178.2405,
+L3 data volume [GBytes],0.1158,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.3998269 GHz,
+TABLE,Region T_Sist_Lin_Inexato_400,Group 1 Raw,L3,5
+Region Info,HWThread 3,
+RDTSC Runtime [s],0.024872,
+call count,50,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,49767450
+CPU_CLK_UNHALTED_CORE,FIXC1,59908810
+CPU_CLK_UNHALTED_REF,FIXC2,60046500
+L2_LINES_IN_ALL,PMC0,2085631
+L2_TRANS_L2_WB,PMC1,217019
+TABLE,Region T_Sist_Lin_Inexato_400,Group 1 Metric,L3,10
+Metric,HWThread 3,
+Runtime (RDTSC) [s],0.0249,
+Runtime unhalted [s],0.0250,
+Clock [MHz],2394.3240,
+CPI,1.2038,
+L3 load bandwidth [MBytes/s],5366.7468,
+L3 load data volume [GBytes],0.1335,
+L3 evict bandwidth [MBytes/s],558.4334,
+L3 evict data volume [GBytes],0.0139,
+L3 bandwidth [MBytes/s],5925.1802,
+L3 data volume [GBytes],0.1474,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.3998269 GHz,
+TABLE,Region T_Newton_Padrao_512,Group 1 Raw,L3,5
+Region Info,HWThread 3,
+RDTSC Runtime [s],2.037314,
+call count,1,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,6946599000
+CPU_CLK_UNHALTED_CORE,FIXC1,4778820000
+CPU_CLK_UNHALTED_REF,FIXC2,4789956000
+L2_LINES_IN_ALL,PMC0,344880400
+L2_TRANS_L2_WB,PMC1,275584200
+TABLE,Region T_Newton_Padrao_512,Group 1 Metric,L3,10
+Metric,HWThread 3,
+Runtime (RDTSC) [s],2.0373,
+Runtime unhalted [s],1.9913,
+Clock [MHz],2394.2476,
+CPI,0.6879,
+L3 load bandwidth [MBytes/s],10834.0421,
+L3 load data volume [GBytes],22.0723,
+L3 evict bandwidth [MBytes/s],8657.1774,
+L3 evict data volume [GBytes],17.6374,
+L3 bandwidth [MBytes/s],19491.2195,
+L3 data volume [GBytes],39.7097,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.3998269 GHz,
+TABLE,Region Tderi_grad_Padrao_512,Group 1 Raw,L3,5
+Region Info,HWThread 3,
+RDTSC Runtime [s],0.002094,
+call count,50,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,6195351
+CPU_CLK_UNHALTED_CORE,FIXC1,5393694
+CPU_CLK_UNHALTED_REF,FIXC2,5406000
+L2_LINES_IN_ALL,PMC0,20752
+L2_TRANS_L2_WB,PMC1,4386
+TABLE,Region Tderi_grad_Padrao_512,Group 1 Metric,L3,10
+Metric,HWThread 3,
+Runtime (RDTSC) [s],0.0021,
+Runtime unhalted [s],0.0022,
+Clock [MHz],2394.3640,
+CPI,0.8706,
+L3 load bandwidth [MBytes/s],634.3852,
+L3 load data volume [GBytes],0.0013,
+L3 evict bandwidth [MBytes/s],134.0793,
+L3 evict data volume [GBytes],0.0003,
+L3 bandwidth [MBytes/s],768.4645,
+L3 data volume [GBytes],0.0016,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.3998269 GHz,
+TABLE,Region Tderi_hes_padrao_512,Group 1 Raw,L3,5
+Region Info,HWThread 3,
+RDTSC Runtime [s],1.065908,
+call count,50,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,3080582000
+CPU_CLK_UNHALTED_CORE,FIXC1,2549141000
+CPU_CLK_UNHALTED_REF,FIXC2,2555080000
+L2_LINES_IN_ALL,PMC0,1698124
+L2_TRANS_L2_WB,PMC1,1303695
+TABLE,Region Tderi_hes_padrao_512,Group 1 Metric,L3,10
+Metric,HWThread 3,
+Runtime (RDTSC) [s],1.0659,
+Runtime unhalted [s],1.0622,
+Clock [MHz],2394.2488,
+CPI,0.8275,
+L3 load bandwidth [MBytes/s],101.9600,
+L3 load data volume [GBytes],0.1087,
+L3 evict bandwidth [MBytes/s],78.2774,
+L3 evict data volume [GBytes],0.0834,
+L3 bandwidth [MBytes/s],180.2373,
+L3 data volume [GBytes],0.1921,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.3998269 GHz,
+TABLE,Region T_Sist_Lin_Padrao_512,Group 1 Raw,L3,5
+Region Info,HWThread 3,
+RDTSC Runtime [s],0.929407,
+call count,50,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,3858762000
+CPU_CLK_UNHALTED_CORE,FIXC1,2222289000
+CPU_CLK_UNHALTED_REF,FIXC2,2227468000
+L2_LINES_IN_ALL,PMC0,343071600
+L2_TRANS_L2_WB,PMC1,274250200
+TABLE,Region T_Sist_Lin_Padrao_512,Group 1 Metric,L3,10
+Metric,HWThread 3,
+Runtime (RDTSC) [s],0.9294,
+Runtime unhalted [s],0.9260,
+Clock [MHz],2394.2472,
+CPI,0.5759,
+L3 load bandwidth [MBytes/s],23624.2920,
+L3 load data volume [GBytes],21.9566,
+L3 evict bandwidth [MBytes/s],18885.1739,
+L3 evict data volume [GBytes],17.5520,
+L3 bandwidth [MBytes/s],42509.4659,
+L3 data volume [GBytes],39.5086,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.3998269 GHz,
+TABLE,Region T_Newton_Inexato_512,Group 1 Raw,L3,5
+Region Info,HWThread 3,
+RDTSC Runtime [s],1.147638,
+call count,1,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,3169096000
+CPU_CLK_UNHALTED_CORE,FIXC1,2655127000
+CPU_CLK_UNHALTED_REF,FIXC2,2661311000
+L2_LINES_IN_ALL,PMC0,5180435
+L2_TRANS_L2_WB,PMC1,1965574
+TABLE,Region T_Newton_Inexato_512,Group 1 Metric,L3,10
+Metric,HWThread 3,
+Runtime (RDTSC) [s],1.1476,
+Runtime unhalted [s],1.1064,
+Clock [MHz],2394.2505,
+CPI,0.8378,
+L3 load bandwidth [MBytes/s],288.8958,
+L3 load data volume [GBytes],0.3315,
+L3 evict bandwidth [MBytes/s],109.6136,
+L3 evict data volume [GBytes],0.1258,
+L3 bandwidth [MBytes/s],398.5094,
+L3 data volume [GBytes],0.4573,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.3998269 GHz,
+TABLE,Region Tderi_grad_Inexato_512,Group 1 Raw,L3,5
+Region Info,HWThread 3,
+RDTSC Runtime [s],0.002085,
+call count,50,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,6200414
+CPU_CLK_UNHALTED_CORE,FIXC1,5350756
+CPU_CLK_UNHALTED_REF,FIXC2,5361200
+L2_LINES_IN_ALL,PMC0,20840
+L2_TRANS_L2_WB,PMC1,3378
+TABLE,Region Tderi_grad_Inexato_512,Group 1 Metric,L3,10
+Metric,HWThread 3,
+Runtime (RDTSC) [s],0.0021,
+Runtime unhalted [s],0.0022,
+Clock [MHz],2395.1519,
+CPI,0.8630,
+L3 load bandwidth [MBytes/s],639.7860,
+L3 load data volume [GBytes],0.0013,
+L3 evict bandwidth [MBytes/s],103.7043,
+L3 evict data volume [GBytes],0.0002,
+L3 bandwidth [MBytes/s],743.4903,
+L3 data volume [GBytes],0.0015,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.3998269 GHz,
+TABLE,Region Tderi_hes_Inexato_512,Group 1 Raw,L3,5
+Region Info,HWThread 3,
+RDTSC Runtime [s],1.065195,
+call count,50,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,3081028000
+CPU_CLK_UNHALTED_CORE,FIXC1,2547226000
+CPU_CLK_UNHALTED_REF,FIXC2,2553160000
+L2_LINES_IN_ALL,PMC0,1708030
+L2_TRANS_L2_WB,PMC1,1307871
+TABLE,Region Tderi_hes_Inexato_512,Group 1 Metric,L3,10
+Metric,HWThread 3,
+Runtime (RDTSC) [s],1.0652,
+Runtime unhalted [s],1.0614,
+Clock [MHz],2394.2493,
+CPI,0.8267,
+L3 load bandwidth [MBytes/s],102.6234,
+L3 load data volume [GBytes],0.1093,
+L3 evict bandwidth [MBytes/s],78.5807,
+L3 evict data volume [GBytes],0.0837,
+L3 bandwidth [MBytes/s],181.2041,
+L3 data volume [GBytes],0.1930,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.3998269 GHz,
+TABLE,Region T_Sist_Lin_Inexato_512,Group 1 Raw,L3,5
+Region Info,HWThread 3,
+RDTSC Runtime [s],0.042090,
+call count,50,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,80834200
+CPU_CLK_UNHALTED_CORE,FIXC1,101037600
+CPU_CLK_UNHALTED_REF,FIXC2,101272400
+L2_LINES_IN_ALL,PMC0,3372671
+L2_TRANS_L2_WB,PMC1,635239
+TABLE,Region T_Sist_Lin_Inexato_512,Group 1 Metric,L3,10
+Metric,HWThread 3,
+Runtime (RDTSC) [s],0.0421,
+Runtime unhalted [s],0.0421,
+Clock [MHz],2394.2629,
+CPI,1.2499,
+L3 load bandwidth [MBytes/s],5128.3043,
+L3 load data volume [GBytes],0.2159,
+L3 evict bandwidth [MBytes/s],965.9107,
+L3 evict data volume [GBytes],0.0407,
+L3 bandwidth [MBytes/s],6094.2150,
+L3 data volume [GBytes],0.2565,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.3998269 GHz,
+TABLE,Region T_Newton_Padrao_600,Group 1 Raw,L3,5
+Region Info,HWThread 3,
+RDTSC Runtime [s],3.177290,
+call count,1,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,10330840000
+CPU_CLK_UNHALTED_CORE,FIXC1,7496900000
+CPU_CLK_UNHALTED_REF,FIXC2,7514367000
+L2_LINES_IN_ALL,PMC0,548556100
+L2_TRANS_L2_WB,PMC1,451203000
+TABLE,Region T_Newton_Padrao_600,Group 1 Metric,L3,10
+Metric,HWThread 3,
+Runtime (RDTSC) [s],3.1773,
+Runtime unhalted [s],3.1239,
+Clock [MHz],2394.2485,
+CPI,0.7257,
+L3 load bandwidth [MBytes/s],11049.5392,
+L3 load data volume [GBytes],35.1076,
+L3 evict bandwidth [MBytes/s],9088.5604,
+L3 evict data volume [GBytes],28.8770,
+L3 bandwidth [MBytes/s],20138.0996,
+L3 data volume [GBytes],63.9846,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.3998269 GHz,
+TABLE,Region Tderi_grad_Padrao_600,Group 1 Raw,L3,5
+Region Info,HWThread 3,
+RDTSC Runtime [s],0.002492,
+call count,50,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,7235505
+CPU_CLK_UNHALTED_CORE,FIXC1,6354373
+CPU_CLK_UNHALTED_REF,FIXC2,6367800
+L2_LINES_IN_ALL,PMC0,24722
+L2_TRANS_L2_WB,PMC1,6574
+TABLE,Region Tderi_grad_Padrao_600,Group 1 Metric,L3,10
+Metric,HWThread 3,
+Runtime (RDTSC) [s],0.0025,
+Runtime unhalted [s],0.0026,
+Clock [MHz],2394.7667,
+CPI,0.8782,
+L3 load bandwidth [MBytes/s],634.9616,
+L3 load data volume [GBytes],0.0016,
+L3 evict bandwidth [MBytes/s],168.8471,
+L3 evict data volume [GBytes],0.0004,
+L3 bandwidth [MBytes/s],803.8086,
+L3 data volume [GBytes],0.0020,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.3998269 GHz,
+TABLE,Region Tderi_hes_padrao_600,Group 1 Raw,L3,5
+Region Info,HWThread 3,
+RDTSC Runtime [s],1.465793,
+call count,50,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,4231405000
+CPU_CLK_UNHALTED_CORE,FIXC1,3505396000
+CPU_CLK_UNHALTED_REF,FIXC2,3513561000
+L2_LINES_IN_ALL,PMC0,2345975
+L2_TRANS_L2_WB,PMC1,1706826
+TABLE,Region Tderi_hes_padrao_600,Group 1 Metric,L3,10
+Metric,HWThread 3,
+Runtime (RDTSC) [s],1.4658,
+Runtime unhalted [s],1.4607,
+Clock [MHz],2394.2501,
+CPI,0.8284,
+L3 load bandwidth [MBytes/s],102.4308,
+L3 load data volume [GBytes],0.1501,
+L3 evict bandwidth [MBytes/s],74.5241,
+L3 evict data volume [GBytes],0.1092,
+L3 bandwidth [MBytes/s],176.9549,
+L3 data volume [GBytes],0.2594,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.3998269 GHz,
+TABLE,Region T_Sist_Lin_Padrao_600,Group 1 Raw,L3,5
+Region Info,HWThread 3,
+RDTSC Runtime [s],1.666361,
+call count,50,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,6091098000
+CPU_CLK_UNHALTED_CORE,FIXC1,3982569000
+CPU_CLK_UNHALTED_REF,FIXC2,3991849000
+L2_LINES_IN_ALL,PMC0,546076900
+L2_TRANS_L2_WB,PMC1,449455900
+TABLE,Region T_Sist_Lin_Padrao_600,Group 1 Metric,L3,10
+Metric,HWThread 3,
+Runtime (RDTSC) [s],1.6664,
+Runtime unhalted [s],1.6595,
+Clock [MHz],2394.2479,
+CPI,0.6538,
+L3 load bandwidth [MBytes/s],20973.1994,
+L3 load data volume [GBytes],34.9489,
+L3 evict bandwidth [MBytes/s],17262.2725,
+L3 evict data volume [GBytes],28.7652,
+L3 bandwidth [MBytes/s],38235.4719,
+L3 data volume [GBytes],63.7141,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.3998269 GHz,
+TABLE,Region T_Newton_Inexato_600,Group 1 Raw,L3,5
+Region Info,HWThread 3,
+RDTSC Runtime [s],1.564469,
+call count,1,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,4350547000
+CPU_CLK_UNHALTED_CORE,FIXC1,3650505000
+CPU_CLK_UNHALTED_REF,FIXC2,3659006000
+L2_LINES_IN_ALL,PMC0,7060939
+L2_TRANS_L2_WB,PMC1,3735937
+TABLE,Region T_Newton_Inexato_600,Group 1 Metric,L3,10
+Metric,HWThread 3,
+Runtime (RDTSC) [s],1.5645,
+Runtime unhalted [s],1.5212,
+Clock [MHz],2394.2514,
+CPI,0.8391,
+L3 load bandwidth [MBytes/s],288.8521,
+L3 load data volume [GBytes],0.4519,
+L3 evict bandwidth [MBytes/s],152.8314,
+L3 evict data volume [GBytes],0.2391,
+L3 bandwidth [MBytes/s],441.6834,
+L3 data volume [GBytes],0.6910,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.3998269 GHz,
+TABLE,Region Tderi_grad_Inexato_600,Group 1 Raw,L3,5
+Region Info,HWThread 3,
+RDTSC Runtime [s],0.002444,
+call count,50,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,7229320
+CPU_CLK_UNHALTED_CORE,FIXC1,6214113
+CPU_CLK_UNHALTED_REF,FIXC2,6229300
+L2_LINES_IN_ALL,PMC0,21030
+L2_TRANS_L2_WB,PMC1,4672
+TABLE,Region Tderi_grad_Inexato_600,Group 1 Metric,L3,10
+Metric,HWThread 3,
+Runtime (RDTSC) [s],0.0024,
+Runtime unhalted [s],0.0026,
+Clock [MHz],2393.9761,
+CPI,0.8596,
+L3 load bandwidth [MBytes/s],550.6317,
+L3 load data volume [GBytes],0.0013,
+L3 evict bandwidth [MBytes/s],122.3277,
+L3 evict data volume [GBytes],0.0003,
+L3 bandwidth [MBytes/s],672.9594,
+L3 data volume [GBytes],0.0016,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.3998269 GHz,
+TABLE,Region Tderi_hes_Inexato_600,Group 1 Raw,L3,5
+Region Info,HWThread 3,
+RDTSC Runtime [s],1.462981,
+call count,50,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,4231763000
+CPU_CLK_UNHALTED_CORE,FIXC1,3498793000
+CPU_CLK_UNHALTED_REF,FIXC2,3506942000
+L2_LINES_IN_ALL,PMC0,2337683
+L2_TRANS_L2_WB,PMC1,1854024
+TABLE,Region Tderi_hes_Inexato_600,Group 1 Metric,L3,10
+Metric,HWThread 3,
+Runtime (RDTSC) [s],1.4630,
+Runtime unhalted [s],1.4579,
+Clock [MHz],2394.2505,
+CPI,0.8268,
+L3 load bandwidth [MBytes/s],102.2650,
+L3 load data volume [GBytes],0.1496,
+L3 evict bandwidth [MBytes/s],81.1067,
+L3 evict data volume [GBytes],0.1187,
+L3 bandwidth [MBytes/s],183.3717,
+L3 data volume [GBytes],0.2683,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.3998269 GHz,
+TABLE,Region T_Sist_Lin_Inexato_600,Group 1 Raw,L3,5
+Region Info,HWThread 3,
+RDTSC Runtime [s],0.059982,
+call count,50,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,110475000
+CPU_CLK_UNHALTED_CORE,FIXC1,143778000
+CPU_CLK_UNHALTED_REF,FIXC2,144112700
+L2_LINES_IN_ALL,PMC0,4616191
+L2_TRANS_L2_WB,PMC1,1849606
+TABLE,Region T_Sist_Lin_Inexato_600,Group 1 Metric,L3,10
+Metric,HWThread 3,
+Runtime (RDTSC) [s],0.0600,
+Runtime unhalted [s],0.0599,
+Clock [MHz],2394.2533,
+CPI,1.3015,
+L3 load bandwidth [MBytes/s],4925.3909,
+L3 load data volume [GBytes],0.2954,
+L3 evict bandwidth [MBytes/s],1973.4956,
+L3 evict data volume [GBytes],0.1184,
+L3 bandwidth [MBytes/s],6898.8865,
+L3 data volume [GBytes],0.4138,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.3998269 GHz,
+TABLE,Region T_Newton_Padrao_1000,Group 1 Raw,L3,5
+Region Info,HWThread 3,
+RDTSC Runtime [s],15.416400,
+call count,1,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,38685750000
+CPU_CLK_UNHALTED_CORE,FIXC1,36721740000
+CPU_CLK_UNHALTED_REF,FIXC2,36807300000
+L2_LINES_IN_ALL,PMC0,2409581000
+L2_TRANS_L2_WB,PMC1,2203673000
+TABLE,Region T_Newton_Padrao_1000,Group 1 Metric,L3,10
+Metric,HWThread 3,
+Runtime (RDTSC) [s],15.4164,
+Runtime unhalted [s],15.3018,
+Clock [MHz],2394.2484,
+CPI,0.9492,
+L3 load bandwidth [MBytes/s],10003.1904,
+L3 load data volume [GBytes],154.2132,
+L3 evict bandwidth [MBytes/s],9148.3791,
+L3 evict data volume [GBytes],141.0351,
+L3 bandwidth [MBytes/s],19151.5695,
+L3 data volume [GBytes],295.2483,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.3998269 GHz,
+TABLE,Region Tderi_grad_Padrao_1000,Group 1 Raw,L3,5
+Region Info,HWThread 3,
+RDTSC Runtime [s],0.004097,
+call count,50,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,11906090
+CPU_CLK_UNHALTED_CORE,FIXC1,10147240
+CPU_CLK_UNHALTED_REF,FIXC2,10171700
+L2_LINES_IN_ALL,PMC0,29673
+L2_TRANS_L2_WB,PMC1,9064
+TABLE,Region Tderi_grad_Padrao_1000,Group 1 Metric,L3,10
+Metric,HWThread 3,
+Runtime (RDTSC) [s],0.0041,
+Runtime unhalted [s],0.0042,
+Clock [MHz],2394.0560,
+CPI,0.8523,
+L3 load bandwidth [MBytes/s],463.5278,
+L3 load data volume [GBytes],0.0019,
+L3 evict bandwidth [MBytes/s],141.5905,
+L3 evict data volume [GBytes],0.0006,
+L3 bandwidth [MBytes/s],605.1183,
+L3 data volume [GBytes],0.0025,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.3998269 GHz,
+TABLE,Region Tderi_hes_padrao_1000,Group 1 Raw,L3,5
+Region Info,HWThread 3,
+RDTSC Runtime [s],4.060831,
+call count,50,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,11753350000
+CPU_CLK_UNHALTED_CORE,FIXC1,9713772000
+CPU_CLK_UNHALTED_REF,FIXC2,9736392000
+L2_LINES_IN_ALL,PMC0,6403643
+L2_TRANS_L2_WB,PMC1,5337132
+TABLE,Region Tderi_hes_padrao_1000,Group 1 Metric,L3,10
+Metric,HWThread 3,
+Runtime (RDTSC) [s],4.0608,
+Runtime unhalted [s],4.0477,
+Clock [MHz],2394.2515,
+CPI,0.8265,
+L3 load bandwidth [MBytes/s],100.9235,
+L3 load data volume [GBytes],0.4098,
+L3 evict bandwidth [MBytes/s],84.1149,
+L3 evict data volume [GBytes],0.3416,
+L3 bandwidth [MBytes/s],185.0384,
+L3 data volume [GBytes],0.7514,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.3998269 GHz,
+TABLE,Region T_Sist_Lin_Padrao_1000,Group 1 Raw,L3,5
+Region Info,HWThread 3,
+RDTSC Runtime [s],11.308510,
+call count,50,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,26919210000
+CPU_CLK_UNHALTED_CORE,FIXC1,26994970000
+CPU_CLK_UNHALTED_REF,FIXC2,27057870000
+L2_LINES_IN_ALL,PMC0,2403017000
+L2_TRANS_L2_WB,PMC1,2198279000
+TABLE,Region T_Sist_Lin_Padrao_1000,Group 1 Metric,L3,10
+Metric,HWThread 3,
+Runtime (RDTSC) [s],11.3085,
+Runtime unhalted [s],11.2487,
+Clock [MHz],2394.2481,
+CPI,1.0028,
+L3 load bandwidth [MBytes/s],13599.7658,
+L3 load data volume [GBytes],153.7931,
+L3 evict bandwidth [MBytes/s],12441.0604,
+L3 evict data volume [GBytes],140.6899,
+L3 bandwidth [MBytes/s],26040.8262,
+L3 data volume [GBytes],294.4829,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.3998269 GHz,
+TABLE,Region T_Newton_Inexato_1000,Group 1 Raw,L3,5
+Region Info,HWThread 3,
+RDTSC Runtime [s],4.274751,
+call count,1,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,12070460000
+CPU_CLK_UNHALTED_CORE,FIXC1,10133860000
+CPU_CLK_UNHALTED_REF,FIXC2,10157460000
+L2_LINES_IN_ALL,PMC0,19225450
+L2_TRANS_L2_WB,PMC1,15407780
+TABLE,Region T_Newton_Inexato_1000,Group 1 Metric,L3,10
+Metric,HWThread 3,
+Runtime (RDTSC) [s],4.2748,
+Runtime unhalted [s],4.2227,
+Clock [MHz],2394.2511,
+CPI,0.8396,
+L3 load bandwidth [MBytes/s],287.8364,
+L3 load data volume [GBytes],1.2304,
+L3 evict bandwidth [MBytes/s],230.6796,
+L3 evict data volume [GBytes],0.9861,
+L3 bandwidth [MBytes/s],518.5160,
+L3 data volume [GBytes],2.2165,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.3998269 GHz,
+TABLE,Region Tderi_grad_Inexato_1000,Group 1 Raw,L3,5
+Region Info,HWThread 3,
+RDTSC Runtime [s],0.004054,
+call count,50,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,11906800
+CPU_CLK_UNHALTED_CORE,FIXC1,10073840
+CPU_CLK_UNHALTED_REF,FIXC2,10096400
+L2_LINES_IN_ALL,PMC0,27049
+L2_TRANS_L2_WB,PMC1,8681
+TABLE,Region Tderi_grad_Inexato_1000,Group 1 Metric,L3,10
+Metric,HWThread 3,
+Runtime (RDTSC) [s],0.0041,
+Runtime unhalted [s],0.0042,
+Clock [MHz],2394.4646,
+CPI,0.8461,
+L3 load bandwidth [MBytes/s],426.9980,
+L3 load data volume [GBytes],0.0017,
+L3 evict bandwidth [MBytes/s],137.0391,
+L3 evict data volume [GBytes],0.0006,
+L3 bandwidth [MBytes/s],564.0370,
+L3 data volume [GBytes],0.0023,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.3998269 GHz,
+TABLE,Region Tderi_hes_Inexato_1000,Group 1 Raw,L3,5
+Region Info,HWThread 3,
+RDTSC Runtime [s],4.058330,
+call count,50,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,11753350000
+CPU_CLK_UNHALTED_CORE,FIXC1,9708610000
+CPU_CLK_UNHALTED_REF,FIXC2,9731219000
+L2_LINES_IN_ALL,PMC0,6394260
+L2_TRANS_L2_WB,PMC1,5463011
+TABLE,Region Tderi_hes_Inexato_1000,Group 1 Metric,L3,10
+Metric,HWThread 3,
+Runtime (RDTSC) [s],4.0583,
+Runtime unhalted [s],4.0455,
+Clock [MHz],2394.2513,
+CPI,0.8260,
+L3 load bandwidth [MBytes/s],100.8377,
+L3 load data volume [GBytes],0.4092,
+L3 evict bandwidth [MBytes/s],86.1519,
+L3 evict data volume [GBytes],0.3496,
+L3 bandwidth [MBytes/s],186.9896,
+L3 data volume [GBytes],0.7589,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.3998269 GHz,
+TABLE,Region T_Sist_Lin_Inexato_1000,Group 1 Raw,L3,5
+Region Info,HWThread 3,
+RDTSC Runtime [s],0.172574,
+call count,50,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,303957800
+CPU_CLK_UNHALTED_CORE,FIXC1,413024900
+CPU_CLK_UNHALTED_REF,FIXC2,413985400
+L2_LINES_IN_ALL,PMC0,12697840
+L2_TRANS_L2_WB,PMC1,9893834
+TABLE,Region T_Sist_Lin_Inexato_1000,Group 1 Metric,L3,10
+Metric,HWThread 3,
+Runtime (RDTSC) [s],0.1726,
+Runtime unhalted [s],0.1721,
+Clock [MHz],2394.2590,
+CPI,1.3588,
+L3 load bandwidth [MBytes/s],4709.0544,
+L3 load data volume [GBytes],0.8127,
+L3 evict bandwidth [MBytes/s],3669.1754,
+L3 evict data volume [GBytes],0.6332,
+L3 bandwidth [MBytes/s],8378.2298,
+L3 data volume [GBytes],1.4459,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.3998269 GHz,
+TABLE,Region T_Newton_Padrao_1024,Group 1 Raw,L3,5
+Region Info,HWThread 3,
+RDTSC Runtime [s],17.963990,
+call count,1,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,41194790000
+CPU_CLK_UNHALTED_CORE,FIXC1,42744900000
+CPU_CLK_UNHALTED_REF,FIXC2,42844500000
+L2_LINES_IN_ALL,PMC0,2592710000
+L2_TRANS_L2_WB,PMC1,2352972000
+TABLE,Region T_Newton_Padrao_1024,Group 1 Metric,L3,10
+Metric,HWThread 3,
+Runtime (RDTSC) [s],17.9640,
+Runtime unhalted [s],17.8117,
+Clock [MHz],2394.2481,
+CPI,1.0376,
+L3 load bandwidth [MBytes/s],9237.0036,
+L3 load data volume [GBytes],165.9334,
+L3 evict bandwidth [MBytes/s],8382.8931,
+L3 evict data volume [GBytes],150.5902,
+L3 bandwidth [MBytes/s],17619.8967,
+L3 data volume [GBytes],316.5236,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.3998269 GHz,
+TABLE,Region Tderi_grad_Padrao_1024,Group 1 Raw,L3,5
+Region Info,HWThread 3,
+RDTSC Runtime [s],0.004196,
+call count,50,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,12185160
+CPU_CLK_UNHALTED_CORE,FIXC1,10545770
+CPU_CLK_UNHALTED_REF,FIXC2,10570800
+L2_LINES_IN_ALL,PMC0,33105
+L2_TRANS_L2_WB,PMC1,8988
+TABLE,Region Tderi_grad_Padrao_1024,Group 1 Metric,L3,10
+Metric,HWThread 3,
+Runtime (RDTSC) [s],0.0042,
+Runtime unhalted [s],0.0044,
+Clock [MHz],2394.1445,
+CPI,0.8655,
+L3 load bandwidth [MBytes/s],504.9577,
+L3 load data volume [GBytes],0.0021,
+L3 evict bandwidth [MBytes/s],137.0959,
+L3 evict data volume [GBytes],0.0006,
+L3 bandwidth [MBytes/s],642.0535,
+L3 data volume [GBytes],0.0027,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.3998269 GHz,
+TABLE,Region Tderi_hes_padrao_1024,Group 1 Raw,L3,5
+Region Info,HWThread 3,
+RDTSC Runtime [s],4.273408,
+call count,50,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,12324110000
+CPU_CLK_UNHALTED_CORE,FIXC1,10216440000
+CPU_CLK_UNHALTED_REF,FIXC2,10240230000
+L2_LINES_IN_ALL,PMC0,6776470
+L2_TRANS_L2_WB,PMC1,5185630
+TABLE,Region Tderi_hes_padrao_1024,Group 1 Metric,L3,10
+Metric,HWThread 3,
+Runtime (RDTSC) [s],4.2734,
+Runtime unhalted [s],4.2572,
+Clock [MHz],2394.2516,
+CPI,0.8290,
+L3 load bandwidth [MBytes/s],101.4867,
+L3 load data volume [GBytes],0.4337,
+L3 evict bandwidth [MBytes/s],77.6617,
+L3 evict data volume [GBytes],0.3319,
+L3 bandwidth [MBytes/s],179.1484,
+L3 data volume [GBytes],0.7656,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.3998269 GHz,
+TABLE,Region T_Sist_Lin_Padrao_1024,Group 1 Raw,L3,5
+Region Info,HWThread 3,
+RDTSC Runtime [s],13.641230,
+call count,50,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,28857210000
+CPU_CLK_UNHALTED_CORE,FIXC1,32514790000
+CPU_CLK_UNHALTED_REF,FIXC2,32590560000
+L2_LINES_IN_ALL,PMC0,2585762000
+L2_TRANS_L2_WB,PMC1,2347729000
+TABLE,Region T_Sist_Lin_Padrao_1024,Group 1 Metric,L3,10
+Metric,HWThread 3,
+Runtime (RDTSC) [s],13.6412,
+Runtime unhalted [s],13.5488,
+Clock [MHz],2394.2475,
+CPI,1.1267,
+L3 load bandwidth [MBytes/s],12131.5137,
+L3 load data volume [GBytes],165.4888,
+L3 evict bandwidth [MBytes/s],11014.7440,
+L3 evict data volume [GBytes],150.2547,
+L3 bandwidth [MBytes/s],23146.2576,
+L3 data volume [GBytes],315.7434,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.3998269 GHz,
+TABLE,Region T_Newton_Inexato_1024,Group 1 Raw,L3,5
+Region Info,HWThread 3,
+RDTSC Runtime [s],4.487881,
+call count,1,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,12653910000
+CPU_CLK_UNHALTED_CORE,FIXC1,10638740000
+CPU_CLK_UNHALTED_REF,FIXC2,10663520000
+L2_LINES_IN_ALL,PMC0,20198260
+L2_TRANS_L2_WB,PMC1,16720400
+TABLE,Region T_Newton_Inexato_1024,Group 1 Metric,L3,10
+Metric,HWThread 3,
+Runtime (RDTSC) [s],4.4879,
+Runtime unhalted [s],4.4331,
+Clock [MHz],2394.2502,
+CPI,0.8407,
+L3 load bandwidth [MBytes/s],288.0399,
+L3 load data volume [GBytes],1.2927,
+L3 evict bandwidth [MBytes/s],238.4434,
+L3 evict data volume [GBytes],1.0701,
+L3 bandwidth [MBytes/s],526.4833,
+L3 data volume [GBytes],2.3628,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.3998269 GHz,
+TABLE,Region Tderi_grad_Inexato_1024,Group 1 Raw,L3,5
+Region Info,HWThread 3,
+RDTSC Runtime [s],0.004165,
+call count,50,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,12192380
+CPU_CLK_UNHALTED_CORE,FIXC1,10365810
+CPU_CLK_UNHALTED_REF,FIXC2,10388300
+L2_LINES_IN_ALL,PMC0,29325
+L2_TRANS_L2_WB,PMC1,9445
+TABLE,Region Tderi_grad_Inexato_1024,Group 1 Metric,L3,10
+Metric,HWThread 3,
+Runtime (RDTSC) [s],0.0042,
+Runtime unhalted [s],0.0043,
+Clock [MHz],2394.6314,
+CPI,0.8502,
+L3 load bandwidth [MBytes/s],450.5975,
+L3 load data volume [GBytes],0.0019,
+L3 evict bandwidth [MBytes/s],145.1285,
+L3 evict data volume [GBytes],0.0006,
+L3 bandwidth [MBytes/s],595.7260,
+L3 data volume [GBytes],0.0025,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.3998269 GHz,
+TABLE,Region Tderi_hes_Inexato_1024,Group 1 Raw,L3,5
+Region Info,HWThread 3,
+RDTSC Runtime [s],4.261492,
+call count,50,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,12321780000
+CPU_CLK_UNHALTED_CORE,FIXC1,10192970000
+CPU_CLK_UNHALTED_REF,FIXC2,10216710000
+L2_LINES_IN_ALL,PMC0,6742544
+L2_TRANS_L2_WB,PMC1,5452492
+TABLE,Region Tderi_hes_Inexato_1024,Group 1 Metric,L3,10
+Metric,HWThread 3,
+Runtime (RDTSC) [s],4.2615,
+Runtime unhalted [s],4.2474,
+Clock [MHz],2394.2506,
+CPI,0.8272,
+L3 load bandwidth [MBytes/s],101.2610,
+L3 load data volume [GBytes],0.4315,
+L3 evict bandwidth [MBytes/s],81.8867,
+L3 evict data volume [GBytes],0.3490,
+L3 bandwidth [MBytes/s],183.1477,
+L3 data volume [GBytes],0.7805,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.3998269 GHz,
+TABLE,Region T_Sist_Lin_Inexato_1024,Group 1 Raw,L3,5
+Region Info,HWThread 3,
+RDTSC Runtime [s],0.180894,
+call count,50,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,318638400
+CPU_CLK_UNHALTED_CORE,FIXC1,433039100
+CPU_CLK_UNHALTED_REF,FIXC2,434047600
+L2_LINES_IN_ALL,PMC0,13317600
+L2_TRANS_L2_WB,PMC1,11215040
+TABLE,Region T_Sist_Lin_Inexato_1024,Group 1 Metric,L3,10
+Metric,HWThread 3,
+Runtime (RDTSC) [s],0.1809,
+Runtime unhalted [s],0.1804,
+Clock [MHz],2394.2510,
+CPI,1.3590,
+L3 load bandwidth [MBytes/s],4711.7346,
+L3 load data volume [GBytes],0.8523,
+L3 evict bandwidth [MBytes/s],3967.8540,
+L3 evict data volume [GBytes],0.7178,
+L3 bandwidth [MBytes/s],8679.5885,
+L3 data volume [GBytes],1.5701,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.3998269 GHz,
+TABLE,Region T_Newton_Padrao_2000,Group 1 Raw,L3,5
+Region Info,HWThread 3,
+RDTSC Runtime [s],140.986700,
+call count,1,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,254711000000
+CPU_CLK_UNHALTED_CORE,FIXC1,336541500000
+CPU_CLK_UNHALTED_REF,FIXC2,337325700000
+L2_LINES_IN_ALL,PMC0,18514310000
+L2_TRANS_L2_WB,PMC1,17622800000
+TABLE,Region T_Newton_Padrao_2000,Group 1 Metric,L3,10
+Metric,HWThread 3,
+Runtime (RDTSC) [s],140.9867,
+Runtime unhalted [s],140.2357,
+Clock [MHz],2394.2479,
+CPI,1.3213,
+L3 load bandwidth [MBytes/s],8404.4512,
+L3 load data volume [GBytes],1184.9158,
+L3 evict bandwidth [MBytes/s],7999.7560,
+L3 evict data volume [GBytes],1127.8592,
+L3 bandwidth [MBytes/s],16404.2072,
+L3 data volume [GBytes],2312.7750,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.3998269 GHz,
+TABLE,Region Tderi_grad_Padrao_2000,Group 1 Raw,L3,5
+Region Info,HWThread 3,
+RDTSC Runtime [s],0.008141,
+call count,50,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,23605040
+CPU_CLK_UNHALTED_CORE,FIXC1,19876520
+CPU_CLK_UNHALTED_REF,FIXC2,19923800
+L2_LINES_IN_ALL,PMC0,47080
+L2_TRANS_L2_WB,PMC1,14416
+TABLE,Region Tderi_grad_Padrao_2000,Group 1 Metric,L3,10
+Metric,HWThread 3,
+Runtime (RDTSC) [s],0.0081,
+Runtime unhalted [s],0.0083,
+Clock [MHz],2394.1320,
+CPI,0.8420,
+L3 load bandwidth [MBytes/s],370.1137,
+L3 load data volume [GBytes],0.0030,
+L3 evict bandwidth [MBytes/s],113.3296,
+L3 evict data volume [GBytes],0.0009,
+L3 bandwidth [MBytes/s],483.4433,
+L3 data volume [GBytes],0.0039,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.3998269 GHz,
+TABLE,Region Tderi_hes_padrao_2000,Group 1 Raw,L3,5
+Region Info,HWThread 3,
+RDTSC Runtime [s],16.251980,
+call count,50,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,47009980000
+CPU_CLK_UNHALTED_CORE,FIXC1,38874270000
+CPU_CLK_UNHALTED_REF,FIXC2,38964820000
+L2_LINES_IN_ALL,PMC0,25469540
+L2_TRANS_L2_WB,PMC1,21076010
+TABLE,Region Tderi_hes_padrao_2000,Group 1 Metric,L3,10
+Metric,HWThread 3,
+Runtime (RDTSC) [s],16.2520,
+Runtime unhalted [s],16.1988,
+Clock [MHz],2394.2500,
+CPI,0.8269,
+L3 load bandwidth [MBytes/s],100.2986,
+L3 load data volume [GBytes],1.6301,
+L3 evict bandwidth [MBytes/s],82.9969,
+L3 evict data volume [GBytes],1.3489,
+L3 bandwidth [MBytes/s],183.2955,
+L3 data volume [GBytes],2.9789,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.3998269 GHz,
+TABLE,Region T_Sist_Lin_Padrao_2000,Group 1 Raw,L3,5
+Region Info,HWThread 3,
+RDTSC Runtime [s],124.680800,
+call count,50,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,207675700000
+CPU_CLK_UNHALTED_CORE,FIXC1,297643200000
+CPU_CLK_UNHALTED_REF,FIXC2,298336900000
+L2_LINES_IN_ALL,PMC0,18488610000
+L2_TRANS_L2_WB,PMC1,17601660000
+TABLE,Region T_Sist_Lin_Padrao_2000,Group 1 Metric,L3,10
+Metric,HWThread 3,
+Runtime (RDTSC) [s],124.6808,
+Runtime unhalted [s],124.0269,
+Clock [MHz],2394.2468,
+CPI,1.4332,
+L3 load bandwidth [MBytes/s],9490.4030,
+L3 load data volume [GBytes],1183.2710,
+L3 evict bandwidth [MBytes/s],9035.1220,
+L3 evict data volume [GBytes],1126.5062,
+L3 bandwidth [MBytes/s],18525.5250,
+L3 data volume [GBytes],2309.7773,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.3998269 GHz,
+TABLE,Region T_Newton_Inexato_2000,Group 1 Raw,L3,5
+Region Info,HWThread 3,
+RDTSC Runtime [s],17.091310,
+call count,1,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,48245820000
+CPU_CLK_UNHALTED_CORE,FIXC1,40724750000
+CPU_CLK_UNHALTED_REF,FIXC2,40819610000
+L2_LINES_IN_ALL,PMC0,78182390
+L2_TRANS_L2_WB,PMC1,67861670
+TABLE,Region T_Newton_Inexato_2000,Group 1 Metric,L3,10
+Metric,HWThread 3,
+Runtime (RDTSC) [s],17.0913,
+Runtime unhalted [s],16.9699,
+Clock [MHz],2394.2500,
+CPI,0.8441,
+L3 load bandwidth [MBytes/s],292.7612,
+L3 load data volume [GBytes],5.0037,
+L3 evict bandwidth [MBytes/s],254.1143,
+L3 evict data volume [GBytes],4.3431,
+L3 bandwidth [MBytes/s],546.8756,
+L3 data volume [GBytes],9.3468,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.3998269 GHz,
+TABLE,Region Tderi_grad_Inexato_2000,Group 1 Raw,L3,5
+Region Info,HWThread 3,
+RDTSC Runtime [s],0.008219,
+call count,50,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,23604330
+CPU_CLK_UNHALTED_CORE,FIXC1,20122110
+CPU_CLK_UNHALTED_REF,FIXC2,20169100
+L2_LINES_IN_ALL,PMC0,46270
+L2_TRANS_L2_WB,PMC1,13771
+TABLE,Region Tderi_grad_Inexato_2000,Group 1 Metric,L3,10
+Metric,HWThread 3,
+Runtime (RDTSC) [s],0.0082,
+Runtime unhalted [s],0.0084,
+Clock [MHz],2394.2358,
+CPI,0.8525,
+L3 load bandwidth [MBytes/s],360.2997,
+L3 load data volume [GBytes],0.0030,
+L3 evict bandwidth [MBytes/s],107.2334,
+L3 evict data volume [GBytes],0.0009,
+L3 bandwidth [MBytes/s],467.5331,
+L3 data volume [GBytes],0.0038,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.3998269 GHz,
+TABLE,Region Tderi_hes_Inexato_2000,Group 1 Raw,L3,5
+Region Info,HWThread 3,
+RDTSC Runtime [s],16.317080,
+call count,50,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,47012870000
+CPU_CLK_UNHALTED_CORE,FIXC1,38981800000
+CPU_CLK_UNHALTED_REF,FIXC2,39072600000
+L2_LINES_IN_ALL,PMC0,25683140
+L2_TRANS_L2_WB,PMC1,19745790
+TABLE,Region Tderi_hes_Inexato_2000,Group 1 Metric,L3,10
+Metric,HWThread 3,
+Runtime (RDTSC) [s],16.3171,
+Runtime unhalted [s],16.2436,
+Clock [MHz],2394.2500,
+CPI,0.8292,
+L3 load bandwidth [MBytes/s],100.7362,
+L3 load data volume [GBytes],1.6437,
+L3 evict bandwidth [MBytes/s],77.4483,
+L3 evict data volume [GBytes],1.2637,
+L3 bandwidth [MBytes/s],178.1845,
+L3 data volume [GBytes],2.9075,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.3998269 GHz,
+TABLE,Region T_Sist_Lin_Inexato_2000,Group 1 Raw,L3,5
+Region Info,HWThread 3,
+RDTSC Runtime [s],0.719357,
+call count,50,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,1207659000
+CPU_CLK_UNHALTED_CORE,FIXC1,1719018000
+CPU_CLK_UNHALTED_REF,FIXC2,1723024000
+L2_LINES_IN_ALL,PMC0,52301240
+L2_TRANS_L2_WB,PMC1,48048550
+TABLE,Region T_Sist_Lin_Inexato_2000,Group 1 Metric,L3,10
+Metric,HWThread 3,
+Runtime (RDTSC) [s],0.7194,
+Runtime unhalted [s],0.7163,
+Clock [MHz],2394.2473,
+CPI,1.4234,
+L3 load bandwidth [MBytes/s],4653.1566,
+L3 load data volume [GBytes],3.3473,
+L3 evict bandwidth [MBytes/s],4274.8016,
+L3 evict data volume [GBytes],3.0751,
+L3 bandwidth [MBytes/s],8927.9582,
+L3 data volume [GBytes],6.4224,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.3998269 GHz,
+TABLE,Region T_Newton_Padrao_2048,Group 1 Raw,L3,5
+Region Info,HWThread 3,
+RDTSC Runtime [s],149.651400,
+call count,1,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,272118600000
+CPU_CLK_UNHALTED_CORE,FIXC1,357228800000
+CPU_CLK_UNHALTED_REF,FIXC2,358061300000
+L2_LINES_IN_ALL,PMC0,19771610000
+L2_TRANS_L2_WB,PMC1,18931510000
+TABLE,Region T_Newton_Padrao_2048,Group 1 Metric,L3,10
+Metric,HWThread 3,
+Runtime (RDTSC) [s],149.6514,
+Runtime unhalted [s],148.8561,
+Clock [MHz],2394.2473,
+CPI,1.3128,
+L3 load bandwidth [MBytes/s],8455.5376,
+L3 load data volume [GBytes],1265.3830,
+L3 evict bandwidth [MBytes/s],8096.2600,
+L3 evict data volume [GBytes],1211.6166,
+L3 bandwidth [MBytes/s],16551.7976,
+L3 data volume [GBytes],2476.9997,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.3998269 GHz,
+TABLE,Region Tderi_grad_Padrao_2048,Group 1 Raw,L3,5
+Region Info,HWThread 3,
+RDTSC Runtime [s],0.008324,
+call count,50,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,24170590
+CPU_CLK_UNHALTED_CORE,FIXC1,20301830
+CPU_CLK_UNHALTED_REF,FIXC2,20348000
+L2_LINES_IN_ALL,PMC0,42451
+L2_TRANS_L2_WB,PMC1,12963
+TABLE,Region Tderi_grad_Padrao_2048,Group 1 Metric,L3,10
+Metric,HWThread 3,
+Runtime (RDTSC) [s],0.0083,
+Runtime unhalted [s],0.0085,
+Clock [MHz],2394.3816,
+CPI,0.8399,
+L3 load bandwidth [MBytes/s],326.3989,
+L3 load data volume [GBytes],0.0027,
+L3 evict bandwidth [MBytes/s],99.6704,
+L3 evict data volume [GBytes],0.0008,
+L3 bandwidth [MBytes/s],426.0693,
+L3 data volume [GBytes],0.0035,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.3998269 GHz,
+TABLE,Region Tderi_hes_padrao_2048,Group 1 Raw,L3,5
+Region Info,HWThread 3,
+RDTSC Runtime [s],17.040730,
+call count,50,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,49295750000
+CPU_CLK_UNHALTED_CORE,FIXC1,40757050000
+CPU_CLK_UNHALTED_REF,FIXC2,40851960000
+L2_LINES_IN_ALL,PMC0,26648130
+L2_TRANS_L2_WB,PMC1,22663300
+TABLE,Region Tderi_hes_padrao_2048,Group 1 Metric,L3,10
+Metric,HWThread 3,
+Runtime (RDTSC) [s],17.0407,
+Runtime unhalted [s],16.9833,
+Clock [MHz],2394.2515,
+CPI,0.8268,
+L3 load bandwidth [MBytes/s],100.0826,
+L3 load data volume [GBytes],1.7055,
+L3 evict bandwidth [MBytes/s],85.1167,
+L3 evict data volume [GBytes],1.4505,
+L3 bandwidth [MBytes/s],185.1993,
+L3 data volume [GBytes],3.1559,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.3998269 GHz,
+TABLE,Region T_Sist_Lin_Padrao_2048,Group 1 Raw,L3,5
+Region Info,HWThread 3,
+RDTSC Runtime [s],132.557800,
+call count,50,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,222796900000
+CPU_CLK_UNHALTED_CORE,FIXC1,316447700000
+CPU_CLK_UNHALTED_REF,FIXC2,317185100000
+L2_LINES_IN_ALL,PMC0,19744740000
+L2_TRANS_L2_WB,PMC1,18908780000
+TABLE,Region T_Sist_Lin_Padrao_2048,Group 1 Metric,L3,10
+Metric,HWThread 3,
+Runtime (RDTSC) [s],132.5578,
+Runtime unhalted [s],131.8627,
+Clock [MHz],2394.2477,
+CPI,1.4203,
+L3 load bandwidth [MBytes/s],9532.9234,
+L3 load data volume [GBytes],1263.6634,
+L3 evict bandwidth [MBytes/s],9129.3151,
+L3 evict data volume [GBytes],1210.1619,
+L3 bandwidth [MBytes/s],18662.2385,
+L3 data volume [GBytes],2473.8253,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.3998269 GHz,
+TABLE,Region T_Newton_Inexato_2048,Group 1 Raw,L3,5
+Region Info,HWThread 3,
+RDTSC Runtime [s],17.805720,
+call count,1,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,50588720000
+CPU_CLK_UNHALTED_CORE,FIXC1,42497710000
+CPU_CLK_UNHALTED_REF,FIXC2,42596680000
+L2_LINES_IN_ALL,PMC0,81631440
+L2_TRANS_L2_WB,PMC1,74695960
+TABLE,Region T_Newton_Inexato_2048,Group 1 Metric,L3,10
+Metric,HWThread 3,
+Runtime (RDTSC) [s],17.8057,
+Runtime unhalted [s],17.7087,
+Clock [MHz],2394.2511,
+CPI,0.8401,
+L3 load bandwidth [MBytes/s],293.4120,
+L3 load data volume [GBytes],5.2244,
+L3 evict bandwidth [MBytes/s],268.4835,
+L3 evict data volume [GBytes],4.7805,
+L3 bandwidth [MBytes/s],561.8955,
+L3 data volume [GBytes],10.0050,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.3998269 GHz,
+TABLE,Region Tderi_grad_Inexato_2048,Group 1 Raw,L3,5
+Region Info,HWThread 3,
+RDTSC Runtime [s],0.008300,
+call count,50,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,24192500
+CPU_CLK_UNHALTED_CORE,FIXC1,20223100
+CPU_CLK_UNHALTED_REF,FIXC2,20271300
+L2_LINES_IN_ALL,PMC0,41039
+L2_TRANS_L2_WB,PMC1,12778
+TABLE,Region Tderi_grad_Inexato_2048,Group 1 Metric,L3,10
+Metric,HWThread 3,
+Runtime (RDTSC) [s],0.0083,
+Runtime unhalted [s],0.0084,
+Clock [MHz],2394.1207,
+CPI,0.8359,
+L3 load bandwidth [MBytes/s],316.4577,
+L3 load data volume [GBytes],0.0026,
+L3 evict bandwidth [MBytes/s],98.5330,
+L3 evict data volume [GBytes],0.0008,
+L3 bandwidth [MBytes/s],414.9907,
+L3 data volume [GBytes],0.0034,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.3998269 GHz,
+TABLE,Region Tderi_hes_Inexato_2048,Group 1 Raw,L3,5
+Region Info,HWThread 3,
+RDTSC Runtime [s],17.009580,
+call count,50,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,49296700000
+CPU_CLK_UNHALTED_CORE,FIXC1,40694770000
+CPU_CLK_UNHALTED_REF,FIXC2,40789530000
+L2_LINES_IN_ALL,PMC0,26588680
+L2_TRANS_L2_WB,PMC1,23726310
+TABLE,Region Tderi_hes_Inexato_2048,Group 1 Metric,L3,10
+Metric,HWThread 3,
+Runtime (RDTSC) [s],17.0096,
+Runtime unhalted [s],16.9574,
+Clock [MHz],2394.2518,
+CPI,0.8255,
+L3 load bandwidth [MBytes/s],100.0422,
+L3 load data volume [GBytes],1.7017,
+L3 evict bandwidth [MBytes/s],89.2723,
+L3 evict data volume [GBytes],1.5185,
+L3 bandwidth [MBytes/s],189.3145,
+L3 data volume [GBytes],3.2202,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.3998269 GHz,
+TABLE,Region T_Sist_Lin_Inexato_2048,Group 1 Raw,L3,5
+Region Info,HWThread 3,
+RDTSC Runtime [s],0.746428,
+call count,50,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,1266125000
+CPU_CLK_UNHALTED_CORE,FIXC1,1779686000
+CPU_CLK_UNHALTED_REF,FIXC2,1783836000
+L2_LINES_IN_ALL,PMC0,54865020
+L2_TRANS_L2_WB,PMC1,50903080
+TABLE,Region T_Sist_Lin_Inexato_2048,Group 1 Metric,L3,10
+Metric,HWThread 3,
+Runtime (RDTSC) [s],0.7464,
+Runtime unhalted [s],0.7416,
+Clock [MHz],2394.2438,
+CPI,1.4056,
+L3 load bandwidth [MBytes/s],4704.2228,
+L3 load data volume [GBytes],3.5114,
+L3 evict bandwidth [MBytes/s],4364.5192,
+L3 evict data volume [GBytes],3.2578,
+L3 bandwidth [MBytes/s],9068.7420,
+L3 data volume [GBytes],6.7692,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.3998269 GHz,
+TABLE,Region T_Newton_Padrao_3000,Group 1 Raw,L3,5
+Region Info,HWThread 3,
+RDTSC Runtime [s],454.018100,
+call count,1,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,798202500000
+CPU_CLK_UNHALTED_CORE,FIXC1,1084127000000
+CPU_CLK_UNHALTED_REF,FIXC2,1086653000000
+L2_LINES_IN_ALL,PMC0,60509700000
+L2_TRANS_L2_WB,PMC1,58923580000
+TABLE,Region T_Newton_Padrao_3000,Group 1 Metric,L3,10
+Metric,HWThread 3,
+Runtime (RDTSC) [s],454.0181,
+Runtime unhalted [s],451.7522,
+Clock [MHz],2394.2483,
+CPI,1.3582,
+L3 load bandwidth [MBytes/s],8529.6617,
+L3 load data volume [GBytes],3872.6208,
+L3 evict bandwidth [MBytes/s],8306.0766,
+L3 evict data volume [GBytes],3771.1091,
+L3 bandwidth [MBytes/s],16835.7383,
+L3 data volume [GBytes],7643.7299,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.3998269 GHz,
+TABLE,Region Tderi_grad_Padrao_3000,Group 1 Raw,L3,5
+Region Info,HWThread 3,
+RDTSC Runtime [s],0.012202,
+call count,50,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,35351830
+CPU_CLK_UNHALTED_CORE,FIXC1,29565030
+CPU_CLK_UNHALTED_REF,FIXC2,29635300
+L2_LINES_IN_ALL,PMC0,56060
+L2_TRANS_L2_WB,PMC1,16022
+TABLE,Region Tderi_grad_Padrao_3000,Group 1 Metric,L3,10
+Metric,HWThread 3,
+Runtime (RDTSC) [s],0.0122,
+Runtime unhalted [s],0.0123,
+Clock [MHz],2394.1365,
+CPI,0.8363,
+L3 load bandwidth [MBytes/s],294.0255,
+L3 load data volume [GBytes],0.0036,
+L3 evict bandwidth [MBytes/s],84.0328,
+L3 evict data volume [GBytes],0.0010,
+L3 bandwidth [MBytes/s],378.0582,
+L3 data volume [GBytes],0.0046,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.3998269 GHz,
+TABLE,Region Tderi_hes_padrao_3000,Group 1 Raw,L3,5
+Region Info,HWThread 3,
+RDTSC Runtime [s],36.581240,
+call count,50,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,105768600000
+CPU_CLK_UNHALTED_CORE,FIXC1,87457160000
+CPU_CLK_UNHALTED_REF,FIXC2,87660840000
+L2_LINES_IN_ALL,PMC0,57156350
+L2_TRANS_L2_WB,PMC1,48434470
+TABLE,Region Tderi_hes_padrao_3000,Group 1 Metric,L3,10
+Metric,HWThread 3,
+Runtime (RDTSC) [s],36.5812,
+Runtime unhalted [s],36.4431,
+Clock [MHz],2394.2509,
+CPI,0.8269,
+L3 load bandwidth [MBytes/s],99.9968,
+L3 load data volume [GBytes],3.6580,
+L3 evict bandwidth [MBytes/s],84.7376,
+L3 evict data volume [GBytes],3.0998,
+L3 bandwidth [MBytes/s],184.7344,
+L3 data volume [GBytes],6.7578,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.3998269 GHz,
+TABLE,Region T_Sist_Lin_Padrao_3000,Group 1 Raw,L3,5
+Region Info,HWThread 3,
+RDTSC Runtime [s],417.380300,
+call count,50,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,692396400000
+CPU_CLK_UNHALTED_CORE,FIXC1,996635700000
+CPU_CLK_UNHALTED_REF,FIXC2,998958100000
+L2_LINES_IN_ALL,PMC0,60452270000
+L2_TRANS_L2_WB,PMC1,58875060000
+TABLE,Region T_Sist_Lin_Padrao_3000,Group 1 Metric,L3,10
+Metric,HWThread 3,
+Runtime (RDTSC) [s],417.3803,
+Runtime unhalted [s],415.2948,
+Clock [MHz],2394.2477,
+CPI,1.4394,
+L3 load bandwidth [MBytes/s],9269.5925,
+L3 load data volume [GBytes],3868.9453,
+L3 evict bandwidth [MBytes/s],9027.7472,
+L3 evict data volume [GBytes],3768.0038,
+L3 bandwidth [MBytes/s],18297.3397,
+L3 data volume [GBytes],7636.9491,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.3998269 GHz,
+TABLE,Region T_Newton_Inexato_3000,Group 1 Raw,L3,5
+Region Info,HWThread 3,
+RDTSC Runtime [s],38.095820,
+call count,1,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,108506400000
+CPU_CLK_UNHALTED_CORE,FIXC1,91045250000
+CPU_CLK_UNHALTED_REF,FIXC2,91257260000
+L2_LINES_IN_ALL,PMC0,171061000
+L2_TRANS_L2_WB,PMC1,163168700
+TABLE,Region T_Newton_Inexato_3000,Group 1 Metric,L3,10
+Metric,HWThread 3,
+Runtime (RDTSC) [s],38.0958,
+Runtime unhalted [s],37.9383,
+Clock [MHz],2394.2516,
+CPI,0.8391,
+L3 load bandwidth [MBytes/s],287.3781,
+L3 load data volume [GBytes],10.9479,
+L3 evict bandwidth [MBytes/s],274.1192,
+L3 evict data volume [GBytes],10.4428,
+L3 bandwidth [MBytes/s],561.4973,
+L3 data volume [GBytes],21.3907,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.3998269 GHz,
+TABLE,Region Tderi_grad_Inexato_3000,Group 1 Raw,L3,5
+Region Info,HWThread 3,
+RDTSC Runtime [s],0.012152,
+call count,50,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,35341480
+CPU_CLK_UNHALTED_CORE,FIXC1,29415440
+CPU_CLK_UNHALTED_REF,FIXC2,29486100
+L2_LINES_IN_ALL,PMC0,52229
+L2_TRANS_L2_WB,PMC1,15750
+TABLE,Region Tderi_grad_Inexato_3000,Group 1 Metric,L3,10
+Metric,HWThread 3,
+Runtime (RDTSC) [s],0.0122,
+Runtime unhalted [s],0.0123,
+Clock [MHz],2394.0760,
+CPI,0.8323,
+L3 load bandwidth [MBytes/s],275.0695,
+L3 load data volume [GBytes],0.0033,
+L3 evict bandwidth [MBytes/s],82.9490,
+L3 evict data volume [GBytes],0.0010,
+L3 bandwidth [MBytes/s],358.0186,
+L3 data volume [GBytes],0.0044,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.3998269 GHz,
+TABLE,Region Tderi_hes_Inexato_3000,Group 1 Raw,L3,5
+Region Info,HWThread 3,
+RDTSC Runtime [s],36.499100,
+call count,50,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,105757600000
+CPU_CLK_UNHALTED_CORE,FIXC1,87321230000
+CPU_CLK_UNHALTED_REF,FIXC2,87524570000
+L2_LINES_IN_ALL,PMC0,56885560
+L2_TRANS_L2_WB,PMC1,52131410
+TABLE,Region Tderi_hes_Inexato_3000,Group 1 Metric,L3,10
+Metric,HWThread 3,
+Runtime (RDTSC) [s],36.4991,
+Runtime unhalted [s],36.3865,
+Clock [MHz],2394.2515,
+CPI,0.8257,
+L3 load bandwidth [MBytes/s],99.7470,
+L3 load data volume [GBytes],3.6407,
+L3 evict bandwidth [MBytes/s],91.4108,
+L3 evict data volume [GBytes],3.3364,
+L3 bandwidth [MBytes/s],191.1578,
+L3 data volume [GBytes],6.9771,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.3998269 GHz,
+TABLE,Region T_Sist_Lin_Inexato_3000,Group 1 Raw,L3,5
+Region Info,HWThread 3,
+RDTSC Runtime [s],1.543405,
+call count,50,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,2711358000
+CPU_CLK_UNHALTED_CORE,FIXC1,3690955000
+CPU_CLK_UNHALTED_REF,FIXC2,3699560000
+L2_LINES_IN_ALL,PMC0,113956200
+L2_TRANS_L2_WB,PMC1,110956300
+TABLE,Region T_Sist_Lin_Inexato_3000,Group 1 Metric,L3,10
+Metric,HWThread 3,
+Runtime (RDTSC) [s],1.5434,
+Runtime unhalted [s],1.5380,
+Clock [MHz],2394.2450,
+CPI,1.3613,
+L3 load bandwidth [MBytes/s],4725.3940,
+L3 load data volume [GBytes],7.2932,
+L3 evict bandwidth [MBytes/s],4600.9979,
+L3 evict data volume [GBytes],7.1012,
+L3 bandwidth [MBytes/s],9326.3920,
+L3 data volume [GBytes],14.3944,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.3998269 GHz,
+TABLE,Region T_Newton_Padrao_4096,Group 1 Raw,L3,5
+Region Info,HWThread 3,
+RDTSC Runtime [s],1106.549000,
+call count,1,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,1947399000000
+CPU_CLK_UNHALTED_CORE,FIXC1,2644517000000
+CPU_CLK_UNHALTED_REF,FIXC2,2650679000000
+L2_LINES_IN_ALL,PMC0,151927300000
+L2_TRANS_L2_WB,PMC1,149052400000
+TABLE,Region T_Newton_Padrao_4096,Group 1 Metric,L3,10
+Metric,HWThread 3,
+Runtime (RDTSC) [s],1106.5490,
+Runtime unhalted [s],1101.9616,
+Clock [MHz],2394.2481,
+CPI,1.3580,
+L3 load bandwidth [MBytes/s],8787.0914,
+L3 load data volume [GBytes],9723.3472,
+L3 evict bandwidth [MBytes/s],8620.8144,
+L3 evict data volume [GBytes],9539.3536,
+L3 bandwidth [MBytes/s],17407.9058,
+L3 data volume [GBytes],19262.7008,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.3998269 GHz,
+TABLE,Region Tderi_grad_Padrao_4096,Group 1 Raw,L3,5
+Region Info,HWThread 3,
+RDTSC Runtime [s],0.016641,
+call count,50,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,48131280
+CPU_CLK_UNHALTED_CORE,FIXC1,40101400
+CPU_CLK_UNHALTED_REF,FIXC2,40195500
+L2_LINES_IN_ALL,PMC0,66494
+L2_TRANS_L2_WB,PMC1,19052
+TABLE,Region Tderi_grad_Padrao_4096,Group 1 Metric,L3,10
+Metric,HWThread 3,
+Runtime (RDTSC) [s],0.0166,
+Runtime unhalted [s],0.0167,
+Clock [MHz],2394.2088,
+CPI,0.8332,
+L3 load bandwidth [MBytes/s],255.7323,
+L3 load data volume [GBytes],0.0043,
+L3 evict bandwidth [MBytes/s],73.2730,
+L3 evict data volume [GBytes],0.0012,
+L3 bandwidth [MBytes/s],329.0053,
+L3 data volume [GBytes],0.0055,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.3998269 GHz,
+TABLE,Region Tderi_hes_padrao_4096,Group 1 Raw,L3,5
+Region Info,HWThread 3,
+RDTSC Runtime [s],68.025420,
+call count,50,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,197168700000
+CPU_CLK_UNHALTED_CORE,FIXC1,162738800000
+CPU_CLK_UNHALTED_REF,FIXC2,163117700000
+L2_LINES_IN_ALL,PMC0,105679200
+L2_TRANS_L2_WB,PMC1,96884500
+TABLE,Region Tderi_hes_padrao_4096,Group 1 Metric,L3,10
+Metric,HWThread 3,
+Runtime (RDTSC) [s],68.0254,
+Runtime unhalted [s],67.8127,
+Clock [MHz],2394.2524,
+CPI,0.8254,
+L3 load bandwidth [MBytes/s],99.4256,
+L3 load data volume [GBytes],6.7635,
+L3 evict bandwidth [MBytes/s],91.1513,
+L3 evict data volume [GBytes],6.2006,
+L3 bandwidth [MBytes/s],190.5769,
+L3 data volume [GBytes],12.9641,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.3998269 GHz,
+TABLE,Region T_Sist_Lin_Padrao_4096,Group 1 Raw,L3,5
+Region Info,HWThread 3,
+RDTSC Runtime [s],1038.462000,
+call count,50,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,1750180000000
+CPU_CLK_UNHALTED_CORE,FIXC1,2481733000000
+CPU_CLK_UNHALTED_REF,FIXC2,2487516000000
+L2_LINES_IN_ALL,PMC0,151821300000
+L2_TRANS_L2_WB,PMC1,148955400000
+TABLE,Region T_Sist_Lin_Padrao_4096,Group 1 Metric,L3,10
+Metric,HWThread 3,
+Runtime (RDTSC) [s],1038.4620,
+Runtime unhalted [s],1034.1300,
+Clock [MHz],2394.2478,
+CPI,1.4180,
+L3 load bandwidth [MBytes/s],9356.6863,
+L3 load data volume [GBytes],9716.5632,
+L3 evict bandwidth [MBytes/s],9180.0621,
+L3 evict data volume [GBytes],9533.1456,
+L3 bandwidth [MBytes/s],18536.7484,
+L3 data volume [GBytes],19249.7088,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.3998269 GHz,
+TABLE,Region T_Newton_Inexato_4096,Group 1 Raw,L3,5
+Region Info,HWThread 3,
+RDTSC Runtime [s],70.986190,
+call count,1,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,202273900000
+CPU_CLK_UNHALTED_CORE,FIXC1,169734900000
+CPU_CLK_UNHALTED_REF,FIXC2,170130200000
+L2_LINES_IN_ALL,PMC0,318215200
+L2_TRANS_L2_WB,PMC1,305788700
+TABLE,Region T_Newton_Inexato_4096,Group 1 Metric,L3,10
+Metric,HWThread 3,
+Runtime (RDTSC) [s],70.9862,
+Runtime unhalted [s],70.7280,
+Clock [MHz],2394.2509,
+CPI,0.8391,
+L3 load bandwidth [MBytes/s],286.8977,
+L3 load data volume [GBytes],20.3658,
+L3 evict bandwidth [MBytes/s],275.6941,
+L3 evict data volume [GBytes],19.5705,
+L3 bandwidth [MBytes/s],562.5918,
+L3 data volume [GBytes],39.9362,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.3998269 GHz,
+TABLE,Region Tderi_grad_Inexato_4096,Group 1 Raw,L3,5
+Region Info,HWThread 3,
+RDTSC Runtime [s],0.016572,
+call count,50,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,48130250
+CPU_CLK_UNHALTED_CORE,FIXC1,39997670
+CPU_CLK_UNHALTED_REF,FIXC2,40091200
+L2_LINES_IN_ALL,PMC0,66666
+L2_TRANS_L2_WB,PMC1,20895
+TABLE,Region Tderi_grad_Inexato_4096,Group 1 Metric,L3,10
+Metric,HWThread 3,
+Runtime (RDTSC) [s],0.0166,
+Runtime unhalted [s],0.0167,
+Clock [MHz],2394.2283,
+CPI,0.8310,
+L3 load bandwidth [MBytes/s],257.4662,
+L3 load data volume [GBytes],0.0043,
+L3 evict bandwidth [MBytes/s],80.6971,
+L3 evict data volume [GBytes],0.0013,
+L3 bandwidth [MBytes/s],338.1633,
+L3 data volume [GBytes],0.0056,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.3998269 GHz,
+TABLE,Region Tderi_hes_Inexato_4096,Group 1 Raw,L3,5
+Region Info,HWThread 3,
+RDTSC Runtime [s],68.047320,
+call count,50,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,197174600000
+CPU_CLK_UNHALTED_CORE,FIXC1,162803200000
+CPU_CLK_UNHALTED_REF,FIXC2,163182300000
+L2_LINES_IN_ALL,PMC0,105996000
+L2_TRANS_L2_WB,PMC1,97213920
+TABLE,Region Tderi_hes_Inexato_4096,Group 1 Metric,L3,10
+Metric,HWThread 3,
+Runtime (RDTSC) [s],68.0473,
+Runtime unhalted [s],67.8396,
+Clock [MHz],2394.2517,
+CPI,0.8257,
+L3 load bandwidth [MBytes/s],99.6916,
+L3 load data volume [GBytes],6.7837,
+L3 evict bandwidth [MBytes/s],91.4318,
+L3 evict data volume [GBytes],6.2217,
+L3 bandwidth [MBytes/s],191.1234,
+L3 data volume [GBytes],13.0054,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.3998269 GHz,
+TABLE,Region T_Sist_Lin_Inexato_4096,Group 1 Raw,L3,5
+Region Info,HWThread 3,
+RDTSC Runtime [s],2.879790,
+call count,50,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,5048578000
+CPU_CLK_UNHALTED_CORE,FIXC1,6887084000
+CPU_CLK_UNHALTED_REF,FIXC2,6903144000
+L2_LINES_IN_ALL,PMC0,211956300
+L2_TRANS_L2_WB,PMC1,208480200
+TABLE,Region T_Sist_Lin_Inexato_4096,Group 1 Metric,L3,10
+Metric,HWThread 3,
+Runtime (RDTSC) [s],2.8798,
+Runtime unhalted [s],2.8698,
+Clock [MHz],2394.2438,
+CPI,1.3642,
+L3 load bandwidth [MBytes/s],4710.4835,
+L3 load data volume [GBytes],13.5652,
+L3 evict bandwidth [MBytes/s],4633.2312,
+L3 evict data volume [GBytes],13.3427,
+L3 bandwidth [MBytes/s],9343.7146,
+L3 data volume [GBytes],26.9079,

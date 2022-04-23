@@ -1,0 +1,3496 @@
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.399271869 GHz,
+TABLE,Region T_Newton_Padrao_10,Group 1 Raw,L2CACHE,5
+Region Info,HWThread 3,
+RDTSC Runtime [s],0.047900,
+call count,1,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,2861185
+CPU_CLK_UNHALTED_CORE,FIXC1,3245387
+CPU_CLK_UNHALTED_REF,FIXC2,4089800
+L2_TRANS_ALL_REQUESTS,PMC0,376866
+L2_RQSTS_MISS,PMC1,82167
+TABLE,Region T_Newton_Padrao_10,Group 1 Metric,L2CACHE,7
+Metric,HWThread 3,
+Runtime (RDTSC) [s],0.0479,
+Runtime unhalted [s],0.0014,
+Clock [MHz],1903.8989,
+CPI,1.1343,
+L2 request rate,0.1317,
+L2 miss rate,0.0287,
+L2 miss ratio,0.2180,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.399271869 GHz,
+TABLE,Region Tderi_grad_Padrao_10,Group 1 Raw,L2CACHE,5
+Region Info,HWThread 3,
+RDTSC Runtime [s],0.000060,
+call count,50,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,309182
+CPU_CLK_UNHALTED_CORE,FIXC1,453853
+CPU_CLK_UNHALTED_REF,FIXC2,573700
+L2_TRANS_ALL_REQUESTS,PMC0,58034
+L2_RQSTS_MISS,PMC1,12242
+TABLE,Region Tderi_grad_Padrao_10,Group 1 Metric,L2CACHE,7
+Metric,HWThread 3,
+Runtime (RDTSC) [s],0.0001,
+Runtime unhalted [s],0.0002,
+Clock [MHz],1898.0595,
+CPI,1.4679,
+L2 request rate,0.1877,
+L2 miss rate,0.0396,
+L2 miss ratio,0.2109,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.399271869 GHz,
+TABLE,Region Tderi_hes_padrao_10,Group 1 Raw,L2CACHE,5
+Region Info,HWThread 3,
+RDTSC Runtime [s],0.000530,
+call count,50,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,1364425
+CPU_CLK_UNHALTED_CORE,FIXC1,1327817
+CPU_CLK_UNHALTED_REF,FIXC2,1662600
+L2_TRANS_ALL_REQUESTS,PMC0,60744
+L2_RQSTS_MISS,PMC1,13132
+TABLE,Region Tderi_hes_padrao_10,Group 1 Metric,L2CACHE,7
+Metric,HWThread 3,
+Runtime (RDTSC) [s],0.0005,
+Runtime unhalted [s],0.0006,
+Clock [MHz],1916.1518,
+CPI,0.9732,
+L2 request rate,0.0445,
+L2 miss rate,0.0096,
+L2 miss ratio,0.2162,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.399271869 GHz,
+TABLE,Region T_Sist_Lin_Padrao_10,Group 1 Raw,L2CACHE,5
+Region Info,HWThread 3,
+RDTSC Runtime [s],0.000049,
+call count,50,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,399718
+CPU_CLK_UNHALTED_CORE,FIXC1,424126
+CPU_CLK_UNHALTED_REF,FIXC2,530400
+L2_TRANS_ALL_REQUESTS,PMC0,62747
+L2_RQSTS_MISS,PMC1,14089
+TABLE,Region T_Sist_Lin_Padrao_10,Group 1 Metric,L2CACHE,7
+Metric,HWThread 3,
+Runtime (RDTSC) [s],4.864037e-05,
+Runtime unhalted [s],0.0002,
+Clock [MHz],1918.5399,
+CPI,1.0611,
+L2 request rate,0.1570,
+L2 miss rate,0.0352,
+L2 miss ratio,0.2245,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.399271869 GHz,
+TABLE,Region T_Newton_Inexato_10,Group 1 Raw,L2CACHE,5
+Region Info,HWThread 3,
+RDTSC Runtime [s],0.038272,
+call count,1,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,2775275
+CPU_CLK_UNHALTED_CORE,FIXC1,3222002
+CPU_CLK_UNHALTED_REF,FIXC2,3227400
+L2_TRANS_ALL_REQUESTS,PMC0,364402
+L2_RQSTS_MISS,PMC1,78150
+TABLE,Region T_Newton_Inexato_10,Group 1 Metric,L2CACHE,7
+Metric,HWThread 3,
+Runtime (RDTSC) [s],0.0383,
+Runtime unhalted [s],0.0013,
+Clock [MHz],2395.2590,
+CPI,1.1610,
+L2 request rate,0.1313,
+L2 miss rate,0.0282,
+L2 miss ratio,0.2145,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.399271869 GHz,
+TABLE,Region Tderi_grad_Inexato_10,Group 1 Raw,L2CACHE,5
+Region Info,HWThread 3,
+RDTSC Runtime [s],0.000047,
+call count,50,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,309174
+CPU_CLK_UNHALTED_CORE,FIXC1,450283
+CPU_CLK_UNHALTED_REF,FIXC2,451000
+L2_TRANS_ALL_REQUESTS,PMC0,56416
+L2_RQSTS_MISS,PMC1,11563
+TABLE,Region Tderi_grad_Inexato_10,Group 1 Metric,L2CACHE,7
+Metric,HWThread 3,
+Runtime (RDTSC) [s],4.695194e-05,
+Runtime unhalted [s],0.0002,
+Clock [MHz],2395.4575,
+CPI,1.4564,
+L2 request rate,0.1825,
+L2 miss rate,0.0374,
+L2 miss ratio,0.2050,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.399271869 GHz,
+TABLE,Region Tderi_hes_Inexato_10,Group 1 Raw,L2CACHE,5
+Region Info,HWThread 3,
+RDTSC Runtime [s],0.000411,
+call count,50,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,1370221
+CPU_CLK_UNHALTED_CORE,FIXC1,1321312
+CPU_CLK_UNHALTED_REF,FIXC2,1325100
+L2_TRANS_ALL_REQUESTS,PMC0,57991
+L2_RQSTS_MISS,PMC1,11994
+TABLE,Region Tderi_hes_Inexato_10,Group 1 Metric,L2CACHE,7
+Metric,HWThread 3,
+Runtime (RDTSC) [s],0.0004,
+Runtime unhalted [s],0.0006,
+Clock [MHz],2392.4132,
+CPI,0.9643,
+L2 request rate,0.0423,
+L2 miss rate,0.0088,
+L2 miss ratio,0.2068,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.399271869 GHz,
+TABLE,Region T_Sist_Lin_Inexato_10,Group 1 Raw,L2CACHE,5
+Region Info,HWThread 3,
+RDTSC Runtime [s],0.000045,
+call count,50,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,309241
+CPU_CLK_UNHALTED_CORE,FIXC1,442930
+CPU_CLK_UNHALTED_REF,FIXC2,444300
+L2_TRANS_ALL_REQUESTS,PMC0,63980
+L2_RQSTS_MISS,PMC1,14592
+TABLE,Region T_Sist_Lin_Inexato_10,Group 1 Metric,L2CACHE,7
+Metric,HWThread 3,
+Runtime (RDTSC) [s],4.497432e-05,
+Runtime unhalted [s],0.0002,
+Clock [MHz],2391.8737,
+CPI,1.4323,
+L2 request rate,0.2069,
+L2 miss rate,0.0472,
+L2 miss ratio,0.2281,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.399271869 GHz,
+TABLE,Region T_Newton_Padrao_32,Group 1 Raw,L2CACHE,5
+Region Info,HWThread 3,
+RDTSC Runtime [s],0.044848,
+call count,1,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,16587500
+CPU_CLK_UNHALTED_CORE,FIXC1,13902650
+CPU_CLK_UNHALTED_REF,FIXC2,13936300
+L2_TRANS_ALL_REQUESTS,PMC0,476566
+L2_RQSTS_MISS,PMC1,120153
+TABLE,Region T_Newton_Padrao_32,Group 1 Metric,L2CACHE,7
+Metric,HWThread 3,
+Runtime (RDTSC) [s],0.0448,
+Runtime unhalted [s],0.0058,
+Clock [MHz],2393.4787,
+CPI,0.8381,
+L2 request rate,0.0287,
+L2 miss rate,0.0072,
+L2 miss ratio,0.2521,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.399271869 GHz,
+TABLE,Region Tderi_grad_Padrao_32,Group 1 Raw,L2CACHE,5
+Region Info,HWThread 3,
+RDTSC Runtime [s],0.000155,
+call count,50,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,567904
+CPU_CLK_UNHALTED_CORE,FIXC1,734210
+CPU_CLK_UNHALTED_REF,FIXC2,736300
+L2_TRANS_ALL_REQUESTS,PMC0,64636
+L2_RQSTS_MISS,PMC1,15830
+TABLE,Region Tderi_grad_Padrao_32,Group 1 Metric,L2CACHE,7
+Metric,HWThread 3,
+Runtime (RDTSC) [s],0.0002,
+Runtime unhalted [s],0.0003,
+Clock [MHz],2392.4615,
+CPI,1.2928,
+L2 request rate,0.1138,
+L2 miss rate,0.0279,
+L2 miss ratio,0.2449,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.399271869 GHz,
+TABLE,Region Tderi_hes_padrao_32,Group 1 Raw,L2CACHE,5
+Region Info,HWThread 3,
+RDTSC Runtime [s],0.004189,
+call count,50,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,12222910
+CPU_CLK_UNHALTED_CORE,FIXC1,10429710
+CPU_CLK_UNHALTED_REF,FIXC2,10453700
+L2_TRANS_ALL_REQUESTS,PMC0,92559
+L2_RQSTS_MISS,PMC1,24360
+TABLE,Region Tderi_hes_padrao_32,Group 1 Metric,L2CACHE,7
+Metric,HWThread 3,
+Runtime (RDTSC) [s],0.0042,
+Runtime unhalted [s],0.0043,
+Clock [MHz],2393.7658,
+CPI,0.8533,
+L2 request rate,0.0076,
+L2 miss rate,0.0020,
+L2 miss ratio,0.2632,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.399271869 GHz,
+TABLE,Region T_Sist_Lin_Padrao_32,Group 1 Raw,L2CACHE,5
+Region Info,HWThread 3,
+RDTSC Runtime [s],0.000421,
+call count,50,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,2980636
+CPU_CLK_UNHALTED_CORE,FIXC1,1456152
+CPU_CLK_UNHALTED_REF,FIXC2,1460700
+L2_TRANS_ALL_REQUESTS,PMC0,95956
+L2_RQSTS_MISS,PMC1,23011
+TABLE,Region T_Sist_Lin_Padrao_32,Group 1 Metric,L2CACHE,7
+Metric,HWThread 3,
+Runtime (RDTSC) [s],0.0004,
+Runtime unhalted [s],0.0006,
+Clock [MHz],2391.8016,
+CPI,0.4885,
+L2 request rate,0.0322,
+L2 miss rate,0.0077,
+L2 miss ratio,0.2398,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.399271869 GHz,
+TABLE,Region T_Newton_Inexato_32,Group 1 Raw,L2CACHE,5
+Region Info,HWThread 3,
+RDTSC Runtime [s],0.043735,
+call count,1,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,14270420
+CPU_CLK_UNHALTED_CORE,FIXC1,13017860
+CPU_CLK_UNHALTED_REF,FIXC2,13047800
+L2_TRANS_ALL_REQUESTS,PMC0,451922
+L2_RQSTS_MISS,PMC1,111139
+TABLE,Region T_Newton_Inexato_32,Group 1 Metric,L2CACHE,7
+Metric,HWThread 3,
+Runtime (RDTSC) [s],0.0437,
+Runtime unhalted [s],0.0054,
+Clock [MHz],2393.7664,
+CPI,0.9122,
+L2 request rate,0.0317,
+L2 miss rate,0.0078,
+L2 miss ratio,0.2459,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.399271869 GHz,
+TABLE,Region Tderi_grad_Inexato_32,Group 1 Raw,L2CACHE,5
+Region Info,HWThread 3,
+RDTSC Runtime [s],0.000139,
+call count,50,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,566705
+CPU_CLK_UNHALTED_CORE,FIXC1,698386
+CPU_CLK_UNHALTED_REF,FIXC2,699800
+L2_TRANS_ALL_REQUESTS,PMC0,62241
+L2_RQSTS_MISS,PMC1,14931
+TABLE,Region Tderi_grad_Inexato_32,Group 1 Metric,L2CACHE,7
+Metric,HWThread 3,
+Runtime (RDTSC) [s],0.0001,
+Runtime unhalted [s],0.0003,
+Clock [MHz],2394.4240,
+CPI,1.2324,
+L2 request rate,0.1098,
+L2 miss rate,0.0263,
+L2 miss ratio,0.2399,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.399271869 GHz,
+TABLE,Region Tderi_hes_Inexato_32,Group 1 Raw,L2CACHE,5
+Region Info,HWThread 3,
+RDTSC Runtime [s],0.004167,
+call count,50,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,12225280
+CPU_CLK_UNHALTED_CORE,FIXC1,10332610
+CPU_CLK_UNHALTED_REF,FIXC2,10356900
+L2_TRANS_ALL_REQUESTS,PMC0,88964
+L2_RQSTS_MISS,PMC1,22487
+TABLE,Region Tderi_hes_Inexato_32,Group 1 Metric,L2CACHE,7
+Metric,HWThread 3,
+Runtime (RDTSC) [s],0.0042,
+Runtime unhalted [s],0.0043,
+Clock [MHz],2393.6449,
+CPI,0.8452,
+L2 request rate,0.0073,
+L2 miss rate,0.0018,
+L2 miss ratio,0.2528,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.399271869 GHz,
+TABLE,Region T_Sist_Lin_Inexato_32,Group 1 Raw,L2CACHE,5
+Region Info,HWThread 3,
+RDTSC Runtime [s],0.000207,
+call count,50,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,677882
+CPU_CLK_UNHALTED_CORE,FIXC1,839247
+CPU_CLK_UNHALTED_REF,FIXC2,840800
+L2_TRANS_ALL_REQUESTS,PMC0,94882
+L2_RQSTS_MISS,PMC1,23220
+TABLE,Region T_Sist_Lin_Inexato_32,Group 1 Metric,L2CACHE,7
+Metric,HWThread 3,
+Runtime (RDTSC) [s],0.0002,
+Runtime unhalted [s],0.0003,
+Clock [MHz],2394.8403,
+CPI,1.2380,
+L2 request rate,0.1400,
+L2 miss rate,0.0343,
+L2 miss ratio,0.2447,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.399271869 GHz,
+TABLE,Region T_Newton_Padrao_50,Group 1 Raw,L2CACHE,5
+Region Info,HWThread 3,
+RDTSC Runtime [s],0.050158,
+call count,1,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,39279120
+CPU_CLK_UNHALTED_CORE,FIXC1,30558350
+CPU_CLK_UNHALTED_REF,FIXC2,30625800
+L2_TRANS_ALL_REQUESTS,PMC0,600057
+L2_RQSTS_MISS,PMC1,152621
+TABLE,Region T_Newton_Padrao_50,Group 1 Metric,L2CACHE,7
+Metric,HWThread 3,
+Runtime (RDTSC) [s],0.0502,
+Runtime unhalted [s],0.0127,
+Clock [MHz],2393.9877,
+CPI,0.7780,
+L2 request rate,0.0153,
+L2 miss rate,0.0039,
+L2 miss ratio,0.2543,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.399271869 GHz,
+TABLE,Region Tderi_grad_Padrao_50,Group 1 Raw,L2CACHE,5
+Region Info,HWThread 3,
+RDTSC Runtime [s],0.000214,
+call count,50,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,782613
+CPU_CLK_UNHALTED_CORE,FIXC1,912050
+CPU_CLK_UNHALTED_REF,FIXC2,913700
+L2_TRANS_ALL_REQUESTS,PMC0,66942
+L2_RQSTS_MISS,PMC1,16517
+TABLE,Region Tderi_grad_Padrao_50,Group 1 Metric,L2CACHE,7
+Metric,HWThread 3,
+Runtime (RDTSC) [s],0.0002,
+Runtime unhalted [s],0.0004,
+Clock [MHz],2394.9392,
+CPI,1.1654,
+L2 request rate,0.0855,
+L2 miss rate,0.0211,
+L2 miss ratio,0.2467,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.399271869 GHz,
+TABLE,Region Tderi_hes_padrao_50,Group 1 Raw,L2CACHE,5
+Region Info,HWThread 3,
+RDTSC Runtime [s],0.010255,
+call count,50,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,29564500
+CPU_CLK_UNHALTED_CORE,FIXC1,24997490
+CPU_CLK_UNHALTED_REF,FIXC2,25054900
+L2_TRANS_ALL_REQUESTS,PMC0,140098
+L2_RQSTS_MISS,PMC1,37055
+TABLE,Region Tderi_hes_padrao_50,Group 1 Metric,L2CACHE,7
+Metric,HWThread 3,
+Runtime (RDTSC) [s],0.0103,
+Runtime unhalted [s],0.0104,
+Clock [MHz],2393.7743,
+CPI,0.8455,
+L2 request rate,0.0047,
+L2 miss rate,0.0013,
+L2 miss ratio,0.2645,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.399271869 GHz,
+TABLE,Region T_Sist_Lin_Padrao_50,Group 1 Raw,L2CACHE,5
+Region Info,HWThread 3,
+RDTSC Runtime [s],0.001215,
+call count,50,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,8092171
+CPU_CLK_UNHALTED_CORE,FIXC1,3298979
+CPU_CLK_UNHALTED_REF,FIXC2,3305600
+L2_TRANS_ALL_REQUESTS,PMC0,146267
+L2_RQSTS_MISS,PMC1,30600
+TABLE,Region T_Sist_Lin_Padrao_50,Group 1 Metric,L2CACHE,7
+Metric,HWThread 3,
+Runtime (RDTSC) [s],0.0012,
+Runtime unhalted [s],0.0014,
+Clock [MHz],2394.4662,
+CPI,0.4077,
+L2 request rate,0.0181,
+L2 miss rate,0.0038,
+L2 miss ratio,0.2092,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.399271869 GHz,
+TABLE,Region T_Newton_Inexato_50,Group 1 Raw,L2CACHE,5
+Region Info,HWThread 3,
+RDTSC Runtime [s],0.048938,
+call count,1,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,32392870
+CPU_CLK_UNHALTED_CORE,FIXC1,27808140
+CPU_CLK_UNHALTED_REF,FIXC2,27865300
+L2_TRANS_ALL_REQUESTS,PMC0,498007
+L2_RQSTS_MISS,PMC1,109505
+TABLE,Region T_Newton_Inexato_50,Group 1 Metric,L2CACHE,7
+Metric,HWThread 3,
+Runtime (RDTSC) [s],0.0489,
+Runtime unhalted [s],0.0116,
+Clock [MHz],2394.3503,
+CPI,0.8585,
+L2 request rate,0.0154,
+L2 miss rate,0.0034,
+L2 miss ratio,0.2199,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.399271869 GHz,
+TABLE,Region Tderi_grad_Inexato_50,Group 1 Raw,L2CACHE,5
+Region Info,HWThread 3,
+RDTSC Runtime [s],0.000208,
+call count,50,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,778442
+CPU_CLK_UNHALTED_CORE,FIXC1,848462
+CPU_CLK_UNHALTED_REF,FIXC2,849400
+L2_TRANS_ALL_REQUESTS,PMC0,57152
+L2_RQSTS_MISS,PMC1,12129
+TABLE,Region Tderi_grad_Inexato_50,Group 1 Metric,L2CACHE,7
+Metric,HWThread 3,
+Runtime (RDTSC) [s],0.0002,
+Runtime unhalted [s],0.0004,
+Clock [MHz],2396.6223,
+CPI,1.0899,
+L2 request rate,0.0734,
+L2 miss rate,0.0156,
+L2 miss ratio,0.2122,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.399271869 GHz,
+TABLE,Region Tderi_hes_Inexato_50,Group 1 Raw,L2CACHE,5
+Region Info,HWThread 3,
+RDTSC Runtime [s],0.010140,
+call count,50,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,29564040
+CPU_CLK_UNHALTED_CORE,FIXC1,24621900
+CPU_CLK_UNHALTED_REF,FIXC2,24677800
+L2_TRANS_ALL_REQUESTS,PMC0,115564
+L2_RQSTS_MISS,PMC1,24575
+TABLE,Region Tderi_hes_Inexato_50,Group 1 Metric,L2CACHE,7
+Metric,HWThread 3,
+Runtime (RDTSC) [s],0.0101,
+Runtime unhalted [s],0.0103,
+Clock [MHz],2393.8371,
+CPI,0.8328,
+L2 request rate,0.0039,
+L2 miss rate,0.0008,
+L2 miss ratio,0.2127,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.399271869 GHz,
+TABLE,Region T_Sist_Lin_Inexato_50,Group 1 Raw,L2CACHE,5
+Region Info,HWThread 3,
+RDTSC Runtime [s],0.000379,
+call count,50,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,1226649
+CPU_CLK_UNHALTED_CORE,FIXC1,1248090
+CPU_CLK_UNHALTED_REF,FIXC2,1249000
+L2_TRANS_ALL_REQUESTS,PMC0,121373
+L2_RQSTS_MISS,PMC1,23889
+TABLE,Region T_Sist_Lin_Inexato_50,Group 1 Metric,L2CACHE,7
+Metric,HWThread 3,
+Runtime (RDTSC) [s],0.0004,
+Runtime unhalted [s],0.0005,
+Clock [MHz],2397.5238,
+CPI,1.0175,
+L2 request rate,0.0989,
+L2 miss rate,0.0195,
+L2 miss ratio,0.1968,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.399271869 GHz,
+TABLE,Region T_Newton_Padrao_64,Group 1 Raw,L2CACHE,5
+Region Info,HWThread 3,
+RDTSC Runtime [s],0.058842,
+call count,1,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,64723590
+CPU_CLK_UNHALTED_CORE,FIXC1,48117950
+CPU_CLK_UNHALTED_REF,FIXC2,48233200
+L2_TRANS_ALL_REQUESTS,PMC0,860456
+L2_RQSTS_MISS,PMC1,173663
+TABLE,Region T_Newton_Padrao_64,Group 1 Metric,L2CACHE,7
+Metric,HWThread 3,
+Runtime (RDTSC) [s],0.0588,
+Runtime unhalted [s],0.0201,
+Clock [MHz],2393.5390,
+CPI,0.7434,
+L2 request rate,0.0133,
+L2 miss rate,0.0027,
+L2 miss ratio,0.2018,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.399271869 GHz,
+TABLE,Region Tderi_grad_Padrao_64,Group 1 Raw,L2CACHE,5
+Region Info,HWThread 3,
+RDTSC Runtime [s],0.000269,
+call count,50,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,944926
+CPU_CLK_UNHALTED_CORE,FIXC1,1027936
+CPU_CLK_UNHALTED_REF,FIXC2,1030700
+L2_TRANS_ALL_REQUESTS,PMC0,63945
+L2_RQSTS_MISS,PMC1,15166
+TABLE,Region Tderi_grad_Padrao_64,Group 1 Metric,L2CACHE,7
+Metric,HWThread 3,
+Runtime (RDTSC) [s],0.0003,
+Runtime unhalted [s],0.0004,
+Clock [MHz],2392.8378,
+CPI,1.0878,
+L2 request rate,0.0677,
+L2 miss rate,0.0160,
+L2 miss ratio,0.2372,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.399271869 GHz,
+TABLE,Region Tderi_hes_padrao_64,Group 1 Raw,L2CACHE,5
+Region Info,HWThread 3,
+RDTSC Runtime [s],0.016713,
+call count,50,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,48321230
+CPU_CLK_UNHALTED_CORE,FIXC1,40427740
+CPU_CLK_UNHALTED_REF,FIXC2,40523200
+L2_TRANS_ALL_REQUESTS,PMC0,181095
+L2_RQSTS_MISS,PMC1,48693
+TABLE,Region Tderi_hes_padrao_64,Group 1 Metric,L2CACHE,7
+Metric,HWThread 3,
+Runtime (RDTSC) [s],0.0167,
+Runtime unhalted [s],0.0169,
+Clock [MHz],2393.6199,
+CPI,0.8366,
+L2 request rate,0.0037,
+L2 miss rate,0.0010,
+L2 miss ratio,0.2689,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.399271869 GHz,
+TABLE,Region T_Sist_Lin_Padrao_64,Group 1 Raw,L2CACHE,5
+Region Info,HWThread 3,
+RDTSC Runtime [s],0.002081,
+call count,50,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,14618220
+CPU_CLK_UNHALTED_CORE,FIXC1,5393511
+CPU_CLK_UNHALTED_REF,FIXC2,5407300
+L2_TRANS_ALL_REQUESTS,PMC0,380218
+L2_RQSTS_MISS,PMC1,46510
+TABLE,Region T_Sist_Lin_Padrao_64,Group 1 Metric,L2CACHE,7
+Metric,HWThread 3,
+Runtime (RDTSC) [s],0.0021,
+Runtime unhalted [s],0.0022,
+Clock [MHz],2393.1536,
+CPI,0.3690,
+L2 request rate,0.0260,
+L2 miss rate,0.0032,
+L2 miss ratio,0.1223,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.399271869 GHz,
+TABLE,Region T_Newton_Inexato_64,Group 1 Raw,L2CACHE,5
+Region Info,HWThread 3,
+RDTSC Runtime [s],0.055810,
+call count,1,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,51798440
+CPU_CLK_UNHALTED_CORE,FIXC1,44009820
+CPU_CLK_UNHALTED_REF,FIXC2,44111900
+L2_TRANS_ALL_REQUESTS,PMC0,633220
+L2_RQSTS_MISS,PMC1,142367
+TABLE,Region T_Newton_Inexato_64,Group 1 Metric,L2CACHE,7
+Metric,HWThread 3,
+Runtime (RDTSC) [s],0.0558,
+Runtime unhalted [s],0.0183,
+Clock [MHz],2393.7197,
+CPI,0.8496,
+L2 request rate,0.0122,
+L2 miss rate,0.0027,
+L2 miss ratio,0.2248,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.399271869 GHz,
+TABLE,Region Tderi_grad_Inexato_64,Group 1 Raw,L2CACHE,5
+Region Info,HWThread 3,
+RDTSC Runtime [s],0.000265,
+call count,50,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,943578
+CPU_CLK_UNHALTED_CORE,FIXC1,984425
+CPU_CLK_UNHALTED_REF,FIXC2,986900
+L2_TRANS_ALL_REQUESTS,PMC0,57082
+L2_RQSTS_MISS,PMC1,11965
+TABLE,Region Tderi_grad_Inexato_64,Group 1 Metric,L2CACHE,7
+Metric,HWThread 3,
+Runtime (RDTSC) [s],0.0003,
+Runtime unhalted [s],0.0004,
+Clock [MHz],2393.2548,
+CPI,1.0433,
+L2 request rate,0.0605,
+L2 miss rate,0.0127,
+L2 miss ratio,0.2096,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.399271869 GHz,
+TABLE,Region Tderi_hes_Inexato_64,Group 1 Raw,L2CACHE,5
+Region Info,HWThread 3,
+RDTSC Runtime [s],0.016773,
+call count,50,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,48315460
+CPU_CLK_UNHALTED_CORE,FIXC1,40176930
+CPU_CLK_UNHALTED_REF,FIXC2,40271200
+L2_TRANS_ALL_REQUESTS,PMC0,164196
+L2_RQSTS_MISS,PMC1,40103
+TABLE,Region Tderi_hes_Inexato_64,Group 1 Metric,L2CACHE,7
+Metric,HWThread 3,
+Runtime (RDTSC) [s],0.0168,
+Runtime unhalted [s],0.0167,
+Clock [MHz],2393.6555,
+CPI,0.8316,
+L2 request rate,0.0034,
+L2 miss rate,0.0008,
+L2 miss ratio,0.2442,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.399271869 GHz,
+TABLE,Region T_Sist_Lin_Inexato_64,Group 1 Raw,L2CACHE,5
+Region Info,HWThread 3,
+RDTSC Runtime [s],0.000588,
+call count,50,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,1724625
+CPU_CLK_UNHALTED_CORE,FIXC1,1758553
+CPU_CLK_UNHALTED_REF,FIXC2,1763000
+L2_TRANS_ALL_REQUESTS,PMC0,209268
+L2_RQSTS_MISS,PMC1,40243
+TABLE,Region T_Sist_Lin_Inexato_64,Group 1 Metric,L2CACHE,7
+Metric,HWThread 3,
+Runtime (RDTSC) [s],0.0006,
+Runtime unhalted [s],0.0007,
+Clock [MHz],2393.2199,
+CPI,1.0197,
+L2 request rate,0.1213,
+L2 miss rate,0.0233,
+L2 miss ratio,0.1923,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.399271869 GHz,
+TABLE,Region T_Newton_Padrao_100,Group 1 Raw,L2CACHE,5
+Region Info,HWThread 3,
+RDTSC Runtime [s],0.087937,
+call count,1,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,164307400
+CPU_CLK_UNHALTED_CORE,FIXC1,118145800
+CPU_CLK_UNHALTED_REF,FIXC2,118421200
+L2_TRANS_ALL_REQUESTS,PMC0,6399819
+L2_RQSTS_MISS,PMC1,270460
+TABLE,Region T_Newton_Padrao_100,Group 1 Metric,L2CACHE,7
+Metric,HWThread 3,
+Runtime (RDTSC) [s],0.0879,
+Runtime unhalted [s],0.0492,
+Clock [MHz],2393.6921,
+CPI,0.7191,
+L2 request rate,0.0390,
+L2 miss rate,0.0016,
+L2 miss ratio,0.0423,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.399271869 GHz,
+TABLE,Region Tderi_grad_Padrao_100,Group 1 Raw,L2CACHE,5
+Region Info,HWThread 3,
+RDTSC Runtime [s],0.000412,
+call count,50,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,1364322
+CPU_CLK_UNHALTED_CORE,FIXC1,1359289
+CPU_CLK_UNHALTED_REF,FIXC2,1361900
+L2_TRANS_ALL_REQUESTS,PMC0,61275
+L2_RQSTS_MISS,PMC1,13792
+TABLE,Region Tderi_grad_Padrao_100,Group 1 Metric,L2CACHE,7
+Metric,HWThread 3,
+Runtime (RDTSC) [s],0.0004,
+Runtime unhalted [s],0.0006,
+Clock [MHz],2394.6720,
+CPI,0.9963,
+L2 request rate,0.0449,
+L2 miss rate,0.0101,
+L2 miss ratio,0.2251,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.399271869 GHz,
+TABLE,Region Tderi_hes_padrao_100,Group 1 Raw,L2CACHE,5
+Region Info,HWThread 3,
+RDTSC Runtime [s],0.041017,
+call count,50,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,117688700
+CPU_CLK_UNHALTED_CORE,FIXC1,97853580
+CPU_CLK_UNHALTED_REF,FIXC2,98081800
+L2_TRANS_ALL_REQUESTS,PMC0,348258
+L2_RQSTS_MISS,PMC1,90887
+TABLE,Region Tderi_hes_padrao_100,Group 1 Metric,L2CACHE,7
+Metric,HWThread 3,
+Runtime (RDTSC) [s],0.0410,
+Runtime unhalted [s],0.0408,
+Clock [MHz],2393.6892,
+CPI,0.8315,
+L2 request rate,0.0030,
+L2 miss rate,0.0008,
+L2 miss ratio,0.2610,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.399271869 GHz,
+TABLE,Region T_Sist_Lin_Padrao_100,Group 1 Raw,L2CACHE,5
+Region Info,HWThread 3,
+RDTSC Runtime [s],0.007219,
+call count,50,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,44402220
+CPU_CLK_UNHALTED_CORE,FIXC1,17664850
+CPU_CLK_UNHALTED_REF,FIXC2,17707200
+L2_TRANS_ALL_REQUESTS,PMC0,5739524
+L2_RQSTS_MISS,PMC1,96217
+TABLE,Region T_Sist_Lin_Padrao_100,Group 1 Metric,L2CACHE,7
+Metric,HWThread 3,
+Runtime (RDTSC) [s],0.0072,
+Runtime unhalted [s],0.0074,
+Clock [MHz],2393.5336,
+CPI,0.3978,
+L2 request rate,0.1293,
+L2 miss rate,0.0022,
+L2 miss ratio,0.0168,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.399271869 GHz,
+TABLE,Region T_Newton_Inexato_100,Group 1 Raw,L2CACHE,5
+Region Info,HWThread 3,
+RDTSC Runtime [s],0.080887,
+call count,1,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,123532400
+CPU_CLK_UNHALTED_CORE,FIXC1,103728400
+CPU_CLK_UNHALTED_REF,FIXC2,103972700
+L2_TRANS_ALL_REQUESTS,PMC0,1039860
+L2_RQSTS_MISS,PMC1,244261
+TABLE,Region T_Newton_Inexato_100,Group 1 Metric,L2CACHE,7
+Metric,HWThread 3,
+Runtime (RDTSC) [s],0.0809,
+Runtime unhalted [s],0.0432,
+Clock [MHz],2393.6344,
+CPI,0.8397,
+L2 request rate,0.0084,
+L2 miss rate,0.0020,
+L2 miss ratio,0.2349,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.399271869 GHz,
+TABLE,Region Tderi_grad_Inexato_100,Group 1 Raw,L2CACHE,5
+Region Info,HWThread 3,
+RDTSC Runtime [s],0.000411,
+call count,50,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,1366947
+CPU_CLK_UNHALTED_CORE,FIXC1,1347150
+CPU_CLK_UNHALTED_REF,FIXC2,1352000
+L2_TRANS_ALL_REQUESTS,PMC0,65572
+L2_RQSTS_MISS,PMC1,15921
+TABLE,Region Tderi_grad_Inexato_100,Group 1 Metric,L2CACHE,7
+Metric,HWThread 3,
+Runtime (RDTSC) [s],0.0004,
+Runtime unhalted [s],0.0006,
+Clock [MHz],2390.6650,
+CPI,0.9855,
+L2 request rate,0.0480,
+L2 miss rate,0.0116,
+L2 miss ratio,0.2428,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.399271869 GHz,
+TABLE,Region Tderi_hes_Inexato_100,Group 1 Raw,L2CACHE,5
+Region Info,HWThread 3,
+RDTSC Runtime [s],0.040666,
+call count,50,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,117686500
+CPU_CLK_UNHALTED_CORE,FIXC1,97682720
+CPU_CLK_UNHALTED_REF,FIXC2,97910500
+L2_TRANS_ALL_REQUESTS,PMC0,338129
+L2_RQSTS_MISS,PMC1,86003
+TABLE,Region Tderi_hes_Inexato_100,Group 1 Metric,L2CACHE,7
+Metric,HWThread 3,
+Runtime (RDTSC) [s],0.0407,
+Runtime unhalted [s],0.0407,
+Clock [MHz],2393.6902,
+CPI,0.8300,
+L2 request rate,0.0029,
+L2 miss rate,0.0007,
+L2 miss ratio,0.2543,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.399271869 GHz,
+TABLE,Region T_Sist_Lin_Inexato_100,Group 1 Raw,L2CACHE,5
+Region Info,HWThread 3,
+RDTSC Runtime [s],0.001340,
+call count,50,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,3635083
+CPU_CLK_UNHALTED_CORE,FIXC1,3561088
+CPU_CLK_UNHALTED_REF,FIXC2,3567500
+L2_TRANS_ALL_REQUESTS,PMC0,405702
+L2_RQSTS_MISS,PMC1,80594
+TABLE,Region T_Sist_Lin_Inexato_100,Group 1 Metric,L2CACHE,7
+Metric,HWThread 3,
+Runtime (RDTSC) [s],0.0013,
+Runtime unhalted [s],0.0015,
+Clock [MHz],2394.9596,
+CPI,0.9796,
+L2 request rate,0.1116,
+L2 miss rate,0.0222,
+L2 miss ratio,0.1987,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.399271869 GHz,
+TABLE,Region T_Newton_Padrao_128,Group 1 Raw,L2CACHE,5
+Region Info,HWThread 3,
+RDTSC Runtime [s],0.122331,
+call count,1,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,279358200
+CPU_CLK_UNHALTED_CORE,FIXC1,199179600
+CPU_CLK_UNHALTED_REF,FIXC2,199642900
+L2_TRANS_ALL_REQUESTS,PMC0,15547870
+L2_RQSTS_MISS,PMC1,1583144
+TABLE,Region T_Newton_Padrao_128,Group 1 Metric,L2CACHE,7
+Metric,HWThread 3,
+Runtime (RDTSC) [s],0.1223,
+Runtime unhalted [s],0.0830,
+Clock [MHz],2393.7040,
+CPI,0.7130,
+L2 request rate,0.0557,
+L2 miss rate,0.0057,
+L2 miss ratio,0.1018,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.399271869 GHz,
+TABLE,Region Tderi_grad_Padrao_128,Group 1 Raw,L2CACHE,5
+Region Info,HWThread 3,
+RDTSC Runtime [s],0.000530,
+call count,50,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,1693164
+CPU_CLK_UNHALTED_CORE,FIXC1,1652217
+CPU_CLK_UNHALTED_REF,FIXC2,1655800
+L2_TRANS_ALL_REQUESTS,PMC0,68450
+L2_RQSTS_MISS,PMC1,16767
+TABLE,Region Tderi_grad_Padrao_128,Group 1 Metric,L2CACHE,7
+Metric,HWThread 3,
+Runtime (RDTSC) [s],0.0005,
+Runtime unhalted [s],0.0007,
+Clock [MHz],2394.0801,
+CPI,0.9758,
+L2 request rate,0.0404,
+L2 miss rate,0.0099,
+L2 miss ratio,0.2450,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.399271869 GHz,
+TABLE,Region Tderi_hes_padrao_128,Group 1 Raw,L2CACHE,5
+Region Info,HWThread 3,
+RDTSC Runtime [s],0.067265,
+call count,50,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,192699500
+CPU_CLK_UNHALTED_CORE,FIXC1,160328600
+CPU_CLK_UNHALTED_REF,FIXC2,160702600
+L2_TRANS_ALL_REQUESTS,PMC0,547651
+L2_RQSTS_MISS,PMC1,146830
+TABLE,Region Tderi_hes_padrao_128,Group 1 Metric,L2CACHE,7
+Metric,HWThread 3,
+Runtime (RDTSC) [s],0.0673,
+Runtime unhalted [s],0.0668,
+Clock [MHz],2393.6881,
+CPI,0.8320,
+L2 request rate,0.0028,
+L2 miss rate,0.0008,
+L2 miss ratio,0.2681,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.399271869 GHz,
+TABLE,Region T_Sist_Lin_Padrao_128,Group 1 Raw,L2CACHE,5
+Region Info,HWThread 3,
+RDTSC Runtime [s],0.014950,
+call count,50,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,84089460
+CPU_CLK_UNHALTED_CORE,FIXC1,35815340
+CPU_CLK_UNHALTED_REF,FIXC2,35899100
+L2_TRANS_ALL_REQUESTS,PMC0,14663110
+L2_RQSTS_MISS,PMC1,1341670
+TABLE,Region T_Sist_Lin_Padrao_128,Group 1 Metric,L2CACHE,7
+Metric,HWThread 3,
+Runtime (RDTSC) [s],0.0150,
+Runtime unhalted [s],0.0149,
+Clock [MHz],2393.6739,
+CPI,0.4259,
+L2 request rate,0.1744,
+L2 miss rate,0.0160,
+L2 miss ratio,0.0915,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.399271869 GHz,
+TABLE,Region T_Newton_Inexato_128,Group 1 Raw,L2CACHE,5
+Region Info,HWThread 3,
+RDTSC Runtime [s],0.107775,
+call count,1,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,200909700
+CPU_CLK_UNHALTED_CORE,FIXC1,167933200
+CPU_CLK_UNHALTED_REF,FIXC2,168324000
+L2_TRANS_ALL_REQUESTS,PMC0,1509258
+L2_RQSTS_MISS,PMC1,391277
+TABLE,Region T_Newton_Inexato_128,Group 1 Metric,L2CACHE,7
+Metric,HWThread 3,
+Runtime (RDTSC) [s],0.1078,
+Runtime unhalted [s],0.0700,
+Clock [MHz],2393.7014,
+CPI,0.8359,
+L2 request rate,0.0075,
+L2 miss rate,0.0019,
+L2 miss ratio,0.2593,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.399271869 GHz,
+TABLE,Region Tderi_grad_Inexato_128,Group 1 Raw,L2CACHE,5
+Region Info,HWThread 3,
+RDTSC Runtime [s],0.000524,
+call count,50,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,1695504
+CPU_CLK_UNHALTED_CORE,FIXC1,1609791
+CPU_CLK_UNHALTED_REF,FIXC2,1611500
+L2_TRANS_ALL_REQUESTS,PMC0,62613
+L2_RQSTS_MISS,PMC1,14178
+TABLE,Region Tderi_grad_Inexato_128,Group 1 Metric,L2CACHE,7
+Metric,HWThread 3,
+Runtime (RDTSC) [s],0.0005,
+Runtime unhalted [s],0.0007,
+Clock [MHz],2396.7274,
+CPI,0.9494,
+L2 request rate,0.0369,
+L2 miss rate,0.0084,
+L2 miss ratio,0.2264,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.399271869 GHz,
+TABLE,Region Tderi_hes_Inexato_128,Group 1 Raw,L2CACHE,5
+Region Info,HWThread 3,
+RDTSC Runtime [s],0.066687,
+call count,50,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,192697200
+CPU_CLK_UNHALTED_CORE,FIXC1,159541300
+CPU_CLK_UNHALTED_REF,FIXC2,159913400
+L2_TRANS_ALL_REQUESTS,PMC0,531785
+L2_RQSTS_MISS,PMC1,141368
+TABLE,Region Tderi_hes_Inexato_128,Group 1 Metric,L2CACHE,7
+Metric,HWThread 3,
+Runtime (RDTSC) [s],0.0667,
+Runtime unhalted [s],0.0665,
+Clock [MHz],2393.6890,
+CPI,0.8279,
+L2 request rate,0.0028,
+L2 miss rate,0.0007,
+L2 miss ratio,0.2658,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.399271869 GHz,
+TABLE,Region T_Sist_Lin_Inexato_128,Group 1 Raw,L2CACHE,5
+Region Info,HWThread 3,
+RDTSC Runtime [s],0.002178,
+call count,50,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,5663837
+CPU_CLK_UNHALTED_CORE,FIXC1,5595324
+CPU_CLK_UNHALTED_REF,FIXC2,5609400
+L2_TRANS_ALL_REQUESTS,PMC0,676576
+L2_RQSTS_MISS,PMC1,168826
+TABLE,Region T_Sist_Lin_Inexato_128,Group 1 Metric,L2CACHE,7
+Metric,HWThread 3,
+Runtime (RDTSC) [s],0.0022,
+Runtime unhalted [s],0.0023,
+Clock [MHz],2393.2512,
+CPI,0.9879,
+L2 request rate,0.1195,
+L2 miss rate,0.0298,
+L2 miss ratio,0.2495,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.399271869 GHz,
+TABLE,Region T_Newton_Padrao_200,Group 1 Raw,L2CACHE,5
+Region Info,HWThread 3,
+RDTSC Runtime [s],0.255474,
+call count,1,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,750646400
+CPU_CLK_UNHALTED_CORE,FIXC1,518961600
+CPU_CLK_UNHALTED_REF,FIXC2,520170700
+L2_TRANS_ALL_REQUESTS,PMC0,71109220
+L2_RQSTS_MISS,PMC1,10975840
+TABLE,Region T_Newton_Padrao_200,Group 1 Metric,L2CACHE,7
+Metric,HWThread 3,
+Runtime (RDTSC) [s],0.2555,
+Runtime unhalted [s],0.2163,
+Clock [MHz],2393.6949,
+CPI,0.6914,
+L2 request rate,0.0947,
+L2 miss rate,0.0146,
+L2 miss ratio,0.1544,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.399271869 GHz,
+TABLE,Region Tderi_grad_Padrao_200,Group 1 Raw,L2CACHE,5
+Region Info,HWThread 3,
+RDTSC Runtime [s],0.000844,
+call count,50,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,2545627
+CPU_CLK_UNHALTED_CORE,FIXC1,2339852
+CPU_CLK_UNHALTED_REF,FIXC2,2344700
+L2_TRANS_ALL_REQUESTS,PMC0,70074
+L2_RQSTS_MISS,PMC1,16306
+TABLE,Region Tderi_grad_Padrao_200,Group 1 Metric,L2CACHE,7
+Metric,HWThread 3,
+Runtime (RDTSC) [s],0.0008,
+Runtime unhalted [s],0.0010,
+Clock [MHz],2394.3110,
+CPI,0.9192,
+L2 request rate,0.0275,
+L2 miss rate,0.0064,
+L2 miss ratio,0.2327,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.399271869 GHz,
+TABLE,Region Tderi_hes_padrao_200,Group 1 Raw,L2CACHE,5
+Region Info,HWThread 3,
+RDTSC Runtime [s],0.163693,
+call count,50,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,470184300
+CPU_CLK_UNHALTED_CORE,FIXC1,390977700
+CPU_CLK_UNHALTED_REF,FIXC2,391889500
+L2_TRANS_ALL_REQUESTS,PMC0,1273002
+L2_RQSTS_MISS,PMC1,348894
+TABLE,Region Tderi_hes_padrao_200,Group 1 Metric,L2CACHE,7
+Metric,HWThread 3,
+Runtime (RDTSC) [s],0.1637,
+Runtime unhalted [s],0.1630,
+Clock [MHz],2393.6895,
+CPI,0.8315,
+L2 request rate,0.0027,
+L2 miss rate,0.0007,
+L2 miss ratio,0.2741,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.399271869 GHz,
+TABLE,Region T_Sist_Lin_Padrao_200,Group 1 Raw,L2CACHE,5
+Region Info,HWThread 3,
+RDTSC Runtime [s],0.051829,
+call count,50,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,276991600
+CPU_CLK_UNHALTED_CORE,FIXC1,124245900
+CPU_CLK_UNHALTED_REF,FIXC2,124535800
+L2_TRANS_ALL_REQUESTS,PMC0,69484040
+L2_RQSTS_MISS,PMC1,10527000
+TABLE,Region T_Sist_Lin_Padrao_200,Group 1 Metric,L2CACHE,7
+Metric,HWThread 3,
+Runtime (RDTSC) [s],0.0518,
+Runtime unhalted [s],0.0518,
+Clock [MHz],2393.6867,
+CPI,0.4486,
+L2 request rate,0.2509,
+L2 miss rate,0.0380,
+L2 miss ratio,0.1515,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.399271869 GHz,
+TABLE,Region T_Newton_Inexato_200,Group 1 Raw,L2CACHE,5
+Region Info,HWThread 3,
+RDTSC Runtime [s],0.207111,
+call count,1,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,486693700
+CPU_CLK_UNHALTED_CORE,FIXC1,405911800
+CPU_CLK_UNHALTED_REF,FIXC2,406863400
+L2_TRANS_ALL_REQUESTS,PMC0,3405538
+L2_RQSTS_MISS,PMC1,1063520
+TABLE,Region T_Newton_Inexato_200,Group 1 Metric,L2CACHE,7
+Metric,HWThread 3,
+Runtime (RDTSC) [s],0.2071,
+Runtime unhalted [s],0.1692,
+Clock [MHz],2393.6603,
+CPI,0.8340,
+L2 request rate,0.0070,
+L2 miss rate,0.0022,
+L2 miss ratio,0.3123,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.399271869 GHz,
+TABLE,Region Tderi_grad_Inexato_200,Group 1 Raw,L2CACHE,5
+Region Info,HWThread 3,
+RDTSC Runtime [s],0.000821,
+call count,50,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,2547666
+CPU_CLK_UNHALTED_CORE,FIXC1,2326120
+CPU_CLK_UNHALTED_REF,FIXC2,2331600
+L2_TRANS_ALL_REQUESTS,PMC0,68975
+L2_RQSTS_MISS,PMC1,16764
+TABLE,Region Tderi_grad_Inexato_200,Group 1 Metric,L2CACHE,7
+Metric,HWThread 3,
+Runtime (RDTSC) [s],0.0008,
+Runtime unhalted [s],0.0010,
+Clock [MHz],2393.6328,
+CPI,0.9130,
+L2 request rate,0.0271,
+L2 miss rate,0.0066,
+L2 miss ratio,0.2430,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.399271869 GHz,
+TABLE,Region Tderi_hes_Inexato_200,Group 1 Raw,L2CACHE,5
+Region Info,HWThread 3,
+RDTSC Runtime [s],0.162612,
+call count,50,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,470209200
+CPU_CLK_UNHALTED_CORE,FIXC1,388472400
+CPU_CLK_UNHALTED_REF,FIXC2,389378800
+L2_TRANS_ALL_REQUESTS,PMC0,1288789
+L2_RQSTS_MISS,PMC1,370080
+TABLE,Region Tderi_hes_Inexato_200,Group 1 Metric,L2CACHE,7
+Metric,HWThread 3,
+Runtime (RDTSC) [s],0.1626,
+Runtime unhalted [s],0.1619,
+Clock [MHz],2393.6868,
+CPI,0.8262,
+L2 request rate,0.0027,
+L2 miss rate,0.0008,
+L2 miss ratio,0.2872,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.399271869 GHz,
+TABLE,Region T_Sist_Lin_Inexato_200,Group 1 Raw,L2CACHE,5
+Region Info,HWThread 3,
+RDTSC Runtime [s],0.005629,
+call count,50,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,13031470
+CPU_CLK_UNHALTED_CORE,FIXC1,13866910
+CPU_CLK_UNHALTED_REF,FIXC2,13900200
+L2_TRANS_ALL_REQUESTS,PMC0,1793851
+L2_RQSTS_MISS,PMC1,601497
+TABLE,Region T_Sist_Lin_Inexato_200,Group 1 Metric,L2CACHE,7
+Metric,HWThread 3,
+Runtime (RDTSC) [s],0.0056,
+Runtime unhalted [s],0.0058,
+Clock [MHz],2393.5258,
+CPI,1.0641,
+L2 request rate,0.1377,
+L2 miss rate,0.0462,
+L2 miss ratio,0.3353,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.399271869 GHz,
+TABLE,Region T_Newton_Padrao_250,Group 1 Raw,L2CACHE,5
+Region Info,HWThread 3,
+RDTSC Runtime [s],0.397102,
+call count,1,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,1249330000
+CPU_CLK_UNHALTED_CORE,FIXC1,858883500
+CPU_CLK_UNHALTED_REF,FIXC2,860883900
+L2_TRANS_ALL_REQUESTS,PMC0,170071600
+L2_RQSTS_MISS,PMC1,33041960
+TABLE,Region T_Newton_Padrao_250,Group 1 Metric,L2CACHE,7
+Metric,HWThread 3,
+Runtime (RDTSC) [s],0.3971,
+Runtime unhalted [s],0.3580,
+Clock [MHz],2393.6968,
+CPI,0.6875,
+L2 request rate,0.1361,
+L2 miss rate,0.0264,
+L2 miss ratio,0.1943,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.399271869 GHz,
+TABLE,Region Tderi_grad_Padrao_250,Group 1 Raw,L2CACHE,5
+Region Info,HWThread 3,
+RDTSC Runtime [s],0.001044,
+call count,50,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,3135703
+CPU_CLK_UNHALTED_CORE,FIXC1,2822938
+CPU_CLK_UNHALTED_REF,FIXC2,2829800
+L2_TRANS_ALL_REQUESTS,PMC0,73318
+L2_RQSTS_MISS,PMC1,17702
+TABLE,Region Tderi_grad_Padrao_250,Group 1 Metric,L2CACHE,7
+Metric,HWThread 3,
+Runtime (RDTSC) [s],0.0010,
+Runtime unhalted [s],0.0012,
+Clock [MHz],2393.4539,
+CPI,0.9003,
+L2 request rate,0.0234,
+L2 miss rate,0.0056,
+L2 miss ratio,0.2414,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.399271869 GHz,
+TABLE,Region Tderi_hes_padrao_250,Group 1 Raw,L2CACHE,5
+Region Info,HWThread 3,
+RDTSC Runtime [s],0.254525,
+call count,50,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,734561800
+CPU_CLK_UNHALTED_CORE,FIXC1,608408900
+CPU_CLK_UNHALTED_REF,FIXC2,609825700
+L2_TRANS_ALL_REQUESTS,PMC0,1994196
+L2_RQSTS_MISS,PMC1,539405
+TABLE,Region Tderi_hes_padrao_250,Group 1 Metric,L2CACHE,7
+Metric,HWThread 3,
+Runtime (RDTSC) [s],0.2545,
+Runtime unhalted [s],0.2536,
+Clock [MHz],2393.6977,
+CPI,0.8283,
+L2 request rate,0.0027,
+L2 miss rate,0.0007,
+L2 miss ratio,0.2705,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.399271869 GHz,
+TABLE,Region T_Sist_Lin_Padrao_250,Group 1 Raw,L2CACHE,5
+Region Info,HWThread 3,
+RDTSC Runtime [s],0.102795,
+call count,50,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,510660100
+CPU_CLK_UNHALTED_CORE,FIXC1,246226000
+CPU_CLK_UNHALTED_REF,FIXC2,246800400
+L2_TRANS_ALL_REQUESTS,PMC0,167715000
+L2_RQSTS_MISS,PMC1,32397600
+TABLE,Region T_Sist_Lin_Padrao_250,Group 1 Metric,L2CACHE,7
+Metric,HWThread 3,
+Runtime (RDTSC) [s],0.1028,
+Runtime unhalted [s],0.1026,
+Clock [MHz],2393.6878,
+CPI,0.4822,
+L2 request rate,0.3284,
+L2 miss rate,0.0634,
+L2 miss ratio,0.1932,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.399271869 GHz,
+TABLE,Region T_Newton_Inexato_250,Group 1 Raw,L2CACHE,5
+Region Info,HWThread 3,
+RDTSC Runtime [s],0.302552,
+call count,1,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,758720800
+CPU_CLK_UNHALTED_CORE,FIXC1,634017400
+CPU_CLK_UNHALTED_REF,FIXC2,635489700
+L2_TRANS_ALL_REQUESTS,PMC0,5229299
+L2_RQSTS_MISS,PMC1,1679201
+TABLE,Region T_Newton_Inexato_250,Group 1 Metric,L2CACHE,7
+Metric,HWThread 3,
+Runtime (RDTSC) [s],0.3026,
+Runtime unhalted [s],0.2643,
+Clock [MHz],2393.7132,
+CPI,0.8356,
+L2 request rate,0.0069,
+L2 miss rate,0.0022,
+L2 miss ratio,0.3211,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.399271869 GHz,
+TABLE,Region Tderi_grad_Inexato_250,Group 1 Raw,L2CACHE,5
+Region Info,HWThread 3,
+RDTSC Runtime [s],0.001028,
+call count,50,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,3129982
+CPU_CLK_UNHALTED_CORE,FIXC1,2798374
+CPU_CLK_UNHALTED_REF,FIXC2,2807300
+L2_TRANS_ALL_REQUESTS,PMC0,73517
+L2_RQSTS_MISS,PMC1,18180
+TABLE,Region Tderi_grad_Inexato_250,Group 1 Metric,L2CACHE,7
+Metric,HWThread 3,
+Runtime (RDTSC) [s],0.0010,
+Runtime unhalted [s],0.0012,
+Clock [MHz],2391.6432,
+CPI,0.8941,
+L2 request rate,0.0235,
+L2 miss rate,0.0058,
+L2 miss ratio,0.2473,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.399271869 GHz,
+TABLE,Region Tderi_hes_Inexato_250,Group 1 Raw,L2CACHE,5
+Region Info,HWThread 3,
+RDTSC Runtime [s],0.254282,
+call count,50,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,734555200
+CPU_CLK_UNHALTED_CORE,FIXC1,607808800
+CPU_CLK_UNHALTED_REF,FIXC2,609224000
+L2_TRANS_ALL_REQUESTS,PMC0,2013555
+L2_RQSTS_MISS,PMC1,564286
+TABLE,Region Tderi_hes_Inexato_250,Group 1 Metric,L2CACHE,7
+Metric,HWThread 3,
+Runtime (RDTSC) [s],0.2543,
+Runtime unhalted [s],0.2533,
+Clock [MHz],2393.6985,
+CPI,0.8275,
+L2 request rate,0.0027,
+L2 miss rate,0.0008,
+L2 miss ratio,0.2802,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.399271869 GHz,
+TABLE,Region T_Sist_Lin_Inexato_250,Group 1 Raw,L2CACHE,5
+Region Info,HWThread 3,
+RDTSC Runtime [s],0.009071,
+call count,50,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,20117760
+CPU_CLK_UNHALTED_CORE,FIXC1,22113400
+CPU_CLK_UNHALTED_REF,FIXC2,22162600
+L2_TRANS_ALL_REQUESTS,PMC0,2873840
+L2_RQSTS_MISS,PMC1,1015347
+TABLE,Region T_Sist_Lin_Inexato_250,Group 1 Metric,L2CACHE,7
+Metric,HWThread 3,
+Runtime (RDTSC) [s],0.0091,
+Runtime unhalted [s],0.0092,
+Clock [MHz],2393.9456,
+CPI,1.0992,
+L2 request rate,0.1429,
+L2 miss rate,0.0505,
+L2 miss ratio,0.3533,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.399271869 GHz,
+TABLE,Region T_Newton_Padrao_256,Group 1 Raw,L2CACHE,5
+Region Info,HWThread 3,
+RDTSC Runtime [s],0.418357,
+call count,1,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,1320010000
+CPU_CLK_UNHALTED_CORE,FIXC1,909617700
+CPU_CLK_UNHALTED_REF,FIXC2,911737500
+L2_TRANS_ALL_REQUESTS,PMC0,196020500
+L2_RQSTS_MISS,PMC1,39793790
+TABLE,Region T_Newton_Padrao_256,Group 1 Metric,L2CACHE,7
+Metric,HWThread 3,
+Runtime (RDTSC) [s],0.4184,
+Runtime unhalted [s],0.3791,
+Clock [MHz],2393.6935,
+CPI,0.6891,
+L2 request rate,0.1485,
+L2 miss rate,0.0301,
+L2 miss ratio,0.2030,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.399271869 GHz,
+TABLE,Region Tderi_grad_Padrao_256,Group 1 Raw,L2CACHE,5
+Region Info,HWThread 3,
+RDTSC Runtime [s],0.001050,
+call count,50,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,3214051
+CPU_CLK_UNHALTED_CORE,FIXC1,2885734
+CPU_CLK_UNHALTED_REF,FIXC2,2892800
+L2_TRANS_ALL_REQUESTS,PMC0,77571
+L2_RQSTS_MISS,PMC1,18940
+TABLE,Region Tderi_grad_Padrao_256,Group 1 Metric,L2CACHE,7
+Metric,HWThread 3,
+Runtime (RDTSC) [s],0.0010,
+Runtime unhalted [s],0.0012,
+Clock [MHz],2393.4114,
+CPI,0.8978,
+L2 request rate,0.0241,
+L2 miss rate,0.0059,
+L2 miss ratio,0.2442,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.399271869 GHz,
+TABLE,Region Tderi_hes_padrao_256,Group 1 Raw,L2CACHE,5
+Region Info,HWThread 3,
+RDTSC Runtime [s],0.267464,
+call count,50,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,770388900
+CPU_CLK_UNHALTED_CORE,FIXC1,639346100
+CPU_CLK_UNHALTED_REF,FIXC2,640835500
+L2_TRANS_ALL_REQUESTS,PMC0,2091541
+L2_RQSTS_MISS,PMC1,563501
+TABLE,Region Tderi_hes_padrao_256,Group 1 Metric,L2CACHE,7
+Metric,HWThread 3,
+Runtime (RDTSC) [s],0.2675,
+Runtime unhalted [s],0.2665,
+Clock [MHz],2393.6956,
+CPI,0.8299,
+L2 request rate,0.0027,
+L2 miss rate,0.0007,
+L2 miss ratio,0.2694,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.399271869 GHz,
+TABLE,Region T_Sist_Lin_Padrao_256,Group 1 Raw,L2CACHE,5
+Region Info,HWThread 3,
+RDTSC Runtime [s],0.111149,
+call count,50,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,545431000
+CPU_CLK_UNHALTED_CORE,FIXC1,265992800
+CPU_CLK_UNHALTED_REF,FIXC2,266612800
+L2_TRANS_ALL_REQUESTS,PMC0,193561000
+L2_RQSTS_MISS,PMC1,39123790
+TABLE,Region T_Sist_Lin_Padrao_256,Group 1 Metric,L2CACHE,7
+Metric,HWThread 3,
+Runtime (RDTSC) [s],0.1111,
+Runtime unhalted [s],0.1109,
+Clock [MHz],2393.6924,
+CPI,0.4877,
+L2 request rate,0.3549,
+L2 miss rate,0.0717,
+L2 miss ratio,0.2021,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.399271869 GHz,
+TABLE,Region T_Newton_Inexato_256,Group 1 Raw,L2CACHE,5
+Region Info,HWThread 3,
+RDTSC Runtime [s],0.315910,
+call count,1,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,795223600
+CPU_CLK_UNHALTED_CORE,FIXC1,666419400
+CPU_CLK_UNHALTED_REF,FIXC2,667969100
+L2_TRANS_ALL_REQUESTS,PMC0,5415289
+L2_RQSTS_MISS,PMC1,1807602
+TABLE,Region T_Newton_Inexato_256,Group 1 Metric,L2CACHE,7
+Metric,HWThread 3,
+Runtime (RDTSC) [s],0.3159,
+Runtime unhalted [s],0.2778,
+Clock [MHz],2393.7055,
+CPI,0.8380,
+L2 request rate,0.0068,
+L2 miss rate,0.0023,
+L2 miss ratio,0.3338,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.399271869 GHz,
+TABLE,Region Tderi_grad_Inexato_256,Group 1 Raw,L2CACHE,5
+Region Info,HWThread 3,
+RDTSC Runtime [s],0.001046,
+call count,50,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,3201223
+CPU_CLK_UNHALTED_CORE,FIXC1,2865784
+CPU_CLK_UNHALTED_REF,FIXC2,2872100
+L2_TRANS_ALL_REQUESTS,PMC0,72781
+L2_RQSTS_MISS,PMC1,18633
+TABLE,Region Tderi_grad_Inexato_256,Group 1 Metric,L2CACHE,7
+Metric,HWThread 3,
+Runtime (RDTSC) [s],0.0010,
+Runtime unhalted [s],0.0012,
+Clock [MHz],2393.9957,
+CPI,0.8952,
+L2 request rate,0.0227,
+L2 miss rate,0.0058,
+L2 miss ratio,0.2560,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.399271869 GHz,
+TABLE,Region Tderi_hes_Inexato_256,Group 1 Raw,L2CACHE,5
+Region Info,HWThread 3,
+RDTSC Runtime [s],0.267300,
+call count,50,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,770227400
+CPU_CLK_UNHALTED_CORE,FIXC1,639042200
+CPU_CLK_UNHALTED_REF,FIXC2,640531000
+L2_TRANS_ALL_REQUESTS,PMC0,2114674
+L2_RQSTS_MISS,PMC1,588544
+TABLE,Region Tderi_hes_Inexato_256,Group 1 Metric,L2CACHE,7
+Metric,HWThread 3,
+Runtime (RDTSC) [s],0.2673,
+Runtime unhalted [s],0.2663,
+Clock [MHz],2393.6952,
+CPI,0.8297,
+L2 request rate,0.0027,
+L2 miss rate,0.0008,
+L2 miss ratio,0.2783,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.399271869 GHz,
+TABLE,Region T_Sist_Lin_Inexato_256,Group 1 Raw,L2CACHE,5
+Region Info,HWThread 3,
+RDTSC Runtime [s],0.009551,
+call count,50,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,20884400
+CPU_CLK_UNHALTED_CORE,FIXC1,23220110
+CPU_CLK_UNHALTED_REF,FIXC2,23272400
+L2_TRANS_ALL_REQUESTS,PMC0,2968822
+L2_RQSTS_MISS,PMC1,1121589
+TABLE,Region T_Sist_Lin_Inexato_256,Group 1 Metric,L2CACHE,7
+Metric,HWThread 3,
+Runtime (RDTSC) [s],0.0096,
+Runtime unhalted [s],0.0097,
+Clock [MHz],2393.8810,
+CPI,1.1118,
+L2 request rate,0.1422,
+L2 miss rate,0.0537,
+L2 miss ratio,0.3778,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.399271869 GHz,
+TABLE,Region T_Newton_Padrao_300,Group 1 Raw,L2CACHE,5
+Region Info,HWThread 3,
+RDTSC Runtime [s],0.584588,
+call count,1,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,1910532000
+CPU_CLK_UNHALTED_CORE,FIXC1,1307440000
+CPU_CLK_UNHALTED_REF,FIXC2,1310490000
+L2_TRANS_ALL_REQUESTS,PMC0,342010700
+L2_RQSTS_MISS,PMC1,74149200
+TABLE,Region T_Newton_Padrao_300,Group 1 Metric,L2CACHE,7
+Metric,HWThread 3,
+Runtime (RDTSC) [s],0.5846,
+Runtime unhalted [s],0.5449,
+Clock [MHz],2393.6879,
+CPI,0.6843,
+L2 request rate,0.1790,
+L2 miss rate,0.0388,
+L2 miss ratio,0.2168,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.399271869 GHz,
+TABLE,Region Tderi_grad_Padrao_300,Group 1 Raw,L2CACHE,5
+Region Info,HWThread 3,
+RDTSC Runtime [s],0.001225,
+call count,50,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,3718054
+CPU_CLK_UNHALTED_CORE,FIXC1,3301560
+CPU_CLK_UNHALTED_REF,FIXC2,3310600
+L2_TRANS_ALL_REQUESTS,PMC0,73435
+L2_RQSTS_MISS,PMC1,18116
+TABLE,Region Tderi_grad_Padrao_300,Group 1 Metric,L2CACHE,7
+Metric,HWThread 3,
+Runtime (RDTSC) [s],0.0012,
+Runtime unhalted [s],0.0014,
+Clock [MHz],2392.7204,
+CPI,0.8880,
+L2 request rate,0.0198,
+L2 miss rate,0.0049,
+L2 miss ratio,0.2467,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.399271869 GHz,
+TABLE,Region Tderi_hes_padrao_300,Group 1 Raw,L2CACHE,5
+Region Info,HWThread 3,
+RDTSC Runtime [s],0.365662,
+call count,50,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,1057893000
+CPU_CLK_UNHALTED_CORE,FIXC1,874346200
+CPU_CLK_UNHALTED_REF,FIXC2,876382400
+L2_TRANS_ALL_REQUESTS,PMC0,2877861
+L2_RQSTS_MISS,PMC1,773098
+TABLE,Region Tderi_hes_padrao_300,Group 1 Metric,L2CACHE,7
+Metric,HWThread 3,
+Runtime (RDTSC) [s],0.3657,
+Runtime unhalted [s],0.3644,
+Clock [MHz],2393.6974,
+CPI,0.8265,
+L2 request rate,0.0027,
+L2 miss rate,0.0007,
+L2 miss ratio,0.2686,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.399271869 GHz,
+TABLE,Region T_Sist_Lin_Padrao_300,Group 1 Raw,L2CACHE,5
+Region Info,HWThread 3,
+RDTSC Runtime [s],0.178975,
+call count,50,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,847953200
+CPU_CLK_UNHALTED_CORE,FIXC1,428271300
+CPU_CLK_UNHALTED_REF,FIXC2,429270000
+L2_TRANS_ALL_REQUESTS,PMC0,338756300
+L2_RQSTS_MISS,PMC1,73263660
+TABLE,Region T_Sist_Lin_Padrao_300,Group 1 Metric,L2CACHE,7
+Metric,HWThread 3,
+Runtime (RDTSC) [s],0.1790,
+Runtime unhalted [s],0.1785,
+Clock [MHz],2393.6899,
+CPI,0.5051,
+L2 request rate,0.3995,
+L2 miss rate,0.0864,
+L2 miss ratio,0.2163,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.399271869 GHz,
+TABLE,Region T_Newton_Inexato_300,Group 1 Raw,L2CACHE,5
+Region Info,HWThread 3,
+RDTSC Runtime [s],0.418591,
+call count,1,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,1090719000
+CPU_CLK_UNHALTED_CORE,FIXC1,911740100
+CPU_CLK_UNHALTED_REF,FIXC2,913865400
+L2_TRANS_ALL_REQUESTS,PMC0,7309860
+L2_RQSTS_MISS,PMC1,2453062
+TABLE,Region T_Newton_Inexato_300,Group 1 Metric,L2CACHE,7
+Metric,HWThread 3,
+Runtime (RDTSC) [s],0.4186,
+Runtime unhalted [s],0.3800,
+Clock [MHz],2393.6921,
+CPI,0.8359,
+L2 request rate,0.0067,
+L2 miss rate,0.0022,
+L2 miss ratio,0.3356,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.399271869 GHz,
+TABLE,Region Tderi_grad_Inexato_300,Group 1 Raw,L2CACHE,5
+Region Info,HWThread 3,
+RDTSC Runtime [s],0.001224,
+call count,50,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,3716398
+CPU_CLK_UNHALTED_CORE,FIXC1,3288467
+CPU_CLK_UNHALTED_REF,FIXC2,3297900
+L2_TRANS_ALL_REQUESTS,PMC0,73201
+L2_RQSTS_MISS,PMC1,17883
+TABLE,Region Tderi_grad_Inexato_300,Group 1 Metric,L2CACHE,7
+Metric,HWThread 3,
+Runtime (RDTSC) [s],0.0012,
+Runtime unhalted [s],0.0014,
+Clock [MHz],2392.4092,
+CPI,0.8849,
+L2 request rate,0.0197,
+L2 miss rate,0.0048,
+L2 miss ratio,0.2443,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.399271869 GHz,
+TABLE,Region Tderi_hes_Inexato_300,Group 1 Raw,L2CACHE,5
+Region Info,HWThread 3,
+RDTSC Runtime [s],0.365791,
+call count,50,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,1057678000
+CPU_CLK_UNHALTED_CORE,FIXC1,874581800
+CPU_CLK_UNHALTED_REF,FIXC2,876617100
+L2_TRANS_ALL_REQUESTS,PMC0,2912633
+L2_RQSTS_MISS,PMC1,794616
+TABLE,Region Tderi_hes_Inexato_300,Group 1 Metric,L2CACHE,7
+Metric,HWThread 3,
+Runtime (RDTSC) [s],0.3658,
+Runtime unhalted [s],0.3645,
+Clock [MHz],2393.7013,
+CPI,0.8269,
+L2 request rate,0.0028,
+L2 miss rate,0.0008,
+L2 miss ratio,0.2728,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.399271869 GHz,
+TABLE,Region T_Sist_Lin_Inexato_300,Group 1 Raw,L2CACHE,5
+Region Info,HWThread 3,
+RDTSC Runtime [s],0.013432,
+call count,50,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,28388930
+CPU_CLK_UNHALTED_CORE,FIXC1,32525810
+CPU_CLK_UNHALTED_REF,FIXC2,32601700
+L2_TRANS_ALL_REQUESTS,PMC0,4050889
+L2_RQSTS_MISS,PMC1,1558498
+TABLE,Region T_Sist_Lin_Inexato_300,Group 1 Metric,L2CACHE,7
+Metric,HWThread 3,
+Runtime (RDTSC) [s],0.0134,
+Runtime unhalted [s],0.0136,
+Clock [MHz],2393.6869,
+CPI,1.1457,
+L2 request rate,0.1427,
+L2 miss rate,0.0549,
+L2 miss ratio,0.3847,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.399271869 GHz,
+TABLE,Region T_Newton_Padrao_400,Group 1 Raw,L2CACHE,5
+Region Info,HWThread 3,
+RDTSC Runtime [s],1.117915,
+call count,1,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,3793594000
+CPU_CLK_UNHALTED_CORE,FIXC1,2583380000
+CPU_CLK_UNHALTED_REF,FIXC2,2589399000
+L2_TRANS_ALL_REQUESTS,PMC0,859724400
+L2_RQSTS_MISS,PMC1,197010000
+TABLE,Region T_Newton_Padrao_400,Group 1 Metric,L2CACHE,7
+Metric,HWThread 3,
+Runtime (RDTSC) [s],1.1179,
+Runtime unhalted [s],1.0767,
+Clock [MHz],2393.6948,
+CPI,0.6810,
+L2 request rate,0.2266,
+L2 miss rate,0.0519,
+L2 miss ratio,0.2292,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.399271869 GHz,
+TABLE,Region Tderi_grad_Padrao_400,Group 1 Raw,L2CACHE,5
+Region Info,HWThread 3,
+RDTSC Runtime [s],0.001632,
+call count,50,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,4889033
+CPU_CLK_UNHALTED_CORE,FIXC1,4266809
+CPU_CLK_UNHALTED_REF,FIXC2,4278300
+L2_TRANS_ALL_REQUESTS,PMC0,82751
+L2_RQSTS_MISS,PMC1,21085
+TABLE,Region Tderi_grad_Padrao_400,Group 1 Metric,L2CACHE,7
+Metric,HWThread 3,
+Runtime (RDTSC) [s],0.0016,
+Runtime unhalted [s],0.0018,
+Clock [MHz],2392.8277,
+CPI,0.8727,
+L2 request rate,0.0169,
+L2 miss rate,0.0043,
+L2 miss ratio,0.2548,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.399271869 GHz,
+TABLE,Region Tderi_hes_padrao_400,Group 1 Raw,L2CACHE,5
+Region Info,HWThread 3,
+RDTSC Runtime [s],0.649812,
+call count,50,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,1880390000
+CPU_CLK_UNHALTED_CORE,FIXC1,1554449000
+CPU_CLK_UNHALTED_REF,FIXC2,1558069000
+L2_TRANS_ALL_REQUESTS,PMC0,5157639
+L2_RQSTS_MISS,PMC1,1344421
+TABLE,Region Tderi_hes_padrao_400,Group 1 Metric,L2CACHE,7
+Metric,HWThread 3,
+Runtime (RDTSC) [s],0.6498,
+Runtime unhalted [s],0.6479,
+Clock [MHz],2393.6974,
+CPI,0.8267,
+L2 request rate,0.0027,
+L2 miss rate,0.0007,
+L2 miss ratio,0.2607,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.399271869 GHz,
+TABLE,Region T_Sist_Lin_Padrao_400,Group 1 Raw,L2CACHE,5
+Region Info,HWThread 3,
+RDTSC Runtime [s],0.427805,
+call count,50,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,1907298000
+CPU_CLK_UNHALTED_CORE,FIXC1,1023119000
+CPU_CLK_UNHALTED_REF,FIXC2,1025504000
+L2_TRANS_ALL_REQUESTS,PMC0,854175600
+L2_RQSTS_MISS,PMC1,195547700
+TABLE,Region T_Sist_Lin_Padrao_400,Group 1 Metric,L2CACHE,7
+Metric,HWThread 3,
+Runtime (RDTSC) [s],0.4278,
+Runtime unhalted [s],0.4264,
+Clock [MHz],2393.6919,
+CPI,0.5364,
+L2 request rate,0.4478,
+L2 miss rate,0.1025,
+L2 miss ratio,0.2289,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.399271869 GHz,
+TABLE,Region T_Newton_Inexato_400,Group 1 Raw,L2CACHE,5
+Region Info,HWThread 3,
+RDTSC Runtime [s],0.716959,
+call count,1,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,1936611000
+CPU_CLK_UNHALTED_CORE,FIXC1,1623143000
+CPU_CLK_UNHALTED_REF,FIXC2,1626925000
+L2_TRANS_ALL_REQUESTS,PMC0,12618640
+L2_RQSTS_MISS,PMC1,4235306
+TABLE,Region T_Newton_Inexato_400,Group 1 Metric,L2CACHE,7
+Metric,HWThread 3,
+Runtime (RDTSC) [s],0.7170,
+Runtime unhalted [s],0.6765,
+Clock [MHz],2393.6944,
+CPI,0.8381,
+L2 request rate,0.0065,
+L2 miss rate,0.0022,
+L2 miss ratio,0.3356,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.399271869 GHz,
+TABLE,Region Tderi_grad_Inexato_400,Group 1 Raw,L2CACHE,5
+Region Info,HWThread 3,
+RDTSC Runtime [s],0.001631,
+call count,50,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,4889916
+CPU_CLK_UNHALTED_CORE,FIXC1,4279406
+CPU_CLK_UNHALTED_REF,FIXC2,4289600
+L2_TRANS_ALL_REQUESTS,PMC0,87049
+L2_RQSTS_MISS,PMC1,24489
+TABLE,Region Tderi_grad_Inexato_400,Group 1 Metric,L2CACHE,7
+Metric,HWThread 3,
+Runtime (RDTSC) [s],0.0016,
+Runtime unhalted [s],0.0018,
+Clock [MHz],2393.5701,
+CPI,0.8751,
+L2 request rate,0.0178,
+L2 miss rate,0.0050,
+L2 miss ratio,0.2813,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.399271869 GHz,
+TABLE,Region Tderi_hes_Inexato_400,Group 1 Raw,L2CACHE,5
+Region Info,HWThread 3,
+RDTSC Runtime [s],0.651481,
+call count,50,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,1880973000
+CPU_CLK_UNHALTED_CORE,FIXC1,1557892000
+CPU_CLK_UNHALTED_REF,FIXC2,1561520000
+L2_TRANS_ALL_REQUESTS,PMC0,5114307
+L2_RQSTS_MISS,PMC1,1371618
+TABLE,Region Tderi_hes_Inexato_400,Group 1 Metric,L2CACHE,7
+Metric,HWThread 3,
+Runtime (RDTSC) [s],0.6515,
+Runtime unhalted [s],0.6493,
+Clock [MHz],2393.6975,
+CPI,0.8282,
+L2 request rate,0.0027,
+L2 miss rate,0.0007,
+L2 miss ratio,0.2682,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.399271869 GHz,
+TABLE,Region T_Sist_Lin_Inexato_400,Group 1 Raw,L2CACHE,5
+Region Info,HWThread 3,
+RDTSC Runtime [s],0.024709,
+call count,50,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,49767460
+CPU_CLK_UNHALTED_CORE,FIXC1,59437120
+CPU_CLK_UNHALTED_REF,FIXC2,59575300
+L2_TRANS_ALL_REQUESTS,PMC0,7115470
+L2_RQSTS_MISS,PMC1,2745427
+TABLE,Region T_Sist_Lin_Inexato_400,Group 1 Metric,L2CACHE,7
+Metric,HWThread 3,
+Runtime (RDTSC) [s],0.0247,
+Runtime unhalted [s],0.0248,
+Clock [MHz],2393.7070,
+CPI,1.1943,
+L2 request rate,0.1430,
+L2 miss rate,0.0552,
+L2 miss ratio,0.3858,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.399271869 GHz,
+TABLE,Region T_Newton_Padrao_512,Group 1 Raw,L2CACHE,5
+Region Info,HWThread 3,
+RDTSC Runtime [s],2.018031,
+call count,1,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,6946905000
+CPU_CLK_UNHALTED_CORE,FIXC1,4733961000
+CPU_CLK_UNHALTED_REF,FIXC2,4744986000
+L2_TRANS_ALL_REQUESTS,PMC0,1826969000
+L2_RQSTS_MISS,PMC1,427964900
+TABLE,Region T_Newton_Padrao_512,Group 1 Metric,L2CACHE,7
+Metric,HWThread 3,
+Runtime (RDTSC) [s],2.0180,
+Runtime unhalted [s],1.9731,
+Clock [MHz],2393.6971,
+CPI,0.6814,
+L2 request rate,0.2630,
+L2 miss rate,0.0616,
+L2 miss ratio,0.2342,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.399271869 GHz,
+TABLE,Region Tderi_grad_Padrao_512,Group 1 Raw,L2CACHE,5
+Region Info,HWThread 3,
+RDTSC Runtime [s],0.002083,
+call count,50,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,6196228
+CPU_CLK_UNHALTED_CORE,FIXC1,5370612
+CPU_CLK_UNHALTED_REF,FIXC2,5384100
+L2_TRANS_ALL_REQUESTS,PMC0,88969
+L2_RQSTS_MISS,PMC1,22081
+TABLE,Region Tderi_grad_Padrao_512,Group 1 Metric,L2CACHE,7
+Metric,HWThread 3,
+Runtime (RDTSC) [s],0.0021,
+Runtime unhalted [s],0.0022,
+Clock [MHz],2393.2613,
+CPI,0.8668,
+L2 request rate,0.0144,
+L2 miss rate,0.0036,
+L2 miss ratio,0.2482,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.399271869 GHz,
+TABLE,Region Tderi_hes_padrao_512,Group 1 Raw,L2CACHE,5
+Region Info,HWThread 3,
+RDTSC Runtime [s],1.064887,
+call count,50,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,3080887000
+CPU_CLK_UNHALTED_CORE,FIXC1,2546975000
+CPU_CLK_UNHALTED_REF,FIXC2,2552905000
+L2_TRANS_ALL_REQUESTS,PMC0,8449161
+L2_RQSTS_MISS,PMC1,2211150
+TABLE,Region Tderi_hes_padrao_512,Group 1 Metric,L2CACHE,7
+Metric,HWThread 3,
+Runtime (RDTSC) [s],1.0649,
+Runtime unhalted [s],1.0616,
+Clock [MHz],2393.6987,
+CPI,0.8267,
+L2 request rate,0.0027,
+L2 miss rate,0.0007,
+L2 miss ratio,0.2617,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.399271869 GHz,
+TABLE,Region T_Sist_Lin_Padrao_512,Group 1 Raw,L2CACHE,5
+Region Info,HWThread 3,
+RDTSC Runtime [s],0.911477,
+call count,50,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,3858762000
+CPU_CLK_UNHALTED_CORE,FIXC1,2179761000
+CPU_CLK_UNHALTED_REF,FIXC2,2184841000
+L2_TRANS_ALL_REQUESTS,PMC0,1818090000
+L2_RQSTS_MISS,PMC1,425625200
+TABLE,Region T_Sist_Lin_Padrao_512,Group 1 Metric,L2CACHE,7
+Metric,HWThread 3,
+Runtime (RDTSC) [s],0.9115,
+Runtime unhalted [s],0.9085,
+Clock [MHz],2393.6933,
+CPI,0.5649,
+L2 request rate,0.4712,
+L2 miss rate,0.1103,
+L2 miss ratio,0.2341,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.399271869 GHz,
+TABLE,Region T_Newton_Inexato_512,Group 1 Raw,L2CACHE,5
+Region Info,HWThread 3,
+RDTSC Runtime [s],1.145303,
+call count,1,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,3169220000
+CPU_CLK_UNHALTED_CORE,FIXC1,2650040000
+CPU_CLK_UNHALTED_REF,FIXC2,2656208000
+L2_TRANS_ALL_REQUESTS,PMC0,20574250
+L2_RQSTS_MISS,PMC1,6790519
+TABLE,Region T_Newton_Inexato_512,Group 1 Metric,L2CACHE,7
+Metric,HWThread 3,
+Runtime (RDTSC) [s],1.1453,
+Runtime unhalted [s],1.1045,
+Clock [MHz],2393.7005,
+CPI,0.8362,
+L2 request rate,0.0065,
+L2 miss rate,0.0021,
+L2 miss ratio,0.3300,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.399271869 GHz,
+TABLE,Region Tderi_grad_Inexato_512,Group 1 Raw,L2CACHE,5
+Region Info,HWThread 3,
+RDTSC Runtime [s],0.002086,
+call count,50,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,6200432
+CPU_CLK_UNHALTED_CORE,FIXC1,5355728
+CPU_CLK_UNHALTED_REF,FIXC2,5366800
+L2_TRANS_ALL_REQUESTS,PMC0,92734
+L2_RQSTS_MISS,PMC1,25145
+TABLE,Region Tderi_grad_Inexato_512,Group 1 Metric,L2CACHE,7
+Metric,HWThread 3,
+Runtime (RDTSC) [s],0.0021,
+Runtime unhalted [s],0.0022,
+Clock [MHz],2394.3220,
+CPI,0.8638,
+L2 request rate,0.0150,
+L2 miss rate,0.0041,
+L2 miss ratio,0.2712,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.399271869 GHz,
+TABLE,Region Tderi_hes_Inexato_512,Group 1 Raw,L2CACHE,5
+Region Info,HWThread 3,
+RDTSC Runtime [s],1.063657,
+call count,50,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,3081160000
+CPU_CLK_UNHALTED_CORE,FIXC1,2544044000
+CPU_CLK_UNHALTED_REF,FIXC2,2549969000
+L2_TRANS_ALL_REQUESTS,PMC0,8540003
+L2_RQSTS_MISS,PMC1,2223954
+TABLE,Region Tderi_hes_Inexato_512,Group 1 Metric,L2CACHE,7
+Metric,HWThread 3,
+Runtime (RDTSC) [s],1.0637,
+Runtime unhalted [s],1.0603,
+Clock [MHz],2393.6970,
+CPI,0.8257,
+L2 request rate,0.0028,
+L2 miss rate,0.0007,
+L2 miss ratio,0.2604,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.399271869 GHz,
+TABLE,Region T_Sist_Lin_Inexato_512,Group 1 Raw,L2CACHE,5
+Region Info,HWThread 3,
+RDTSC Runtime [s],0.041262,
+call count,50,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,80834090
+CPU_CLK_UNHALTED_CORE,FIXC1,99088670
+CPU_CLK_UNHALTED_REF,FIXC2,99318400
+L2_TRANS_ALL_REQUESTS,PMC0,11632440
+L2_RQSTS_MISS,PMC1,4449399
+TABLE,Region T_Sist_Lin_Inexato_512,Group 1 Metric,L2CACHE,7
+Metric,HWThread 3,
+Runtime (RDTSC) [s],0.0413,
+Runtime unhalted [s],0.0413,
+Clock [MHz],2393.7222,
+CPI,1.2258,
+L2 request rate,0.1439,
+L2 miss rate,0.0550,
+L2 miss ratio,0.3825,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.399271869 GHz,
+TABLE,Region T_Newton_Padrao_600,Group 1 Raw,L2CACHE,5
+Region Info,HWThread 3,
+RDTSC Runtime [s],3.037995,
+call count,1,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,10330400000
+CPU_CLK_UNHALTED_CORE,FIXC1,7172304000
+CPU_CLK_UNHALTED_REF,FIXC2,7189010000
+L2_TRANS_ALL_REQUESTS,PMC0,2933355000
+L2_RQSTS_MISS,PMC1,682877300
+TABLE,Region T_Newton_Padrao_600,Group 1 Metric,L2CACHE,7
+Metric,HWThread 3,
+Runtime (RDTSC) [s],3.0380,
+Runtime unhalted [s],2.9894,
+Clock [MHz],2393.6964,
+CPI,0.6943,
+L2 request rate,0.2840,
+L2 miss rate,0.0661,
+L2 miss ratio,0.2328,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.399271869 GHz,
+TABLE,Region Tderi_grad_Padrao_600,Group 1 Raw,L2CACHE,5
+Region Info,HWThread 3,
+RDTSC Runtime [s],0.002452,
+call count,50,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,7228271
+CPU_CLK_UNHALTED_CORE,FIXC1,6253041
+CPU_CLK_UNHALTED_REF,FIXC2,6267400
+L2_TRANS_ALL_REQUESTS,PMC0,96052
+L2_RQSTS_MISS,PMC1,24893
+TABLE,Region Tderi_grad_Padrao_600,Group 1 Metric,L2CACHE,7
+Metric,HWThread 3,
+Runtime (RDTSC) [s],0.0025,
+Runtime unhalted [s],0.0026,
+Clock [MHz],2393.7750,
+CPI,0.8651,
+L2 request rate,0.0133,
+L2 miss rate,0.0034,
+L2 miss ratio,0.2592,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.399271869 GHz,
+TABLE,Region Tderi_hes_padrao_600,Group 1 Raw,L2CACHE,5
+Region Info,HWThread 3,
+RDTSC Runtime [s],1.461503,
+call count,50,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,4230972000
+CPU_CLK_UNHALTED_CORE,FIXC1,3496035000
+CPU_CLK_UNHALTED_REF,FIXC2,3504176000
+L2_TRANS_ALL_REQUESTS,PMC0,11748530
+L2_RQSTS_MISS,PMC1,3010511
+TABLE,Region Tderi_hes_padrao_600,Group 1 Metric,L2CACHE,7
+Metric,HWThread 3,
+Runtime (RDTSC) [s],1.4615,
+Runtime unhalted [s],1.4571,
+Clock [MHz],2393.6978,
+CPI,0.8263,
+L2 request rate,0.0028,
+L2 miss rate,0.0007,
+L2 miss ratio,0.2562,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.399271869 GHz,
+TABLE,Region T_Sist_Lin_Padrao_600,Group 1 Raw,L2CACHE,5
+Region Info,HWThread 3,
+RDTSC Runtime [s],1.534081,
+call count,50,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,6091096000
+CPU_CLK_UNHALTED_CORE,FIXC1,3668026000
+CPU_CLK_UNHALTED_REF,FIXC2,3676572000
+L2_TRANS_ALL_REQUESTS,PMC0,2921153000
+L2_RQSTS_MISS,PMC1,679733600
+TABLE,Region T_Sist_Lin_Padrao_600,Group 1 Metric,L2CACHE,7
+Metric,HWThread 3,
+Runtime (RDTSC) [s],1.5341,
+Runtime unhalted [s],1.5288,
+Clock [MHz],2393.6949,
+CPI,0.6022,
+L2 request rate,0.4796,
+L2 miss rate,0.1116,
+L2 miss ratio,0.2327,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.399271869 GHz,
+TABLE,Region T_Newton_Inexato_600,Group 1 Raw,L2CACHE,5
+Region Info,HWThread 3,
+RDTSC Runtime [s],1.561761,
+call count,1,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,4350540000
+CPU_CLK_UNHALTED_CORE,FIXC1,3645397000
+CPU_CLK_UNHALTED_REF,FIXC2,3653885000
+L2_TRANS_ALL_REQUESTS,PMC0,28643560
+L2_RQSTS_MISS,PMC1,9256349
+TABLE,Region T_Newton_Inexato_600,Group 1 Metric,L2CACHE,7
+Metric,HWThread 3,
+Runtime (RDTSC) [s],1.5618,
+Runtime unhalted [s],1.5194,
+Clock [MHz],2393.6983,
+CPI,0.8379,
+L2 request rate,0.0066,
+L2 miss rate,0.0021,
+L2 miss ratio,0.3232,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.399271869 GHz,
+TABLE,Region Tderi_grad_Inexato_600,Group 1 Raw,L2CACHE,5
+Region Info,HWThread 3,
+RDTSC Runtime [s],0.002440,
+call count,50,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,7229333
+CPU_CLK_UNHALTED_CORE,FIXC1,6194855
+CPU_CLK_UNHALTED_REF,FIXC2,6211000
+L2_TRANS_ALL_REQUESTS,PMC0,95253
+L2_RQSTS_MISS,PMC1,24546
+TABLE,Region Tderi_grad_Inexato_600,Group 1 Metric,L2CACHE,7
+Metric,HWThread 3,
+Runtime (RDTSC) [s],0.0024,
+Runtime unhalted [s],0.0026,
+Clock [MHz],2393.0352,
+CPI,0.8569,
+L2 request rate,0.0132,
+L2 miss rate,0.0034,
+L2 miss ratio,0.2577,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.399271869 GHz,
+TABLE,Region Tderi_hes_Inexato_600,Group 1 Raw,L2CACHE,5
+Region Info,HWThread 3,
+RDTSC Runtime [s],1.462729,
+call count,50,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,4231760000
+CPU_CLK_UNHALTED_CORE,FIXC1,3498571000
+CPU_CLK_UNHALTED_REF,FIXC2,3506718000
+L2_TRANS_ALL_REQUESTS,PMC0,11716390
+L2_RQSTS_MISS,PMC1,3036815
+TABLE,Region Tderi_hes_Inexato_600,Group 1 Metric,L2CACHE,7
+Metric,HWThread 3,
+Runtime (RDTSC) [s],1.4627,
+Runtime unhalted [s],1.4582,
+Clock [MHz],2393.6977,
+CPI,0.8267,
+L2 request rate,0.0028,
+L2 miss rate,0.0007,
+L2 miss ratio,0.2592,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.399271869 GHz,
+TABLE,Region T_Sist_Lin_Inexato_600,Group 1 Raw,L2CACHE,5
+Region Info,HWThread 3,
+RDTSC Runtime [s],0.057966,
+call count,50,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,110475000
+CPU_CLK_UNHALTED_CORE,FIXC1,138968100
+CPU_CLK_UNHALTED_REF,FIXC2,139289500
+L2_TRANS_ALL_REQUESTS,PMC0,16501660
+L2_RQSTS_MISS,PMC1,6093728
+TABLE,Region T_Sist_Lin_Inexato_600,Group 1 Metric,L2CACHE,7
+Metric,HWThread 3,
+Runtime (RDTSC) [s],0.0580,
+Runtime unhalted [s],0.0579,
+Clock [MHz],2393.7357,
+CPI,1.2579,
+L2 request rate,0.1494,
+L2 miss rate,0.0552,
+L2 miss ratio,0.3693,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.399271869 GHz,
+TABLE,Region T_Newton_Padrao_1000,Group 1 Raw,L2CACHE,5
+Region Info,HWThread 3,
+RDTSC Runtime [s],17.928700,
+call count,1,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,38706660000
+CPU_CLK_UNHALTED_CORE,FIXC1,42244570000
+CPU_CLK_UNHALTED_REF,FIXC2,42343020000
+L2_TRANS_ALL_REQUESTS,PMC0,14027010000
+L2_RQSTS_MISS,PMC1,3334419000
+TABLE,Region T_Newton_Padrao_1000,Group 1 Metric,L2CACHE,7
+Metric,HWThread 3,
+Runtime (RDTSC) [s],17.9287,
+Runtime unhalted [s],17.6072,
+Clock [MHz],2393.6934,
+CPI,1.0914,
+L2 request rate,0.3624,
+L2 miss rate,0.0861,
+L2 miss ratio,0.2377,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.399271869 GHz,
+TABLE,Region Tderi_grad_Padrao_1000,Group 1 Raw,L2CACHE,5
+Region Info,HWThread 3,
+RDTSC Runtime [s],0.004210,
+call count,50,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,11906200
+CPU_CLK_UNHALTED_CORE,FIXC1,10309280
+CPU_CLK_UNHALTED_REF,FIXC2,10334000
+L2_TRANS_ALL_REQUESTS,PMC0,138899
+L2_RQSTS_MISS,PMC1,40243
+TABLE,Region Tderi_grad_Padrao_1000,Group 1 Metric,L2CACHE,7
+Metric,HWThread 3,
+Runtime (RDTSC) [s],0.0042,
+Runtime unhalted [s],0.0043,
+Clock [MHz],2393.5326,
+CPI,0.8659,
+L2 request rate,0.0117,
+L2 miss rate,0.0034,
+L2 miss ratio,0.2897,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.399271869 GHz,
+TABLE,Region Tderi_hes_padrao_1000,Group 1 Raw,L2CACHE,5
+Region Info,HWThread 3,
+RDTSC Runtime [s],4.156628,
+call count,50,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,11755060000
+CPU_CLK_UNHALTED_CORE,FIXC1,9861663000
+CPU_CLK_UNHALTED_REF,FIXC2,9884644000
+L2_TRANS_ALL_REQUESTS,PMC0,30221330
+L2_RQSTS_MISS,PMC1,8468372
+TABLE,Region Tderi_hes_padrao_1000,Group 1 Metric,L2CACHE,7
+Metric,HWThread 3,
+Runtime (RDTSC) [s],4.1566,
+Runtime unhalted [s],4.1103,
+Clock [MHz],2393.6938,
+CPI,0.8389,
+L2 request rate,0.0026,
+L2 miss rate,0.0007,
+L2 miss ratio,0.2802,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.399271869 GHz,
+TABLE,Region T_Sist_Lin_Padrao_1000,Group 1 Raw,L2CACHE,5
+Region Info,HWThread 3,
+RDTSC Runtime [s],13.720360,
+call count,50,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,26938410000
+CPU_CLK_UNHALTED_CORE,FIXC1,32369350000
+CPU_CLK_UNHALTED_REF,FIXC2,32444780000
+L2_TRANS_ALL_REQUESTS,PMC0,13996140000
+L2_RQSTS_MISS,PMC1,3325741000
+TABLE,Region T_Sist_Lin_Padrao_1000,Group 1 Metric,L2CACHE,7
+Metric,HWThread 3,
+Runtime (RDTSC) [s],13.7204,
+Runtime unhalted [s],13.4913,
+Clock [MHz],2393.6939,
+CPI,1.2016,
+L2 request rate,0.5196,
+L2 miss rate,0.1235,
+L2 miss ratio,0.2376,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.399271869 GHz,
+TABLE,Region T_Newton_Inexato_1000,Group 1 Raw,L2CACHE,5
+Region Info,HWThread 3,
+RDTSC Runtime [s],4.293880,
+call count,1,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,12070470000
+CPU_CLK_UNHALTED_CORE,FIXC1,10161690000
+CPU_CLK_UNHALTED_REF,FIXC2,10185360000
+L2_TRANS_ALL_REQUESTS,PMC0,85880700
+L2_RQSTS_MISS,PMC1,25420620
+TABLE,Region T_Newton_Inexato_1000,Group 1 Metric,L2CACHE,7
+Metric,HWThread 3,
+Runtime (RDTSC) [s],4.2939,
+Runtime unhalted [s],4.2353,
+Clock [MHz],2393.6961,
+CPI,0.8419,
+L2 request rate,0.0071,
+L2 miss rate,0.0021,
+L2 miss ratio,0.2960,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.399271869 GHz,
+TABLE,Region Tderi_grad_Inexato_1000,Group 1 Raw,L2CACHE,5
+Region Info,HWThread 3,
+RDTSC Runtime [s],0.004065,
+call count,50,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,11909810
+CPU_CLK_UNHALTED_CORE,FIXC1,10120580
+CPU_CLK_UNHALTED_REF,FIXC2,10144300
+L2_TRANS_ALL_REQUESTS,PMC0,127223
+L2_RQSTS_MISS,PMC1,35584
+TABLE,Region Tderi_grad_Inexato_1000,Group 1 Metric,L2CACHE,7
+Metric,HWThread 3,
+Runtime (RDTSC) [s],0.0041,
+Runtime unhalted [s],0.0042,
+Clock [MHz],2393.6618,
+CPI,0.8498,
+L2 request rate,0.0107,
+L2 miss rate,0.0030,
+L2 miss ratio,0.2797,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.399271869 GHz,
+TABLE,Region Tderi_hes_Inexato_1000,Group 1 Raw,L2CACHE,5
+Region Info,HWThread 3,
+RDTSC Runtime [s],4.078054,
+call count,50,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,11753350000
+CPU_CLK_UNHALTED_CORE,FIXC1,9741181000
+CPU_CLK_UNHALTED_REF,FIXC2,9763868000
+L2_TRANS_ALL_REQUESTS,PMC0,31497880
+L2_RQSTS_MISS,PMC1,8392536
+TABLE,Region Tderi_hes_Inexato_1000,Group 1 Metric,L2CACHE,7
+Metric,HWThread 3,
+Runtime (RDTSC) [s],4.0781,
+Runtime unhalted [s],4.0601,
+Clock [MHz],2393.6970,
+CPI,0.8288,
+L2 request rate,0.0027,
+L2 miss rate,0.0007,
+L2 miss ratio,0.2664,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.399271869 GHz,
+TABLE,Region T_Sist_Lin_Inexato_1000,Group 1 Raw,L2CACHE,5
+Region Info,HWThread 3,
+RDTSC Runtime [s],0.170861,
+call count,50,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,303957800
+CPU_CLK_UNHALTED_CORE,FIXC1,408062600
+CPU_CLK_UNHALTED_REF,FIXC2,409013900
+L2_TRANS_ALL_REQUESTS,PMC0,53825590
+L2_RQSTS_MISS,PMC1,16859820
+TABLE,Region T_Sist_Lin_Inexato_1000,Group 1 Metric,L2CACHE,7
+Metric,HWThread 3,
+Runtime (RDTSC) [s],0.1709,
+Runtime unhalted [s],0.1701,
+Clock [MHz],2393.6916,
+CPI,1.3425,
+L2 request rate,0.1771,
+L2 miss rate,0.0555,
+L2 miss ratio,0.3132,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.399271869 GHz,
+TABLE,Region T_Newton_Padrao_1024,Group 1 Raw,L2CACHE,5
+Region Info,HWThread 3,
+RDTSC Runtime [s],17.707380,
+call count,1,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,41193790000
+CPU_CLK_UNHALTED_CORE,FIXC1,42121130000
+CPU_CLK_UNHALTED_REF,FIXC2,42219270000
+L2_TRANS_ALL_REQUESTS,PMC0,15279290000
+L2_RQSTS_MISS,PMC1,3583015000
+TABLE,Region T_Newton_Padrao_1024,Group 1 Metric,L2CACHE,7
+Metric,HWThread 3,
+Runtime (RDTSC) [s],17.7074,
+Runtime unhalted [s],17.5558,
+Clock [MHz],2393.6947,
+CPI,1.0225,
+L2 request rate,0.3709,
+L2 miss rate,0.0870,
+L2 miss ratio,0.2345,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.399271869 GHz,
+TABLE,Region Tderi_grad_Padrao_1024,Group 1 Raw,L2CACHE,5
+Region Info,HWThread 3,
+RDTSC Runtime [s],0.004182,
+call count,50,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,12197470
+CPU_CLK_UNHALTED_CORE,FIXC1,10389880
+CPU_CLK_UNHALTED_REF,FIXC2,10413700
+L2_TRANS_ALL_REQUESTS,PMC0,126986
+L2_RQSTS_MISS,PMC1,33430
+TABLE,Region Tderi_grad_Padrao_1024,Group 1 Metric,L2CACHE,7
+Metric,HWThread 3,
+Runtime (RDTSC) [s],0.0042,
+Runtime unhalted [s],0.0043,
+Clock [MHz],2393.7838,
+CPI,0.8518,
+L2 request rate,0.0104,
+L2 miss rate,0.0027,
+L2 miss ratio,0.2633,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.399271869 GHz,
+TABLE,Region Tderi_hes_padrao_1024,Group 1 Raw,L2CACHE,5
+Region Info,HWThread 3,
+RDTSC Runtime [s],4.281242,
+call count,50,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,12324340000
+CPU_CLK_UNHALTED_CORE,FIXC1,10229100000
+CPU_CLK_UNHALTED_REF,FIXC2,10252920000
+L2_TRANS_ALL_REQUESTS,PMC0,32964480
+L2_RQSTS_MISS,PMC1,8784182
+TABLE,Region Tderi_hes_padrao_1024,Group 1 Metric,L2CACHE,7
+Metric,HWThread 3,
+Runtime (RDTSC) [s],4.2812,
+Runtime unhalted [s],4.2634,
+Clock [MHz],2393.6978,
+CPI,0.8300,
+L2 request rate,0.0027,
+L2 miss rate,0.0007,
+L2 miss ratio,0.2665,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.399271869 GHz,
+TABLE,Region T_Sist_Lin_Padrao_1024,Group 1 Raw,L2CACHE,5
+Region Info,HWThread 3,
+RDTSC Runtime [s],13.378190,
+call count,50,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,28855970000
+CPU_CLK_UNHALTED_CORE,FIXC1,31878660000
+CPU_CLK_UNHALTED_REF,FIXC2,31952940000
+L2_TRANS_ALL_REQUESTS,PMC0,15245710000
+L2_RQSTS_MISS,PMC1,3574042000
+TABLE,Region T_Sist_Lin_Padrao_1024,Group 1 Metric,L2CACHE,7
+Metric,HWThread 3,
+Runtime (RDTSC) [s],13.3782,
+Runtime unhalted [s],13.2868,
+Clock [MHz],2393.6944,
+CPI,1.1048,
+L2 request rate,0.5283,
+L2 miss rate,0.1239,
+L2 miss ratio,0.2344,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.399271869 GHz,
+TABLE,Region T_Newton_Inexato_1024,Group 1 Raw,L2CACHE,5
+Region Info,HWThread 3,
+RDTSC Runtime [s],4.488683,
+call count,1,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,12653910000
+CPU_CLK_UNHALTED_CORE,FIXC1,10642170000
+CPU_CLK_UNHALTED_REF,FIXC2,10666950000
+L2_TRANS_ALL_REQUESTS,PMC0,90774370
+L2_RQSTS_MISS,PMC1,26640990
+TABLE,Region T_Newton_Inexato_1024,Group 1 Metric,L2CACHE,7
+Metric,HWThread 3,
+Runtime (RDTSC) [s],4.4887,
+Runtime unhalted [s],4.4356,
+Clock [MHz],2393.6982,
+CPI,0.8410,
+L2 request rate,0.0072,
+L2 miss rate,0.0021,
+L2 miss ratio,0.2935,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.399271869 GHz,
+TABLE,Region Tderi_grad_Inexato_1024,Group 1 Raw,L2CACHE,5
+Region Info,HWThread 3,
+RDTSC Runtime [s],0.004166,
+call count,50,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,12196880
+CPU_CLK_UNHALTED_CORE,FIXC1,10385650
+CPU_CLK_UNHALTED_REF,FIXC2,10409400
+L2_TRANS_ALL_REQUESTS,PMC0,122796
+L2_RQSTS_MISS,PMC1,32287
+TABLE,Region Tderi_grad_Inexato_1024,Group 1 Metric,L2CACHE,7
+Metric,HWThread 3,
+Runtime (RDTSC) [s],0.0042,
+Runtime unhalted [s],0.0043,
+Clock [MHz],2393.7977,
+CPI,0.8515,
+L2 request rate,0.0101,
+L2 miss rate,0.0026,
+L2 miss ratio,0.2629,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.399271869 GHz,
+TABLE,Region Tderi_hes_Inexato_1024,Group 1 Raw,L2CACHE,5
+Region Info,HWThread 3,
+RDTSC Runtime [s],4.260035,
+call count,50,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,12321780000
+CPU_CLK_UNHALTED_CORE,FIXC1,10190370000
+CPU_CLK_UNHALTED_REF,FIXC2,10214100000
+L2_TRANS_ALL_REQUESTS,PMC0,33890740
+L2_RQSTS_MISS,PMC1,8753353
+TABLE,Region Tderi_hes_Inexato_1024,Group 1 Metric,L2CACHE,7
+Metric,HWThread 3,
+Runtime (RDTSC) [s],4.2600,
+Runtime unhalted [s],4.2473,
+Clock [MHz],2393.6977,
+CPI,0.8270,
+L2 request rate,0.0028,
+L2 miss rate,0.0007,
+L2 miss ratio,0.2583,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.399271869 GHz,
+TABLE,Region T_Sist_Lin_Inexato_1024,Group 1 Raw,L2CACHE,5
+Region Info,HWThread 3,
+RDTSC Runtime [s],0.183605,
+call count,50,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,318633800
+CPU_CLK_UNHALTED_CORE,FIXC1,439180700
+CPU_CLK_UNHALTED_REF,FIXC2,440204700
+L2_TRANS_ALL_REQUESTS,PMC0,56337800
+L2_RQSTS_MISS,PMC1,17726500
+TABLE,Region T_Sist_Lin_Inexato_1024,Group 1 Metric,L2CACHE,7
+Metric,HWThread 3,
+Runtime (RDTSC) [s],0.1836,
+Runtime unhalted [s],0.1830,
+Clock [MHz],2393.6907,
+CPI,1.3783,
+L2 request rate,0.1768,
+L2 miss rate,0.0556,
+L2 miss ratio,0.3146,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.399271869 GHz,
+TABLE,Region T_Newton_Padrao_2000,Group 1 Raw,L2CACHE,5
+Region Info,HWThread 3,
+RDTSC Runtime [s],145.181600,
+call count,1,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,255284800000
+CPU_CLK_UNHALTED_CORE,FIXC1,345279200000
+CPU_CLK_UNHALTED_REF,FIXC2,346089400000
+L2_TRANS_ALL_REQUESTS,PMC0,123387100000
+L2_RQSTS_MISS,PMC1,27312160000
+TABLE,Region T_Newton_Padrao_2000,Group 1 Metric,L2CACHE,7
+Metric,HWThread 3,
+Runtime (RDTSC) [s],145.1816,
+Runtime unhalted [s],143.9100,
+Clock [MHz],2393.6551,
+CPI,1.3525,
+L2 request rate,0.4833,
+L2 miss rate,0.1070,
+L2 miss ratio,0.2214,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.399271869 GHz,
+TABLE,Region Tderi_grad_Padrao_2000,Group 1 Raw,L2CACHE,5
+Region Info,HWThread 3,
+RDTSC Runtime [s],0.008199,
+call count,50,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,23605080
+CPU_CLK_UNHALTED_CORE,FIXC1,20063940
+CPU_CLK_UNHALTED_REF,FIXC2,20110500
+L2_TRANS_ALL_REQUESTS,PMC0,194045
+L2_RQSTS_MISS,PMC1,57917
+TABLE,Region Tderi_grad_Padrao_2000,Group 1 Metric,L2CACHE,7
+Metric,HWThread 3,
+Runtime (RDTSC) [s],0.0082,
+Runtime unhalted [s],0.0084,
+Clock [MHz],2393.7171,
+CPI,0.8500,
+L2 request rate,0.0082,
+L2 miss rate,0.0025,
+L2 miss ratio,0.2985,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.399271869 GHz,
+TABLE,Region Tderi_hes_padrao_2000,Group 1 Raw,L2CACHE,5
+Region Info,HWThread 3,
+RDTSC Runtime [s],16.404510,
+call count,50,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,47057260000
+CPU_CLK_UNHALTED_CORE,FIXC1,39143700000
+CPU_CLK_UNHALTED_REF,FIXC2,39234880000
+L2_TRANS_ALL_REQUESTS,PMC0,129169600
+L2_RQSTS_MISS,PMC1,34302110
+TABLE,Region Tderi_hes_padrao_2000,Group 1 Metric,L2CACHE,7
+Metric,HWThread 3,
+Runtime (RDTSC) [s],16.4045,
+Runtime unhalted [s],16.3148,
+Clock [MHz],2393.6961,
+CPI,0.8318,
+L2 request rate,0.0027,
+L2 miss rate,0.0007,
+L2 miss ratio,0.2656,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.399271869 GHz,
+TABLE,Region T_Sist_Lin_Padrao_2000,Group 1 Raw,L2CACHE,5
+Region Info,HWThread 3,
+RDTSC Runtime [s],128.722500,
+call count,50,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,208202200000
+CPU_CLK_UNHALTED_CORE,FIXC1,306111500000
+CPU_CLK_UNHALTED_REF,FIXC2,306830400000
+L2_TRANS_ALL_REQUESTS,PMC0,123257100000
+L2_RQSTS_MISS,PMC1,27277590000
+TABLE,Region T_Sist_Lin_Padrao_2000,Group 1 Metric,L2CACHE,7
+Metric,HWThread 3,
+Runtime (RDTSC) [s],128.7225,
+Runtime unhalted [s],127.5852,
+Clock [MHz],2393.6504,
+CPI,1.4703,
+L2 request rate,0.5920,
+L2 miss rate,0.1310,
+L2 miss ratio,0.2213,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.399271869 GHz,
+TABLE,Region T_Newton_Inexato_2000,Group 1 Raw,L2CACHE,5
+Region Info,HWThread 3,
+RDTSC Runtime [s],16.969960,
+call count,1,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,48239130000
+CPU_CLK_UNHALTED_CORE,FIXC1,40494410000
+CPU_CLK_UNHALTED_REF,FIXC2,40588710000
+L2_TRANS_ALL_REQUESTS,PMC0,357634900
+L2_RQSTS_MISS,PMC1,102445900
+TABLE,Region T_Newton_Inexato_2000,Group 1 Metric,L2CACHE,7
+Metric,HWThread 3,
+Runtime (RDTSC) [s],16.9700,
+Runtime unhalted [s],16.8778,
+Clock [MHz],2393.6976,
+CPI,0.8395,
+L2 request rate,0.0074,
+L2 miss rate,0.0021,
+L2 miss ratio,0.2865,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.399271869 GHz,
+TABLE,Region Tderi_grad_Inexato_2000,Group 1 Raw,L2CACHE,5
+Region Info,HWThread 3,
+RDTSC Runtime [s],0.008100,
+call count,50,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,23604370
+CPU_CLK_UNHALTED_CORE,FIXC1,19773120
+CPU_CLK_UNHALTED_REF,FIXC2,19819900
+L2_TRANS_ALL_REQUESTS,PMC0,176101
+L2_RQSTS_MISS,PMC1,46022
+TABLE,Region Tderi_grad_Inexato_2000,Group 1 Metric,L2CACHE,7
+Metric,HWThread 3,
+Runtime (RDTSC) [s],0.0081,
+Runtime unhalted [s],0.0082,
+Clock [MHz],2393.6090,
+CPI,0.8377,
+L2 request rate,0.0075,
+L2 miss rate,0.0019,
+L2 miss ratio,0.2613,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.399271869 GHz,
+TABLE,Region Tderi_hes_Inexato_2000,Group 1 Raw,L2CACHE,5
+Region Info,HWThread 3,
+RDTSC Runtime [s],16.231990,
+call count,50,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,47006180000
+CPU_CLK_UNHALTED_CORE,FIXC1,38825070000
+CPU_CLK_UNHALTED_REF,FIXC2,38915480000
+L2_TRANS_ALL_REQUESTS,PMC0,130643400
+L2_RQSTS_MISS,PMC1,33106540
+TABLE,Region Tderi_hes_Inexato_2000,Group 1 Metric,L2CACHE,7
+Metric,HWThread 3,
+Runtime (RDTSC) [s],16.2320,
+Runtime unhalted [s],16.1820,
+Clock [MHz],2393.6978,
+CPI,0.8260,
+L2 request rate,0.0028,
+L2 miss rate,0.0007,
+L2 miss ratio,0.2534,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.399271869 GHz,
+TABLE,Region T_Sist_Lin_Inexato_2000,Group 1 Raw,L2CACHE,5
+Region Info,HWThread 3,
+RDTSC Runtime [s],0.688295,
+call count,50,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,1207659000
+CPU_CLK_UNHALTED_CORE,FIXC1,1646390000
+CPU_CLK_UNHALTED_REF,FIXC2,1650228000
+L2_TRANS_ALL_REQUESTS,PMC0,226227500
+L2_RQSTS_MISS,PMC1,69118250
+TABLE,Region T_Sist_Lin_Inexato_2000,Group 1 Metric,L2CACHE,7
+Metric,HWThread 3,
+Runtime (RDTSC) [s],0.6883,
+Runtime unhalted [s],0.6862,
+Clock [MHz],2393.6918,
+CPI,1.3633,
+L2 request rate,0.1873,
+L2 miss rate,0.0572,
+L2 miss ratio,0.3055,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.399271869 GHz,
+TABLE,Region T_Newton_Padrao_2048,Group 1 Raw,L2CACHE,5
+Region Info,HWThread 3,
+RDTSC Runtime [s],145.005800,
+call count,1,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,272115200000
+CPU_CLK_UNHALTED_CORE,FIXC1,345902600000
+CPU_CLK_UNHALTED_REF,FIXC2,346708700000
+L2_TRANS_ALL_REQUESTS,PMC0,134321400000
+L2_RQSTS_MISS,PMC1,29215230000
+TABLE,Region T_Newton_Padrao_2048,Group 1 Metric,L2CACHE,7
+Metric,HWThread 3,
+Runtime (RDTSC) [s],145.0058,
+Runtime unhalted [s],144.1698,
+Clock [MHz],2393.6935,
+CPI,1.2712,
+L2 request rate,0.4936,
+L2 miss rate,0.1074,
+L2 miss ratio,0.2175,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.399271869 GHz,
+TABLE,Region Tderi_grad_Padrao_2048,Group 1 Raw,L2CACHE,5
+Region Info,HWThread 3,
+RDTSC Runtime [s],0.008325,
+call count,50,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,24166930
+CPU_CLK_UNHALTED_CORE,FIXC1,20319750
+CPU_CLK_UNHALTED_REF,FIXC2,20368400
+L2_TRANS_ALL_REQUESTS,PMC0,190309
+L2_RQSTS_MISS,PMC1,55012
+TABLE,Region Tderi_grad_Padrao_2048,Group 1 Metric,L2CACHE,7
+Metric,HWThread 3,
+Runtime (RDTSC) [s],0.0083,
+Runtime unhalted [s],0.0085,
+Clock [MHz],2393.5412,
+CPI,0.8408,
+L2 request rate,0.0079,
+L2 miss rate,0.0023,
+L2 miss ratio,0.2891,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.399271869 GHz,
+TABLE,Region Tderi_hes_padrao_2048,Group 1 Raw,L2CACHE,5
+Region Info,HWThread 3,
+RDTSC Runtime [s],17.039900,
+call count,50,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,49292380000
+CPU_CLK_UNHALTED_CORE,FIXC1,40740340000
+CPU_CLK_UNHALTED_REF,FIXC2,40835220000
+L2_TRANS_ALL_REQUESTS,PMC0,134992600
+L2_RQSTS_MISS,PMC1,34729670
+TABLE,Region Tderi_hes_padrao_2048,Group 1 Metric,L2CACHE,7
+Metric,HWThread 3,
+Runtime (RDTSC) [s],17.0399,
+Runtime unhalted [s],16.9803,
+Clock [MHz],2393.6972,
+CPI,0.8265,
+L2 request rate,0.0027,
+L2 miss rate,0.0007,
+L2 miss ratio,0.2573,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.399271869 GHz,
+TABLE,Region T_Sist_Lin_Padrao_2048,Group 1 Raw,L2CACHE,5
+Region Info,HWThread 3,
+RDTSC Runtime [s],127.913000,
+call count,50,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,222797000000
+CPU_CLK_UNHALTED_CORE,FIXC1,305138200000
+CPU_CLK_UNHALTED_REF,FIXC2,305849400000
+L2_TRANS_ALL_REQUESTS,PMC0,134185600000
+L2_RQSTS_MISS,PMC1,29180230000
+TABLE,Region T_Sist_Lin_Padrao_2048,Group 1 Metric,L2CACHE,7
+Metric,HWThread 3,
+Runtime (RDTSC) [s],127.9130,
+Runtime unhalted [s],127.1795,
+Clock [MHz],2393.6928,
+CPI,1.3696,
+L2 request rate,0.6023,
+L2 miss rate,0.1310,
+L2 miss ratio,0.2175,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.399271869 GHz,
+TABLE,Region T_Newton_Inexato_2048,Group 1 Raw,L2CACHE,5
+Region Info,HWThread 3,
+RDTSC Runtime [s],17.947020,
+call count,1,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,50585990000
+CPU_CLK_UNHALTED_CORE,FIXC1,42742800000
+CPU_CLK_UNHALTED_REF,FIXC2,42842360000
+L2_TRANS_ALL_REQUESTS,PMC0,371395200
+L2_RQSTS_MISS,PMC1,107795900
+TABLE,Region T_Newton_Inexato_2048,Group 1 Metric,L2CACHE,7
+Metric,HWThread 3,
+Runtime (RDTSC) [s],17.9470,
+Runtime unhalted [s],17.8149,
+Clock [MHz],2393.6963,
+CPI,0.8450,
+L2 request rate,0.0073,
+L2 miss rate,0.0021,
+L2 miss ratio,0.2902,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.399271869 GHz,
+TABLE,Region Tderi_grad_Inexato_2048,Group 1 Raw,L2CACHE,5
+Region Info,HWThread 3,
+RDTSC Runtime [s],0.008334,
+call count,50,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,24167980
+CPU_CLK_UNHALTED_CORE,FIXC1,20331610
+CPU_CLK_UNHALTED_REF,FIXC2,20379600
+L2_TRANS_ALL_REQUESTS,PMC0,184037
+L2_RQSTS_MISS,PMC1,50775
+TABLE,Region Tderi_grad_Inexato_2048,Group 1 Metric,L2CACHE,7
+Metric,HWThread 3,
+Runtime (RDTSC) [s],0.0083,
+Runtime unhalted [s],0.0085,
+Clock [MHz],2393.6220,
+CPI,0.8413,
+L2 request rate,0.0076,
+L2 miss rate,0.0021,
+L2 miss ratio,0.2759,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.399271869 GHz,
+TABLE,Region Tderi_hes_Inexato_2048,Group 1 Raw,L2CACHE,5
+Region Info,HWThread 3,
+RDTSC Runtime [s],17.157290,
+call count,50,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,49293990000
+CPU_CLK_UNHALTED_CORE,FIXC1,40961940000
+CPU_CLK_UNHALTED_REF,FIXC2,41057360000
+L2_TRANS_ALL_REQUESTS,PMC0,128412100
+L2_RQSTS_MISS,PMC1,34984870
+TABLE,Region Tderi_hes_Inexato_2048,Group 1 Metric,L2CACHE,7
+Metric,HWThread 3,
+Runtime (RDTSC) [s],17.1573,
+Runtime unhalted [s],17.0727,
+Clock [MHz],2393.6958,
+CPI,0.8310,
+L2 request rate,0.0026,
+L2 miss rate,0.0007,
+L2 miss ratio,0.2724,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.399271869 GHz,
+TABLE,Region T_Sist_Lin_Inexato_2048,Group 1 Raw,L2CACHE,5
+Region Info,HWThread 3,
+RDTSC Runtime [s],0.736421,
+call count,50,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,1266126000
+CPU_CLK_UNHALTED_CORE,FIXC1,1756812000
+CPU_CLK_UNHALTED_REF,FIXC2,1760904000
+L2_TRANS_ALL_REQUESTS,PMC0,242191600
+L2_RQSTS_MISS,PMC1,72567150
+TABLE,Region T_Sist_Lin_Inexato_2048,Group 1 Metric,L2CACHE,7
+Metric,HWThread 3,
+Runtime (RDTSC) [s],0.7364,
+Runtime unhalted [s],0.7322,
+Clock [MHz],2393.6964,
+CPI,1.3875,
+L2 request rate,0.1913,
+L2 miss rate,0.0573,
+L2 miss ratio,0.2996,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.399271869 GHz,
+TABLE,Region T_Newton_Padrao_3000,Group 1 Raw,L2CACHE,5
+Region Info,HWThread 3,
+RDTSC Runtime [s],466.236800,
+call count,1,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,798112900000
+CPU_CLK_UNHALTED_CORE,FIXC1,1112088000000
+CPU_CLK_UNHALTED_REF,FIXC2,1114680000000
+L2_TRANS_ALL_REQUESTS,PMC0,450293000000
+L2_RQSTS_MISS,PMC1,89564800000
+TABLE,Region T_Newton_Padrao_3000,Group 1 Metric,L2CACHE,7
+Metric,HWThread 3,
+Runtime (RDTSC) [s],466.2368,
+Runtime unhalted [s],463.5106,
+Clock [MHz],2393.6928,
+CPI,1.3934,
+L2 request rate,0.5642,
+L2 miss rate,0.1122,
+L2 miss ratio,0.1989,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.399271869 GHz,
+TABLE,Region Tderi_grad_Padrao_3000,Group 1 Raw,L2CACHE,5
+Region Info,HWThread 3,
+RDTSC Runtime [s],0.012287,
+call count,50,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,35304780
+CPU_CLK_UNHALTED_CORE,FIXC1,29667330
+CPU_CLK_UNHALTED_REF,FIXC2,29737000
+L2_TRANS_ALL_REQUESTS,PMC0,239695
+L2_RQSTS_MISS,PMC1,67696
+TABLE,Region Tderi_grad_Padrao_3000,Group 1 Metric,L2CACHE,7
+Metric,HWThread 3,
+Runtime (RDTSC) [s],0.0123,
+Runtime unhalted [s],0.0124,
+Clock [MHz],2393.6507,
+CPI,0.8403,
+L2 request rate,0.0068,
+L2 miss rate,0.0019,
+L2 miss ratio,0.2824,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.399271869 GHz,
+TABLE,Region Tderi_hes_padrao_3000,Group 1 Raw,L2CACHE,5
+Region Info,HWThread 3,
+RDTSC Runtime [s],36.740110,
+call count,50,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,105778900000
+CPU_CLK_UNHALTED_CORE,FIXC1,87777900000
+CPU_CLK_UNHALTED_REF,FIXC2,87982330000
+L2_TRANS_ALL_REQUESTS,PMC0,285450900
+L2_RQSTS_MISS,PMC1,74906250
+TABLE,Region Tderi_hes_padrao_3000,Group 1 Metric,L2CACHE,7
+Metric,HWThread 3,
+Runtime (RDTSC) [s],36.7401,
+Runtime unhalted [s],36.5852,
+Clock [MHz],2393.6971,
+CPI,0.8298,
+L2 request rate,0.0027,
+L2 miss rate,0.0007,
+L2 miss ratio,0.2624,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.399271869 GHz,
+TABLE,Region T_Sist_Lin_Padrao_3000,Group 1 Raw,L2CACHE,5
+Region Info,HWThread 3,
+RDTSC Runtime [s],429.438400,
+call count,50,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,692296600000
+CPU_CLK_UNHALTED_CORE,FIXC1,1024276000000
+CPU_CLK_UNHALTED_REF,FIXC2,1026663000000
+L2_TRANS_ALL_REQUESTS,PMC0,450006500000
+L2_RQSTS_MISS,PMC1,89489560000
+TABLE,Region T_Sist_Lin_Padrao_3000,Group 1 Metric,L2CACHE,7
+Metric,HWThread 3,
+Runtime (RDTSC) [s],429.4384,
+Runtime unhalted [s],426.9112,
+Clock [MHz],2393.6935,
+CPI,1.4795,
+L2 request rate,0.6500,
+L2 miss rate,0.1293,
+L2 miss ratio,0.1989,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.399271869 GHz,
+TABLE,Region T_Newton_Inexato_3000,Group 1 Raw,L2CACHE,5
+Region Info,HWThread 3,
+RDTSC Runtime [s],38.076590,
+call count,1,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,108519100000
+CPU_CLK_UNHALTED_CORE,FIXC1,91004790000
+CPU_CLK_UNHALTED_REF,FIXC2,91216700000
+L2_TRANS_ALL_REQUESTS,PMC0,916337400
+L2_RQSTS_MISS,PMC1,226083900
+TABLE,Region T_Newton_Inexato_3000,Group 1 Metric,L2CACHE,7
+Metric,HWThread 3,
+Runtime (RDTSC) [s],38.0766,
+Runtime unhalted [s],37.9302,
+Clock [MHz],2393.6980,
+CPI,0.8386,
+L2 request rate,0.0084,
+L2 miss rate,0.0021,
+L2 miss ratio,0.2467,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.399271869 GHz,
+TABLE,Region Tderi_grad_Inexato_3000,Group 1 Raw,L2CACHE,5
+Region Info,HWThread 3,
+RDTSC Runtime [s],0.012134,
+call count,50,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,35306440
+CPU_CLK_UNHALTED_CORE,FIXC1,29430560
+CPU_CLK_UNHALTED_REF,FIXC2,29499100
+L2_TRANS_ALL_REQUESTS,PMC0,223019
+L2_RQSTS_MISS,PMC1,60931
+TABLE,Region Tderi_grad_Inexato_3000,Group 1 Metric,L2CACHE,7
+Metric,HWThread 3,
+Runtime (RDTSC) [s],0.0121,
+Runtime unhalted [s],0.0123,
+Clock [MHz],2393.6973,
+CPI,0.8336,
+L2 request rate,0.0063,
+L2 miss rate,0.0017,
+L2 miss ratio,0.2732,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.399271869 GHz,
+TABLE,Region Tderi_hes_Inexato_3000,Group 1 Raw,L2CACHE,5
+Region Info,HWThread 3,
+RDTSC Runtime [s],36.490340,
+call count,50,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,105770300000
+CPU_CLK_UNHALTED_CORE,FIXC1,87307790000
+CPU_CLK_UNHALTED_REF,FIXC2,87511080000
+L2_TRANS_ALL_REQUESTS,PMC0,294871000
+L2_RQSTS_MISS,PMC1,74284230
+TABLE,Region Tderi_hes_Inexato_3000,Group 1 Metric,L2CACHE,7
+Metric,HWThread 3,
+Runtime (RDTSC) [s],36.4903,
+Runtime unhalted [s],36.3893,
+Clock [MHz],2393.6983,
+CPI,0.8254,
+L2 request rate,0.0028,
+L2 miss rate,0.0007,
+L2 miss ratio,0.2519,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.399271869 GHz,
+TABLE,Region T_Sist_Lin_Inexato_3000,Group 1 Raw,L2CACHE,5
+Region Info,HWThread 3,
+RDTSC Runtime [s],1.532091,
+call count,50,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,2711358000
+CPU_CLK_UNHALTED_CORE,FIXC1,3663775000
+CPU_CLK_UNHALTED_REF,FIXC2,3672311000
+L2_TRANS_ALL_REQUESTS,PMC0,620496000
+L2_RQSTS_MISS,PMC1,151529400
+TABLE,Region T_Sist_Lin_Inexato_3000,Group 1 Metric,L2CACHE,7
+Metric,HWThread 3,
+Runtime (RDTSC) [s],1.5321,
+Runtime unhalted [s],1.5270,
+Clock [MHz],2393.6949,
+CPI,1.3513,
+L2 request rate,0.2289,
+L2 miss rate,0.0559,
+L2 miss ratio,0.2442,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.399271869 GHz,
+TABLE,Region T_Newton_Padrao_4096,Group 1 Raw,L2CACHE,5
+Region Info,HWThread 3,
+RDTSC Runtime [s],1096.310000,
+call count,1,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,1947402000000
+CPU_CLK_UNHALTED_CORE,FIXC1,2620289000000
+CPU_CLK_UNHALTED_REF,FIXC2,2626395000000
+L2_TRANS_ALL_REQUESTS,PMC0,1156650000000
+L2_RQSTS_MISS,PMC1,225365400000
+TABLE,Region T_Newton_Padrao_4096,Group 1 Metric,L2CACHE,7
+Metric,HWThread 3,
+Runtime (RDTSC) [s],1096.3100,
+Runtime unhalted [s],1092.1184,
+Clock [MHz],2393.6939,
+CPI,1.3455,
+L2 request rate,0.5939,
+L2 miss rate,0.1157,
+L2 miss ratio,0.1948,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.399271869 GHz,
+TABLE,Region Tderi_grad_Padrao_4096,Group 1 Raw,L2CACHE,5
+Region Info,HWThread 3,
+RDTSC Runtime [s],0.016610,
+call count,50,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,48131070
+CPU_CLK_UNHALTED_CORE,FIXC1,40076400
+CPU_CLK_UNHALTED_REF,FIXC2,40170000
+L2_TRANS_ALL_REQUESTS,PMC0,285384
+L2_RQSTS_MISS,PMC1,77704
+TABLE,Region Tderi_grad_Padrao_4096,Group 1 Metric,L2CACHE,7
+Metric,HWThread 3,
+Runtime (RDTSC) [s],0.0166,
+Runtime unhalted [s],0.0167,
+Clock [MHz],2393.6813,
+CPI,0.8327,
+L2 request rate,0.0059,
+L2 miss rate,0.0016,
+L2 miss ratio,0.2723,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.399271869 GHz,
+TABLE,Region Tderi_hes_padrao_4096,Group 1 Raw,L2CACHE,5
+Region Info,HWThread 3,
+RDTSC Runtime [s],68.039500,
+call count,50,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,197171500000
+CPU_CLK_UNHALTED_CORE,FIXC1,162759700000
+CPU_CLK_UNHALTED_REF,FIXC2,163138700000
+L2_TRANS_ALL_REQUESTS,PMC0,548484000
+L2_RQSTS_MISS,PMC1,137967300
+TABLE,Region Tderi_hes_padrao_4096,Group 1 Metric,L2CACHE,7
+Metric,HWThread 3,
+Runtime (RDTSC) [s],68.0395,
+Runtime unhalted [s],67.8371,
+Clock [MHz],2393.6979,
+CPI,0.8255,
+L2 request rate,0.0028,
+L2 miss rate,0.0007,
+L2 miss ratio,0.2515,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.399271869 GHz,
+TABLE,Region T_Sist_Lin_Padrao_4096,Group 1 Raw,L2CACHE,5
+Region Info,HWThread 3,
+RDTSC Runtime [s],1028.209000,
+call count,50,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,1750180000000
+CPU_CLK_UNHALTED_CORE,FIXC1,2457484000000
+CPU_CLK_UNHALTED_REF,FIXC2,2463211000000
+L2_TRANS_ALL_REQUESTS,PMC0,1156101000000
+L2_RQSTS_MISS,PMC1,225227100000
+TABLE,Region T_Sist_Lin_Padrao_4096,Group 1 Metric,L2CACHE,7
+Metric,HWThread 3,
+Runtime (RDTSC) [s],1028.2090,
+Runtime unhalted [s],1024.2624,
+Clock [MHz],2393.6935,
+CPI,1.4041,
+L2 request rate,0.6606,
+L2 miss rate,0.1287,
+L2 miss ratio,0.1948,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.399271869 GHz,
+TABLE,Region T_Newton_Inexato_4096,Group 1 Raw,L2CACHE,5
+Region Info,HWThread 3,
+RDTSC Runtime [s],70.950270,
+call count,1,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,202274000000
+CPU_CLK_UNHALTED_CORE,FIXC1,169641900000
+CPU_CLK_UNHALTED_REF,FIXC2,170036900000
+L2_TRANS_ALL_REQUESTS,PMC0,1718908000
+L2_RQSTS_MISS,PMC1,424581800
+TABLE,Region T_Newton_Inexato_4096,Group 1 Metric,L2CACHE,7
+Metric,HWThread 3,
+Runtime (RDTSC) [s],70.9503,
+Runtime unhalted [s],70.7056,
+Clock [MHz],2393.6983,
+CPI,0.8387,
+L2 request rate,0.0085,
+L2 miss rate,0.0021,
+L2 miss ratio,0.2470,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.399271869 GHz,
+TABLE,Region Tderi_grad_Inexato_4096,Group 1 Raw,L2CACHE,5
+Region Info,HWThread 3,
+RDTSC Runtime [s],0.016581,
+call count,50,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,48130150
+CPU_CLK_UNHALTED_CORE,FIXC1,40034860
+CPU_CLK_UNHALTED_REF,FIXC2,40128000
+L2_TRANS_ALL_REQUESTS,PMC0,290688
+L2_RQSTS_MISS,PMC1,81103
+TABLE,Region Tderi_grad_Inexato_4096,Group 1 Metric,L2CACHE,7
+Metric,HWThread 3,
+Runtime (RDTSC) [s],0.0166,
+Runtime unhalted [s],0.0167,
+Clock [MHz],2393.7030,
+CPI,0.8318,
+L2 request rate,0.0060,
+L2 miss rate,0.0017,
+L2 miss ratio,0.2790,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.399271869 GHz,
+TABLE,Region Tderi_hes_Inexato_4096,Group 1 Raw,L2CACHE,5
+Region Info,HWThread 3,
+RDTSC Runtime [s],68.035940,
+call count,50,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,197174700000
+CPU_CLK_UNHALTED_CORE,FIXC1,162770200000
+CPU_CLK_UNHALTED_REF,FIXC2,163149200000
+L2_TRANS_ALL_REQUESTS,PMC0,550517800
+L2_RQSTS_MISS,PMC1,138400900
+TABLE,Region Tderi_hes_Inexato_4096,Group 1 Metric,L2CACHE,7
+Metric,HWThread 3,
+Runtime (RDTSC) [s],68.0359,
+Runtime unhalted [s],67.8415,
+Clock [MHz],2393.6983,
+CPI,0.8255,
+L2 request rate,0.0028,
+L2 miss rate,0.0007,
+L2 miss ratio,0.2514,
+STRUCT,Info,3
+CPU name:,Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz,
+CPU type:,Intel Kabylake processor,
+CPU clock:,2.399271869 GHz,
+TABLE,Region T_Sist_Lin_Inexato_4096,Group 1 Raw,L2CACHE,5
+Region Info,HWThread 3,
+RDTSC Runtime [s],2.854638,
+call count,50,
+Event,Counter,HWThread 3
+INSTR_RETIRED_ANY,FIXC0,5048578000
+CPU_CLK_UNHALTED_CORE,FIXC1,6826981000
+CPU_CLK_UNHALTED_REF,FIXC2,6842899000
+L2_TRANS_ALL_REQUESTS,PMC0,1167166000
+L2_RQSTS_MISS,PMC1,285845000
+TABLE,Region T_Sist_Lin_Inexato_4096,Group 1 Metric,L2CACHE,7
+Metric,HWThread 3,
+Runtime (RDTSC) [s],2.8546,
+Runtime unhalted [s],2.8454,
+Clock [MHz],2393.6907,
+CPI,1.3523,
+L2 request rate,0.2312,
+L2 miss rate,0.0566,
+L2 miss ratio,0.2449,
