@@ -15,16 +15,16 @@
 #include "utils.h"
 
 //função para aplicar o pivoteamento na matriz hessiana
-void pivot(SistLinear_t *SL, double**hes, double * grad, int i) {
+void pivot(int n, double**hes, double * grad, int i) {
   double max = fabs(hes[i][i]);
   int max_i = i;
 
   //verifica qual posição tem o maior valor na coluna i, linha j (i+1)
-  for (int j = i+1; j < SL->num_v; ++j) {
+  for (int j = i+1; j < n; ++j) {
     double v = fabs(hes[j][i]);
     if (v > max) {
-      max = v;
-      max_i = j;
+      max = v;        // NAO DA PRA TIRAR ESSE IF
+      max_i = j;      // POIS ESSAS DUAS VARIAVEIS PODEM MUDAR MAIS DE UMA VEZ
     }
   }
 
@@ -41,26 +41,26 @@ void pivot(SistLinear_t *SL, double**hes, double * grad, int i) {
 } 
 
 //função para calcular o delta
-void retrossubs(SistLinear_t *SL, double *delta, double**hes, double * grad) {
-  for (int i = SL->num_v-1; i >=0; --i) {
-    delta[i] = grad[i];
-    for (int j = i+1; j < SL->num_v; j++)
+void retrossubs(int n, double *delta, double**hes, double * grad) {
+  for (int i = n-1; i >=0; --i) {
+    delta[i] = grad[i];           // NAO DA PARA FAZER LOOP UNROLLING
+    for (int j = i+1; j < n; j++) // POIS DELTA[I] MUDA DE UM EM UM
       delta[i] -= hes[i][j] * delta[j];
     delta[i] /= hes[i][i];
   }
 }
 
 //função para triangularizar a matriz hessiana
-void triang(SistLinear_t *SL, double**hes, double * grad) {
+void triang(int n, double**hes, double * grad) {
   double m = 0.0;
-  for (int i = 0; i < SL->num_v && (!isnan(m)); ++i) {
-    pivot(SL, hes, grad, i);
-    for (int k = i+1; k < SL->num_v && (!isnan(m)); ++k) {
+  for (int i = 0; i < n && (!isnan(m)); ++i) {
+    pivot(n, hes, grad, i);
+    for (int k = i+1; k < n && (!isnan(m)); ++k) {
       double m = hes[k][i] / hes[i][i];
       
-      hes[k][i] = 0.0;
+      hes[k][i] = 0.0;                // DEPENDENCI DE DADOS
 
-      for (int j = i+1; j < SL->num_v; ++j)
+      for (int j = i+1; j < n; ++j)
         hes[k][j] -= hes[i][j] * m;
       grad[k] -= grad[i] * m;
     }
@@ -70,9 +70,9 @@ void triang(SistLinear_t *SL, double**hes, double * grad) {
 }
 
 //função com a chamada para o procedimento eliminação de gauss
-double* eliminacaoGauss(SistLinear_t *SL, double *delta, double**hes, double * grad) {
-    triang(SL, hes, grad);
-    retrossubs(SL, delta, hes, grad);
+double* eliminacaoGauss(int n, double *delta, double**hes, double * grad) {
+    triang(n, hes, grad);
+    retrossubs(n, delta, hes, grad);
     return delta;
 }
 
@@ -152,7 +152,7 @@ double ** Newton_Padrao(SistLinear_t *SL, double *TderivadasEG, double *TslEG, d
     double tTotal = timestamp();
     name = markerName("T_Sist_Lin_Padrao", SL->num_v);
     LIKWID_MARKER_START(name);
-    delta = eliminacaoGauss(SL, delta, m_aux, grad);
+    delta = eliminacaoGauss(SL->num_v, delta, m_aux, grad);
     LIKWID_MARKER_STOP(name);
     *TslEG += timestamp() - tTotal;
 

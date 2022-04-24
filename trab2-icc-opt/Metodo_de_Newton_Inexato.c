@@ -16,28 +16,27 @@ GRR20186075
 #include "utils.h"
 
 //Recebe os independentes da iteração e retorna os valores convergindo para a raiz
-double * calcula_independentes(SistLinear_t *SL, double **m_aux, double *grad, double * res)
+double * calcula_independentes(int n, double **m_aux, double *grad, double * res)
 {
   double result = 0.0;
   //Vetor que guarda os valores x1 .. xn
-  double *indep = (double*) calloc(SL->num_v, sizeof(double));
+  double *indep = (double*) calloc(n, sizeof(double));
   if (!(indep)){
-    free(SL);
     printf("ERRO");
     return NULL;
   }
-  for (int i = 0; i < SL->num_v; i++)
+  for (int i = 0; i < n; i++)
     indep [i] = res[i];
 
   double m = 0.0;
 
-  for(int i = 0; i < SL->num_v && !isnan(m); i++){     //Alterna os valores x1 .. xn para cálculo dos seus resultados
-    for(int j = 0; j < SL->num_v; j++)
+  for(int i = 0; i < n && !isnan(m); i++){     //Alterna os valores x1 .. xn para cálculo dos seus resultados
+    for(int j = 0; j < n; j++)
       result += m_aux[i][j] * indep[j];   //Calcula xi, avaliando os outros termos do poinômio de acordo com indep[]
     result -= m_aux[i][i] * indep[i];
     result = grad[i] - result; 
-    m = m_aux[i][i];
-    result /= m;
+    m = m_aux[i][i];                      // NAO DA PARA FAZER LOOP UNROLLING
+    result /= m;                          // DEVIDO A DEPENDENCIA DO PRIMEIRO FOR PARA OUTRAS VARIAVEIS
     indep[i] = result;                    //Guarda o resulado de xi para o calculo de xi+1
     result = 0.0; 
   }
@@ -47,11 +46,10 @@ double * calcula_independentes(SistLinear_t *SL, double **m_aux, double *grad, d
 }
 
 // Método Gauss-Seidel para resolução de sistemas lineares
-double * gaussSeidel(SistLinear_t *SL, double **m_aux, double *grad)
+double * gaussSeidel(int num_v, double epsilon, double **m_aux, double *grad)
 {
-  double *res = (double*) calloc(SL->num_v, sizeof(double));
+  double *res = (double*) calloc(num_v, sizeof(double));
   if (!(res)){
-    free(SL);
     printf("ERRO");
     return NULL;
   }
@@ -63,19 +61,19 @@ double * gaussSeidel(SistLinear_t *SL, double **m_aux, double *grad)
 
   do{
     //Função que calcula valores de x1 .. xn da próxima iteração
-    prox_res = calcula_independentes(SL, m_aux, grad, res);
-    for(int j = 0; j < SL->num_v; j++){
+    prox_res = calcula_independentes(num_v, m_aux, grad, res);
+    for(int j = 0; j < num_v; j++){
       sub = prox_res[j] - res[j];
       if(sub >= num_maior){
-        num_maior = sub;
-      }
+        num_maior = sub;        // NAO DA PRA TIRAR ESSE IF POIS NUM_MAIOR 
+      }                         // PODE MUDAR MAIS DE UMA VEZ
     }
     free(res);
     res = prox_res;  
     
     i++;
   //Critério de parada, vai no máximo até 50 iterações
-  }while((i <= 50) && (num_maior > SL->epsilon));
+  }while((i <= 50) && (num_maior > epsilon));
 
   return res;
 }
@@ -142,8 +140,8 @@ double ** Newton_Inexato(SistLinear_t *SL, double *TderivadasGS, double * TlsGS,
       free(grad);
       for (int l = i+1; l < SL->max_iter+1; l++)
         for(int z = 0; z < SL->num_v; z++)
-          m_res[l][z] = NAN;
-      return m_res;
+          m_res[l][z] = NAN;                // NAO DA PRA TIRAR ESSE IF POIS
+      return m_res;                         // POIS O METODO MANDA TER UM TESTE AQUI
     }
     
     double * delta;
@@ -152,7 +150,7 @@ double ** Newton_Inexato(SistLinear_t *SL, double *TderivadasGS, double * TlsGS,
     double tTotal = timestamp();
     name = markerName("T_Sist_Lin_Inexato", SL->num_v);
     LIKWID_MARKER_START(name);
-    delta = gaussSeidel(SL, m_aux, grad);
+    delta = gaussSeidel(SL->num_v, SL->epsilon, m_aux, grad);
     LIKWID_MARKER_STOP(name);
     *TlsGS += timestamp() - tTotal;
 
@@ -177,7 +175,7 @@ double ** Newton_Inexato(SistLinear_t *SL, double *TderivadasGS, double * TlsGS,
       free(grad);
       for (int l = i+1; l < SL->max_iter; l++)
         for(int z = 0; z < SL->num_v; z++)
-          m_res[l+1][z] = NAN;
+          m_res[l+1][z] = NAN;                // IDEM PRIMEIRO IF
       return m_res;
     }
     free(grad);

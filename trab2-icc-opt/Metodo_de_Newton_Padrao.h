@@ -11,16 +11,16 @@
 #include "SistLinear.h"
 
 //função para aplicar o pivoteamento na matriz hessiana
-void pivot(SistLinear_t *SL, double**hes, double * grad, int i);
+void pivot(int n, double**hes, double * grad, int i);
 
 //função para calcular o delta
-void retrossubs(SistLinear_t *SL, double *delta, double**hes, double * grad);
+void retrossubs(int n, double *delta, double**hes, double * grad);
 
 //função para triangularizar a matriz hessiana
-void triang(SistLinear_t *SL, double**hes, double * grad);
+void triang(int n, double**hes, double * grad);
 
 //função com a chamada para o procedimento eliminação de gauss
-double* eliminacaoGauss(SistLinear_t *SL, double *delta, double**hes, double * grad);
+double* eliminacaoGauss(int n, double *delta, double**hes, double * grad);
 
 //função principal para o metodo newton padrão
 double ** Newton_Padrao(SistLinear_t *SL, double *TderivadasEG, double *TslEG, double ** m_aux);
