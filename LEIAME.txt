@@ -22,7 +22,7 @@ Método de Newton Modificado:
 na função triangLU que não deveria estar la, e ele funcionava pois tihna uma interação no vetor grad que desfazia o erro.
 
 Método de Newton Inexato:
-///////////////////////////////////////////////////////////////////// Erick
+//////////////////////////////////////////////////////////////////// Erick
 
 *EXECUÇÃO*
 O programa foi implementado para ler arquivos de entrada no padrão apresentado nas expecificações do trabalho. O código compilado gera um executável newtonPC.
