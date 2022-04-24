@@ -41,7 +41,7 @@ double * calcula_independentes(int n, double **m_aux, double *grad, double * res
     result = 0.0; 
   }
   if (isnan(m))                           //Confere se não é divisão por zero
-    printf("ERRO: NAN\n");  
+    printf("ERRO: NAN\n");                // TIRANDO IF DO FOR
   return indep;
 }
 

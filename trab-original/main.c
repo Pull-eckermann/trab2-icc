@@ -18,8 +18,6 @@
 #include "Metodo_de_Newton_Padrao.h"
 #include "Rosenbrock.h"
 
-//likwid-perfctr -C 3 -g L3 -g L2CACHE -g FLOPS_DP -g FLOPS_AVX -g CLOCK -m -o teste.csv ./newtonPC < funcoes.dat
-
 int main (){
   LIKWID_MARKER_INIT;
   SistLinear_t *SL;

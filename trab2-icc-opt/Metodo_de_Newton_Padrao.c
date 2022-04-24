@@ -58,14 +58,14 @@ void triang(int n, double**hes, double * grad) {
     for (int k = i+1; k < n && (!isnan(m)); ++k) {
       double m = hes[k][i] / hes[i][i];
       
-      hes[k][i] = 0.0;                // DEPENDENCI DE DADOS
+      hes[k][i] = 0.0;                // DEPENDENCIA DE DADOS
 
       for (int j = i+1; j < n; ++j)
         hes[k][j] -= hes[i][j] * m;
       grad[k] -= grad[i] * m;
     }
   }
-  if (isnan(m))
+  if (isnan(m))                       // IF AGORA ESTA FORA DO FOR
     printf("ERRO: NAN\n");
 }
 
