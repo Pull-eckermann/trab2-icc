@@ -1,0 +1,34 @@
+//OTIMIZAÇÃO DOS MÉTODOS DE NEWTON PARA RESOLUÇÃO DE SISTEMAS NÃO LINEARES//
+
+*ALUNOS*
+Anderson Aparecido do Carmo Frasão
+GRR 20204069
+
+Erick Eckermann Cardoso
+GRR20186075
+
+
+*OBJETIVO*
+O objetivo otmizar os codigos implementados no trabalho 1 (os métodos iterativos de Newton).
+
+Foram foram otimizadas duas variantes desse método em linguagem C:
+- Método Newton Padrão: Resolve o sistema linear de cada iteração utilizando o método de eliminação de Gauss;
+- Método Newton Inexato: Resolve o sistema linear de cada iteração utilizando o método de Gauss-Seidell com no máximo 50 iterações;
+
+
+*BUGS ARRUMADOS*
+Método de Newton Modificado:
+    Mesmo não ultilizando a lib Newton Modificado, foi arrumado o trecho que estava incompativel com o codigos correto. Havia uma soma dos multiplicadores 
+na função triangLU que não deveria estar la, e ele funcionava pois tihna uma interação no vetor grad que desfazia o erro.
+
+Método de Newton Inexato:
+///////////////////////////////////////////////////////////////////// Erick
+
+*EXECUÇÃO*
+O programa foi implementado para ler arquivos de entrada no padrão apresentado nas expecificações do trabalho. O código compilado gera um executável newtonPC.
+Ao ser executado com um arquivo de entrada, o programa imprime os resultados no próprio terminal, seguindo o padrão de impressão como expecificado.
+
+Para compilar, executar o código e gerar os graficos
+digite o comando: ~$sh geral.sh
+
+(esse script faz tudo automaticamente)
