@@ -22,7 +22,7 @@ Método de Newton Modificado:
 na função triangLU que não deveria estar la, e ele funcionava pois tihna uma interação no vetor grad que desfazia o erro.
 
 Método de Newton Inexato:
-//////////////////////////////////////////////////////////////////// Erick
+    Foram realizadas mudanças na estrutura do código para corrigir o erro no método de resolução do sistema linear Gauss-seidel. O código original apresentava um erro no método de parada onde a subtração de res e prox_res sempre era nula, fazendo com que o algoritmo sempre rodasse as 50 iterações. O problema constava na função calculaIndependentes, onde o ponteiro passado por referência era copiado para um ponteiro local, porém não os valores apontados pelo ponteiro mas sim o próprio endereço, fazendo com que a função alterasse diretamente os valores apontados pelo ponteiro passado por referência. Isso fazia com que na função Gauss-Seidel a subtração de res e prox_res sempre fosse nula, pois prox_res recebe res em determinado ponto. Para corrigir foi feita alteração na estrutura onde na função calculaIndependentes um novo ponteiro é alocado e retornado, e para ele são copiados os valores apontados pelo parâmetro de referência.
 
 *EXECUÇÃO*
 O programa foi implementado para ler arquivos de entrada no padrão apresentado nas expecificações do trabalho. O código compilado gera um executável newtonPC.
