@@ -105,11 +105,11 @@ double ** Newton_Padrao(SistLinear_t *SL, double *TderivadasEG, double *TslEG, d
   {
     double aux = 0.0;
     //atualiza o gradiente e a hessiana
-    char* name = markerName("Tderi_grad_Padrao", SL->num_v);
+    char* name = markerName("Tderi_grad_Padrao_NOpt", SL->num_v);
     LIKWID_MARKER_START(name);
     double * grad = calc_grad(SL, SL->Xeg, TderivadasEG);
     LIKWID_MARKER_STOP(name);
-    name = markerName("Tderi_hes_padrao", SL->num_v);
+    name = markerName("Tderi_hes_Padrao_NOpt", SL->num_v);
     LIKWID_MARKER_START(name);
     calc_hes(SL, SL->Xeg, TderivadasEG, m_aux);
     LIKWID_MARKER_STOP(name);
@@ -136,7 +136,7 @@ double ** Newton_Padrao(SistLinear_t *SL, double *TderivadasEG, double *TslEG, d
 
     //calcula o vetor delta e o tempo de execução do calculo
     double tTotal = timestamp();
-    name = markerName("T_Sist_Lin_Padrao", SL->num_v);
+    name = markerName("T_Sist_Lin_Padrao_NOpt", SL->num_v);
     LIKWID_MARKER_START(name);
     delta = eliminacaoGauss(SL, delta, m_aux, grad);
     LIKWID_MARKER_STOP(name);

@@ -106,11 +106,11 @@ double ** Newton_Inexato(SistLinear_t *SL, double *TderivadasGS, double * TlsGS,
     double aux = 0.0;
 
     //atualiza o vetor gradiente e a matriz hessiana
-    char* name = markerName("Tderi_grad_Inexato", SL->num_v);
+    char* name = markerName("Tderi_grad_Inexato_NOpt", SL->num_v);
     LIKWID_MARKER_START(name);
     double * grad = calc_grad(SL, SL->Xgs, TderivadasGS);
     LIKWID_MARKER_STOP(name);
-    name = markerName("Tderi_hes_Inexato", SL->num_v);
+    name = markerName("Tderi_hes_Inexato_NOpt", SL->num_v);
     LIKWID_MARKER_START(name);
     calc_hes(SL, SL->Xgs, TderivadasGS, m_aux);
     LIKWID_MARKER_STOP(name);
@@ -132,7 +132,7 @@ double ** Newton_Inexato(SistLinear_t *SL, double *TderivadasGS, double * TlsGS,
     
     //calcula o vetor delta e o tempo de execução do calculo
     double tTotal = timestamp();
-    name = markerName("T_Sist_Lin_Inexato", SL->num_v);
+    name = markerName("T_Sist_Lin_Inexato_NOpt", SL->num_v);
     LIKWID_MARKER_START(name);
     delta = gaussSeidel(SL, m_aux, grad);
     LIKWID_MARKER_STOP(name);

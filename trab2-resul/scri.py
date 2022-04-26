@@ -28,11 +28,14 @@ pandas[1]: https://pandas.pydata.org/docs/getting_started/intro_tutorials/04_plo
 pyplot[0]: https://matplotlib.org/3.1.1/tutorials/introductory/pyplot.html#sphx-glr-tutorials-introductory-pyplot-py
 """
 
-def plotter(input_file, out_plot, nameMetodo, metrica, log, save_plot):
+def plotter(input_file, out_plot, nameMetodo, metrica, log, save_plot, dp):
     #saida_grafico = out_plot
     input_csv = open(input_file, 'r')
 
-    legenda = ["Total Metodo", "Gradiente", "Hessiana", "Sist. Linear"]
+    if dp == 0:
+        legenda = ["Não Otimizado", "Otimizado"]
+    if dp == 1:
+        legenda = ["DP Não Otimizado", "DP Otimizado", "AVX Não Otimizado", "AVX Otimizado"]
 
     # diferentes dataframes
     df = pd.read_csv(sep=';', filepath_or_buffer=input_csv)
@@ -66,65 +69,83 @@ def plotter(input_file, out_plot, nameMetodo, metrica, log, save_plot):
         
     
 if __name__ == "__main__":
-    # metrica eh tempo
-    TnoOptP = '../trab-original/noOPT_CLOCKPadrao.csv'
-    TnoOptI = '../trab-original/noOPT_CLOCKInexato.csv'
-    TOptP   = '../trab2-icc-opt/OPT_CLOCKPadrao.csv'
-    TOptI   = '../trab2-icc-opt/OPT_CLOCKInexato.csv'
-    
-    # metrica eh L3
-    L3noOptP = '../trab-original/noOPT_L3Padrao.csv'
-    L3noOptI = '../trab-original/noOPT_L3Inexato.csv'
-    L3OptP   = '../trab2-icc-opt/OPT_L3Padrao.csv'
-    L3OptI   = '../trab2-icc-opt/OPT_L3Inexato.csv'
-    
-    # metrica eh L2
-    L2P  = '../trab-original/noOPT_L2Padrao.csv'
-    L2I  = '../trab-original/noOPT_L2Inexato.csv'
-    L2oP = '../trab2-icc-opt/OPT_L2Padrao.csv'
-    L2oI = '../trab2-icc-opt/OPT_L2Inexato.csv'
+    DP_AVX_SL_I_csv = '../trab2-resul/dp-avx_sl_i.csv'
+    DP_AVX_SL_P_csv= '../trab2-resul/dp-avx_sl_p.csv'
+    DP_AVX_M_I_csv = '../trab2-resul/dp-avx_m_i.csv'
+    DP_AVX_M_P_csv= '../trab2-resul/dp-avx_m_p.csv'
+    DP_AVX_H_I_csv = '../trab2-resul/dp-avx_h_i.csv'
+    DP_AVX_H_P_csv= '../trab2-resul/dp-avx_h_p.csv'
+    DP_AVX_G_I_csv= '../trab2-resul/dp-avx_g_i.csv'
+    DP_AVX_G_P_csv= '../trab2-resul/dp-avx_g_p.csv'
 
-    # metrica eh DP
-    DPP  = '../trab-original/noOPT_FLOPS_DPPadrao.csv'
-    DPI  = '../trab-original/noOPT_FLOPS_DPInexato.csv'
-    DPoP = '../trab2-icc-opt/OPT_FLOPS_DPPadrao.csv'
-    DPoI = '../trab2-icc-opt/OPT_FLOPS_DPInexato.csv'
+    TIME_SL_I_csv = '../trab2-resul/time_sl_i.csv'
+    TIME_SL_P_csv= '../trab2-resul/time_sl_p.csv'
+    TIME_M_I_csv = '../trab2-resul/time_m_i.csv'
+    TIME_M_P_csv= '../trab2-resul/time_m_p.csv'
+    TIME_H_I_csv = '../trab2-resul/time_h_i.csv'
+    TIME_H_P_csv= '../trab2-resul/time_h_p.csv'
+    TIME_G_I_csv= '../trab2-resul/time_g_i.csv'
+    TIME_G_P_csv= '../trab2-resul/time_g_p.csv'
 
-    # metrica eh AVX
-    AVXP  = '../trab-original/noOPTPadrao_FLOPS_AVX.csv'
-    AVXI  = '../trab-original/noOPTInexat_FLOPS_AVX.csv'
-    AVXoP = '../trab2-icc-opt/OPTPadrao_FLOPS_AVX.csv'
-    AVXoI = '../trab2-icc-opt/OPTInexat_FLOPS_AVX.csv'
+    MISS_SL_I_csv = '../trab2-resul/miss_sl_i.csv'
+    MISS_SL_P_csv= '../trab2-resul/miss_sl_p.csv'
+    MISS_M_I_csv = '../trab2-resul/miss_m_i.csv'
+    MISS_M_P_csv= '../trab2-resul/miss_m_p.csv'
+    MISS_H_I_csv = '../trab2-resul/miss_h_i.csv'
+    MISS_H_P_csv= '../trab2-resul/miss_h_p.csv'
+    MISS_G_I_csv= '../trab2-resul/miss_g_i.csv'
+    MISS_G_P_csv= '../trab2-resul/miss_g_p.csv'
 
+    BAND_SL_I_csv = '../trab2-resul/band_sl_i.csv'
+    BAND_SL_P_csv= '../trab2-resul/band_sl_p.csv'
+    BAND_M_I_csv = '../trab2-resul/band_m_i.csv'
+    BAND_M_P_csv= '../trab2-resul/band_m_p.csv'
+    BAND_H_I_csv = '../trab2-resul/band_h_i.csv'
+    BAND_H_P_csv= '../trab2-resul/band_h_p.csv'
+    BAND_G_I_csv= '../trab2-resul/band_g_i.csv'
+    BAND_G_P_csv= '../trab2-resul/band_g_p.csv'
+
+    dp = 0
     salve = True
     log = True
     metric = 'Tempo de Execução'
-    plotter(TnoOptP, './noOpt_tempoPadrao.png', 'Newton Padrao não Otimizado', metric, log, salve)
-    plotter(TnoOptI, './noOpt_tempoInexato.png', 'Newton Inexato não Otimizado', metric, log, salve)
-    plotter(TOptP, './Opt_tempoPadrao.png', 'Newton Padrao Otimizado', metric, log, salve)
-    plotter(TOptI, './Opt_tempoInexato.png', 'Newton Inexato Otimizado', metric, log, salve)
+    plotter(TIME_G_I_csv, './time_g_i.png', 'Gradiente, Newton Inexato', metric, log, salve, dp)
+    plotter(TIME_G_P_csv, './time_g_p.png', 'Gradiente, Newton Padrão', metric, log, salve, dp)
+    plotter(TIME_H_I_csv, './time_h_i.png', 'Hessiana, Newton Inexato', metric, log, salve, dp)
+    plotter(TIME_H_P_csv, './time_h_p.png', 'Hessiana, Newton Padrão', metric, log, salve, dp)
+    plotter(TIME_SL_I_csv, './time_sl_i.png', 'Sistema Linear, Newton Inexato', metric, log, salve, dp)
+    plotter(TIME_SL_P_csv, './time_sl_p.png', 'Sistema Linear, Newton Padrão', metric, log, salve, dp)
+    plotter(TIME_M_I_csv, './time_m_i.png', 'Método Newton Inexato', metric, log, salve, dp)
+    plotter(TIME_M_P_csv, './time_m_p.png', 'Método Newton Padrao', metric, log, salve, dp)
 
     log = False
     metric = 'Memory bandwidth [MBytes/s]'
-    plotter(L3noOptP, './noOpt_L3Padrao.png', 'Newton Padrao não Otimizado', metric, log, salve)
-    plotter(L3noOptI, './noOpt_L3Inexato.png', 'Newton Inexato não Otimizado', metric, log, salve)
-    plotter(L3OptP, './Opt_L3Padrao.png', 'Newton Padrao Otimizado', metric, log, salve)
-    plotter(L3OptI, './Opt_L3Inexato.png', 'Newton Inexato Otimizado', metric, log, salve)
+    plotter(BAND_G_I_csv, './band_g_i.png', 'Gradiente, Newton Inexato', metric, log, salve, dp)
+    plotter(BAND_G_P_csv, './band_g_p.png', 'Gradiente, Newton Padrão', metric, log, salve, dp)
+    plotter(BAND_H_I_csv, './band_h_i.png', 'Hessiana, Newton Inexato', metric, log, salve, dp)
+    plotter(BAND_H_P_csv, './band_h_p.png', 'Hessiana, Newton Padrão', metric, log, salve, dp)
+    plotter(BAND_SL_I_csv, './band_sl_i.png', 'Sistema Linear, Newton Inexato', metric, log, salve, dp)
+    plotter(BAND_SL_P_csv, './band_sl_p.png', 'Sistema Linear, Newton Padrão', metric, log, salve, dp)
+    plotter(BAND_M_I_csv, './band_m_i.png', 'Método Newton Inexato', metric, log, salve, dp)
+    plotter(BAND_M_P_csv, './band_m_p.png', 'Método Newton Padrao', metric, log, salve, dp)
 
     metric = 'data cache miss ratio'
-    plotter(L2P, './noOpt_L2Padrao.png', 'Newton Padrao não Otimizado', metric, log, salve)
-    plotter(L2I, './noOpt_L2Inexato.png', 'Newton Inexato não Otimizado', metric, log, salve)
-    plotter(L2oP, './Opt_L2Padrao.png', 'Newton Padrao Otimizado', metric, log, salve)
-    plotter(L2oI, './Opt_L2Inexato.png', 'Newton Inexato Otimizado', metric, log, salve)
+    plotter(MISS_G_I_csv, './miss_g_i.png', 'Gradiente, Newton Inexato', metric, log, salve, dp)
+    plotter(MISS_G_P_csv, './miss_g_p.png', 'Gradiente, Newton Padrão', metric, log, salve, dp)
+    plotter(MISS_H_I_csv, './miss_h_i.png', 'Hessiana, Newton Inexato', metric, log, salve, dp)
+    plotter(MISS_H_P_csv, './miss_h_p.png', 'Hessiana, Newton Padrão', metric, log, salve, dp)
+    plotter(MISS_SL_I_csv, './miss_sl_i.png', 'Sistema Linear, Newton Inexato', metric, log, salve, dp)
+    plotter(MISS_SL_P_csv, './miss_sl_p.png', 'Sistema Linear, Newton Padrão', metric, log, salve, dp)
+    plotter(MISS_M_I_csv, './miss_m_i.png', 'Método Newton Inexato', metric, log, salve, dp)
+    plotter(MISS_M_P_csv, './miss_m_p.png', 'Método Newton Padrao', metric, log, salve, dp)
 
-    metric = 'FLOPS DP'
-    plotter(DPP, './noOpt_DP_Padrao.png', 'Newton Padrao não Otimizado', metric, log, salve)
-    plotter(DPI, './noOpt_DP_Inexato.png', 'Newton Inexato não Otimizado', metric, log, salve)
-    plotter(DPoP, './Opt_DP_Padrao.png', 'Newton Padrao Otimizado', metric, log, salve)
-    plotter(DPoI, './Opt_DP_Inexato.png', 'Newton Inexato Otimizado', metric, log, salve)
-
-    metric = 'FLOPS AVX'
-    plotter(AVXP, './noOpt_AVX_Padrao.png', 'Newton Padrao não Otimizado', metric, log, salve)
-    plotter(AVXI, './noOpt_AVX_Inexato.png', 'Newton Inexato não Otimizado', metric, log, salve)
-    plotter(AVXoP, './Opt_AVX_Padrao.png', 'Newton Padrao Otimizado', metric, log, salve)
-    plotter(AVXoI, './Opt_AVX_Inexato.png', 'Newton Inexato Otimizado', metric, log, salve)
+    dp = 1
+    metric = 'FLOPS DP/AVX'
+    plotter(DP_AVX_G_I_csv, './dp_avx_g_i.png', 'Gradiente, Newton Inexato', metric, log, salve, dp)
+    plotter(DP_AVX_G_P_csv, './dp_avx_g_p.png', 'Gradiente, Newton Padrão', metric, log, salve, dp)
+    plotter(DP_AVX_H_I_csv, './dp_avx_h_i.png', 'Hessiana, Newton Inexato', metric, log, salve, dp)
+    plotter(DP_AVX_H_P_csv, './dp_avx_h_p.png', 'Hessiana, Newton Padrão', metric, log, salve, dp)
+    plotter(DP_AVX_SL_I_csv, './dp_avx_sl_i.png', 'Sistema Linear, Newton Inexato', metric, log, salve, dp)
+    plotter(DP_AVX_SL_P_csv, './dp_avx_sl_p.png', 'Sistema Linear, Newton Padrão', metric, log, salve, dp)
+    plotter(DP_AVX_M_I_csv, './dp_avx_m_i.png', 'Método Newton Inexato', metric, log, salve, dp)
+    plotter(DP_AVX_M_P_csv, './dp_avx_m_p.png', 'Método Newton Padrao', metric, log, salve, dp)

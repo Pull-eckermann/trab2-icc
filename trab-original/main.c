@@ -53,7 +53,7 @@ int main (){
     //Newton Padrão
 
     double tTotal = timestamp();
-    char* name = markerName("T_Newton_Padrao", SL->num_v);
+    char* name = markerName("T_Newton_Padrao_NOpt", SL->num_v);
     LIKWID_MARKER_START(name);
     m_reseg = Newton_Padrao(SL, &TderivadasEG, &TslEG, m_aux);
     LIKWID_MARKER_STOP(name);
@@ -62,7 +62,7 @@ int main (){
     //Metodo de Newton Inexato
 
     tTotal = timestamp();
-    name = markerName("T_Newton_Inexato", SL->num_v);
+    name = markerName("T_Newton_Inexato_NOpt", SL->num_v);
     LIKWID_MARKER_START(name);
     m_resgs = Newton_Inexato(SL, &TderivadasGS, &TslGS, m_aux);
     LIKWID_MARKER_STOP(name);
